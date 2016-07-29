@@ -1,0 +1,9 @@
+//Here hello is the task name, and doLast is the action name
+//You can use
+//gradle -q hello
+// to quietly execute task hello 
+task hello {
+    doLast {
+        println 'Hello world!'
+    }
+}

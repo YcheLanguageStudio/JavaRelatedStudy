@@ -1,0 +1,8 @@
+//申明任务之间的依赖关系
+task hello << {
+    println 'Hello world!'
+}
+
+task intro(dependsOn: hello) << {
+    println "I'm Gradle"
+}

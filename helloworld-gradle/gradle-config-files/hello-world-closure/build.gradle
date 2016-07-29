@@ -1,0 +1,9 @@
+//它定义了一个叫做 hello 的任务, 这个任务是一个可以执行的闭包. 我们将使用这种方式来定义这本指南里所有的任务.
+//与前面的例子比较, doLast 被替换成了 <<. 它们有一样的功能, 但看上去更加简洁了, 会在后续章节 (6.7) 详细讲解它们的功能.
+task hello << {
+    println 'Hello world!'
+}
+
+hello.doLast {
+    println "Greetings from the $hello.name task."
+}

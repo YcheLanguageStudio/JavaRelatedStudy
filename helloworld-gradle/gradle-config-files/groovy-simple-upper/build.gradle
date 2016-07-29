@@ -1,0 +1,6 @@
+//Gradle 的构建脚本展示了 Groovy 的所有能力. 作为开胃菜, 来看看这个:
+task upper << {
+    String someString = 'mY_nAmE'
+    println "Original: " + someString
+    println "Upper case: " + someString.toUpperCase()
+}

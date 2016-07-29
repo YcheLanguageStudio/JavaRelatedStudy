@@ -31,6 +31,8 @@ Gradle 包装器允许你在没有安装 Gradle 的机器上运行 Gradle 构建
 Gradle 是一个开源项目, 遵循 ASL 许可.   
 
 ##Gradle-Instructions
+- [Gradle Basic Build Scripts](gradle-config-files)
+
 ##Groovy-Language
 ##References
 - [Gradle-User-Guide](https://dongchuan.gitbooks.io/gradle-user-guide-/content/build_script_basics/build_scripts_are_code.html)
