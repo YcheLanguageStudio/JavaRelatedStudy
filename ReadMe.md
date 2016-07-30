@@ -3,7 +3,7 @@
 - [Hello-World](helloworld-maven)
 
 ###Gradle
-- [Gradle-Basic](heloworld-gradle)
+- [Gradle-Basic](helloworld-gradle)
 
 ###Java-Web
 
