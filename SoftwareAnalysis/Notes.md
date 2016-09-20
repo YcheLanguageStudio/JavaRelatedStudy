@@ -156,11 +156,17 @@ except possibly the first and last nodes are the same
 - Parameterized unit testing
 - four components: test input, expected ouptut, call actual method, compare methods
 
+##Test-Oracle
+- Def: (Refer to[What is a test oracle, and what is it used for? Stackoverflow](http://stackoverflow.com/questions/23522166/what-is-a-test-oracle-and-what-is-it-used-for))
+> A test oracle is a source of information about whether the output of a program (or function or method) is correct or not.
+  
+> A test oracle might specify correct output for all possible input or only for specific input. It might not specify actual output values but only constraints on them.
 
-
-
-
-
-
-
-
+> An oracle isn't a test runner, but a test runner could use an oracle as a source of correct output to which to compare the system-under-test's output, or as a source of constraints against which to evaluate the SUT's output.
+  
+> The oracle might be
+>   a program (separate from the system under test) which takes the same input and produces the same output
+>   documentation that gives specific correct outputs for specific given inputs
+>   a documented algorithm that a human could use to calculate correct outputs for given inputs
+>   a human domain expert who can somehow look at the output and tell whether it is correct
+>   or any other way of telling that output is correct.
