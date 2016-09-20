@@ -1,3 +1,7 @@
+- Randoop test oracle
+    - [randoop test oracle explanation](https://randoop.github.io/randoop/projectideas.html)
+    - [dev document for contribution](https://randoop.github.io/randoop/manual/dev.html)
+    
 - Randoop gentests parameters help 
 ```zsh
   COMMAND: gentests
