@@ -45,6 +45,18 @@ public static int numZero(int[]x)
   Pack jtp = PackManager.v().getPack("jtp");
   jtp.add(new Transform("jtp.instrumenter", new InvokeStaticInstrumenter()));
   ```
+  - Instruct the program
+  ```zsh
+  java -cp bin:lib/soot-2.5.0.jar MainDriver -pp -soot-classpath ../Sample/bin TestInvoke
+  ```
+  - Run the instructed program(optimized bytecodes)
+  ```zsh
+  java -cp bin:sootOutput TestInvoke
+  ```
+
+##Specification of Jimple code
+- the @param-assignment and @this-assignment should be always int the front of the method body
+
 
 ##Gist for InvokeStaticInstrumenter
 ```java
