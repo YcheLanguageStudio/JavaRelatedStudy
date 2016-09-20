@@ -117,14 +117,50 @@ public class InvokeStaticInstrumenter extends BodyTransformer {
 	}
 }
 ```
-
-
-##Test Coverage
-Test coverage contains statement, brach, call graph, condition coverage, etc.
-
 ##Program Instrumentation
 - Def: Program Instrumentation means the ability of an application to incorporate code tracing, debugging, profiling, computer data logging, etc.
 - How-to: insert the code instructions that can monitor programs, two types: src and bin instrumentation
 - Customize our own phase in Soot:
   - leverage the Jimple code(thus, our phase should be after the Jimple code is created, insert the instruction using Jimple code)
-  
+
+##Test Coverage
+Test coverage contains statement, branch, call graph, condition coverage, etc.
+
+##Test-Coverage-Concepts
+- Node coverage, edge coverage, edge-pair coverage, complete path coverage
+- Simple path: A path from node ni to nj is simple if no node appears more than once,
+except possibly the first and last nodes are the same
+- Prime path: A simple path that does not appear as a proper subpath of any other simple path
+- Technology
+    - Finding all Simple Paths
+        - from len0, i.e, a single vertex, extend until touch the src states, e.g, extend len2 from len1 with src vertex,
+        and also marked terminate when it is not able to form a simple path anymore
+        - if it is in terminate-state, not possible to expand
+    - Extract Prime Paths
+    - Construct test-path-set, remove redundant ones
+    - test-path-set contains skip-loop, once-loop, more-than-once-loop
+- Prime Path Coverage, subsumes node, edge, edge-pair coverage
+- Besides subsumption, test Oracle is very important, how precision is test oracle
+
+##Data-Flow-Coverage
+- DU-pair, i.e, def/use pair
+- DU-clear-path, i.e, no re def, e.g, assignment of the variable e.g x
+- Criteria
+    - all-def, def is used at least onece
+    - all-use
+    - all-du, remove redundant
+
+##Mutation Coverage(break-through)
+
+##Junit- version 4
+- Parameterized unit testing
+- four components: test input, expected ouptut, call actual method, compare methods
+
+
+
+
+
+
+
+
+
