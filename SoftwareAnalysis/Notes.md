@@ -165,8 +165,8 @@ except possibly the first and last nodes are the same
 > An oracle isn't a test runner, but a test runner could use an oracle as a source of correct output to which to compare the system-under-test's output, or as a source of constraints against which to evaluate the SUT's output.
   
 > The oracle might be
->   a program (separate from the system under test) which takes the same input and produces the same output
->   documentation that gives specific correct outputs for specific given inputs
->   a documented algorithm that a human could use to calculate correct outputs for given inputs
->   a human domain expert who can somehow look at the output and tell whether it is correct
->   or any other way of telling that output is correct.
+>   a program (separate from the system under test) which takes the same input and produces the same output    
+>   documentation that gives specific correct outputs for specific given inputs   
+>   a documented algorithm that a human could use to calculate correct outputs for given inputs   
+>   a human domain expert who can somehow look at the output and tell whether it is correct   
+>   or any other way of telling that output is correct.   
