@@ -378,11 +378,11 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array_array1);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b2 == false);
 
@@ -427,11 +427,11 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.ClassCastException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b3 == true);
 
@@ -458,11 +458,11 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str5);
 
@@ -488,11 +488,11 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array1);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b2 == false);
 
@@ -525,7 +525,7 @@ public class RegressionTest0 {
 
 
     java.util.Comparator<java.lang.Long> comparator_long0 = java.util.Collections.reverseOrder();
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(comparator_long0);
 
@@ -568,25 +568,25 @@ public class RegressionTest0 {
     int i9 = java.util.Collections.binarySearch((java.util.List<java.util.Collections>)arraylist_collections4, collections7, comparator_obj8);
     boolean b10 = linkedhashset_str0.removeAll((java.util.Collection<java.util.Collections>)arraylist_collections4);
     java.util.Collection<java.lang.String> collection_str11 = java.util.Collections.synchronizedCollection((java.util.Collection<java.lang.String>)linkedhashset_str0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b3 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b6 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i9 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b10 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collection_str11);
 
@@ -599,7 +599,7 @@ public class RegressionTest0 {
 
 
     java.util.NavigableMap<java.util.Collections,java.lang.Boolean> navigablemap_collections_b0 = java.util.Collections.emptyNavigableMap();
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigablemap_collections_b0);
 
@@ -626,14 +626,14 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(long_array6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b7 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_long8);
 
@@ -667,7 +667,7 @@ public class RegressionTest0 {
 
 
     java.util.Iterator<java.lang.Boolean> iterator_b0 = java.util.Collections.emptyIterator();
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_b0);
 
@@ -702,38 +702,38 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.ClassCastException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str9 + "' != '" + ""+ "'", str9.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array13);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b14 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str15);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str17);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str18 + "' != '" + ""+ "'", str18.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str19);
 
@@ -757,8 +757,8 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_obj_array0);
 
@@ -785,17 +785,17 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.ClassCastException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str9);
 
@@ -845,20 +845,20 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b8 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i9 == (-1));
 
@@ -877,22 +877,22 @@ public class RegressionTest0 {
     java.lang.String str7 = treeset_str0.higher("hi!");
     java.util.NavigableSet<java.lang.String> navigableset_str10 = treeset_str0.tailSet("", true);
     java.util.stream.Stream<java.lang.String> stream_str11 = navigableset_str10.parallelStream();
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str10);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(stream_str11);
 
@@ -948,7 +948,7 @@ public class RegressionTest0 {
 
     java.util.Random random0 = null;
     java.util.Map<java.util.Random,java.lang.Integer> map_random_i2 = java.util.Collections.singletonMap(random0, (java.lang.Integer)100);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(map_random_i2);
 
@@ -969,25 +969,25 @@ public class RegressionTest0 {
     java.util.Iterator<java.lang.String> iterator_str9 = treeset_str0.descendingIterator();
     java.util.Spliterator<java.lang.String> spliterator_str10 = treeset_str0.spliterator();
     boolean b12 = treeset_str0.contains((java.lang.Object)' ');
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(spliterator_str10);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b12 == false);
 
@@ -1029,47 +1029,47 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(set_obj_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigablemap_collections_b4);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str11);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array16);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b17 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str19);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str22);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b24 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array26);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(set_obj_array27);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array_array28);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b29 == true);
 
@@ -1082,7 +1082,7 @@ public class RegressionTest0 {
 
 
     java.util.Enumeration<java.lang.Integer> enumeration_i0 = java.util.Collections.emptyEnumeration();
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(enumeration_i0);
 
@@ -1119,35 +1119,35 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.ClassCastException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b11 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array15);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b16 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(b_array19);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b20 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b22 == true);
 
@@ -1169,16 +1169,16 @@ public class RegressionTest0 {
     int i7 = java.util.Collections.binarySearch((java.util.List<java.util.Collections>)arraylist_collections0, collections5, comparator_obj6);
     java.util.Collections.reverse((java.util.List<java.util.Collections>)arraylist_collections0);
     java.util.Collection<java.util.Collections> collection_collections9 = java.util.Collections.unmodifiableCollection((java.util.Collection<java.util.Collections>)arraylist_collections0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array1);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b2 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i7 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collection_collections9);
 
@@ -1213,32 +1213,32 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array10);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b11 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str14);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str15 + "' != '" + ""+ "'", str15.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str17);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b18 == false);
 
@@ -1252,7 +1252,7 @@ public class RegressionTest0 {
 
     java.util.Random random0 = null;
     java.util.Map<java.util.Random,java.lang.Integer> map_random_i2 = java.util.Collections.singletonMap(random0, (java.lang.Integer)1);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(map_random_i2);
 
@@ -1285,7 +1285,7 @@ public class RegressionTest0 {
 
 
     java.util.Map<java.util.Collections,java.lang.Integer> map_collections_i0 = java.util.Collections.EMPTY_MAP;
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(map_collections_i0);
 
@@ -1303,19 +1303,19 @@ public class RegressionTest0 {
     java.util.SortedSet<java.lang.String> sortedset_str6 = treeset_str0.headSet("");
     java.util.NavigableSet<java.lang.String> navigableset_str7 = treeset_str0.descendingSet();
     java.lang.String str9 = treeset_str0.lower("hi!");
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str9 + "' != '" + ""+ "'", str9.equals(""));
 
@@ -1357,47 +1357,47 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b3 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b7 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i8 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array11);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b12 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array15);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b16 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array19);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b20 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i21 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i22 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i23 == (-1));
 
@@ -1423,22 +1423,22 @@ public class RegressionTest0 {
     java.util.Collections.fill((java.util.List<java.util.Collections>)arraylist_collections4, collections11);
     java.util.Collections collections13 = null;
     java.util.Collections.fill((java.util.List<java.util.Collections>)arraylist_collections4, collections13);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b3 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b6 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i9 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b10 == false);
 
@@ -1466,17 +1466,17 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str7);
 
@@ -1495,19 +1495,19 @@ public class RegressionTest0 {
     java.util.Iterator<java.lang.String> iterator_str6 = treeset_str1.descendingIterator();
     java.util.NavigableSet<java.lang.String> navigableset_str7 = treeset_str1.descendingSet();
     java.lang.String str9 = treeset_str1.lower("hi!");
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str9);
 
@@ -1534,28 +1534,28 @@ public class RegressionTest0 {
     java.util.Collections collections13 = null;
     java.util.Comparator<java.lang.Object> comparator_obj14 = null;
     int i15 = java.util.Collections.binarySearch((java.util.List<java.util.Collections>)arraylist_collections4, collections13, comparator_obj14);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b3 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b6 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i9 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b10 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(list_collections12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i15 == (-1));
 
@@ -1573,19 +1573,19 @@ public class RegressionTest0 {
     java.util.SortedSet<java.lang.String> sortedset_str6 = treeset_str0.headSet("");
     java.util.NavigableSet<java.lang.String> navigableset_str9 = treeset_str0.headSet("", false);
     java.util.stream.Stream<java.lang.String> stream_str10 = navigableset_str9.parallelStream();
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(stream_str10);
 
@@ -1602,7 +1602,7 @@ public class RegressionTest0 {
     boolean b4 = java.util.Collections.addAll((java.util.Collection<java.lang.String>)treeset_str0, str_array3);
     java.util.SortedSet<java.lang.String> sortedset_str6 = treeset_str0.headSet("");
     java.util.NavigableSet<java.lang.String> navigableset_str9 = treeset_str0.headSet("", false);
-    java.util.Comparator<java.lang.Object> comparator_obj10 = treeset_str0.comparator();
+    java.util.Comparator<?> comparator_obj10 = treeset_str0.comparator();
     java.util.function.Consumer<java.lang.String> consumer_str11 = null;
     // The following exception was thrown during execution in test generation
     try {
@@ -1614,20 +1614,20 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(comparator_obj10);
 
@@ -1650,25 +1650,25 @@ public class RegressionTest0 {
     int i9 = java.util.Collections.binarySearch((java.util.List<java.util.Collections>)arraylist_collections4, collections7, comparator_obj8);
     boolean b10 = linkedhashset_str0.removeAll((java.util.Collection<java.util.Collections>)arraylist_collections4);
     java.lang.Object[] obj_array11 = linkedhashset_str0.toArray();
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b3 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b6 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i9 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b10 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array11);
 
@@ -1715,14 +1715,14 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(long_array5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b6 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b9 == true);
 
@@ -1754,29 +1754,29 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.ClassCastException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str10);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(b_array13);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b14 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_b15);
 
@@ -1795,22 +1795,22 @@ public class RegressionTest0 {
     java.lang.String str7 = treeset_str0.higher("hi!");
     java.util.NavigableSet<java.lang.String> navigableset_str10 = treeset_str0.tailSet("", true);
     java.util.Spliterator<java.lang.String> spliterator_str11 = treeset_str0.spliterator();
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str10);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(spliterator_str11);
 
@@ -1839,17 +1839,17 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.util.NoSuchElementException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str7);
 
@@ -1880,23 +1880,23 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b3 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b7 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i8 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + i9 + "' != '" + 1+ "'", i9.equals(1));
 
@@ -1949,23 +1949,23 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b3 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b6 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i9 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b10 == false);
 
@@ -2028,86 +2028,86 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b7 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i10 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b11 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigablemap_collections_b13);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str18);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str20);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array25);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b26 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str28);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str31);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b33 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array35);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(set_obj_array36);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(set_obj_array37);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array40);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b41 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array43);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b44 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i47 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b48 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array49);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array_array50);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b51 == true);
 
@@ -2124,16 +2124,16 @@ public class RegressionTest0 {
     boolean b3 = java.util.Collections.addAll((java.util.Collection<java.lang.Integer>)treeset_i0, i_array2);
     java.util.SortedSet<java.lang.Integer> sortedset_i4 = java.util.Collections.synchronizedSortedSet((java.util.SortedSet<java.lang.Integer>)treeset_i0);
     java.util.SortedSet<java.lang.Integer> sortedset_i5 = java.util.Collections.synchronizedSortedSet(sortedset_i4);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b3 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_i4);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_i5);
 
@@ -2173,41 +2173,41 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigablemap_collections_b1);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str8);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array13);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b14 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str16);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str19);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b21 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array23);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(set_obj_array24);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array_array25);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b26 == true);
 
@@ -2246,41 +2246,41 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.ClassCastException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b11 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array15);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b16 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array18);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b19 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i22 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b23 == false);
 
@@ -2300,22 +2300,22 @@ public class RegressionTest0 {
     boolean b7 = treeset_str1.isEmpty();
     boolean b8 = treeset_str1.isEmpty();
     java.lang.String str10 = treeset_str1.ceiling("hi!");
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b7 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b8 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str10);
 
@@ -2353,38 +2353,38 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigablemap_collections_b0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b13 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str15);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str18);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b20 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array22);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(set_obj_array23);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(set_obj_array24);
 
@@ -2410,34 +2410,34 @@ public class RegressionTest0 {
     java.util.Collection<java.lang.String> collection_str25 = java.util.Collections.synchronizedCollection((java.util.Collection<java.lang.String>)arraylist_str0);
     java.util.stream.Stream<java.lang.String> stream_str26 = arraylist_str0.stream();
     java.util.stream.Stream<java.lang.String> stream_str27 = arraylist_str0.stream();
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b3 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(random_array9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b10 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array22);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b23 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b24 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collection_str25);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(stream_str26);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(stream_str27);
 
@@ -2450,7 +2450,7 @@ public class RegressionTest0 {
 
 
     java.util.List<java.util.Random> list_random0 = java.util.Collections.EMPTY_LIST;
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(list_random0);
 
@@ -2487,16 +2487,16 @@ public class RegressionTest0 {
     boolean b3 = java.util.Collections.addAll((java.util.Collection<java.lang.Integer>)treeset_i0, i_array2);
     java.util.SortedSet<java.lang.Integer> sortedset_i4 = java.util.Collections.synchronizedSortedSet((java.util.SortedSet<java.lang.Integer>)treeset_i0);
     java.lang.Integer i5 = java.util.Collections.min((java.util.Collection<java.lang.Integer>)sortedset_i4);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b3 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_i4);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + i5 + "' != '" + (-1)+ "'", i5.equals((-1)));
 
@@ -2509,7 +2509,7 @@ public class RegressionTest0 {
 
 
     java.util.ListIterator<java.lang.Boolean> listiterator_b0 = java.util.Collections.emptyListIterator();
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(listiterator_b0);
 
@@ -2538,31 +2538,31 @@ public class RegressionTest0 {
     java.util.Comparator<java.lang.Object> comparator_obj15 = null;
     java.util.Comparator<java.lang.Object> comparator_obj16 = java.util.Collections.reverseOrder(comparator_obj15);
     int i17 = java.util.Collections.binarySearch((java.util.List<java.util.Collections>)arraylist_collections4, collections14, comparator_obj16);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b3 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b6 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i9 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b10 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(list_collections12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(comparator_obj16);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i17 == (-1));
 
@@ -2575,7 +2575,7 @@ public class RegressionTest0 {
 
 
     java.util.List<java.lang.Boolean> list_b1 = java.util.Collections.singletonList((java.lang.Boolean)false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(list_b1);
 
@@ -2599,8 +2599,8 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(list_i0);
 
@@ -2629,23 +2629,23 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.util.NoSuchElementException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str8 + "' != '" + ""+ "'", str8.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str10);
 
@@ -2696,17 +2696,17 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b7 == true);
 
@@ -2744,7 +2744,7 @@ public class RegressionTest0 {
     boolean b4 = java.util.Collections.addAll((java.util.Collection<java.lang.String>)treeset_str0, str_array3);
     java.util.Iterator<java.lang.String> iterator_str5 = treeset_str0.iterator();
     java.lang.String str7 = treeset_str0.higher("hi!");
-    java.util.Comparator<java.lang.Object> comparator_obj8 = treeset_str0.comparator();
+    java.util.Comparator<?> comparator_obj8 = treeset_str0.comparator();
     java.util.function.Consumer<java.lang.String> consumer_str9 = null;
     // The following exception was thrown during execution in test generation
     try {
@@ -2756,20 +2756,20 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(comparator_obj8);
 
@@ -2786,16 +2786,16 @@ public class RegressionTest0 {
     boolean b6 = java.util.Collections.addAll((java.util.Collection<java.lang.Long>)arraylist_long0, long_array5);
     boolean b9 = java.util.Collections.replaceAll((java.util.List<java.lang.Long>)arraylist_long0, (java.lang.Long)100L, (java.lang.Long)1L);
     boolean b12 = java.util.Collections.replaceAll((java.util.List<java.lang.Long>)arraylist_long0, (java.lang.Long)0L, (java.lang.Long)100L);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(long_array5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b6 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b9 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b12 == true);
 
@@ -2809,7 +2809,7 @@ public class RegressionTest0 {
 
     java.util.Random random0 = null;
     java.util.Map<java.util.Random,java.lang.Integer> map_random_i2 = java.util.Collections.singletonMap(random0, (java.lang.Integer)0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(map_random_i2);
 
@@ -2839,20 +2839,20 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.IndexOutOfBoundsException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b3 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(b_array6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b7 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b9 == true);
 
@@ -2873,25 +2873,25 @@ public class RegressionTest0 {
     java.util.TreeSet<java.lang.String> treeset_str12 = new java.util.TreeSet<java.lang.String>((java.util.Collection<java.lang.String>)treeset_str0);
     java.util.stream.Stream<java.lang.String> stream_str13 = treeset_str12.stream();
     java.util.NavigableSet<java.lang.String> navigableset_str14 = treeset_str12.descendingSet();
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b11 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(stream_str13);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str14);
 
@@ -2926,38 +2926,38 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.ClassCastException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str8 + "' != '" + ""+ "'", str8.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i9 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(stream_str10);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str13);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array17);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b18 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(queue_str19);
 
@@ -2979,28 +2979,28 @@ public class RegressionTest0 {
     java.util.Spliterator<java.lang.String> spliterator_str10 = treeset_str0.spliterator();
     int i11 = treeset_str0.size();
     boolean b13 = treeset_str0.add("");
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(spliterator_str10);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i11 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b13 == true);
 
@@ -3029,20 +3029,20 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str9 + "' != '" + ""+ "'", str9.equals(""));
 
@@ -3064,31 +3064,31 @@ public class RegressionTest0 {
     java.util.stream.Stream<java.lang.String> stream_str10 = treeset_str0.stream();
     java.util.NavigableSet<java.lang.String> navigableset_str13 = treeset_str0.tailSet("hi!", true);
     java.util.Collection<java.lang.String> collection_str14 = java.util.Collections.synchronizedCollection((java.util.Collection<java.lang.String>)navigableset_str13);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str8 + "' != '" + ""+ "'", str8.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i9 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(stream_str10);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str13);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collection_str14);
 
@@ -3109,28 +3109,28 @@ public class RegressionTest0 {
     java.util.NavigableSet<java.lang.String> navigableset_str12 = treeset_str0.descendingSet();
     java.lang.String str13 = treeset_str0.first();
     java.lang.Object[] obj_array14 = treeset_str0.toArray();
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b11 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str13 + "' != '" + ""+ "'", str13.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array14);
 
@@ -3148,19 +3148,19 @@ public class RegressionTest0 {
     java.util.NavigableSet<java.lang.Long> navigableset_long8 = java.util.Collections.unmodifiableNavigableSet((java.util.NavigableSet<java.lang.Long>)treeset_long0);
     java.lang.Long long9 = java.util.Collections.max((java.util.Collection<java.lang.Long>)navigableset_long8);
     java.util.NavigableSet<java.lang.Long> navigableset_long10 = java.util.Collections.unmodifiableNavigableSet(navigableset_long8);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(long_array6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b7 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_long8);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + long9 + "' != '" + 100L+ "'", long9.equals(100L));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_long10);
 
@@ -3183,31 +3183,31 @@ public class RegressionTest0 {
     int i11 = treeset_str0.size();
     java.util.SortedSet<java.lang.String> sortedset_str13 = treeset_str0.headSet("");
     java.util.Collection<java.lang.String> collection_str14 = java.util.Collections.synchronizedCollection((java.util.Collection<java.lang.String>)sortedset_str13);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(spliterator_str10);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i11 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str13);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collection_str14);
 
@@ -3221,7 +3221,7 @@ public class RegressionTest0 {
 
     java.util.Random random0 = null;
     java.util.Map<java.util.Random,java.lang.Integer> map_random_i2 = java.util.Collections.singletonMap(random0, (java.lang.Integer)10);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(map_random_i2);
 
@@ -3240,22 +3240,22 @@ public class RegressionTest0 {
     java.util.NavigableSet<java.lang.String> navigableset_str7 = treeset_str0.descendingSet();
     java.lang.String str9 = treeset_str0.floor("hi!");
     java.lang.String str11 = treeset_str0.higher("");
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str9 + "' != '" + ""+ "'", str9.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str11);
 
@@ -3309,62 +3309,62 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b3 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(random_array9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b10 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array22);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b23 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b24 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collection_str25);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(stream_str26);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array29);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b30 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array32);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b33 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i36 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b37 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(comparator_obj42);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i43 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(comparator_obj44);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i45 == 0);
 
@@ -3420,86 +3420,86 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(set_obj_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b8 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str10);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str11);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array16);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b17 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str19);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str22);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b24 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str25);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str26 + "' != '" + ""+ "'", str26.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array27);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array31);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b32 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str33);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str35);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str36 + "' != '" + ""+ "'", str36.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str40);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str42);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b43 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array44);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(set_obj_array45);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array_array46);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b47 == true);
 
@@ -3519,10 +3519,10 @@ public class RegressionTest0 {
     java.util.Collections.sort((java.util.List<java.lang.Boolean>)arraylist_b0);
     java.util.Collections.sort((java.util.List<java.lang.Boolean>)arraylist_b0);
     java.util.Collections.sort((java.util.List<java.lang.Boolean>)arraylist_b0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(b_array2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b3 == true);
 
@@ -3551,20 +3551,20 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.ClassCastException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_obj_array8);
 
@@ -3589,28 +3589,28 @@ public class RegressionTest0 {
     boolean b24 = arraylist_str0.retainAll((java.util.Collection<java.lang.Object>)arraylist_obj4);
     java.util.List<java.lang.String> list_str25 = java.util.Collections.synchronizedList((java.util.List<java.lang.String>)arraylist_str0);
     java.util.Collections.shuffle(list_str25);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b3 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(random_array9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b10 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array22);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b23 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b24 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(list_str25);
 
@@ -3639,23 +3639,23 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.util.NoSuchElementException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str8 + "' != '" + ""+ "'", str8.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str9);
 
@@ -3685,26 +3685,26 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.util.NoSuchElementException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str8 + "' != '" + ""+ "'", str8.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b11 == false);
 
@@ -3720,16 +3720,16 @@ public class RegressionTest0 {
     java.util.Map<java.lang.String,java.lang.String> map_str_str1 = java.util.Collections.synchronizedMap(map_str_str0);
     java.util.Map<java.lang.String,java.lang.String> map_str_str2 = java.util.Collections.synchronizedMap(map_str_str0);
     java.util.Map<java.lang.String,java.lang.String> map_str_str3 = java.util.Collections.synchronizedMap(map_str_str2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(map_str_str0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(map_str_str1);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(map_str_str2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(map_str_str3);
 
@@ -3749,22 +3749,22 @@ public class RegressionTest0 {
     boolean b7 = treeset_str1.isEmpty();
     java.util.SortedSet<java.lang.String> sortedset_str9 = treeset_str1.tailSet("hi!");
     java.util.Collection<java.lang.String> collection_str10 = java.util.Collections.synchronizedCollection((java.util.Collection<java.lang.String>)sortedset_str9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b7 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collection_str10);
 
@@ -3788,8 +3788,8 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(b_array6);
 
@@ -3811,31 +3811,31 @@ public class RegressionTest0 {
     java.util.NavigableSet<java.lang.String> navigableset_str11 = treeset_str0.descendingSet();
     int i12 = treeset_str0.size();
     java.util.SortedSet<java.lang.String> sortedset_str14 = treeset_str0.headSet("hi!");
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str9 + "' != '" + ""+ "'", str9.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str10);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str11);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i12 == 1);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str14);
 
@@ -3854,7 +3854,7 @@ public class RegressionTest0 {
     java.util.Iterator<java.lang.String> iterator_str6 = treeset_str1.descendingIterator();
     boolean b7 = treeset_str1.isEmpty();
     boolean b8 = treeset_str1.isEmpty();
-    java.util.Comparator<java.lang.Object> comparator_obj9 = treeset_str1.comparator();
+    java.util.Comparator<?> comparator_obj9 = treeset_str1.comparator();
     java.util.function.Consumer<java.lang.String> consumer_str10 = null;
     // The following exception was thrown during execution in test generation
     try {
@@ -3866,23 +3866,23 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b7 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b8 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(comparator_obj9);
 
@@ -3895,7 +3895,7 @@ public class RegressionTest0 {
 
 
     java.util.List<java.lang.String> list_str2 = java.util.Collections.nCopies((int)(byte)1, "");
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(list_str2);
 
@@ -3909,7 +3909,7 @@ public class RegressionTest0 {
 
     java.util.Random random0 = null;
     java.util.Map<java.util.Random,java.lang.Integer> map_random_i2 = java.util.Collections.singletonMap(random0, (java.lang.Integer)(-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(map_random_i2);
 
@@ -3937,40 +3937,40 @@ public class RegressionTest0 {
     java.util.Set<java.lang.Object[]> set_obj_array23 = java.util.Collections.singleton(obj_array22);
     java.util.Set<java.lang.Object[]> set_obj_array24 = java.util.Collections.singleton(obj_array22);
     java.util.Set<java.lang.Object[]> set_obj_array25 = java.util.Collections.unmodifiableSet(set_obj_array24);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigablemap_collections_b0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b13 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str15);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str18);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b20 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array22);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(set_obj_array23);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(set_obj_array24);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(set_obj_array25);
 
@@ -4030,49 +4030,49 @@ public class RegressionTest0 {
     java.util.Collections.sort((java.util.List<java.lang.Boolean>)arraylist_b26, comparator_obj34);
     java.util.Collections.sort((java.util.List<java.lang.Boolean>)arraylist_b19, comparator_obj34);
     boolean b37 = treeset_str7.containsAll((java.util.Collection<java.lang.Boolean>)arraylist_b19);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array10);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b11 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str14);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str15 + "' != '" + ""+ "'", str15.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str17);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b18 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(b_array22);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b23 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(b_array29);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b30 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(comparator_obj34);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b37 == false);
 
@@ -4124,26 +4124,26 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str8 + "' != '" + ""+ "'", str8.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i9 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(stream_str10);
 
@@ -4179,32 +4179,32 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.util.NoSuchElementException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b3 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(random_array9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b10 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array22);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b23 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b24 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collection_str25);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(stream_str26);
 
@@ -4228,8 +4228,8 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(list_str2);
 
@@ -4270,31 +4270,31 @@ public class RegressionTest0 {
     boolean b11 = treeset_str0.remove((java.lang.Object)' ');
     java.util.NavigableSet<java.lang.String> navigableset_str14 = treeset_str0.headSet("", false);
     java.util.SortedSet<java.lang.String> sortedset_str16 = treeset_str0.tailSet("hi!");
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str8 + "' != '" + ""+ "'", str8.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b11 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str14);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str16);
 
@@ -4313,19 +4313,19 @@ public class RegressionTest0 {
     java.util.NavigableSet<java.lang.String> navigableset_str7 = treeset_str0.descendingSet();
     java.util.Comparator<java.lang.String> comparator_str8 = null;
     java.lang.String str9 = java.util.Collections.min((java.util.Collection<java.lang.String>)navigableset_str7, comparator_str8);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str9 + "' != '" + ""+ "'", str9.equals(""));
 
@@ -4344,22 +4344,22 @@ public class RegressionTest0 {
     java.util.NavigableSet<java.lang.String> navigableset_str7 = treeset_str0.descendingSet();
     java.lang.String str9 = treeset_str0.floor("hi!");
     java.util.SortedSet<java.lang.String> sortedset_str11 = treeset_str0.tailSet("[]");
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str9 + "' != '" + ""+ "'", str9.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str11);
 
@@ -4395,35 +4395,35 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str8 + "' != '" + ""+ "'", str8.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str14);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b15 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array16);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(set_obj_array17);
 
@@ -4443,22 +4443,22 @@ public class RegressionTest0 {
     boolean b7 = treeset_str1.isEmpty();
     java.util.Spliterator<java.lang.String> spliterator_str8 = treeset_str1.spliterator();
     boolean b9 = treeset_str1.isEmpty();
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b7 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(spliterator_str8);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b9 == true);
 
@@ -4472,10 +4472,10 @@ public class RegressionTest0 {
 
     java.util.Set<java.util.Random> set_random0 = java.util.Collections.emptySet();
     java.util.Enumeration<java.util.Random> enumeration_random1 = java.util.Collections.enumeration((java.util.Collection<java.util.Random>)set_random0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(set_random0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(enumeration_random1);
 
@@ -4501,11 +4501,11 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b8 == true);
 
@@ -4524,22 +4524,22 @@ public class RegressionTest0 {
     java.util.Set<java.lang.Boolean> set_b8 = java.util.Collections.EMPTY_SET;
     boolean b9 = java.util.Collections.disjoint((java.util.Collection<java.lang.Integer>)linkedhashset_i0, (java.util.Collection<java.lang.Boolean>)set_b8);
     java.util.Set<java.lang.Integer> set_i10 = java.util.Collections.synchronizedSet((java.util.Set<java.lang.Integer>)linkedhashset_i0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b6 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(set_i7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(set_b8);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b9 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(set_i10);
 
@@ -4557,19 +4557,19 @@ public class RegressionTest0 {
     java.util.Set<java.lang.Integer> set_i8 = java.util.Collections.synchronizedSet((java.util.Set<java.lang.Integer>)linkedhashset_i0);
     java.lang.Integer i9 = java.util.Collections.min((java.util.Collection<java.lang.Integer>)linkedhashset_i0);
     java.util.Set<java.lang.Integer> set_i10 = java.util.Collections.synchronizedSet((java.util.Set<java.lang.Integer>)linkedhashset_i0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b7 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(set_i8);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + i9 + "' != '" + (-1)+ "'", i9.equals((-1)));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(set_i10);
 
@@ -4608,32 +4608,32 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b3 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b7 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b10 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i13 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b14 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b17 == false);
 
@@ -4652,22 +4652,22 @@ public class RegressionTest0 {
     java.util.NavigableSet<java.lang.String> navigableset_str7 = treeset_str0.descendingSet();
     java.lang.String str9 = treeset_str0.higher("");
     java.util.NavigableSet<java.lang.String> navigableset_str12 = treeset_str0.headSet("hi!", true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str12);
 
@@ -4697,23 +4697,23 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array8);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str10);
 
@@ -4752,38 +4752,38 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.ClassCastException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str8 + "' != '" + ""+ "'", str8.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str14);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b15 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str16);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array_array18);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b19 == false);
 
@@ -4808,11 +4808,11 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(list_str2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(list_str3);
 
@@ -4835,31 +4835,31 @@ public class RegressionTest0 {
     int i11 = treeset_str0.size();
     java.lang.String str12 = treeset_str0.toString();
     java.util.SortedSet<java.lang.String> sortedset_str14 = treeset_str0.tailSet("");
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(spliterator_str10);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i11 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str12 + "' != '" + "[]"+ "'", str12.equals("[]"));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str14);
 
@@ -4894,38 +4894,38 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.ClassCastException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str9 + "' != '" + ""+ "'", str9.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str10);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str11);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(b_array15);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b16 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_b17);
 
@@ -4946,22 +4946,22 @@ public class RegressionTest0 {
     java.util.TreeSet<java.lang.String> treeset_str12 = new java.util.TreeSet<java.lang.String>((java.util.SortedSet<java.lang.String>)treeset_str0);
     boolean b14 = treeset_str12.add("hi!");
     java.util.TreeSet<java.lang.String> treeset_str15 = new java.util.TreeSet<java.lang.String>((java.util.SortedSet<java.lang.String>)treeset_str12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i11 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b14 == true);
 
@@ -4986,11 +4986,11 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array1);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(set_obj_array2);
 
@@ -5017,14 +5017,14 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(queue_str5);
 
@@ -5038,7 +5038,7 @@ public class RegressionTest0 {
 
     java.util.List<java.lang.Boolean> list_b1 = java.util.Collections.singletonList((java.lang.Boolean)true);
     java.util.Collections.sort(list_b1);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(list_b1);
 
@@ -5075,32 +5075,32 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b7 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i10 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b11 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array_array13);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b14 == true);
 
@@ -5119,22 +5119,22 @@ public class RegressionTest0 {
     java.util.SortedSet<java.lang.Integer> sortedset_i5 = java.util.Collections.synchronizedSortedSet((java.util.SortedSet<java.lang.Integer>)treeset_i0);
     java.util.Set<java.lang.Integer> set_i6 = java.util.Collections.synchronizedSet((java.util.Set<java.lang.Integer>)treeset_i0);
     java.util.Set<java.lang.Integer> set_i7 = java.util.Collections.synchronizedSet(set_i6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b3 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_i4);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_i5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(set_i6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(set_i7);
 
@@ -5158,8 +5158,8 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_collections0);
 
@@ -5180,25 +5180,25 @@ public class RegressionTest0 {
     java.util.TreeSet<java.lang.String> treeset_str12 = new java.util.TreeSet<java.lang.String>((java.util.SortedSet<java.lang.String>)treeset_str0);
     java.lang.String str14 = treeset_str12.ceiling("hi!");
     int i15 = treeset_str12.size();
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i11 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str14);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i15 == 1);
 
@@ -5257,19 +5257,19 @@ public class RegressionTest0 {
     boolean b9 = java.util.Collections.replaceAll((java.util.List<java.lang.Long>)arraylist_long0, (java.lang.Long)(-1L), (java.lang.Long)0L);
     boolean b12 = java.util.Collections.replaceAll((java.util.List<java.lang.Long>)arraylist_long0, (java.lang.Long)0L, (java.lang.Long)1L);
     boolean b15 = java.util.Collections.replaceAll((java.util.List<java.lang.Long>)arraylist_long0, (java.lang.Long)0L, (java.lang.Long)0L);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(long_array5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b6 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b9 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b12 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b15 == false);
 
@@ -5286,17 +5286,17 @@ public class RegressionTest0 {
     java.lang.String str3 = treeset_str1.higher("hi!");
     java.util.SortedSet<java.lang.String> sortedset_str5 = treeset_str1.headSet("");
     java.util.Iterator<java.lang.String> iterator_str6 = treeset_str1.descendingIterator();
-    java.util.Comparator<java.lang.Object> comparator_obj7 = treeset_str1.comparator();
-    
+    java.util.Comparator<?> comparator_obj7 = treeset_str1.comparator();
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(comparator_obj7);
 
@@ -5366,110 +5366,110 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array4);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b5 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str8);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str9 + "' != '" + ""+ "'", str9.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str13);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str15);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b16 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array17);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigablemap_collections_b18);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str23);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str25);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array30);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b31 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str33);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str36);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b38 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array40);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(set_obj_array41);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array45);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b46 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str47);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str49);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str50 + "' != '" + ""+ "'", str50.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str54);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str56);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b57 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array58);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array62);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b63 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str65);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str66);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array67);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array_array68);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b69 == true);
 
@@ -5487,19 +5487,19 @@ public class RegressionTest0 {
     java.util.Iterator<java.lang.String> iterator_str5 = treeset_str0.iterator();
     java.lang.String str7 = treeset_str0.higher("hi!");
     java.util.SortedSet<java.lang.String> sortedset_str9 = treeset_str0.tailSet("hi!");
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str9);
 
@@ -5527,17 +5527,17 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(long_array5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b6 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b9 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b12 == true);
 
@@ -5553,21 +5553,21 @@ public class RegressionTest0 {
     java.lang.String[] str_array2 = new java.lang.String[] { "hi!" };
     boolean b3 = java.util.Collections.addAll((java.util.Collection<java.lang.String>)treeset_str0, str_array2);
     java.util.NavigableSet<java.lang.String> navigableset_str4 = treeset_str0.descendingSet();
-    java.util.Comparator<java.lang.Object> comparator_obj5 = treeset_str0.comparator();
+    java.util.Comparator<?> comparator_obj5 = treeset_str0.comparator();
     java.util.Iterator<java.lang.String> iterator_str6 = treeset_str0.iterator();
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b3 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str4);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(comparator_obj5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str6);
 
@@ -5587,19 +5587,19 @@ public class RegressionTest0 {
     java.lang.Object obj7 = treeset_str1.clone();
     treeset_str1.clear();
     int i9 = treeset_str1.size();
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i9 == 0);
 
@@ -5634,35 +5634,35 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.ClassCastException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i11 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str13 + "' != '" + ""+ "'", str13.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array16);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b17 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_i18);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_i19);
 
@@ -5684,25 +5684,25 @@ public class RegressionTest0 {
     treeset_str12.clear();
     java.lang.Object[] obj_array14 = treeset_str12.toArray();
     java.util.Set<java.lang.Object[]> set_obj_array15 = java.util.Collections.singleton(obj_array14);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i11 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array14);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(set_obj_array15);
 
@@ -5723,28 +5723,28 @@ public class RegressionTest0 {
     java.util.Iterator<java.lang.String> iterator_str10 = treeset_str0.descendingIterator();
     java.util.NavigableSet<java.lang.String> navigableset_str11 = treeset_str0.descendingSet();
     java.lang.String str12 = treeset_str0.pollLast();
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str9 + "' != '" + ""+ "'", str9.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str10);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str11);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str12 + "' != '" + ""+ "'", str12.equals(""));
 
@@ -5785,28 +5785,28 @@ public class RegressionTest0 {
     int i9 = treeset_str0.size();
     java.util.Iterator<java.lang.String> iterator_str10 = treeset_str0.descendingIterator();
     java.lang.String str11 = treeset_str0.pollFirst();
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str8 + "' != '" + ""+ "'", str8.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i9 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str10);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str11);
 
@@ -5837,31 +5837,31 @@ public class RegressionTest0 {
     java.util.Collections.shuffle((java.util.List<java.lang.Object[]>)arraylist_obj_array25, random29);
     java.util.Random random31 = null;
     java.util.Collections.shuffle((java.util.List<java.lang.Object[]>)arraylist_obj_array25, random31);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b3 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(random_array9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b10 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array22);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b23 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b24 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array_array26);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b27 == false);
 
@@ -5917,77 +5917,77 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array4);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b5 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str10);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i12 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array15);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(set_obj_array16);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array19);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b20 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array22);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b23 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i26 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b27 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array28);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array32);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b33 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str35);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str38);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b40 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str41);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str42 + "' != '" + ""+ "'", str42.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array43);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array_array44);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b45 == true);
 
@@ -6016,20 +6016,20 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(long_array5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b6 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b9 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + long10 + "' != '" + 10L+ "'", long10.equals(10L));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b13 == true);
 
@@ -6046,13 +6046,13 @@ public class RegressionTest0 {
     boolean b2 = java.util.Collections.addAll((java.util.Collection<java.util.Random>)arraylist_random0, random_array1);
     java.util.Collections.rotate((java.util.List<java.util.Random>)arraylist_random0, (int)(short)-1);
     java.util.Enumeration<java.util.Random> enumeration_random5 = java.util.Collections.enumeration((java.util.Collection<java.util.Random>)arraylist_random0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(random_array1);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b2 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(enumeration_random5);
 
@@ -6080,31 +6080,31 @@ public class RegressionTest0 {
     java.util.List<java.util.Collections> list_collections14 = java.util.Collections.unmodifiableList(list_collections13);
     java.util.Collections collections15 = null;
     java.util.Collections.fill(list_collections13, collections15);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b3 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b6 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i9 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b10 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(list_collections12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(list_collections13);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(list_collections14);
 
@@ -6123,20 +6123,20 @@ public class RegressionTest0 {
     java.util.Iterator<java.lang.String> iterator_str6 = treeset_str1.descendingIterator();
     java.lang.Object obj7 = treeset_str1.clone();
     treeset_str1.clear();
-    java.util.Comparator<java.lang.Object> comparator_obj9 = treeset_str1.comparator();
-    
+    java.util.Comparator<?> comparator_obj9 = treeset_str1.comparator();
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(comparator_obj9);
 
@@ -6181,64 +6181,64 @@ public class RegressionTest0 {
     int i45 = java.util.Collections.frequency((java.util.Collection<java.lang.String>)arraylist_str0, (java.lang.Object)comparator_obj42);
     java.util.List<java.lang.String> list_str46 = java.util.Collections.synchronizedList((java.util.List<java.lang.String>)arraylist_str0);
     java.util.Collections.shuffle(list_str46);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b3 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(random_array9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b10 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array22);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b23 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b24 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collection_str25);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(stream_str26);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array29);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b30 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array32);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b33 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i36 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b37 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(comparator_obj42);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i43 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(comparator_obj44);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i45 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(list_str46);
 
@@ -6253,11 +6253,11 @@ public class RegressionTest0 {
     java.util.Comparator<java.lang.Object> comparator_obj0 = null;
     java.util.TreeSet<java.lang.String> treeset_str1 = new java.util.TreeSet<java.lang.String>(comparator_obj0);
     java.lang.String str3 = treeset_str1.higher("hi!");
-    java.util.Comparator<java.lang.Object> comparator_obj4 = treeset_str1.comparator();
-    
+    java.util.Comparator<?> comparator_obj4 = treeset_str1.comparator();
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(comparator_obj4);
 
@@ -6296,16 +6296,16 @@ public class RegressionTest0 {
     java.util.NavigableSet<java.lang.String> navigableset_str6 = treeset_str1.headSet("hi!", false);
     java.util.SortedSet<java.lang.String> sortedset_str8 = treeset_str1.headSet("");
     java.lang.String str9 = treeset_str1.toString();
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str8);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str9 + "' != '" + "[]"+ "'", str9.equals("[]"));
 
@@ -6335,20 +6335,20 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b7 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str9);
 
@@ -6365,10 +6365,10 @@ public class RegressionTest0 {
     java.lang.String str3 = treeset_str1.higher("hi!");
     java.util.NavigableSet<java.lang.String> navigableset_str6 = treeset_str1.headSet("hi!", false);
     treeset_str1.clear();
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str6);
 
@@ -6386,19 +6386,19 @@ public class RegressionTest0 {
     java.util.SortedSet<java.lang.Integer> sortedset_i4 = java.util.Collections.synchronizedSortedSet((java.util.SortedSet<java.lang.Integer>)treeset_i0);
     java.util.Set<java.lang.Integer> set_i5 = java.util.Collections.synchronizedSet((java.util.Set<java.lang.Integer>)treeset_i0);
     java.util.SortedSet<java.lang.Integer> sortedset_i6 = java.util.Collections.synchronizedSortedSet((java.util.SortedSet<java.lang.Integer>)treeset_i0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b3 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_i4);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(set_i5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_i6);
 
@@ -6476,124 +6476,124 @@ public class RegressionTest0 {
     int i82 = java.util.Collections.binarySearch(list_collections20, collections21, comparator_obj77);
     boolean b83 = treeset_str1.removeAll((java.util.Collection<java.util.Collections>)list_collections20);
     java.util.NavigableSet<java.lang.String> navigableset_str84 = treeset_str1.descendingSet();
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array10);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b11 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array13);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b14 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i17 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b18 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(list_collections20);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array24);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b25 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array27);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b28 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i31 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b32 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array37);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b38 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(random_array44);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b45 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array57);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b58 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b59 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collection_str60);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(stream_str61);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array64);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b65 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array67);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b68 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i71 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b72 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(comparator_obj77);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i78 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(comparator_obj79);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i80 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i81 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i82 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b83 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str84);
 
@@ -6611,19 +6611,19 @@ public class RegressionTest0 {
     java.util.NavigableSet<java.lang.Boolean> navigableset_b4 = java.util.Collections.synchronizedNavigableSet((java.util.NavigableSet<java.lang.Boolean>)treeset_b0);
     java.util.NavigableSet<java.lang.Boolean> navigableset_b5 = java.util.Collections.synchronizedNavigableSet(navigableset_b4);
     java.util.NavigableSet<java.lang.Boolean> navigableset_b6 = java.util.Collections.synchronizedNavigableSet(navigableset_b5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(b_array2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b3 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_b4);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_b5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_b6);
 
@@ -6674,50 +6674,50 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array4);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b5 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(b_array8);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b9 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b11 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array14);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b15 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array17);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b18 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i21 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b22 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(comparator_obj27);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i28 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(comparator_obj29);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(comparator_obj30);
 
@@ -6745,17 +6745,17 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(long_array5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b6 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b9 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + long10 + "' != '" + 100L+ "'", long10.equals(100L));
 
@@ -6783,17 +6783,17 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.util.NoSuchElementException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str7);
 
@@ -6815,25 +6815,25 @@ public class RegressionTest0 {
     java.util.SortedSet<java.lang.String> sortedset_str14 = treeset_str12.tailSet("");
     treeset_str12.clear();
     java.util.NavigableSet<java.lang.String> navigableset_str18 = treeset_str12.headSet("[]", true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i11 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str14);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str18);
 
@@ -6877,58 +6877,58 @@ public class RegressionTest0 {
     java.util.Collections.copy((java.util.List<java.lang.Object>)arraylist_obj4, (java.util.List<java.lang.Object[]>)arraylist_obj_array29);
     java.util.Random random45 = null;
     java.util.Collections.shuffle((java.util.List<java.lang.Object[]>)arraylist_obj_array29, random45);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b3 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(random_array9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b10 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array22);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b23 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b24 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array_array26);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b27 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array32);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b33 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array35);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b36 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i39 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b40 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array41);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array_array42);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b43 == true);
 
@@ -6952,7 +6952,7 @@ public class RegressionTest0 {
     java.util.SortedSet<java.lang.String> sortedset_str14 = treeset_str10.headSet("");
     boolean b15 = treeset_str0.addAll((java.util.Collection<java.lang.String>)treeset_str10);
     java.lang.Object[] obj_array16 = treeset_str0.toArray();
-    java.util.Comparator<java.lang.Object> comparator_obj17 = treeset_str0.comparator();
+    java.util.Comparator<?> comparator_obj17 = treeset_str0.comparator();
     java.util.Comparator<java.lang.Object> comparator_obj18 = null;
     java.util.TreeSet<java.lang.String> treeset_str19 = new java.util.TreeSet<java.lang.String>(comparator_obj18);
     java.lang.String str21 = treeset_str19.higher("hi!");
@@ -6960,46 +6960,46 @@ public class RegressionTest0 {
     java.util.TreeSet<java.lang.String> treeset_str24 = new java.util.TreeSet<java.lang.String>((java.util.SortedSet<java.lang.String>)treeset_str19);
     boolean b25 = treeset_str0.addAll((java.util.Collection<java.lang.String>)treeset_str19);
     int i26 = treeset_str0.size();
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str8 + "' != '" + ""+ "'", str8.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str14);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b15 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array16);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(comparator_obj17);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str21);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str23);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b25 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i26 == 0);
 
@@ -7016,16 +7016,16 @@ public class RegressionTest0 {
     boolean b4 = java.util.Collections.addAll((java.util.Collection<java.lang.String>)treeset_str0, str_array3);
     java.util.Iterator<java.lang.String> iterator_str5 = treeset_str0.iterator();
     java.util.NavigableSet<java.lang.String> navigableset_str8 = treeset_str0.tailSet("hi!", false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str8);
 
@@ -7078,88 +7078,88 @@ public class RegressionTest0 {
     boolean b69 = arraylist_str0.retainAll((java.util.Collection<java.lang.Object>)arraylist_obj29);
     java.lang.Boolean[] b_array74 = new java.lang.Boolean[] { true, false, true, true };
     boolean b75 = java.util.Collections.addAll((java.util.Collection<java.lang.Object>)arraylist_obj29, b_array74);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b3 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(random_array9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b10 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array22);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b23 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b24 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array27);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b28 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(random_array34);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b35 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array47);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b48 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b49 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array_array51);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b52 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array56);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b57 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array60);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b61 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array64);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b65 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i66 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i67 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i68 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b69 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(b_array74);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b75 == true);
 
@@ -7216,82 +7216,82 @@ public class RegressionTest0 {
     int i58 = java.util.Collections.frequency((java.util.Collection<java.lang.String>)arraylist_str13, (java.lang.Object)comparator_obj55);
     int i59 = java.util.Collections.binarySearch((java.util.List<java.util.Collections>)arraylist_collections4, collections12, comparator_obj55);
     java.util.Collections.reverse((java.util.List<java.util.Collections>)arraylist_collections4);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b3 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b6 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i9 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b10 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array15);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b16 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(random_array22);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b23 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array35);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b36 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b37 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collection_str38);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(stream_str39);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array42);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b43 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array45);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b46 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i49 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b50 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(comparator_obj55);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i56 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(comparator_obj57);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i58 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i59 == (-1));
 
@@ -7309,19 +7309,19 @@ public class RegressionTest0 {
     java.util.SortedSet<java.lang.String> sortedset_str6 = treeset_str0.headSet("");
     java.util.NavigableSet<java.lang.String> navigableset_str7 = treeset_str0.descendingSet();
     java.lang.String str8 = treeset_str0.last();
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str8 + "' != '" + ""+ "'", str8.equals(""));
 
@@ -7350,20 +7350,20 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(long_array6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b7 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_long8);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + long9 + "' != '" + 100L+ "'", long9.equals(100L));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + long10 + "' != '" + 100L+ "'", long10.equals(100L));
 
@@ -7381,13 +7381,13 @@ public class RegressionTest0 {
     java.util.Collections.rotate((java.util.List<java.util.Random>)arraylist_random0, (int)(short)0);
     java.util.Collections.rotate((java.util.List<java.util.Random>)arraylist_random0, 10);
     java.util.Enumeration<java.util.Random> enumeration_random7 = java.util.Collections.enumeration((java.util.Collection<java.util.Random>)arraylist_random0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(random_array1);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b2 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(enumeration_random7);
 
@@ -7402,7 +7402,7 @@ public class RegressionTest0 {
     java.util.Comparator<java.lang.Object> comparator_obj0 = null;
     java.util.TreeSet<java.lang.String> treeset_str1 = new java.util.TreeSet<java.lang.String>(comparator_obj0);
     java.lang.String str2 = treeset_str1.pollFirst();
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str2);
 
@@ -7421,22 +7421,22 @@ public class RegressionTest0 {
     java.util.NavigableSet<java.lang.String> navigableset_str9 = treeset_str0.headSet("", false);
     java.util.NavigableSet<java.lang.String> navigableset_str12 = treeset_str0.headSet("hi!", false);
     java.util.NavigableSet<java.lang.String> navigableset_str13 = treeset_str0.descendingSet();
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str13);
 
@@ -7471,38 +7471,38 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str8 + "' != '" + ""+ "'", str8.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i9 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(stream_str10);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str13);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(long_array19);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(long_array20);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(set_obj_array21);
 
@@ -7557,32 +7557,32 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b3 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b7 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array10);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b11 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i12 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i13 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i15 == (-2));
 
@@ -7607,7 +7607,7 @@ public class RegressionTest0 {
     boolean b18 = java.util.Collections.addAll((java.util.Collection<java.lang.String>)treeset_str14, str_array17);
     java.util.SortedSet<java.lang.String> sortedset_str20 = treeset_str14.headSet("");
     java.util.NavigableSet<java.lang.String> navigableset_str23 = treeset_str14.headSet("", false);
-    java.util.Comparator<java.lang.Object> comparator_obj24 = treeset_str14.comparator();
+    java.util.Comparator<?> comparator_obj24 = treeset_str14.comparator();
     java.util.ArrayList<java.util.Collections> arraylist_collections25 = new java.util.ArrayList<java.util.Collections>();
     java.util.Collections[] collections_array26 = new java.util.Collections[] {  };
     boolean b27 = java.util.Collections.addAll((java.util.Collection<java.util.Collections>)arraylist_collections25, collections_array26);
@@ -7618,59 +7618,59 @@ public class RegressionTest0 {
     int i32 = java.util.Collections.frequency((java.util.Collection<java.lang.String>)treeset_str12, (java.lang.Object)arraylist_collections25);
     boolean b34 = treeset_str12.add("hi!");
     java.util.stream.Stream<java.lang.String> stream_str35 = treeset_str12.stream();
-    java.util.Comparator<java.lang.Object> comparator_obj36 = treeset_str12.comparator();
-    
+    java.util.Comparator<?> comparator_obj36 = treeset_str12.comparator();
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i11 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array17);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b18 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str20);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str23);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(comparator_obj24);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array26);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b27 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i30 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b31 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i32 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b34 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(stream_str35);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(comparator_obj36);
 
@@ -7693,31 +7693,31 @@ public class RegressionTest0 {
     java.util.TreeSet<java.lang.String> treeset_str13 = new java.util.TreeSet<java.lang.String>((java.util.Collection<java.lang.String>)navigableset_str12);
     java.util.SortedSet<java.lang.String> sortedset_str15 = treeset_str13.tailSet("");
     java.util.Collection<java.lang.String> collection_str16 = java.util.Collections.synchronizedCollection((java.util.Collection<java.lang.String>)sortedset_str15);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str8 + "' != '" + ""+ "'", str8.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str15);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collection_str16);
 
@@ -7761,7 +7761,7 @@ public class RegressionTest0 {
     boolean b18 = java.util.Collections.addAll((java.util.Collection<java.lang.String>)treeset_str14, str_array17);
     java.util.SortedSet<java.lang.String> sortedset_str20 = treeset_str14.headSet("");
     java.util.NavigableSet<java.lang.String> navigableset_str23 = treeset_str14.headSet("", false);
-    java.util.Comparator<java.lang.Object> comparator_obj24 = treeset_str14.comparator();
+    java.util.Comparator<?> comparator_obj24 = treeset_str14.comparator();
     java.util.ArrayList<java.util.Collections> arraylist_collections25 = new java.util.ArrayList<java.util.Collections>();
     java.util.Collections[] collections_array26 = new java.util.Collections[] {  };
     boolean b27 = java.util.Collections.addAll((java.util.Collection<java.util.Collections>)arraylist_collections25, collections_array26);
@@ -7784,59 +7784,59 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i11 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array17);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b18 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str20);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str23);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(comparator_obj24);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array26);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b27 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i30 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b31 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i32 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b34 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(stream_str35);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str36 + "' != '" + "hi!"+ "'", str36.equals("hi!"));
 
@@ -7850,7 +7850,7 @@ public class RegressionTest0 {
 
     java.util.Random random0 = null;
     java.util.Map<java.util.Random,java.lang.Integer> map_random_i2 = java.util.Collections.singletonMap(random0, (java.lang.Integer)(-2));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(map_random_i2);
 
@@ -7871,28 +7871,28 @@ public class RegressionTest0 {
     java.util.NavigableSet<java.lang.String> navigableset_str12 = treeset_str0.descendingSet();
     java.util.Iterator<java.lang.String> iterator_str13 = treeset_str0.iterator();
     java.lang.String str14 = treeset_str0.first();
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b11 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str13);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str14 + "' != '" + ""+ "'", str14.equals(""));
 
@@ -7930,23 +7930,23 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(b_array4);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b5 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(b_array11);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b12 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(comparator_obj16);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(comparator_obj19);
 
@@ -7963,19 +7963,19 @@ public class RegressionTest0 {
     java.util.Map<java.lang.String,java.lang.String> map_str_str2 = java.util.Collections.synchronizedMap(map_str_str1);
     java.util.Map<java.lang.String,java.lang.String> map_str_str3 = java.util.Collections.synchronizedMap(map_str_str1);
     java.util.Map<java.lang.String,java.lang.String> map_str_str4 = java.util.Collections.synchronizedMap(map_str_str3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(map_str_str0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(map_str_str1);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(map_str_str2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(map_str_str3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(map_str_str4);
 
@@ -8016,47 +8016,47 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b3 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b7 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i8 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + i9 + "' != '" + 1+ "'", i9.equals(1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b13 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array16);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b17 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i18 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i20 == (-2));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i21 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i23 == (-2));
 
@@ -8081,28 +8081,28 @@ public class RegressionTest0 {
     java.util.Collections.reverse((java.util.List<java.util.Collections>)arraylist_collections4);
     java.util.List<java.util.Collections> list_collections12 = java.util.Collections.unmodifiableList((java.util.List<java.util.Collections>)arraylist_collections4);
     java.util.List<java.util.Collections> list_collections13 = java.util.Collections.unmodifiableList((java.util.List<java.util.Collections>)arraylist_collections4);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b3 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b6 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i9 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b10 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(list_collections12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(list_collections13);
 
@@ -8121,24 +8121,24 @@ public class RegressionTest0 {
     java.util.Iterator<java.lang.String> iterator_str6 = treeset_str1.descendingIterator();
     boolean b7 = treeset_str1.isEmpty();
     boolean b8 = treeset_str1.isEmpty();
-    java.util.Comparator<java.lang.Object> comparator_obj9 = treeset_str1.comparator();
+    java.util.Comparator<?> comparator_obj9 = treeset_str1.comparator();
     treeset_str1.clear();
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b7 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b8 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(comparator_obj9);
 
@@ -8159,25 +8159,25 @@ public class RegressionTest0 {
     java.util.TreeSet<java.lang.String> treeset_str12 = new java.util.TreeSet<java.lang.String>((java.util.SortedSet<java.lang.String>)treeset_str0);
     java.util.SortedSet<java.lang.String> sortedset_str14 = treeset_str12.tailSet("");
     java.lang.String str16 = treeset_str12.lower("[]");
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i11 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str14);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str16 + "' != '" + ""+ "'", str16.equals(""));
 
@@ -8202,31 +8202,31 @@ public class RegressionTest0 {
     boolean b24 = arraylist_str0.retainAll((java.util.Collection<java.lang.Object>)arraylist_obj4);
     java.util.List<java.lang.String> list_str25 = java.util.Collections.synchronizedList((java.util.List<java.lang.String>)arraylist_str0);
     java.util.List<java.lang.String> list_str26 = java.util.Collections.synchronizedList(list_str25);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b3 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(random_array9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b10 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array22);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b23 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b24 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(list_str25);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(list_str26);
 
@@ -8247,25 +8247,25 @@ public class RegressionTest0 {
     java.util.TreeSet<java.lang.String> treeset_str12 = new java.util.TreeSet<java.lang.String>((java.util.SortedSet<java.lang.String>)treeset_str0);
     java.lang.String str13 = treeset_str0.pollFirst();
     java.util.NavigableSet<java.lang.String> navigableset_str18 = treeset_str0.subSet("[]", true, "hi!", false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i11 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str13 + "' != '" + ""+ "'", str13.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str18);
 
@@ -8306,64 +8306,64 @@ public class RegressionTest0 {
     boolean b33 = java.util.Collections.disjoint((java.util.Collection<java.lang.Integer>)arraylist_i24, (java.util.Collection<java.lang.Boolean>)arraylist_b28);
     boolean b34 = java.util.Collections.disjoint((java.util.Collection<java.lang.Integer>)arraylist_i4, (java.util.Collection<java.lang.Boolean>)arraylist_b28);
     java.util.Collections.sort((java.util.List<java.lang.Boolean>)arraylist_b28);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b3 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b7 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i8 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array11);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b12 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array15);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b16 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array19);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b20 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i21 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i22 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i23 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array26);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b27 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(b_array30);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b31 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b33 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b34 == true);
 
@@ -8384,22 +8384,22 @@ public class RegressionTest0 {
     java.util.TreeSet<java.lang.String> treeset_str12 = new java.util.TreeSet<java.lang.String>((java.util.SortedSet<java.lang.String>)treeset_str0);
     treeset_str12.clear();
     java.lang.Object obj14 = treeset_str12.clone();
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i11 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj14);
 
@@ -8493,130 +8493,130 @@ public class RegressionTest0 {
     int i83 = java.util.Collections.indexOfSubList((java.util.List<java.lang.Integer>)arraylist_i43, (java.util.List<java.lang.Integer>)arraylist_i74);
     int i84 = java.util.Collections.indexOfSubList((java.util.List<java.lang.Integer>)arraylist_i29, (java.util.List<java.lang.Integer>)arraylist_i43);
     int i85 = java.util.Collections.lastIndexOfSubList((java.util.List<java.lang.Object>)arraylist_obj4, (java.util.List<java.lang.Integer>)arraylist_i29);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b3 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(random_array9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b10 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array22);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b23 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b24 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array_array26);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b27 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array31);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b32 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(b_array35);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b36 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b38 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array41);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b42 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array45);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b46 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i47 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array50);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b51 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array54);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b55 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array58);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b59 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i60 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i61 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i62 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array65);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b66 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(b_array69);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b70 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b72 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b73 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array76);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b77 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array80);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b81 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i82 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i83 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i84 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i85 == (-1));
 
@@ -8645,40 +8645,40 @@ public class RegressionTest0 {
     java.util.Set<java.lang.Object[]> set_obj_array24 = java.util.Collections.singleton(obj_array22);
     java.util.Comparator<java.lang.Object[]> comparator_obj_array25 = null;
     java.lang.Object[] obj_array26 = java.util.Collections.max((java.util.Collection<java.lang.Object[]>)set_obj_array24, comparator_obj_array25);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigablemap_collections_b0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b13 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str15);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str18);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b20 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array22);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(set_obj_array23);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(set_obj_array24);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array26);
 
@@ -8695,20 +8695,20 @@ public class RegressionTest0 {
     boolean b4 = java.util.Collections.addAll((java.util.Collection<java.lang.String>)treeset_str0, str_array3);
     java.util.SortedSet<java.lang.String> sortedset_str6 = treeset_str0.headSet("");
     java.util.NavigableSet<java.lang.String> navigableset_str7 = treeset_str0.descendingSet();
-    java.util.Comparator<java.lang.Object> comparator_obj8 = treeset_str0.comparator();
-    
+    java.util.Comparator<?> comparator_obj8 = treeset_str0.comparator();
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(comparator_obj8);
 
@@ -8724,13 +8724,13 @@ public class RegressionTest0 {
     java.lang.Long[] long_array2 = new java.lang.Long[] { 1L };
     boolean b3 = java.util.Collections.addAll((java.util.Collection<java.lang.Long>)arraylist_long0, long_array2);
     boolean b6 = java.util.Collections.replaceAll((java.util.List<java.lang.Long>)arraylist_long0, (java.lang.Long)(-1L), (java.lang.Long)10L);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(long_array2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b3 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b6 == false);
 
@@ -8771,47 +8771,47 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array4);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b5 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str8);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str9 + "' != '" + ""+ "'", str9.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str13);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str15);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b16 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array17);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(b_array20);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b21 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_b22);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_b23);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b24 == false);
 
@@ -8848,10 +8848,10 @@ public class RegressionTest0 {
     java.util.Collections.rotate((java.util.List<java.util.Random>)arraylist_random0, (int)(short)0);
     java.util.Collections.rotate((java.util.List<java.util.Random>)arraylist_random0, 10);
     java.util.Collections.rotate((java.util.List<java.util.Random>)arraylist_random0, 1);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(random_array1);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b2 == false);
 
@@ -8878,11 +8878,11 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str5);
 
@@ -8898,13 +8898,13 @@ public class RegressionTest0 {
     java.lang.Long[] long_array5 = new java.lang.Long[] { 100L, (-1L), (-1L), 0L };
     boolean b6 = java.util.Collections.addAll((java.util.Collection<java.lang.Long>)arraylist_long0, long_array5);
     boolean b9 = java.util.Collections.replaceAll((java.util.List<java.lang.Long>)arraylist_long0, (java.lang.Long)1L, (java.lang.Long)100L);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(long_array5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b6 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b9 == false);
 
@@ -8953,67 +8953,67 @@ public class RegressionTest0 {
     java.util.Comparator<java.lang.Object> comparator_obj37 = java.util.Collections.reverseOrder(comparator_obj34);
     java.util.Comparator<java.lang.Object> comparator_obj38 = java.util.Collections.reverseOrder(comparator_obj34);
     int i39 = java.util.Collections.binarySearch((java.util.List<java.util.Collections>)arraylist_collections8, collections18, comparator_obj38);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b3 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b7 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b10 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i13 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b14 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b17 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array21);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b22 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array24);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b25 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i28 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b29 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(comparator_obj34);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i35 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(comparator_obj36);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(comparator_obj37);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(comparator_obj38);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i39 == (-1));
 
@@ -9046,26 +9046,26 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i11 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str14);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str16 + "' != '" + ""+ "'", str16.equals(""));
 
@@ -9083,19 +9083,19 @@ public class RegressionTest0 {
     java.util.SortedSet<java.lang.String> sortedset_str6 = treeset_str0.headSet("");
     java.util.NavigableSet<java.lang.String> navigableset_str9 = treeset_str0.headSet("", false);
     java.util.Iterator<java.lang.String> iterator_str10 = treeset_str0.descendingIterator();
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str10);
 
@@ -9135,49 +9135,49 @@ public class RegressionTest0 {
     java.util.Comparator<java.lang.Object> comparator_obj26 = java.util.Collections.reverseOrder(comparator_obj24);
     int i27 = java.util.Collections.binarySearch(list_collections6, collections8, comparator_obj24);
     java.util.Comparator<java.lang.Object> comparator_obj28 = java.util.Collections.reverseOrder(comparator_obj24);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array1);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b2 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i5 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(list_collections6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array11);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b12 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array14);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b15 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i18 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b19 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(comparator_obj24);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i25 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(comparator_obj26);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i27 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(comparator_obj28);
 
@@ -9195,19 +9195,19 @@ public class RegressionTest0 {
     java.util.SortedSet<java.util.Random> sortedset_random3 = java.util.Collections.unmodifiableSortedSet((java.util.SortedSet<java.util.Random>)treeset_random0);
     java.util.Enumeration<java.util.Random> enumeration_random4 = java.util.Collections.enumeration((java.util.Collection<java.util.Random>)treeset_random0);
     java.util.SortedSet<java.util.Random> sortedset_random5 = java.util.Collections.unmodifiableSortedSet((java.util.SortedSet<java.util.Random>)treeset_random0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(random_array1);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b2 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_random3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(enumeration_random4);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_random5);
 
@@ -9278,109 +9278,109 @@ public class RegressionTest0 {
     int i73 = java.util.Collections.binarySearch((java.util.List<java.util.Collections>)arraylist_collections18, collections26, comparator_obj69);
     int i74 = java.util.Collections.binarySearch(list_collections12, collections13, comparator_obj69);
     java.util.Collection<java.util.Collections> collection_collections75 = java.util.Collections.unmodifiableCollection((java.util.Collection<java.util.Collections>)list_collections12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b3 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b6 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i9 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b10 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(list_collections12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array16);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b17 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array19);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b20 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i23 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b24 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array29);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b30 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(random_array36);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b37 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array49);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b50 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b51 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collection_str52);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(stream_str53);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array56);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b57 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array59);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b60 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i63 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b64 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(comparator_obj69);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i70 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(comparator_obj71);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i72 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i73 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i74 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collection_collections75);
 
@@ -9400,25 +9400,25 @@ public class RegressionTest0 {
     java.lang.String str8 = treeset_str0.pollFirst();
     int i9 = treeset_str0.size();
     java.lang.String str11 = treeset_str0.lower("hi!");
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str8 + "' != '" + ""+ "'", str8.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i9 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str11);
 
@@ -9459,56 +9459,56 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.ArrayStoreException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array8);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b13 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str14);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str16);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str17 + "' != '" + ""+ "'", str17.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i18 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(stream_str19);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str22);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(long_array28);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(long_array29);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(set_obj_array30);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(set_obj_array31);
 
@@ -9589,115 +9589,115 @@ public class RegressionTest0 {
     java.util.TreeSet<java.lang.String> treeset_str85 = new java.util.TreeSet<java.lang.String>(comparator_obj79);
     java.util.Collections.sort((java.util.List<java.lang.Boolean>)arraylist_b0, comparator_obj79);
     java.util.Collections.sort((java.util.List<java.lang.Boolean>)arraylist_b0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(b_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(comparator_obj8);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b13 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array15);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b16 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i19 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b20 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(list_collections22);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array26);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b27 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array29);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b30 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i33 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b34 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array39);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b40 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(random_array46);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b47 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array59);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b60 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b61 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collection_str62);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(stream_str63);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array66);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b67 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array69);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b70 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i73 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b74 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(comparator_obj79);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i80 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(comparator_obj81);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i82 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i83 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i84 == (-1));
 
@@ -9730,32 +9730,32 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str8 + "' != '" + ""+ "'", str8.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i9 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(stream_str10);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str13);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj14);
 
@@ -9822,83 +9822,83 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b7 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i10 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b11 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array16);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b17 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(random_array23);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b24 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array36);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b37 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b38 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collection_str39);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(stream_str40);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array43);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b44 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array46);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b47 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i50 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b51 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(comparator_obj56);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i57 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(comparator_obj58);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i59 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i60 == (-1));
 
@@ -9935,35 +9935,35 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigablemap_collections_b0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b13 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str15);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str18);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b20 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array22);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(set_obj_array23);
 
@@ -9981,19 +9981,19 @@ public class RegressionTest0 {
     boolean b9 = java.util.Collections.replaceAll((java.util.List<java.lang.Long>)arraylist_long0, (java.lang.Long)100L, (java.lang.Long)1L);
     boolean b12 = java.util.Collections.replaceAll((java.util.List<java.lang.Long>)arraylist_long0, (java.lang.Long)10L, (java.lang.Long)10L);
     java.lang.Long long13 = java.util.Collections.max((java.util.Collection<java.lang.Long>)arraylist_long0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(long_array5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b6 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b9 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b12 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + long13 + "' != '" + 10L+ "'", long13.equals(10L));
 
@@ -10039,70 +10039,70 @@ public class RegressionTest0 {
     java.util.List<java.lang.String> list_str46 = java.util.Collections.synchronizedList((java.util.List<java.lang.String>)arraylist_str0);
     java.util.List<java.lang.String> list_str47 = java.util.Collections.synchronizedList(list_str46);
     java.util.List<java.lang.String> list_str48 = java.util.Collections.synchronizedList(list_str47);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b3 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(random_array9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b10 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array22);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b23 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b24 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collection_str25);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(stream_str26);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array29);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b30 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array32);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b33 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i36 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b37 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(comparator_obj42);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i43 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(comparator_obj44);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i45 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(list_str46);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(list_str47);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(list_str48);
 
@@ -10120,19 +10120,19 @@ public class RegressionTest0 {
     java.util.SortedSet<java.lang.Integer> sortedset_i4 = java.util.Collections.synchronizedSortedSet((java.util.SortedSet<java.lang.Integer>)treeset_i0);
     java.util.Set<java.lang.Integer> set_i5 = java.util.Collections.synchronizedSet((java.util.Set<java.lang.Integer>)treeset_i0);
     java.util.Set<java.lang.Integer> set_i6 = java.util.Collections.synchronizedSet(set_i5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b3 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_i4);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(set_i5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(set_i6);
 
@@ -10173,50 +10173,50 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.ClassCastException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b11 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str15);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array19);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b20 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str21);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str23);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str24 + "' != '" + ""+ "'", str24.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str28);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str30);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b31 == false);
 
@@ -10260,28 +10260,28 @@ public class RegressionTest0 {
     boolean b10 = linkedhashset_str0.removeAll((java.util.Collection<java.util.Collections>)arraylist_collections4);
     java.util.stream.Stream<java.lang.String> stream_str11 = linkedhashset_str0.parallelStream();
     java.lang.String str12 = linkedhashset_str0.toString();
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b3 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b6 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i9 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b10 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(stream_str11);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str12 + "' != '" + "[hi!]"+ "'", str12.equals("[hi!]"));
 
@@ -10311,23 +10311,23 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.util.NoSuchElementException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(spliterator_str10);
 
@@ -10355,17 +10355,17 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(queue_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(queue_str6);
 
@@ -10383,16 +10383,16 @@ public class RegressionTest0 {
     java.util.SortedSet<java.lang.String> sortedset_str5 = treeset_str1.headSet("");
     java.lang.String str7 = treeset_str1.higher("[]");
     java.lang.Object obj8 = treeset_str1.clone();
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj8);
 
@@ -10410,16 +10410,16 @@ public class RegressionTest0 {
     java.util.SortedSet<java.lang.String> sortedset_str5 = treeset_str1.headSet("");
     java.util.Iterator<java.lang.String> iterator_str6 = treeset_str1.descendingIterator();
     java.util.Spliterator<java.lang.String> spliterator_str7 = treeset_str1.spliterator();
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(spliterator_str7);
 
@@ -10498,121 +10498,121 @@ public class RegressionTest0 {
     boolean b83 = treeset_str1.removeAll((java.util.Collection<java.util.Collections>)list_collections20);
     java.util.Collections collections84 = null;
     java.util.Collections.fill(list_collections20, collections84);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array10);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b11 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array13);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b14 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i17 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b18 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(list_collections20);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array24);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b25 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array27);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b28 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i31 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b32 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array37);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b38 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(random_array44);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b45 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array57);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b58 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b59 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collection_str60);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(stream_str61);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array64);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b65 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array67);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b68 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i71 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b72 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(comparator_obj77);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i78 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(comparator_obj79);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i80 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i81 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i82 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b83 == false);
 
@@ -10629,16 +10629,16 @@ public class RegressionTest0 {
     boolean b7 = java.util.Collections.addAll((java.util.Collection<java.lang.Integer>)linkedhashset_i0, i_array6);
     java.util.Set<java.lang.Integer> set_i8 = java.util.Collections.synchronizedSet((java.util.Set<java.lang.Integer>)linkedhashset_i0);
     java.util.Set<java.lang.Integer> set_i9 = java.util.Collections.synchronizedSet((java.util.Set<java.lang.Integer>)linkedhashset_i0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b7 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(set_i8);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(set_i9);
 
@@ -10655,19 +10655,19 @@ public class RegressionTest0 {
     java.util.Map<java.lang.String,java.lang.String> map_str_str2 = java.util.Collections.synchronizedMap(map_str_str0);
     java.util.Map<java.lang.String,java.lang.String> map_str_str3 = java.util.Collections.synchronizedMap(map_str_str0);
     java.util.Map<java.lang.String,java.lang.String> map_str_str4 = java.util.Collections.synchronizedMap(map_str_str3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(map_str_str0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(map_str_str1);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(map_str_str2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(map_str_str3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(map_str_str4);
 
@@ -10686,22 +10686,22 @@ public class RegressionTest0 {
     java.util.NavigableSet<java.lang.String> navigableset_str9 = treeset_str0.headSet("", false);
     java.util.NavigableSet<java.lang.String> navigableset_str12 = treeset_str0.headSet("hi!", false);
     java.lang.String str13 = treeset_str0.toString();
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str13 + "' != '" + "[]"+ "'", str13.equals("[]"));
 
@@ -10752,77 +10752,77 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.ArrayStoreException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i11 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(spliterator_str13);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array17);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b18 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str19);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str21);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str22 + "' != '" + ""+ "'", str22.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str23);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str26);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array31);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b32 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str33);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str35);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str36 + "' != '" + ""+ "'", str36.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i37 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(stream_str38);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str41);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(long_array47);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(long_array48);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(long_array49);
 
@@ -10840,19 +10840,19 @@ public class RegressionTest0 {
     java.util.SortedSet<java.lang.Integer> sortedset_i4 = java.util.Collections.synchronizedSortedSet((java.util.SortedSet<java.lang.Integer>)treeset_i0);
     java.util.SortedSet<java.lang.Integer> sortedset_i5 = java.util.Collections.synchronizedSortedSet((java.util.SortedSet<java.lang.Integer>)treeset_i0);
     java.util.SortedSet<java.lang.Integer> sortedset_i6 = java.util.Collections.synchronizedSortedSet(sortedset_i5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b3 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_i4);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_i5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_i6);
 
@@ -10883,46 +10883,46 @@ public class RegressionTest0 {
     boolean b25 = java.util.Collections.addAll((java.util.Collection<java.lang.Boolean>)arraylist_b21, b_array24);
     java.util.Collections.sort((java.util.List<java.lang.Boolean>)arraylist_b21);
     boolean b27 = treeset_str7.containsAll((java.util.Collection<java.lang.Boolean>)arraylist_b21);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array10);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b11 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str14);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str15 + "' != '" + ""+ "'", str15.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str17);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b18 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str19);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i20 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(b_array24);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b25 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b27 == false);
 
@@ -10954,32 +10954,32 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.util.NoSuchElementException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str8 + "' != '" + ""+ "'", str8.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b11 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(spliterator_str12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str14);
 
@@ -10998,19 +10998,19 @@ public class RegressionTest0 {
     java.util.NavigableSet<java.lang.String> navigableset_str10 = treeset_str0.subSet("", true, "hi!", true);
     java.lang.String str12 = treeset_str0.floor("[]");
     java.util.TreeSet<java.lang.String> treeset_str13 = new java.util.TreeSet<java.lang.String>((java.util.Collection<java.lang.String>)treeset_str0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str10);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str12 + "' != '" + ""+ "'", str12.equals(""));
 
@@ -11036,37 +11036,37 @@ public class RegressionTest0 {
     boolean b18 = treeset_str1.addAll((java.util.Collection<java.lang.String>)treeset_str7);
     java.util.Iterator<java.lang.String> iterator_str19 = treeset_str7.iterator();
     java.util.Iterator<java.lang.String> iterator_str20 = treeset_str7.descendingIterator();
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array10);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b11 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str14);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str15 + "' != '" + ""+ "'", str15.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str17);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b18 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str19);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str20);
 
@@ -11124,103 +11124,103 @@ public class RegressionTest0 {
     int i65 = java.util.Collections.indexOfSubList((java.util.List<java.lang.Integer>)arraylist_i48, (java.util.List<java.lang.Integer>)arraylist_i58);
     int i67 = java.util.Collections.binarySearch((java.util.List<java.lang.Integer>)arraylist_i48, (java.lang.Integer)10);
     int i68 = java.util.Collections.indexOfSubList((java.util.List<java.lang.Integer>)arraylist_i33, (java.util.List<java.lang.Integer>)arraylist_i48);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b3 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(random_array9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b10 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array22);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b23 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b24 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array_array26);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b27 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array31);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b32 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array35);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b36 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array39);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b40 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i41 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i42 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i43 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array46);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b47 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array50);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b51 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i52 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + i53 + "' != '" + 1+ "'", i53.equals(1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array56);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b57 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array60);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b61 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i62 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i64 == (-2));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i65 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i67 == (-2));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i68 == (-1));
 
@@ -11262,49 +11262,49 @@ public class RegressionTest0 {
     java.util.Comparator<java.lang.Object> comparator_obj28 = java.util.Collections.reverseOrder(comparator_obj25);
     java.util.Comparator<java.lang.Object> comparator_obj29 = java.util.Collections.reverseOrder(comparator_obj25);
     int i30 = java.util.Collections.binarySearch((java.util.List<java.util.Collections>)arraylist_collections0, collections9, comparator_obj25);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array1);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b2 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i7 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b13 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array15);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b16 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i19 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b20 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(comparator_obj25);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i26 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(comparator_obj27);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(comparator_obj28);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(comparator_obj29);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i30 == (-1));
 
@@ -11346,55 +11346,55 @@ public class RegressionTest0 {
     java.util.Comparator<java.lang.Object> comparator_obj30 = java.util.Collections.reverseOrder(comparator_obj28);
     int i31 = java.util.Collections.binarySearch(list_collections10, collections12, comparator_obj28);
     int i32 = java.util.Collections.frequency((java.util.Collection<java.lang.String>)list_str3, (java.lang.Object)collections12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(list_str2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(list_str3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b6 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i9 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(list_collections10);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array15);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b16 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array18);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b19 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i22 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b23 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(comparator_obj28);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i29 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(comparator_obj30);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i31 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i32 == 0);
 
@@ -11413,16 +11413,16 @@ public class RegressionTest0 {
     java.util.TreeSet<java.lang.String> treeset_str6 = new java.util.TreeSet<java.lang.String>((java.util.SortedSet<java.lang.String>)treeset_str1);
     java.util.NavigableSet<java.lang.String> navigableset_str9 = treeset_str6.tailSet("hi!", true);
     java.util.SortedSet<java.lang.String> sortedset_str12 = treeset_str6.subSet("", "");
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str12);
 
@@ -11452,46 +11452,46 @@ public class RegressionTest0 {
     int i20 = java.util.Collections.binarySearch((java.util.List<java.lang.Integer>)arraylist_i14, (java.lang.Integer)100);
     int i21 = java.util.Collections.indexOfSubList((java.util.List<java.lang.Integer>)arraylist_i4, (java.util.List<java.lang.Integer>)arraylist_i14);
     int i23 = java.util.Collections.binarySearch((java.util.List<java.lang.Integer>)arraylist_i4, (java.lang.Integer)(-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b3 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b7 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i8 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + i9 + "' != '" + 1+ "'", i9.equals(1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b13 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array16);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b17 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i18 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i20 == (-2));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i21 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i23 == (-1));
 
@@ -11539,82 +11539,82 @@ public class RegressionTest0 {
     boolean b60 = arraylist_str36.retainAll((java.util.Collection<java.lang.Object>)arraylist_obj40);
     boolean b61 = treeset_str22.retainAll((java.util.Collection<java.lang.Object>)arraylist_obj40);
     java.util.stream.Stream<java.lang.String> stream_str62 = treeset_str22.stream();
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array10);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b11 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str14);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str15 + "' != '" + ""+ "'", str15.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str17);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b18 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str19);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i20 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array25);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b26 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str28);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str31);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i33 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b35 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array38);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b39 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(random_array45);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b46 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array58);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b59 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b60 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b61 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(stream_str62);
 
@@ -11663,85 +11663,85 @@ public class RegressionTest0 {
     boolean b61 = treeset_str22.retainAll((java.util.Collection<java.lang.Object>)arraylist_obj40);
     java.lang.Boolean[] b_array62 = new java.lang.Boolean[] {  };
     boolean b63 = java.util.Collections.addAll((java.util.Collection<java.lang.Object>)arraylist_obj40, b_array62);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array10);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b11 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str14);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str15 + "' != '" + ""+ "'", str15.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str17);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b18 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str19);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i20 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array25);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b26 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str28);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str31);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i33 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b35 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array38);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b39 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(random_array45);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b46 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array58);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b59 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b60 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b61 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(b_array62);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b63 == false);
 
@@ -11768,17 +11768,17 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b5 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str8);
 
@@ -11803,34 +11803,34 @@ public class RegressionTest0 {
     boolean b15 = treeset_str0.addAll((java.util.Collection<java.lang.String>)treeset_str10);
     java.lang.String str16 = treeset_str10.pollLast();
     boolean b18 = treeset_str10.add("[hi!]");
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str8 + "' != '" + ""+ "'", str8.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str14);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b15 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str16);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b18 == true);
 
@@ -11900,110 +11900,110 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.IndexOutOfBoundsException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b3 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b7 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i8 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array11);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b12 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array15);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b16 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array19);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b20 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i21 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i22 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i23 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array26);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b27 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(b_array30);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b31 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b33 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b34 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array37);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b38 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array41);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b42 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i43 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array46);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b47 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array50);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b51 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array54);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b55 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i56 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i57 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i58 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i59 == 0);
 
@@ -12076,109 +12076,109 @@ public class RegressionTest0 {
     java.util.TreeSet<java.lang.String> treeset_str75 = new java.util.TreeSet<java.lang.String>(comparator_obj69);
     java.util.TreeSet<java.lang.String> treeset_str76 = new java.util.TreeSet<java.lang.String>(comparator_obj69);
     java.util.NavigableSet<java.lang.String> navigableset_str79 = treeset_str76.tailSet("[]", false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b3 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b6 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i9 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b10 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(list_collections12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array16);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b17 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array19);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b20 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i23 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b24 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array29);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b30 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(random_array36);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b37 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array49);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b50 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b51 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collection_str52);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(stream_str53);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array56);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b57 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array59);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b60 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i63 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b64 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(comparator_obj69);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i70 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(comparator_obj71);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i72 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i73 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i74 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str79);
 
@@ -12206,17 +12206,17 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(random_array1);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b2 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_random3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(enumeration_random4);
 
@@ -12233,16 +12233,16 @@ public class RegressionTest0 {
     boolean b4 = java.util.Collections.addAll((java.util.Collection<java.lang.String>)arraydeque_str0, str_array3);
     java.util.Queue<java.lang.String> queue_str5 = java.util.Collections.asLifoQueue((java.util.Deque<java.lang.String>)arraydeque_str0);
     java.util.Queue<java.lang.String> queue_str6 = java.util.Collections.asLifoQueue((java.util.Deque<java.lang.String>)arraydeque_str0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(queue_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(queue_str6);
 
@@ -12263,28 +12263,28 @@ public class RegressionTest0 {
     java.lang.String str10 = treeset_str0.pollFirst();
     java.lang.String str12 = treeset_str0.ceiling("hi!");
     java.util.SortedSet<java.lang.String> sortedset_str14 = treeset_str0.headSet("");
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str9 + "' != '" + ""+ "'", str9.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str10 + "' != '" + ""+ "'", str10.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str14);
 
@@ -12305,28 +12305,28 @@ public class RegressionTest0 {
     java.util.NavigableSet<java.lang.String> navigableset_str12 = treeset_str0.descendingSet();
     java.lang.String str13 = treeset_str0.first();
     boolean b15 = treeset_str0.add("[hi!]");
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b11 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str13 + "' != '" + ""+ "'", str13.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b15 == true);
 
@@ -12345,26 +12345,26 @@ public class RegressionTest0 {
     java.util.NavigableSet<java.lang.String> navigableset_str9 = treeset_str0.headSet("", false);
     boolean b11 = treeset_str0.add("hi!");
     java.lang.String str12 = treeset_str0.first();
-    java.util.Comparator<java.lang.Object> comparator_obj13 = treeset_str0.comparator();
-    
+    java.util.Comparator<?> comparator_obj13 = treeset_str0.comparator();
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b11 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str12 + "' != '" + ""+ "'", str12.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(comparator_obj13);
 
@@ -12378,7 +12378,7 @@ public class RegressionTest0 {
 
     java.util.List<java.lang.String> list_str2 = java.util.Collections.nCopies(0, "hi!");
     java.util.Collections.shuffle(list_str2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(list_str2);
 
@@ -12419,47 +12419,47 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.ArrayIndexOutOfBoundsException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b3 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b7 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i8 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array11);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b12 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array15);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b16 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array19);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b20 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i21 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i22 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i23 == (-1));
 
@@ -12522,115 +12522,115 @@ public class RegressionTest0 {
     java.lang.Long[] long_array89 = new java.lang.Long[] { 1L, 1L, 100L, 0L, (-1L) };
     java.lang.Long[] long_array90 = treeset_str70.toArray(long_array89);
     java.lang.Long[] long_array91 = arraylist_str0.toArray(long_array89);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b3 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(random_array9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b10 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array22);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b23 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b24 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array27);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b28 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(random_array34);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b35 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array47);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b48 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b49 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array_array51);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b52 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array56);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b57 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array60);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b61 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array64);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b65 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i66 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i67 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i68 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b69 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array73);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b74 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str75);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str77);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str78 + "' != '" + ""+ "'", str78.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i79 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(stream_str80);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str83);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(long_array89);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(long_array90);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(long_array91);
 
@@ -12682,85 +12682,85 @@ public class RegressionTest0 {
     int i68 = java.util.Collections.lastIndexOfSubList((java.util.List<java.lang.Object>)arraylist_obj29, (java.util.List<java.lang.Integer>)arraylist_i54);
     boolean b69 = arraylist_str0.retainAll((java.util.Collection<java.lang.Object>)arraylist_obj29);
     java.util.List<java.lang.String> list_str70 = java.util.Collections.synchronizedList((java.util.List<java.lang.String>)arraylist_str0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b3 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(random_array9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b10 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array22);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b23 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b24 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array27);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b28 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(random_array34);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b35 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array47);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b48 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b49 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array_array51);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b52 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array56);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b57 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array60);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b61 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array64);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b65 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i66 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i67 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i68 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b69 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(list_str70);
 
@@ -12785,34 +12785,34 @@ public class RegressionTest0 {
     java.lang.String str17 = treeset_str7.lower("");
     boolean b18 = treeset_str1.addAll((java.util.Collection<java.lang.String>)treeset_str7);
     java.util.NavigableSet<java.lang.String> navigableset_str23 = treeset_str7.subSet("", false, "[hi!]", true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array10);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b11 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str14);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str15 + "' != '" + ""+ "'", str15.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str17);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b18 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str23);
 
@@ -12839,17 +12839,17 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b5 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str8);
 
@@ -12876,37 +12876,37 @@ public class RegressionTest0 {
     int i15 = java.util.Collections.binarySearch((java.util.List<java.util.Collections>)arraylist_collections10, collections13, comparator_obj14);
     java.util.List<java.util.Collections> list_collections16 = java.util.Collections.unmodifiableList((java.util.List<java.util.Collections>)arraylist_collections10);
     boolean b17 = treeset_str0.removeAll((java.util.Collection<java.util.Collections>)list_collections16);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(spliterator_str8);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i9 == 1);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array11);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b12 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i15 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(list_collections16);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b17 == false);
 
@@ -12941,64 +12941,64 @@ public class RegressionTest0 {
     java.lang.Long[] long_array35 = treeset_str13.toArray(long_array33);
     java.util.NavigableSet<java.lang.String> navigableset_str38 = treeset_str13.tailSet("[hi!]", false);
     java.util.Iterator<java.lang.String> iterator_str39 = treeset_str13.iterator();
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str8 + "' != '" + ""+ "'", str8.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array17);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b18 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str19);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str21);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str22 + "' != '" + ""+ "'", str22.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i23 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(stream_str24);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str27);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(long_array33);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(long_array34);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(long_array35);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str38);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str39);
 
@@ -13057,106 +13057,106 @@ public class RegressionTest0 {
     int i74 = java.util.Collections.indexOfSubList((java.util.List<java.lang.Integer>)arraylist_i66, (java.util.List<java.lang.Integer>)arraylist_i70);
     int i75 = java.util.Collections.indexOfSubList((java.util.List<java.lang.Integer>)arraylist_i62, (java.util.List<java.lang.Integer>)arraylist_i66);
     int i76 = java.util.Collections.lastIndexOfSubList((java.util.List<java.lang.Object>)arraylist_obj40, (java.util.List<java.lang.Integer>)arraylist_i66);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array10);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b11 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str14);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str15 + "' != '" + ""+ "'", str15.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str17);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b18 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str19);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i20 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array25);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b26 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str28);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str31);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i33 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b35 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array38);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b39 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(random_array45);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b46 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array58);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b59 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b60 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b61 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array64);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b65 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array68);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b69 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array72);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b73 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i74 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i75 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i76 == (-1));
 
@@ -13177,25 +13177,25 @@ public class RegressionTest0 {
     java.util.TreeSet<java.lang.String> treeset_str12 = new java.util.TreeSet<java.lang.String>((java.util.SortedSet<java.lang.String>)treeset_str0);
     java.util.Spliterator<java.lang.String> spliterator_str13 = treeset_str12.spliterator();
     boolean b14 = treeset_str12.isEmpty();
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i11 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(spliterator_str13);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b14 == false);
 
@@ -13215,31 +13215,31 @@ public class RegressionTest0 {
     boolean b8 = java.util.Collections.addAll((java.util.Collection<java.lang.String>)treeset_str4, str_array7);
     java.util.SortedSet<java.lang.String> sortedset_str10 = treeset_str4.headSet("");
     java.util.NavigableSet<java.lang.String> navigableset_str13 = treeset_str4.headSet("", false);
-    java.util.Comparator<java.lang.Object> comparator_obj14 = treeset_str4.comparator();
+    java.util.Comparator<?> comparator_obj14 = treeset_str4.comparator();
     java.lang.String str15 = treeset_str4.first();
     boolean b16 = treeset_str1.equals((java.lang.Object)treeset_str4);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b8 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str10);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str13);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(comparator_obj14);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str15 + "' != '" + ""+ "'", str15.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b16 == false);
 
@@ -13281,50 +13281,50 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.IndexOutOfBoundsException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b3 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b7 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i8 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array11);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b12 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array15);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b16 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array19);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b20 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i21 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i22 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i23 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i25 == (-2));
 
@@ -13358,58 +13358,58 @@ public class RegressionTest0 {
     java.lang.Long[] long_array34 = treeset_str14.toArray(long_array33);
     java.lang.Long[] long_array35 = treeset_str13.toArray(long_array33);
     java.util.TreeSet<java.lang.String> treeset_str36 = new java.util.TreeSet<java.lang.String>((java.util.Collection<java.lang.String>)treeset_str13);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str8 + "' != '" + ""+ "'", str8.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array17);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b18 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str19);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str21);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str22 + "' != '" + ""+ "'", str22.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i23 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(stream_str24);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str27);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(long_array33);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(long_array34);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(long_array35);
 
@@ -13433,31 +13433,31 @@ public class RegressionTest0 {
     java.util.SortedSet<java.lang.String> sortedset_str14 = treeset_str10.headSet("");
     boolean b15 = treeset_str0.addAll((java.util.Collection<java.lang.String>)treeset_str10);
     java.util.Iterator<java.lang.String> iterator_str16 = treeset_str10.iterator();
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str8 + "' != '" + ""+ "'", str8.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str14);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b15 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str16);
 
@@ -13486,43 +13486,43 @@ public class RegressionTest0 {
     java.util.TreeSet<java.lang.String> treeset_str27 = new java.util.TreeSet<java.lang.String>((java.util.Collection<java.lang.String>)treeset_str15);
     java.util.stream.Stream<java.lang.String> stream_str28 = treeset_str27.stream();
     boolean b29 = treeset_str12.equals((java.lang.Object)stream_str28);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i11 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b14 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array18);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b19 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str21);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str24);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b26 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(stream_str28);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b29 == false);
 
@@ -13570,79 +13570,79 @@ public class RegressionTest0 {
     int i52 = java.util.Collections.indexOfSubList((java.util.List<java.lang.Integer>)arraylist_i44, (java.util.List<java.lang.Integer>)arraylist_i48);
     java.lang.Integer i53 = java.util.Collections.min((java.util.Collection<java.lang.Integer>)arraylist_i48);
     int i54 = java.util.Collections.lastIndexOfSubList((java.util.List<java.lang.Object>)arraylist_obj4, (java.util.List<java.lang.Integer>)arraylist_i48);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b3 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(random_array9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b10 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array22);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b23 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b24 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array_array26);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b27 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array31);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b32 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array35);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b36 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array39);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b40 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i41 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i42 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i43 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array46);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b47 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array50);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b51 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i52 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + i53 + "' != '" + 1+ "'", i53.equals(1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i54 == (-1));
 
@@ -13713,133 +13713,133 @@ public class RegressionTest0 {
     boolean b76 = java.util.Collections.disjoint((java.util.Collection<java.lang.Integer>)linkedhashset_i63, (java.util.Collection<java.lang.Boolean>)arraylist_b71);
     boolean b77 = java.util.Collections.disjoint((java.util.Collection<java.lang.Integer>)arraylist_i7, (java.util.Collection<java.lang.Boolean>)arraylist_b71);
     int i78 = java.util.Collections.indexOfSubList((java.util.List<java.lang.Integer>)arraylist_i0, (java.util.List<java.lang.Integer>)arraylist_i7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array4);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b5 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + i6 + "' != '" + (-2)+ "'", i6.equals((-2)));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b10 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(b_array13);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b14 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b16 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array19);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b20 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array23);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b24 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i25 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array28);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b29 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array32);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b33 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array36);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b37 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i38 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i39 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i40 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array43);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b44 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(b_array47);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b48 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b50 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b51 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array54);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b55 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array58);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b59 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i60 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i61 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i62 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array68);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b69 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(set_i70);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(b_array74);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b75 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b76 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b77 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i78 == (-1));
 
@@ -13879,19 +13879,19 @@ public class RegressionTest0 {
     java.lang.String str7 = treeset_str0.higher("hi!");
     java.util.NavigableSet<java.lang.String> navigableset_str10 = treeset_str0.tailSet("", true);
     java.util.TreeSet<java.lang.String> treeset_str11 = new java.util.TreeSet<java.lang.String>((java.util.Collection<java.lang.String>)navigableset_str10);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str10);
 
@@ -13924,29 +13924,29 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.util.NoSuchElementException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(spliterator_str10);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i11 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str13);
 
@@ -13977,54 +13977,54 @@ public class RegressionTest0 {
     java.util.NavigableSet<java.lang.Boolean> navigableset_b22 = java.util.Collections.synchronizedNavigableSet(navigableset_b21);
     boolean b23 = treeset_str0.containsAll((java.util.Collection<java.lang.Boolean>)navigableset_b21);
     java.util.NavigableSet<java.lang.String> navigableset_str26 = treeset_str0.tailSet("", false);
-    java.util.Comparator<java.lang.Object> comparator_obj27 = treeset_str0.comparator();
+    java.util.Comparator<?> comparator_obj27 = treeset_str0.comparator();
     java.util.TreeSet<java.lang.String> treeset_str28 = new java.util.TreeSet<java.lang.String>((java.util.SortedSet<java.lang.String>)treeset_str0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str8 + "' != '" + ""+ "'", str8.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str14);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b15 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array16);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(b_array19);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b20 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_b21);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_b22);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b23 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str26);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(comparator_obj27);
 
@@ -14048,37 +14048,37 @@ public class RegressionTest0 {
     java.util.SortedSet<java.lang.String> sortedset_str14 = treeset_str0.headSet("[]");
     java.util.SortedSet<java.lang.String> sortedset_str16 = treeset_str0.headSet("");
     java.lang.Object[] obj_array17 = treeset_str0.toArray();
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str8 + "' != '" + ""+ "'", str8.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b11 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(spliterator_str12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str14);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str16);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array17);
 
@@ -14102,34 +14102,34 @@ public class RegressionTest0 {
     java.util.Spliterator<java.lang.String> spliterator_str13 = treeset_str1.spliterator();
     java.util.SortedSet<java.lang.String> sortedset_str15 = treeset_str1.headSet("[]");
     boolean b16 = treeset_str0.addAll((java.util.Collection<java.lang.String>)sortedset_str15);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array4);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b5 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str8);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str9 + "' != '" + ""+ "'", str9.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str10);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b12 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(spliterator_str13);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str15);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b16 == false);
 
@@ -14164,32 +14164,32 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.ClassCastException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i11 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str14);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str16);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str20);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str22);
 
@@ -14208,22 +14208,22 @@ public class RegressionTest0 {
     java.util.Set<java.lang.Boolean> set_b9 = java.util.Collections.EMPTY_SET;
     boolean b10 = java.util.Collections.disjoint((java.util.Collection<java.lang.Integer>)linkedhashset_i0, (java.util.Collection<java.lang.Boolean>)set_b9);
     java.util.Set<java.lang.Integer> set_i11 = java.util.Collections.synchronizedSet((java.util.Set<java.lang.Integer>)linkedhashset_i0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b7 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(set_i8);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(set_b9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b10 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(set_i11);
 
@@ -14242,22 +14242,22 @@ public class RegressionTest0 {
     java.util.Queue<java.lang.String> queue_str6 = java.util.Collections.asLifoQueue((java.util.Deque<java.lang.String>)arraydeque_str0);
     java.util.Queue<java.lang.String> queue_str7 = java.util.Collections.asLifoQueue((java.util.Deque<java.lang.String>)arraydeque_str0);
     java.util.Queue<java.lang.String> queue_str8 = java.util.Collections.asLifoQueue((java.util.Deque<java.lang.String>)arraydeque_str0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(queue_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(queue_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(queue_str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(queue_str8);
 
@@ -14333,109 +14333,109 @@ public class RegressionTest0 {
     java.util.Comparator<java.lang.Object> comparator_obj67 = java.util.Collections.reverseOrder(comparator_obj64);
     java.util.Collections.sort((java.util.List<java.lang.Boolean>)arraylist_b43, comparator_obj64);
     int i69 = java.util.Collections.binarySearch((java.util.List<java.util.Collections>)arraylist_collections0, collections38, comparator_obj64);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array1);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b2 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i5 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b10 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(b_array13);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b14 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b16 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array19);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b20 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array22);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b23 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i26 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b27 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(comparator_obj32);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i33 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(comparator_obj34);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(comparator_obj35);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i37 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array41);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b42 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(b_array45);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b46 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b48 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array51);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b52 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array54);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b55 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i58 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b59 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(comparator_obj64);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i65 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(comparator_obj66);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(comparator_obj67);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i69 == (-1));
 
@@ -14468,32 +14468,32 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.ClassCastException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b3 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_i4);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_i5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(set_i6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(b_array9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b10 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_b11);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_b12);
 
@@ -14522,20 +14522,20 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.IllegalArgumentException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b7 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b9 == true);
 
@@ -14564,20 +14564,20 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b9 == false);
 
@@ -14590,7 +14590,7 @@ public class RegressionTest0 {
 
 
     java.util.List<java.lang.String> list_str2 = java.util.Collections.nCopies(10, "[]");
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(list_str2);
 
@@ -14613,31 +14613,31 @@ public class RegressionTest0 {
     int i11 = treeset_str0.size();
     java.util.SortedSet<java.lang.String> sortedset_str13 = treeset_str0.headSet("");
     java.util.stream.Stream<java.lang.String> stream_str14 = sortedset_str13.stream();
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(spliterator_str10);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i11 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str13);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(stream_str14);
 
@@ -14658,25 +14658,25 @@ public class RegressionTest0 {
     java.lang.String str10 = treeset_str0.pollFirst();
     java.util.TreeSet<java.lang.String> treeset_str11 = new java.util.TreeSet<java.lang.String>((java.util.SortedSet<java.lang.String>)treeset_str0);
     java.util.NavigableSet<java.lang.String> navigableset_str12 = treeset_str0.descendingSet();
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str9 + "' != '" + ""+ "'", str9.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str10 + "' != '" + ""+ "'", str10.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str12);
 
@@ -14727,50 +14727,50 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.ClassCastException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b10 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(random_array16);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b17 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array29);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b30 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b31 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array_array33);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b34 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b36 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b38 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(b_array41);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b42 == true);
 
@@ -14793,16 +14793,16 @@ public class RegressionTest0 {
     java.util.Collections.fill(list_collections6, collections7);
     java.util.Collections collections9 = null;
     java.util.Collections.fill(list_collections6, collections9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array1);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b2 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i5 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(list_collections6);
 
@@ -14844,28 +14844,28 @@ public class RegressionTest0 {
     boolean b13 = java.util.Collections.addAll((java.util.Collection<java.lang.Boolean>)arraylist_b9, b_array12);
     boolean b14 = java.util.Collections.disjoint((java.util.Collection<java.lang.Integer>)list_i8, (java.util.Collection<java.lang.Boolean>)arraylist_b9);
     boolean b15 = java.util.Collections.disjoint((java.util.Collection<java.lang.Integer>)set_i7, (java.util.Collection<java.lang.Boolean>)arraylist_b9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b6 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(set_i7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(list_i8);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(b_array12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b13 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b14 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b15 == true);
 
@@ -14883,19 +14883,19 @@ public class RegressionTest0 {
     java.util.Iterator<java.lang.String> iterator_str5 = treeset_str0.descendingIterator();
     java.util.Spliterator<java.lang.String> spliterator_str6 = treeset_str0.spliterator();
     java.util.Iterator<java.lang.String> iterator_str7 = treeset_str0.descendingIterator();
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(spliterator_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str7);
 
@@ -14913,19 +14913,19 @@ public class RegressionTest0 {
     java.util.NavigableSet<java.lang.Long> navigableset_long8 = java.util.Collections.unmodifiableNavigableSet((java.util.NavigableSet<java.lang.Long>)treeset_long0);
     java.util.NavigableSet<java.lang.Long> navigableset_long9 = java.util.Collections.unmodifiableNavigableSet((java.util.NavigableSet<java.lang.Long>)treeset_long0);
     java.lang.Long long10 = java.util.Collections.max((java.util.Collection<java.lang.Long>)navigableset_long9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(long_array6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b7 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_long8);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_long9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + long10 + "' != '" + 100L+ "'", long10.equals(100L));
 
@@ -14941,13 +14941,13 @@ public class RegressionTest0 {
     java.lang.String[] str_array2 = new java.lang.String[] { "[]" };
     boolean b3 = java.util.Collections.addAll((java.util.Collection<java.lang.String>)arraydeque_str0, str_array2);
     java.util.Queue<java.lang.String> queue_str4 = java.util.Collections.asLifoQueue((java.util.Deque<java.lang.String>)arraydeque_str0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b3 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(queue_str4);
 
@@ -14965,16 +14965,16 @@ public class RegressionTest0 {
     java.util.SortedSet<java.lang.String> sortedset_str5 = treeset_str1.headSet("");
     java.lang.String str7 = treeset_str1.higher("[]");
     java.lang.String str9 = treeset_str1.lower("[hi!]");
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str9);
 
@@ -15002,40 +15002,40 @@ public class RegressionTest0 {
     java.util.Comparator<java.lang.Object[]> comparator_obj_array18 = null;
     java.lang.Object[] obj_array19 = java.util.Collections.max((java.util.Collection<java.lang.Object[]>)set_obj_array17, comparator_obj_array18);
     java.util.Set<java.lang.Object[]> set_obj_array20 = java.util.Collections.unmodifiableSet(set_obj_array17);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str8 + "' != '" + ""+ "'", str8.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str14);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b15 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array16);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(set_obj_array17);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array19);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(set_obj_array20);
 
@@ -15054,23 +15054,23 @@ public class RegressionTest0 {
     java.util.NavigableSet<java.lang.String> navigableset_str9 = treeset_str0.headSet("", false);
     boolean b11 = treeset_str0.add("hi!");
     java.util.TreeSet<java.lang.String> treeset_str12 = new java.util.TreeSet<java.lang.String>((java.util.Collection<java.lang.String>)treeset_str0);
-    java.util.Comparator<java.lang.Object> comparator_obj13 = treeset_str12.comparator();
-    
+    java.util.Comparator<?> comparator_obj13 = treeset_str12.comparator();
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b11 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(comparator_obj13);
 
@@ -15102,11 +15102,11 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.util.NoSuchElementException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array_array1);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b2 == false);
 
@@ -15136,17 +15136,17 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj7);
 
@@ -15182,61 +15182,61 @@ public class RegressionTest0 {
     boolean b31 = treeset_str14.addAll((java.util.Collection<java.lang.String>)treeset_str20);
     int i32 = treeset_str20.size();
     boolean b33 = treeset_str0.addAll((java.util.Collection<java.lang.String>)treeset_str20);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(spliterator_str10);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i11 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str12 + "' != '" + "[]"+ "'", str12.equals("[]"));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str16);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str19);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array23);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b24 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str25);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str27);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str28 + "' != '" + ""+ "'", str28.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str30);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b31 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i32 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b33 == false);
 
@@ -15257,25 +15257,25 @@ public class RegressionTest0 {
     boolean b8 = treeset_str1.isEmpty();
     java.lang.String str9 = treeset_str1.pollLast();
     java.util.SortedSet<java.lang.String> sortedset_str12 = treeset_str1.subSet("hi!", "hi!");
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b7 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b8 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str12);
 
@@ -15303,11 +15303,11 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str5);
 
@@ -15330,31 +15330,31 @@ public class RegressionTest0 {
     java.util.TreeSet<java.lang.String> treeset_str13 = new java.util.TreeSet<java.lang.String>((java.util.Collection<java.lang.String>)navigableset_str12);
     java.util.SortedSet<java.lang.String> sortedset_str15 = treeset_str13.tailSet("");
     java.util.SortedSet<java.lang.String> sortedset_str18 = treeset_str13.subSet("hi!", "hi!");
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str8 + "' != '" + ""+ "'", str8.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str15);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str18);
 
@@ -15374,25 +15374,25 @@ public class RegressionTest0 {
     java.util.SortedSet<java.util.Random> sortedset_random5 = java.util.Collections.unmodifiableSortedSet(sortedset_random3);
     java.util.Enumeration<java.util.Random> enumeration_random6 = java.util.Collections.enumeration((java.util.Collection<java.util.Random>)sortedset_random5);
     java.util.SortedSet<java.util.Random> sortedset_random7 = java.util.Collections.unmodifiableSortedSet(sortedset_random5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(random_array1);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b2 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_random3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(enumeration_random4);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_random5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(enumeration_random6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_random7);
 
@@ -15415,34 +15415,34 @@ public class RegressionTest0 {
     java.util.Spliterator<java.lang.String> spliterator_str12 = treeset_str0.spliterator();
     java.util.SortedSet<java.lang.String> sortedset_str14 = treeset_str0.headSet("[]");
     boolean b15 = treeset_str0.isEmpty();
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str8 + "' != '" + ""+ "'", str8.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b11 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(spliterator_str12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str14);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b15 == true);
 
@@ -15459,24 +15459,24 @@ public class RegressionTest0 {
     boolean b4 = java.util.Collections.addAll((java.util.Collection<java.lang.String>)treeset_str0, str_array3);
     java.util.Iterator<java.lang.String> iterator_str5 = treeset_str0.iterator();
     java.lang.String str7 = treeset_str0.higher("hi!");
-    java.util.Comparator<java.lang.Object> comparator_obj8 = treeset_str0.comparator();
+    java.util.Comparator<?> comparator_obj8 = treeset_str0.comparator();
     java.lang.Object obj9 = treeset_str0.clone();
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(comparator_obj8);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj9);
 
@@ -15493,16 +15493,16 @@ public class RegressionTest0 {
     boolean b3 = java.util.Collections.addAll((java.util.Collection<java.lang.String>)arraydeque_str0, str_array2);
     java.util.Queue<java.lang.String> queue_str4 = java.util.Collections.asLifoQueue((java.util.Deque<java.lang.String>)arraydeque_str0);
     java.util.Queue<java.lang.String> queue_str5 = java.util.Collections.asLifoQueue((java.util.Deque<java.lang.String>)arraydeque_str0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b3 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(queue_str4);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(queue_str5);
 
@@ -15520,19 +15520,19 @@ public class RegressionTest0 {
     java.util.Iterator<java.lang.String> iterator_str5 = treeset_str0.iterator();
     java.lang.String str7 = treeset_str0.higher("hi!");
     java.util.Iterator<java.lang.String> iterator_str8 = treeset_str0.iterator();
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str8);
 
@@ -15559,40 +15559,40 @@ public class RegressionTest0 {
     java.util.Spliterator<java.lang.String> spliterator_str19 = treeset_str7.spliterator();
     java.lang.String str21 = treeset_str7.higher("hi!");
     java.lang.String str23 = treeset_str7.floor("[hi!]");
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array10);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b11 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str14);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str15 + "' != '" + ""+ "'", str15.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str17);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b18 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(spliterator_str19);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str21);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str23);
 
@@ -15619,14 +15619,14 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(random_array1);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b2 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_random3);
 
@@ -15640,10 +15640,10 @@ public class RegressionTest0 {
 
     java.util.SortedSet<java.lang.Object[]> sortedset_obj_array0 = java.util.Collections.emptySortedSet();
     java.util.Set<java.lang.Object[]> set_obj_array1 = java.util.Collections.unmodifiableSet((java.util.Set<java.lang.Object[]>)sortedset_obj_array0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_obj_array0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(set_obj_array1);
 
@@ -15665,28 +15665,28 @@ public class RegressionTest0 {
     java.lang.String str13 = treeset_str0.pollFirst();
     java.util.NavigableSet<java.lang.String> navigableset_str14 = treeset_str0.descendingSet();
     java.lang.String str16 = treeset_str0.higher("[]");
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i11 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str13 + "' != '" + ""+ "'", str13.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str14);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str16);
 
@@ -15706,25 +15706,25 @@ public class RegressionTest0 {
     java.lang.Long long13 = java.util.Collections.max((java.util.Collection<java.lang.Long>)arraylist_long0);
     boolean b16 = java.util.Collections.replaceAll((java.util.List<java.lang.Long>)arraylist_long0, (java.lang.Long)0L, (java.lang.Long)0L);
     java.lang.Long long17 = java.util.Collections.max((java.util.Collection<java.lang.Long>)arraylist_long0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(long_array5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b6 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b9 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b12 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + long13 + "' != '" + 100L+ "'", long13.equals(100L));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b16 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + long17 + "' != '" + 100L+ "'", long17.equals(100L));
 
@@ -15749,34 +15749,34 @@ public class RegressionTest0 {
     int i13 = java.util.Collections.indexOfSubList((java.util.List<java.lang.Integer>)arraylist_i0, (java.util.List<java.lang.Integer>)arraylist_i4);
     int i15 = java.util.Collections.binarySearch((java.util.List<java.lang.Integer>)arraylist_i4, (java.lang.Integer)(-2));
     int i17 = java.util.Collections.binarySearch((java.util.List<java.lang.Integer>)arraylist_i4, (java.lang.Integer)1);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b3 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b7 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array10);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b11 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i12 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i13 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i15 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i17 == (-2));
 
@@ -15797,28 +15797,28 @@ public class RegressionTest0 {
     int i9 = treeset_str0.size();
     java.util.Iterator<java.lang.String> iterator_str10 = treeset_str0.descendingIterator();
     java.lang.String str12 = treeset_str0.lower("[hi!]");
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str8 + "' != '" + ""+ "'", str8.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i9 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str10);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str12);
 
@@ -15853,61 +15853,61 @@ public class RegressionTest0 {
     java.util.NavigableSet<java.lang.String> navigableset_str33 = treeset_str24.headSet("", false);
     int i35 = java.util.Collections.frequency((java.util.Collection<java.lang.String>)treeset_str24, (java.lang.Object)' ');
     boolean b36 = treeset_str7.addAll((java.util.Collection<java.lang.String>)treeset_str24);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array10);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b11 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str14);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str15 + "' != '" + ""+ "'", str15.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str17);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b18 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(spliterator_str19);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str20);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(stream_str21);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str23);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array27);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b28 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str30);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str33);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i35 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b36 == true);
 
@@ -15928,28 +15928,28 @@ public class RegressionTest0 {
     java.lang.String str10 = treeset_str0.pollFirst();
     java.util.Spliterator<java.lang.String> spliterator_str11 = treeset_str0.spliterator();
     java.lang.String str13 = treeset_str0.higher("hi!");
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str9 + "' != '" + ""+ "'", str9.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str10 + "' != '" + ""+ "'", str10.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(spliterator_str11);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str13);
 
@@ -16013,124 +16013,124 @@ public class RegressionTest0 {
     java.lang.Object[][] obj_array_array86 = new java.lang.Object[][] { b_array63, long_array85 };
     boolean b87 = java.util.Collections.addAll((java.util.Collection<java.lang.Object[]>)linkedhashset_obj_array0, obj_array_array86);
     java.util.Set<java.lang.Object[]> set_obj_array88 = java.util.Collections.unmodifiableSet((java.util.Set<java.lang.Object[]>)linkedhashset_obj_array0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str4);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array11);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b12 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str13);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str15);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str16 + "' != '" + ""+ "'", str16.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str18);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b19 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str20);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i21 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array26);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b27 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str29);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str32);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i34 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b36 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array39);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b40 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(random_array46);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b47 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array59);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b60 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b61 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b62 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(b_array63);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b64 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array68);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b69 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str70);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str72);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str73 + "' != '" + ""+ "'", str73.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i74 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(stream_str75);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str78);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(long_array84);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(long_array85);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array_array86);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b87 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(set_obj_array88);
 
@@ -16151,22 +16151,22 @@ public class RegressionTest0 {
     java.util.TreeSet<java.lang.String> treeset_str12 = new java.util.TreeSet<java.lang.String>((java.util.SortedSet<java.lang.String>)treeset_str0);
     boolean b14 = treeset_str12.add("hi!");
     java.util.TreeSet<java.lang.String> treeset_str15 = new java.util.TreeSet<java.lang.String>((java.util.Collection<java.lang.String>)treeset_str12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i11 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b14 == true);
 
@@ -16189,31 +16189,31 @@ public class RegressionTest0 {
     int i11 = treeset_str0.size();
     java.util.SortedSet<java.lang.String> sortedset_str13 = treeset_str0.headSet("");
     java.lang.String str15 = treeset_str0.ceiling("");
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(spliterator_str10);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i11 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str13);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str15);
 
@@ -16234,25 +16234,25 @@ public class RegressionTest0 {
     java.lang.String str11 = treeset_str0.ceiling("");
     java.util.Comparator<java.lang.String> comparator_str12 = null;
     java.lang.String str13 = java.util.Collections.min((java.util.Collection<java.lang.String>)treeset_str0, comparator_str12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str11 + "' != '" + ""+ "'", str11.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str13 + "' != '" + ""+ "'", str13.equals(""));
 
@@ -16271,16 +16271,16 @@ public class RegressionTest0 {
     java.util.Iterator<java.lang.String> iterator_str6 = treeset_str1.descendingIterator();
     java.util.NavigableSet<java.lang.String> navigableset_str7 = treeset_str1.descendingSet();
     treeset_str1.clear();
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str7);
 
@@ -16304,7 +16304,7 @@ public class RegressionTest0 {
     java.util.SortedSet<java.lang.String> sortedset_str14 = treeset_str10.headSet("");
     boolean b15 = treeset_str0.addAll((java.util.Collection<java.lang.String>)treeset_str10);
     java.lang.Object[] obj_array16 = treeset_str0.toArray();
-    java.util.Comparator<java.lang.Object> comparator_obj17 = treeset_str0.comparator();
+    java.util.Comparator<?> comparator_obj17 = treeset_str0.comparator();
     java.util.Comparator<java.lang.Object> comparator_obj18 = null;
     java.util.TreeSet<java.lang.String> treeset_str19 = new java.util.TreeSet<java.lang.String>(comparator_obj18);
     java.lang.String str21 = treeset_str19.higher("hi!");
@@ -16312,46 +16312,46 @@ public class RegressionTest0 {
     java.util.TreeSet<java.lang.String> treeset_str24 = new java.util.TreeSet<java.lang.String>((java.util.SortedSet<java.lang.String>)treeset_str19);
     boolean b25 = treeset_str0.addAll((java.util.Collection<java.lang.String>)treeset_str19);
     java.lang.String str27 = treeset_str0.floor("");
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str8 + "' != '" + ""+ "'", str8.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str14);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b15 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array16);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(comparator_obj17);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str21);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str23);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b25 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str27);
 
@@ -16376,40 +16376,40 @@ public class RegressionTest0 {
     java.util.NavigableSet<java.lang.String> navigableset_str17 = treeset_str0.headSet("", false);
     java.lang.String str19 = treeset_str0.lower("[hi!]");
     java.util.NavigableSet<java.lang.String> navigableset_str22 = treeset_str0.tailSet("", true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str8 + "' != '" + ""+ "'", str8.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i9 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(stream_str10);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str13);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(spliterator_str14);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str17);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str19);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str22);
 
@@ -16435,34 +16435,34 @@ public class RegressionTest0 {
     boolean b17 = treeset_str11.isEmpty();
     java.util.SortedSet<java.lang.String> sortedset_str19 = treeset_str11.tailSet("hi!");
     boolean b20 = treeset_str9.addAll((java.util.Collection<java.lang.String>)treeset_str11);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b5 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str8);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str13);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str15);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str16);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b17 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str19);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b20 == false);
 
@@ -16479,16 +16479,16 @@ public class RegressionTest0 {
     boolean b5 = java.util.Collections.addAll((java.util.Collection<java.lang.String>)arraydeque_str0, str_array4);
     java.util.Queue<java.lang.String> queue_str6 = java.util.Collections.asLifoQueue((java.util.Deque<java.lang.String>)arraydeque_str0);
     java.util.Queue<java.lang.String> queue_str7 = java.util.Collections.asLifoQueue((java.util.Deque<java.lang.String>)arraydeque_str0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array4);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b5 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(queue_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(queue_str7);
 
@@ -16526,35 +16526,35 @@ public class RegressionTest0 {
         org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
       }
     }
-    
-    
+
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b3 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(random_array9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b10 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array22);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b23 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b24 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(list_str25);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collection_str26);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(list_str28);
 
@@ -16570,13 +16570,13 @@ public class RegressionTest0 {
     java.lang.String[] str_array3 = new java.lang.String[] { "[]", "[]" };
     boolean b4 = java.util.Collections.addAll((java.util.Collection<java.lang.String>)arraydeque_str0, str_array3);
     java.util.Queue<java.lang.String> queue_str5 = java.util.Collections.asLifoQueue((java.util.Deque<java.lang.String>)arraydeque_str0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(queue_str5);
 
@@ -16596,16 +16596,16 @@ public class RegressionTest0 {
     int i5 = java.util.Collections.binarySearch((java.util.List<java.util.Collections>)arraylist_collections0, collections3, comparator_obj4);
     java.util.List<java.util.Collections> list_collections6 = java.util.Collections.unmodifiableList((java.util.List<java.util.Collections>)arraylist_collections0);
     java.util.Collections.reverse((java.util.List<java.util.Collections>)arraylist_collections0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array1);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b2 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i5 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(list_collections6);
 
@@ -16640,61 +16640,61 @@ public class RegressionTest0 {
     boolean b30 = treeset_str0.addAll((java.util.Collection<java.lang.String>)navigableset_str29);
     java.lang.String str32 = treeset_str0.floor("[]");
     java.util.SortedSet<java.lang.String> sortedset_str34 = treeset_str0.tailSet("");
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str8 + "' != '" + ""+ "'", str8.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str14);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b15 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array19);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b20 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str21);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str23);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str24 + "' != '" + ""+ "'", str24.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i25 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(stream_str26);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str29);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b30 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str32);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str34);
 
@@ -16724,34 +16724,34 @@ public class RegressionTest0 {
     int i16 = java.util.Collections.binarySearch((java.util.List<java.util.Collections>)arraylist_collections4, collections13, comparator_obj15);
     java.util.Comparator<java.lang.Object> comparator_obj17 = java.util.Collections.reverseOrder(comparator_obj15);
     java.util.Comparator<java.lang.Object> comparator_obj18 = java.util.Collections.reverseOrder(comparator_obj17);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array2);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b3 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b6 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i9 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b10 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(comparator_obj15);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i16 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(comparator_obj17);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(comparator_obj18);
 
@@ -16770,22 +16770,22 @@ public class RegressionTest0 {
     java.util.NavigableSet<java.lang.String> navigableset_str7 = treeset_str0.descendingSet();
     boolean b9 = treeset_str0.add("");
     java.lang.String str11 = treeset_str0.ceiling("[hi!]");
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b9 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str11);
 
@@ -16844,115 +16844,115 @@ public class RegressionTest0 {
     java.util.List<java.lang.String> list_str75 = java.util.Collections.synchronizedList((java.util.List<java.lang.String>)arraylist_str33);
     java.util.stream.Stream<java.lang.String> stream_str76 = arraylist_str33.parallelStream();
     boolean b77 = treeset_str0.addAll((java.util.Collection<java.lang.String>)arraylist_str33);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str8 + "' != '" + ""+ "'", str8.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str14);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b15 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array19);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b20 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str21);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str23);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str24 + "' != '" + ""+ "'", str24.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i25 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(stream_str26);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str29);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b30 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str32);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array35);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b36 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(random_array42);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b43 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array55);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b56 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b57 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collection_str58);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(stream_str59);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array65);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b66 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(set_i67);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(b_array71);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b72 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b73 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b74 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(list_str75);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(stream_str76);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b77 == false);
 
@@ -16977,10 +16977,10 @@ public class RegressionTest0 {
     java.util.Collections.shuffle((java.util.List<java.lang.Object[]>)arraylist_obj_array0, random9);
     java.util.Random random11 = null;
     java.util.Collections.shuffle((java.util.List<java.lang.Object[]>)arraylist_obj_array0, random11);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array_array1);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b2 == false);
 
@@ -17030,58 +17030,58 @@ public class RegressionTest0 {
     java.util.Collections.sort((java.util.List<java.lang.Boolean>)arraylist_b0, comparator_obj35);
     java.util.Comparator<java.lang.Object> comparator_obj41 = null;
     java.util.Collections.sort((java.util.List<java.lang.Boolean>)arraylist_b0, comparator_obj41);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(b_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(comparator_obj8);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(i_array12);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b13 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(b_array16);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b17 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b19 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array22);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b23 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(collections_array25);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b26 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i29 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b30 == false);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(comparator_obj35);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i36 == (-1));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(comparator_obj37);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(comparator_obj38);
 
@@ -17108,43 +17108,43 @@ public class RegressionTest0 {
     java.util.Set<java.lang.Object[]> set_obj_array22 = java.util.Collections.singleton((java.lang.Object[])long_array20);
     java.util.Comparator<java.lang.Object[]> comparator_obj_array23 = null;
     java.lang.Object[] obj_array24 = java.util.Collections.max((java.util.Collection<java.lang.Object[]>)set_obj_array22, comparator_obj_array23);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(iterator_str5);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str7);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue("'" + str8 + "' != '" + ""+ "'", str8.equals(""));
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i9 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(stream_str10);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str13);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(long_array19);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(long_array20);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(set_obj_array21);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(set_obj_array22);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(obj_array24);
 
@@ -17165,22 +17165,22 @@ public class RegressionTest0 {
     java.util.TreeSet<java.lang.String> treeset_str12 = new java.util.TreeSet<java.lang.String>((java.util.SortedSet<java.lang.String>)treeset_str0);
     treeset_str12.clear();
     java.lang.String str14 = treeset_str12.pollFirst();
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(str_array3);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(b4 == true);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(sortedset_str6);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNotNull(navigableset_str9);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i11 == 0);
-    
+
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertNull(str14);
 
