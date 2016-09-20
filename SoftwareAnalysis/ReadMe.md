@@ -1,4 +1,7 @@
 #Software Analysis Materials
+##Class Notes
+- [Notes0](Notes.md)
+
 ##On-Course Test Codes
 - [on-course-testing](on-course-testing)
 
