@@ -156,6 +156,54 @@ except possibly the first and last nodes are the same
 - Parameterized unit testing
 - four components: test input, expected ouptut, call actual method, compare methods
 
+##Junit-Test-WRITING
+- example
+```java
+@Test
+public void testXXX(){
+    // we also consider method invocation sequence
+    A a = new A();       //test input vector: parameters are called test input vector
+    a.push(0);
+    a.pop();
+    assert(...)     //test oracle: the statement to judge whether the execution is correct or not
+}
+```
+- `@Before` and `@After`, invoked in every test, e.g 
+    1. @setUp
+    2. test case 1
+    3. @tearDown
+    1. @setUp
+    2. test case 2
+    3. @tearDown
+      
+- EclEmma, highlight the statements covered with different colors
+
+- Test Suite in Junit 4
+    - `@RunWith(Suite.class)`, `@Suite.SuiteClasses`
+    - `@Parameters(name="{index}"{0},{1},{2})`
+
+##Junit4 big chnage
+###Parameterized Junit Tests(PUT)
+- just need to write one function, using parameters to make it easier to be consistent
+
+###Junit Theories
+- Adopts **Contract Model**
+    - Assume, Act, Assert
+    ```java
+    @Theory
+    public void testThoery(double...)
+    {
+        //state assumptions
+        //pefrom actions
+        //assert
+    }
+    ```
+
+##Instrumentation
+- node coverage
+- edge coverage
+- def-use coverage
+
 ##Test-Oracle
 - Def: (Refer to[What is a test oracle, and what is it used for? Stackoverflow](http://stackoverflow.com/questions/23522166/what-is-a-test-oracle-and-what-is-it-used-for))
 > A test oracle is a source of information about whether the output of a program (or function or method) is correct or not.
@@ -170,3 +218,7 @@ except possibly the first and last nodes are the same
 >   3) a documented algorithm that a human could use to calculate correct outputs for given inputs   
 >   4) a human domain expert who can somehow look at the output and tell whether it is correct   
 >   or any other way of telling that output is correct.   
+
+##Random-Generator
+- generate data structures, method sequences
+
