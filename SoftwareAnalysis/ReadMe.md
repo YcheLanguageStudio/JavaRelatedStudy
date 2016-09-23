@@ -2,7 +2,11 @@
 ##Class Notes
 - [Notes0](Notes.md)
 
-##On-Course Test Codes
+##Prof.Cheung-In-Class Codes
+- [UnitTest](in-class-projects/UnitTest)
+- [InClass Workshop](in-class-projects/JunitWorkshop)
+
+##My-On-Course Test Codes
 - [on-course-testing](on-course-testing)
 
 ##Reading Report
