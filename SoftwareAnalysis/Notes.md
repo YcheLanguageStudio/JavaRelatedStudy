@@ -168,14 +168,14 @@ public void testXXX(){
     assert(...)     //test oracle: the statement to judge whether the execution is correct or not
 }
 ```
-- `@Before` and `@After`, invoked in every test, e.g 
+- `@Before` and `@After`, invoked in every test, e.g
     1. @setUp
     2. test case 1
     3. @tearDown
     1. @setUp
     2. test case 2
     3. @tearDown
-      
+
 - EclEmma, highlight the statements covered with different colors
 
 - Test Suite in Junit 4
@@ -207,11 +207,11 @@ public void testXXX(){
 ##Test-Oracle
 - Def: (Refer to[What is a test oracle, and what is it used for? Stackoverflow](http://stackoverflow.com/questions/23522166/what-is-a-test-oracle-and-what-is-it-used-for))
 > A test oracle is a source of information about whether the output of a program (or function or method) is correct or not.
-  
+
 > A test oracle might specify correct output for all possible input or only for specific input. It might not specify actual output values but only constraints on them.
 
 > An oracle isn't a test runner, but a test runner could use an oracle as a source of correct output to which to compare the system-under-test's output, or as a source of constraints against which to evaluate the SUT's output.
-  
+
 > The oracle might be
 >   1) a program (separate from the system under test) which takes the same input and produces the same output    
 >   2) documentation that gives specific correct outputs for specific given inputs   
@@ -221,4 +221,38 @@ public void testXXX(){
 
 ##Random-Generator
 - generate data structures, method sequences
+
+##Automatic Testing Category
+- Random Testing
+- Symbolic Execution
+- Another
+
+##Random Testing
+- Challenge: data-structures, avoid generating redundant tests
+- Randoop(Feedback Direct)
+```
+C holds the valid distinct terms, i.e, a set of terms
+
+C={0, 1, 2, null, false, Mono(1,2,0), Poly(), plus(Poly(), Mono(1,2,0)}
+```
+
+- Built-in Oracles
+    - Equal to null `o.equals(nul)`, always false
+    - Reflexity
+    - Symmetricity
+    - Equals-HashCode
+    - No null ptr exceptions
+
+##Symbolic Execution
+- concrete execution, `x=0`, `y=1`
+- symbolic execution, `x=a`,`y=b`
+- constraints solvers, 2000, 2010 becomes important
+- handle loops, under-certain-assumption
+- Problem
+    - Constraints blow up
+    - Only for Linear 
+    - Need Source Codes(May Call) (Abstract Interpretation)
+    - Inter-Procedure Analysis Complexity, rather than Intro-Procedure
+
+
 
