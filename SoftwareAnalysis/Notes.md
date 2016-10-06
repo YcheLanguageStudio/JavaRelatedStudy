@@ -254,5 +254,46 @@ C={0, 1, 2, null, false, Mono(1,2,0), Poly(), plus(Poly(), Mono(1,2,0)}
     - Need Source Codes(May Call) (Abstract Interpretation)
     - Inter-Procedure Analysis Complexity, rather than Intro-Procedure
 
+##Concolic Testing
+- Concolic = Concrete + Symbolic
+- Depends on concrete seeds are good, but making use of the sharing 
+    - Find the divergence point
+    - [janana](https://github.com/ksen007/janala2) usage: 
+        - just give the concrete seeds to write the driver for janana
+
+##Mutation 
+- mutation coverage is even stronger than prime path coverage, try to mimic all mistakes
+- killing mutant concept
+- mutation analysis, emulate every mistake possibly made by programmers
+- mutation operators
+    - mimic typical programmer mistankes(incorrect variable name)
+    - encourage common test heuristics(cause expr to be 0)
+- criteria
+- tool: pit
+
+##Fault Localization
+- traditional
+    - print
+    - debug
+    - assert, help generate good test oracle for random testing 
+    - examine core dump or stack trace
+- Gzoltar
+- RIP model
+    - reachability
+    - infection 
+    - propagation
+- Ranking Function, basic one in 2005
+$latex X/X+Y , X=(N_{ef}/N_{f}), Y=(N_{es}/N_{s})$
+- Optimize
+    - remove the successful runs identical to failure runs
+##Code Coverage
+- CFG: if-else-return, etc. into control-flow-graph
+
+
+
+
+
+
+
 
 
