@@ -50,19 +50,28 @@ public class IntArrayUtilTest {
 
     @Test
     public void findMinSubArrayLen() throws Exception {
-        int[] num = {1,2,-3,-2,0};
-        assertEquals(2,util.findMinSubArrayLen(-4,num));
-        assertEquals(1,util.findMinSubArrayLen(-2,num));
+        int[] num = {1, 2, -3, -2, 0};
+        assertEquals(2, util.findMinSubArrayLen(-4, num));
+        assertEquals(1, util.findMinSubArrayLen(-2, num));
     }
 
     @Test
     public void getNextPermutationNumber() throws Exception {
+        int[] num = {1, 2, 3, 4, 5};
+        int[] res = {1, 2, 3, 5, 4};
+        util.getNextPermutationNumber(num);
 
+        int[] num1 = {1, -2, 3, 4, 5};
+        int[] res1={1,3,-2,4,5};
+        assertArrayEquals(res1, num1);
     }
 
     @Test
     public void threeSumClosest() throws Exception {
-
+        int num[] = {-1, 2, 0, 4};
+        assertEquals(-5, util.threeSumClosest(num, -4));
+        assertEquals(5, util.threeSumClosest(num, 4));
+        assertEquals(-2, util.threeSumClosest(num, -1));
+        assertEquals(1, util.threeSumClosest(num, 2));
     }
-
 }
