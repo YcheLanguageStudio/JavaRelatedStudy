@@ -14,68 +14,68 @@
 
 - Q1-(2): **How do you use Randoop to generate test cases? (Please give a detailed descriptions on the steps and the parameter settings.)**
 
-- Answer as follows, in three steps
+- Answer: as follows, in three steps
 
-- first, enter into Dir `UserfulShells`, and use the following shell script
+  - first, enter into Dir `UserfulShells`, and use the following shell script
 
-```zsh
-RANDOOP_CLASSPATH="../Local-Jars/randoop-all-3.0.4.jar"
-SRC_CLASSPATH="../AssignmentSubject/bin"
-IO_ARGS="--classlist=my_classes.txt --junit-output-dir=../AssignmentSubject/test_src"
-java -cp $RANDOOP_CLASSPATH:$SRC_CLASSPATH randoop.main.Main gentests $IO_ARGS
-```
+  ```zsh
+  RANDOOP_CLASSPATH="../Local-Jars/randoop-all-3.0.4.jar"
+  SRC_CLASSPATH="../AssignmentSubject/bin"
+  IO_ARGS="--classlist=my_classes.txt --junit-output-dir=../AssignmentSubject/test_src"
+  java -cp $RANDOOP_CLASSPATH:$SRC_CLASSPATH randoop.main.Main gentests $IO_ARGS
+  ```
 
-- second, run the shell
+  - second, run the shell
 
-```zsh
-./use_randoop_gen_tests.sh
-```
+  ```zsh
+  ./use_randoop_gen_tests.sh
+  ```
 
-- third, observe the result, No error-revealing tests to output
+  - third, observe the result, No error-revealing tests to output
 
-```zsh
-policy = sun.security.provider.PolicyFile@568db2f2
-PUBLIC MEMBERS=9
-Explorer = randoop.generation.ForwardGenerator@17d10166
+  ```zsh
+  policy = sun.security.provider.PolicyFile@568db2f2
+  PUBLIC MEMBERS=9
+  Explorer = randoop.generation.ForwardGenerator@17d10166
 
-Progress update: test inputs generated=0, failing inputs=0      (Mon Oct 10 16:17:26 HKT 2016)
-Progress update: test inputs generated=63, failing inputs=0      (Mon Oct 10 16:17:31 HKT 2016)
-Progress update: test inputs generated=112, failing inputs=0      (Mon Oct 10 16:17:36 HKT 2016)
-Progress update: test inputs generated=159, failing inputs=0      (Mon Oct 10 16:17:41 HKT 2016)
-Progress update: test inputs generated=202, failing inputs=0      (Mon Oct 10 16:17:46 HKT 2016)
-Progress update: test inputs generated=251, failing inputs=0      (Mon Oct 10 16:17:51 HKT 2016)
-Progress update: test inputs generated=301, failing inputs=0      (Mon Oct 10 16:17:56 HKT 2016)
-Progress update: test inputs generated=347, failing inputs=0      (Mon Oct 10 16:18:01 HKT 2016)
-Progress update: test inputs generated=389, failing inputs=0      (Mon Oct 10 16:18:06 HKT 2016)
-Progress update: test inputs generated=438, failing inputs=0      (Mon Oct 10 16:18:11 HKT 2016)
-Progress update: test inputs generated=490, failing inputs=0      (Mon Oct 10 16:18:16 HKT 2016)
-Progress update: test inputs generated=544, failing inputs=0      (Mon Oct 10 16:18:21 HKT 2016)
-Progress update: test inputs generated=593, failing inputs=0      (Mon Oct 10 16:18:26 HKT 2016)
-Progress update: test inputs generated=646, failing inputs=0      (Mon Oct 10 16:18:31 HKT 2016)
-Progress update: test inputs generated=700, failing inputs=0      (Mon Oct 10 16:18:36 HKT 2016)
-Progress update: test inputs generated=757, failing inputs=0      (Mon Oct 10 16:18:41 HKT 2016)
-Progress update: test inputs generated=812, failing inputs=0      (Mon Oct 10 16:18:46 HKT 2016)
-Progress update: test inputs generated=862, failing inputs=0      (Mon Oct 10 16:18:51 HKT 2016)
-Progress update: test inputs generated=911, failing inputs=0      (Mon Oct 10 16:18:56 HKT 2016)
-Progress update: test inputs generated=956, failing inputs=0      (Mon Oct 10 16:19:01 HKT 2016)
-Progress update: test inputs generated=994, failing inputs=0      (Mon Oct 10 16:19:06 HKT 2016)
-Progress update: test inputs generated=995, failing inputs=0      (Mon Oct 10 16:19:06 HKT 2016)
-Normal method executions:2774775
-Exceptional method executions:191
+  Progress update: test inputs generated=0, failing inputs=0      (Mon Oct 10 16:17:26 HKT 2016)
+  Progress update: test inputs generated=63, failing inputs=0      (Mon Oct 10 16:17:31 HKT 2016)
+  Progress update: test inputs generated=112, failing inputs=0      (Mon Oct 10 16:17:36 HKT 2016)
+  Progress update: test inputs generated=159, failing inputs=0      (Mon Oct 10 16:17:41 HKT 2016)
+  Progress update: test inputs generated=202, failing inputs=0      (Mon Oct 10 16:17:46 HKT 2016)
+  Progress update: test inputs generated=251, failing inputs=0      (Mon Oct 10 16:17:51 HKT 2016)
+  Progress update: test inputs generated=301, failing inputs=0      (Mon Oct 10 16:17:56 HKT 2016)
+  Progress update: test inputs generated=347, failing inputs=0      (Mon Oct 10 16:18:01 HKT 2016)
+  Progress update: test inputs generated=389, failing inputs=0      (Mon Oct 10 16:18:06 HKT 2016)
+  Progress update: test inputs generated=438, failing inputs=0      (Mon Oct 10 16:18:11 HKT 2016)
+  Progress update: test inputs generated=490, failing inputs=0      (Mon Oct 10 16:18:16 HKT 2016)
+  Progress update: test inputs generated=544, failing inputs=0      (Mon Oct 10 16:18:21 HKT 2016)
+  Progress update: test inputs generated=593, failing inputs=0      (Mon Oct 10 16:18:26 HKT 2016)
+  Progress update: test inputs generated=646, failing inputs=0      (Mon Oct 10 16:18:31 HKT 2016)
+  Progress update: test inputs generated=700, failing inputs=0      (Mon Oct 10 16:18:36 HKT 2016)
+  Progress update: test inputs generated=757, failing inputs=0      (Mon Oct 10 16:18:41 HKT 2016)
+  Progress update: test inputs generated=812, failing inputs=0      (Mon Oct 10 16:18:46 HKT 2016)
+  Progress update: test inputs generated=862, failing inputs=0      (Mon Oct 10 16:18:51 HKT 2016)
+  Progress update: test inputs generated=911, failing inputs=0      (Mon Oct 10 16:18:56 HKT 2016)
+  Progress update: test inputs generated=956, failing inputs=0      (Mon Oct 10 16:19:01 HKT 2016)
+  Progress update: test inputs generated=994, failing inputs=0      (Mon Oct 10 16:19:06 HKT 2016)
+  Progress update: test inputs generated=995, failing inputs=0      (Mon Oct 10 16:19:06 HKT 2016)
+  Normal method executions:2774775
+  Exceptional method executions:191
 
-Average method execution time (normal termination):      0.0347
-Average method execution time (exceptional termination): 0.116
+  Average method execution time (normal termination):      0.0347
+  Average method execution time (exceptional termination): 0.116
 
-No error-revealing tests to output
+  No error-revealing tests to output
 
-Regression test output:
-Regression test count: 581
-Writing JUnit tests...
+  Regression test output:
+  Regression test count: 581
+  Writing JUnit tests...
 
-Created file: /home/cheyulin/GitRepos/JavaRelatedStudy/SoftwareAnalysis/Assignments/Assign1/UserfulShells/../AssignmentSubject/test_src/RegressionTest0.java
-Created file: /home/cheyulin/GitRepos/JavaRelatedStudy/SoftwareAnalysis/Assignments/Assign1/UserfulShells/../AssignmentSubject/test_src/RegressionTest1.java
-Created file: /home/cheyulin/GitRepos/JavaRelatedStudy/SoftwareAnalysis/Assignments/Assign1/UserfulShells/../AssignmentSubject/test_src/RegressionTest.java
-```
+  Created file: /home/cheyulin/GitRepos/JavaRelatedStudy/SoftwareAnalysis/Assignments/Assign1/UserfulShells/../AssignmentSubject/test_src/RegressionTest0.java
+  Created file: /home/cheyulin/GitRepos/JavaRelatedStudy/SoftwareAnalysis/Assignments/Assign1/UserfulShells/../AssignmentSubject/test_src/RegressionTest1.java
+  Created file: /home/cheyulin/GitRepos/JavaRelatedStudy/SoftwareAnalysis/Assignments/Assign1/UserfulShells/../AssignmentSubject/test_src/RegressionTest.java
+  ```
 
 ---
 
