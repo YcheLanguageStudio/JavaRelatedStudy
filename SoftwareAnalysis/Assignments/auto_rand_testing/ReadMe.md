@@ -1,4 +1,10 @@
-#Observations
+##Soot Cmd Arguments
+
+```zsh
+java -cp xxx:.  profiler.MainDriver  -pp -soot-classpath . sample.TestInvoke
+```
+
+##Observations
 
 ```zsh
 /usr/lib/jvm/java-8-oracle/bin/java -ea -Didea.launcher.port=7543 -Didea.launcher.bin.path=/home/cheyulin/Tools/idea-IU-162.1812.17/bin -Didea.junit.sm_runner -Dfile.encoding=UTF-8 -classpath /home/cheyulin/Tools/idea-IU-162.1812.17/lib/idea_rt.jar:/home/cheyulin/Tools/idea-IU-162.1812.17/plugins/junit/lib/junit-rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/deploy.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/cldrdata.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/jaccess.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/jfxrt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/nashorn.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/sunec.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-8-oracle/jre/lib/javaws.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfxswt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/management-agent.jar:/usr/lib/jvm/java-8-oracle/jre/lib/plugin.jar:/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/home/cheyulin/GitRepos/JavaRelatedStudy/SoftwareAnalysis/Assignments/auto_rand_testing/target/test-classes:/home/cheyulin/GitRepos/JavaRelatedStudy/SoftwareAnalysis/Assignments/auto_rand_testing/target/classes:/home/cheyulin/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/cheyulin/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar com.intellij.rt.execution.application.AppMain com.intellij.rt.execution.junit.JUnitStarter -ideVersion5 util.IntArrayUtilTest
