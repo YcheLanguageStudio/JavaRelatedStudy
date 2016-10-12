@@ -36,7 +36,7 @@ public class InvokeStaticInstrumenter extends BodyTransformer {
     static SootMethod increaseCounter, reportCounter;
 
     static {
-        counterClass = Scene.v().loadClassAndSupport("MyCounter");
+        counterClass = Scene.v().loadClassAndSupport("profiler.MyCounter");
         increaseCounter = counterClass.getMethod("void increase(int)");
         reportCounter = counterClass.getMethod("void report()");
         Scene.v().setSootClassPath(null);
