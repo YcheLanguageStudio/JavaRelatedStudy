@@ -16,14 +16,12 @@ public class MainDriver {
 
 		/* add a phase to transformer pack by call Pack.add */
         Pack jtp = PackManager.v().getPack("jtp");
-        jtp.add(new Transform("jtp.instrumenter",
-                new InvokeStaticInstrumenter()));
+        jtp.add(new Transform("jtp.instrumenter", new InvokeStaticInstrumenter()));
 
 		/*
-		 * Give control to Soot to process all options,
+         * Give control to Soot to process all options,
 		 * InvokeStaticInstrumenter.internalTransform will get called.
 		 */
-
         for (String arg : args) {
             System.out.println(arg);
         }
