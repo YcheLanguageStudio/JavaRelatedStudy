@@ -286,11 +286,20 @@ C={0, 1, 2, null, false, Mono(1,2,0), Poly(), plus(Poly(), Mono(1,2,0)}
 $latex X/X+Y , X=(N_{ef}/N_{f}), Y=(N_{es}/N_{s})$
 - Optimize
     - remove the successful runs identical to failure runs
+
 ##Code Coverage
 - CFG: if-else-return, etc. into control-flow-graph
 
-
-
+##EvoSuite
+- statements generation
+- test oracle
+    - like randoop
+    - mutation, kill the mutant and detect the fault
+    i.e, we want to kill the mutant, including the original and the mutant procedure, with `v2` and `v2^{prime}`
+    - strongly kill & weakly kill mutants, idea comes from the mutation testing
+    
+> Given a test suite with adequate mutation coverage, there exists
+  test cases (say t) that (weakly) kill mutants also detect real faults.
 
 
 
