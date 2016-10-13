@@ -301,8 +301,19 @@ $latex X/X+Y , X=(N_{ef}/N_{f}), Y=(N_{es}/N_{s})$
 > Given a test suite with adequate mutation coverage, there exists
   test cases (say t) that (weakly) kill mutants also detect real faults.
 
+##Object Oriented Testing
+- declared type vs actual type
+- poly-headaches, data-flow-anomaly, using yo-yo graph
+- causes of fault in OO programs
+    - connections among components
+    - aggreagatio & use are complex
+- Open-Close Contract    
+- state-def inconsistency, hiding variable
 
-
-
-
-
+      
+##Regression Test
+- code has to be re-validated after change
+- Regression Test
+    - test case selection
+    - ... prioritization
+    - dynamic slicing
