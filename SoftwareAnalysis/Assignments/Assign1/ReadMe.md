@@ -108,7 +108,18 @@ RegressionTest7.java | 50.0% | 7,681 | 7,681 | 15,362
 
 ---
 
-##Instruction & Coverage Measurement Program
+##Statement & Branch Coverage Measurement Program
+###Understanding
+- statement coverage, is the nodes covered in the control-flow-graph
+- branch coverage, is the edges between nodes covered in the control-flow-graph
+
+###Things to be implemented
+- count nodes covered: a function to find whether a node is already covered, in the statement invokation phase and a function to insert
+  - the underlying of which could be a hash_map, where the key is the statement id
+- count edges covered: a function to judge whether a edge is already covered, by remembering the src node and current invoked dst node,
+and a function to insert
+  - the underlying of which could also be a hash_map, where the key is the pair of statement ids
+
 ###Part1:Statement Coverage
 
 ---
