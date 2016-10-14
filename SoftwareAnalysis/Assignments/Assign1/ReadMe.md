@@ -21,8 +21,10 @@
   ```zsh
   RANDOOP_CLASSPATH="../Local-Jars/randoop-all-3.0.4.jar"
   SRC_CLASSPATH="../AssignmentSubject/bin"
-  IO_ARGS="--classlist=my_classes.txt --junit-output-dir=../AssignmentSubject/test_src"
-  java -cp $RANDOOP_CLASSPATH:$SRC_CLASSPATH randoop.main.Main gentests $IO_ARGS
+  IO_ARGS="--classlist=my_classes.txt --junit-output-dir=../AssignmentSubject/test_src --junit-package-name=util_test"
+  LITERAL_ARGS="--literals-file=literals.txt"
+  TIME_LIMIT_ARGS=" --timelimit=600"
+  java -cp $RANDOOP_CLASSPATH:$SRC_CLASSPATH randoop.main.Main gentests $IO_ARGS $LITERAL_ARGS $TIME_LIMIT_ARGS
   ```
 
   - second, run the shell
@@ -31,50 +33,19 @@
   ./use_randoop_gen_tests.sh
   ```
 
-  - third, observe the result, No error-revealing tests to output
-
+  - third, list the gist of the output
   ```zsh
-  policy = sun.security.provider.PolicyFile@568db2f2
-  PUBLIC MEMBERS=9
-  Explorer = randoop.generation.ForwardGenerator@17d10166
+  Normal method executions:16443052
+  Exceptional method executions:1472
 
-  Progress update: test inputs generated=0, failing inputs=0      (Mon Oct 10 16:17:26 HKT 2016)
-  Progress update: test inputs generated=63, failing inputs=0      (Mon Oct 10 16:17:31 HKT 2016)
-  Progress update: test inputs generated=112, failing inputs=0      (Mon Oct 10 16:17:36 HKT 2016)
-  Progress update: test inputs generated=159, failing inputs=0      (Mon Oct 10 16:17:41 HKT 2016)
-  Progress update: test inputs generated=202, failing inputs=0      (Mon Oct 10 16:17:46 HKT 2016)
-  Progress update: test inputs generated=251, failing inputs=0      (Mon Oct 10 16:17:51 HKT 2016)
-  Progress update: test inputs generated=301, failing inputs=0      (Mon Oct 10 16:17:56 HKT 2016)
-  Progress update: test inputs generated=347, failing inputs=0      (Mon Oct 10 16:18:01 HKT 2016)
-  Progress update: test inputs generated=389, failing inputs=0      (Mon Oct 10 16:18:06 HKT 2016)
-  Progress update: test inputs generated=438, failing inputs=0      (Mon Oct 10 16:18:11 HKT 2016)
-  Progress update: test inputs generated=490, failing inputs=0      (Mon Oct 10 16:18:16 HKT 2016)
-  Progress update: test inputs generated=544, failing inputs=0      (Mon Oct 10 16:18:21 HKT 2016)
-  Progress update: test inputs generated=593, failing inputs=0      (Mon Oct 10 16:18:26 HKT 2016)
-  Progress update: test inputs generated=646, failing inputs=0      (Mon Oct 10 16:18:31 HKT 2016)
-  Progress update: test inputs generated=700, failing inputs=0      (Mon Oct 10 16:18:36 HKT 2016)
-  Progress update: test inputs generated=757, failing inputs=0      (Mon Oct 10 16:18:41 HKT 2016)
-  Progress update: test inputs generated=812, failing inputs=0      (Mon Oct 10 16:18:46 HKT 2016)
-  Progress update: test inputs generated=862, failing inputs=0      (Mon Oct 10 16:18:51 HKT 2016)
-  Progress update: test inputs generated=911, failing inputs=0      (Mon Oct 10 16:18:56 HKT 2016)
-  Progress update: test inputs generated=956, failing inputs=0      (Mon Oct 10 16:19:01 HKT 2016)
-  Progress update: test inputs generated=994, failing inputs=0      (Mon Oct 10 16:19:06 HKT 2016)
-  Progress update: test inputs generated=995, failing inputs=0      (Mon Oct 10 16:19:06 HKT 2016)
-  Normal method executions:2774775
-  Exceptional method executions:191
-
-  Average method execution time (normal termination):      0.0347
-  Average method execution time (exceptional termination): 0.116
+  Average method execution time (normal termination):      0.0353
+  Average method execution time (exceptional termination): 0.0957
 
   No error-revealing tests to output
 
   Regression test output:
-  Regression test count: 581
+  Regression test count: 3797
   Writing JUnit tests...
-
-  Created file: /home/cheyulin/GitRepos/JavaRelatedStudy/SoftwareAnalysis/Assignments/Assign1/UserfulShells/../AssignmentSubject/test_src/RegressionTest0.java
-  Created file: /home/cheyulin/GitRepos/JavaRelatedStudy/SoftwareAnalysis/Assignments/Assign1/UserfulShells/../AssignmentSubject/test_src/RegressionTest1.java
-  Created file: /home/cheyulin/GitRepos/JavaRelatedStudy/SoftwareAnalysis/Assignments/Assign1/UserfulShells/../AssignmentSubject/test_src/RegressionTest.java
   ```
 
 ---
@@ -82,9 +53,58 @@
 ###Q2: Coverage Related
 - Q2-(1): **Please specify the settings of Randoop**
 
+- Answer: it is what is elaborated in Q1(2), the shell used is as follows:
+
+```zsh
+RANDOOP_CLASSPATH="../Local-Jars/randoop-all-3.0.4.jar"
+SRC_CLASSPATH="../AssignmentSubject/bin"
+IO_ARGS="--classlist=my_classes.txt --junit-output-dir=../AssignmentSubject/test_src --junit-package-name=util_test"
+LITERAL_ARGS="--literals-file=literals.txt"
+TIME_LIMIT_ARGS=" --timelimit=600"
+java -cp $RANDOOP_CLASSPATH:$SRC_CLASSPATH randoop.main.Main gentests $IO_ARGS $LITERAL_ARGS $TIME_LIMIT_ARGS
+```
+
 ---
 
 - Q2-(2): **What are the statement coverage and branch coverage in your random testing**
+- Answer: the statement coverage and branch coverage collected by EclEmma, underlying using Jacoco are as follows.
+
+- Statement Coverage
+
+Element | Coverage | Covered Instructions | Missed Instructions | Total Instructions
+--- | --- | --- | --- | ---
+AssignmentSubject | 90.6% | 1,513,492 | 156,559 | 1,670,051
+IntArrayUtil.java | 96.7% | 757 | 26 | 783
+RegressionTest0.java | 89.9% | 200,222 | 22,488 | 222,710
+RegressionTest1.java | 90.3% | 201,877 | 21,798 | 223,675
+RegressionTest2.java | 90.5% | 200,988 | 20,995 | 221,983
+RegressionTest3.java | 90.7% | 200,287 | 20,484 | 220,771
+RegressionTest4.java | 90.9% | 197,394 | 19,779 | 217,173
+RegressionTest5.java | 90.9% | 196,637 | 19,623 | 216,260
+RegressionTest6.java | 90.9% | 197,012 | 19,690 | 216,702
+RegressionTest7.java | 91.0% | 118,318 | 11,673 | 129,991
+
+
+- Branch Coverage
+
+Element | Coverage | Covered Branch | Missed Branch | Total Branches
+--- | --- | --- | --- | ---
+AssignmentSubject | 50.0% | 98,159 | 98,051 | 196,210
+IntArrayUtil.java | 96.7% | 121 | 13 | 134
+RegressionTest0.java | 50.0% | 13,021 | 13,021 | 26,042
+RegressionTest1.java | 50.0% | 13,136 | 13,136 | 26,272
+RegressionTest2.java | 50.0% | 13,014 | 13,021 | 26,028
+RegressionTest3.java | 50.0% | 12,946 | 12,946 | 25,892
+RegressionTest4.java | 50.0% | 12,731 | 12,731 | 25,462
+RegressionTest5.java | 50.0% | 12,728 | 12,728 | 25,456
+RegressionTest6.java | 50.0% | 12,781 | 12,781 | 25,562
+RegressionTest7.java | 50.0% | 7,681 | 7,681 | 15,362
+
+- Screenshot:statement coverage and branch coverage
+
+![Statement Coverage](Pictures/statement_coverage.png)
+
+![Branch Coverage](Pictures/branch_coverage.png)
 
 ---
 
