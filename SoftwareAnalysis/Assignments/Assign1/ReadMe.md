@@ -1,9 +1,9 @@
 #Assignment 1
-##Questions & Answers
+##Questions & **Answer**s
 ###Q1: Randoop Related
 - Q1-(1): **What is test oracle when conducting random testing via Randoop**
 
-- Answer: five built-in **test oracle** are as follows:
+- **Answer**: five built-in **test oracle** are as follows:
   1. Equals to null: `o.equals(null)` should return `false`
   1. Reflexivity of equality: `o.equals(o)` should return `true`
   1. Symmetry of equality: `o1.equals(o2)` implies `o2.equals(o1)`
@@ -14,7 +14,7 @@
 
 - Q1-(2): **How do you use Randoop to generate test cases? (Please give a detailed descriptions on the steps and the parameter settings.)**
 
-- Answer: as follows, in three steps
+- **Answer**: as follows, in three steps
 
   - first, enter into Dir `UserfulShells`, and use the following shell script
 
@@ -53,7 +53,7 @@
 ###Q2: Coverage Related
 - Q2-(1): **Please specify the settings of Randoop**
 
-- Answer: it is what is elaborated in Q1(2), the shell used is as follows:
+- **Answer**: it is what is elaborated in Q1(2), the shell used is as follows:
 
 ```zsh
 RANDOOP_CLASSPATH="../Local-Jars/randoop-all-3.0.4.jar"
@@ -67,9 +67,9 @@ java -cp $RANDOOP_CLASSPATH:$SRC_CLASSPATH randoop.main.Main gentests $IO_ARGS $
 ---
 
 - Q2-(2): **What are the statement coverage and branch coverage in your random testing**
-- Answer: the statement coverage and branch coverage collected by EclEmma, underlying using Jacoco are as follows.
+- **Answer**: the statement coverage and branch coverage collected by EclEmma, underlying using Jacoco are as follows.
 
-- Statement Coverage
+- **Statement Coverage**
 
 Element | Coverage | Covered Instructions | Missed Instructions | Total Instructions
 --- | --- | --- | --- | ---
@@ -85,7 +85,7 @@ RegressionTest6.java | 90.9% | 197,012 | 19,690 | 216,702
 RegressionTest7.java | 91.0% | 118,318 | 11,673 | 129,991
 
 
-- Branch Coverage
+- **Branch Coverage**
 
 Element | Coverage | Covered Branch | Missed Branch | Total Branches
 --- | --- | --- | --- | ---
@@ -115,10 +115,10 @@ RegressionTest7.java | 50.0% | 7,681 | 7,681 | 15,362
 
 ###Things to be implemented
 - count nodes covered: a function to find whether a node is already covered, in the statement invokation phase and a function to insert
-  - the underlying of which could be a hash_map, where the key is the statement id
+  - the underlying of which could be a hash_map, where the key is the statement id, the value is the number of pass-through-node
 - count edges covered: a function to judge whether a edge is already covered, by remembering the src node and current invoked dst node,
 and a function to insert
-  - the underlying of which could also be a hash_map, where the key is the pair of statement ids
+  - the underlying of which could also be a hash_map, where the key is the pair of statement ids, the value is the number of pass-through-edge
 
 ###Part1:Statement Coverage
 
