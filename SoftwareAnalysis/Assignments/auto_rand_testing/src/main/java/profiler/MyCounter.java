@@ -4,6 +4,7 @@ import java.io.IOException;
 
 public class MyCounter {
     private static int c = 0;
+    private static int id = 0;
 
     public static synchronized void increase(int howmany) {
         c += howmany;
@@ -11,10 +12,9 @@ public class MyCounter {
 
     public static synchronized void report() {
         System.out.println("counter : " + c);
-        try {
-            System.in.read();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+    }
+
+    public static synchronized void display() {
+        System.out.println("display");
     }
 }
