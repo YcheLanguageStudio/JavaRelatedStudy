@@ -25,6 +25,8 @@ public class MainDriver {
         for (String arg : args) {
             System.out.println(arg);
         }
+        System.out.println();
+
         soot.Main.main(args);
         System.out.println("-----------End");
     }

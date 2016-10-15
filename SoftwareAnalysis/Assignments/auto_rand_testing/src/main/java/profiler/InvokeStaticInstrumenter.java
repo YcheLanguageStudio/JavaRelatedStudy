@@ -2,6 +2,7 @@ package profiler;
 
 import soot.*;
 import soot.jimple.*;
+import soot.jimple.internal.JIdentityStmt;
 import soot.util.*;
 
 import java.util.*;
@@ -56,8 +57,12 @@ public class InvokeStaticInstrumenter extends BodyTransformer {
         Iterator stmtIt = units.snapshotIterator();
 
         System.out.println(body.getMethod().getSignature());
+        System.out.println(body.getMethod().getDeclaringClass().toString());
         while (stmtIt.hasNext()) {
             Stmt stmt = (Stmt) stmtIt.next();
+            if (stmt instanceof JIdentityStmt) {
+                System.out.println(stmt.getClass().toString() + " should not be instrumented , " + stmt.toString());
+            }
             if (!stmt.containsInvokeExpr()) {
                 continue;
             }
