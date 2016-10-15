@@ -25,10 +25,17 @@ public class InvokeStaticInstrumenter extends BodyTransformer {
         Chain units = body.getUnits();
         Iterator stmtIt = units.snapshotIterator();
 
-        System.out.println("instrumenting method : " + method.getSignature() + "\t\t\t\t\tcurrent Phase:" + phase + ", current options:" + options);
+        System.out.println();
+        System.out.println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+        System.out.println(body.toString());
+        System.out.println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+        System.out.println();
+        System.out.println("instrumenting method : " + method.getSignature() + "\t//current Phase:" + phase + ", current options:" + options);
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 
         while (stmtIt.hasNext()) {
             Stmt stmt = (Stmt) stmtIt.next();
+            System.out.println(stmt.toString());
             if (!stmt.containsInvokeExpr()) {
                 continue;
             }
@@ -45,6 +52,7 @@ public class InvokeStaticInstrumenter extends BodyTransformer {
         String signature = method.getSubSignature();
         boolean isMain = signature.equals("void main(java.lang.String[])");
         if (isMain) {
+            System.out.println("Got Main ~~~~~~~~~");
             stmtIt = units.snapshotIterator();
             while (stmtIt.hasNext()) {
                 Stmt stmt = (Stmt) stmtIt.next();
@@ -55,5 +63,7 @@ public class InvokeStaticInstrumenter extends BodyTransformer {
                 }
             }
         }
+
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
     }
 }
