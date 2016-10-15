@@ -11,13 +11,15 @@ public class InvokeStaticInstrumenter extends BodyTransformer {
 
     static SootClass counterClass;
     static SootMethod increaseCounter, reportCounter, displayCounter, markCounter;
+    static int globalIndex;
 
     static {
+        globalIndex = 0;
         counterClass = Scene.v().loadClassAndSupport("profiler.MyCounter");
         increaseCounter = counterClass.getMethod("void increase(int)");
         reportCounter = counterClass.getMethod("void report()");
         displayCounter = counterClass.getMethod("void display()");
-        markCounter = counterClass.getMethod("void mark()");
+        markCounter = counterClass.getMethod("void mark(int)");
         Scene.v().setSootClassPath(null);
     }
 
@@ -64,7 +66,8 @@ public class InvokeStaticInstrumenter extends BodyTransformer {
             if (stmt instanceof JIdentityStmt) {
                 System.out.println(stmt.getClass().toString() + " should not be instrumented , " + stmt.toString());
             } else {
-                InvokeExpr markExpr = Jimple.v().newStaticInvokeExpr(markCounter.makeRef());
+                InvokeExpr markExpr = Jimple.v().newStaticInvokeExpr(markCounter.makeRef(), IntConstant.v(globalIndex));
+                globalIndex++;
                 Stmt markStmt = Jimple.v().newInvokeStmt(markExpr);
                 units.insertBefore(markStmt, stmt);
             }
