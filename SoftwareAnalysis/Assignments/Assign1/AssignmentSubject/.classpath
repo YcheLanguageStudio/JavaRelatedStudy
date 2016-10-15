@@ -2,6 +2,7 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="test_src"/>
+	<classpathentry kind="src" path="yche_desinged_tests_src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="../Local-Jars/hamcrest-core-1.3.jar"/>
 	<classpathentry kind="lib" path="../Local-Jars/junit-4.11.jar"/>
