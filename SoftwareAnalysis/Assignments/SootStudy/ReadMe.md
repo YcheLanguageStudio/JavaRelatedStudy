@@ -1,6 +1,8 @@
+- [Soot Basics](SootBasicConcepts.md)
+
 - Soot Help
 
-```
+```zsh
 General Options:
   -h -help                     Display help and exit
   -pl -phase-list              Print list of available phases
