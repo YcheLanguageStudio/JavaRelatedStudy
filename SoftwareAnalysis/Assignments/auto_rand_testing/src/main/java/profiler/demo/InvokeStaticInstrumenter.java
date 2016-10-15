@@ -1,4 +1,4 @@
-package profiler;
+package profiler.demo;
 
 import soot.*;
 import soot.jimple.*;
@@ -15,7 +15,7 @@ public class InvokeStaticInstrumenter extends BodyTransformer {
 
     static {
         globalIndex = 0;
-        counterClass = Scene.v().loadClassAndSupport("profiler.MyCounter");
+        counterClass = Scene.v().loadClassAndSupport("profiler.demo.MyCounter");
         increaseCounter = counterClass.getMethod("void increase(int)");
         reportCounter = counterClass.getMethod("void report()");
         displayCounter = counterClass.getMethod("void display()");
@@ -27,8 +27,7 @@ public class InvokeStaticInstrumenter extends BodyTransformer {
         String signature = method.getSubSignature();
         boolean isMain = signature.equals("void main(java.lang.String[])");
         if (isMain) {
-            Iterator stmtIt = units.snapshotIterator();
-            while (stmtIt.hasNext()) {
+            for (Iterator stmtIt = units.snapshotIterator(); stmtIt.hasNext(); ) {
                 Stmt stmt = (Stmt) stmtIt.next();
                 if ((stmt instanceof ReturnStmt) || (stmt instanceof ReturnVoidStmt)) {
                     InvokeExpr reportExpr = Jimple.v().newStaticInvokeExpr(reportCounter.makeRef());
@@ -60,21 +59,20 @@ public class InvokeStaticInstrumenter extends BodyTransformer {
         Iterator stmtIt = units.snapshotIterator();
 
         System.out.println(body.getMethod().getSignature());
-        System.out.println(body.getMethod().getDeclaringClass().toString());
+//        System.out.println(body.getMethod().getDeclaringClass().toString());
         while (stmtIt.hasNext()) {
             Stmt stmt = (Stmt) stmtIt.next();
-            if (stmt instanceof JIdentityStmt) {
-                System.out.println(stmt.getClass().toString() + " should not be instrumented , " + stmt.toString());
-            } else {
+            if (!(stmt instanceof JIdentityStmt)) {
                 InvokeExpr markExpr = Jimple.v().newStaticInvokeExpr(markCounter.makeRef(), IntConstant.v(globalIndex));
                 globalIndex++;
                 Stmt markStmt = Jimple.v().newInvokeStmt(markExpr);
                 units.insertBefore(markStmt, stmt);
             }
+
             if (!stmt.containsInvokeExpr()) {
                 continue;
             }
-            InvokeExpr expr = (InvokeExpr) stmt.getInvokeExpr();
+            InvokeExpr expr = stmt.getInvokeExpr();
             if (!(expr instanceof StaticInvokeExpr)) {
                 continue;
             }

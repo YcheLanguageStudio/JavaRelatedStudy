@@ -1,4 +1,4 @@
-package profiler;
+package profiler.demo;
 
 import java.io.IOException;
 
