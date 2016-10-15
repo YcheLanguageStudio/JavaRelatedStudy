@@ -119,7 +119,7 @@ Boxes are ubiquitous in Soot. The main idea to keep in mind is that _a Box is a 
 
 A more descriptive name for `Box` would have been `Ref`. Unfortunately, `Ref` has a different meaning for Soot.
 
-There are two kinds of `Box`es in Soot - the `ValueBox` and the `UnitBox`. Not surprisingly, a `UnitBox` contains `Unit`s while a `ValueBox` contains `Value`s. In C++, these would be simply (`Unit` *) and (`Value` *) respectively.
+There are two kinds of `Box`es in Soot - the `ValueBox` and the `UnitBox`. Not surprisingly, a `UnitBox` contains `Unit`s while a `ValueBox` contains `Value`s. In C++, these would be simply (`Unit *`) and (`Value *`) respectively.
 
 We now describe each type of `Box`.
 
@@ -129,10 +129,12 @@ Some types of `Unit`s will need to contain references to other `Unit`s. For inst
 
 Consider the following jimp code:
 
+```asm
         x = 5;
         goto l2;
         y = 3;
     l2: z = 9;
+```
 
 Each `Unit` must provide `getUnitBoxes()`. For most `UnitBox`es, this returns the empty list. However, in the cast of a `GotoStmt`, then `getUnitBoxes()` returns a one-element list, containing a `Box` pointing to l2.
 
@@ -140,14 +142,17 @@ Note that a `SwitchStmt` will, in general, return a list with many boxes.
 
 The notion of a Box comes in especially useful for modifying code. Say we have a statement s:
 
+```asm
       s: goto l2;
 
 and a stmt at l2:
 
     l2:  goto l3;
+```
 
 It is clear that s can point to `l3` instead of `l2`, regardless of the actual type of `s`; we can do this uniformly, for all kinds of `Unit`s:
 
+```java
     public void readjustJumps(Unit s, Unit oldU, Unit newU)
     {
         Iterator ubIt = s.getUnitBoxes.iterator();
@@ -160,6 +165,7 @@ It is clear that s can point to `l3` instead of `l2`, regardless of the actual t
                 tb.setUnit(newU);
         }
     }
+```
 
 Some code similar to this is used in `Unit` itself, to enable the creation of `PatchingChain`, an implementation of `Chain` which adjusts pointers to `Unit`s which get removed from the `Chain`.
 
@@ -201,25 +207,35 @@ Note how this works for any `Unit`, regardless of type.
 
 We now discuss the different methods that any `Unit` must provide.
 
+```java
     public List getUseBoxes();
     public List getDefBoxes();
     public List getUseAndDefBoxes();
+```
 
 These methods return `List`s of `ValueBox`es for values used, defined, or both, in this `Unit`. For the `getUseBoxes()` method, all values used are returned; this includes expressions as well as their constituent parts.
 
+```java
     public List getUnitBoxes();
+```
 
 This method returns a `List` of `UnitBox`es for units pointed to by this method.
 
+```java
     public List getBoxesPointingToThis();
+```
 
 This method returns a List of `UnitBox`es which contain this Unit as their target.
 
+```java
     public boolean fallsThrough();
     public boolean branches();
+```
 
 These methods have to do with the flow of execution after this `Unit`. The former method returns true if execution can continue to the following `Unit`, while the latter returns true if execution might continue to some Unit which isn't immediately after this one.
 
+```java
     public void redirectJumpsToThisTo(Unit newLocation);
+```
 
 This method uses `getBoxesPointingToThis` to change all jumps to this `Unit`, pointing them instead at `newLocation`.

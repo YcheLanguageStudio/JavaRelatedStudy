@@ -17,4 +17,8 @@ public class MyCounter {
     public static synchronized void display() {
         System.out.println("display");
     }
+
+    public static synchronized void mark() {
+        System.out.println("mark");
+    }
 }
