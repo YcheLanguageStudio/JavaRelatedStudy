@@ -54,6 +54,7 @@ public class CovergageInstrumentor extends BodyTransformer {
         for (Iterator stmtIt = units.snapshotIterator(); stmtIt.hasNext(); ) {
             Stmt stmt = (Stmt) stmtIt.next();
 
+
             if (!(stmt instanceof JIdentityStmt)) {
                 if (!nameIndexMap.containsKey(className)) {
                     nameIndexMap.put(className, -1);
@@ -76,8 +77,10 @@ public class CovergageInstrumentor extends BodyTransformer {
                 InvokeExpr markExpr = Jimple.v().newStaticInvokeExpr(markIfFunc.makeRef(),
                         StringConstant.v(className), IntConstant.v(nameIndexMap.get(className)));
                 Stmt markStmt = Jimple.v().newInvokeStmt(markExpr);
-                units.insertAfter(markStmt, stmt);
+                units.insertBefore(markStmt, stmt);
             }
+
+
         }
 
         try {

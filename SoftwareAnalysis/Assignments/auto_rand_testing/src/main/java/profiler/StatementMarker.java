@@ -72,6 +72,7 @@ public class StatementMarker {
                 branchCountMap.put(edge, 0);
             }
             branchCountMap.put(edge, branchCountMap.get(edge) + 1);
+            System.out.println(edge.toString());
         }
     }
 }

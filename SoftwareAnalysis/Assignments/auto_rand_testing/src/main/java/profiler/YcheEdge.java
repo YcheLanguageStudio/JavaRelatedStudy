@@ -25,14 +25,29 @@ public class YcheEdge {
 
     @Override
     public int hashCode() {
-        return srcVertex + dstVertex;
+        int result = 17;
+        result = result * 31 + srcVertex;
+        result = result * 31 + dstVertex;
+        return result;
     }
 
     @Override
     public boolean equals(Object obj) {
-        YcheEdge anotherEdge = (YcheEdge) obj;
-        return anotherEdge.srcVertex == this.srcVertex && anotherEdge.dstVertex == this.dstVertex;
+        if (this == obj) {
+            return true;
+        }
+        if (!(obj instanceof YcheEdge)) {
+            return false;
+        }
+        YcheEdge comparedObj = (YcheEdge) obj;
+
+        if (this.srcVertex.equals(comparedObj.srcVertex) && this.dstVertex.equals(comparedObj.dstVertex)) {
+            return true;
+        } else {
+            return false;
+        }
     }
+
 
     public static void main(String[] args) {
         YcheEdge firstEdge = new YcheEdge(3, 4);
