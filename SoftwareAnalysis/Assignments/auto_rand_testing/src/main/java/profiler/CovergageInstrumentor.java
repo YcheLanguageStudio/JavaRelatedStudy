@@ -5,13 +5,14 @@ import soot.jimple.*;
 import soot.jimple.internal.*;
 import soot.util.*;
 
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
+import java.io.*;
+
+import java.util.*;
+
 
 public class CovergageInstrumentor extends BodyTransformer {
     static SootClass markerClass;
-    static SootMethod reportFunc, displayFunc, markFunc, reportCodeCoverageFunc;
+    static SootMethod reportFunc, markFunc, reportCodeCoverageFunc;
     static HashMap<String, Integer> nameIndexMap;
 
     static {
@@ -39,11 +40,6 @@ public class CovergageInstrumentor extends BodyTransformer {
         }
     }
 
-    @Override
-    public boolean equals(Object obj) {
-        return super.equals(obj);
-    }
-
     protected void internalTransform(Body body, String phase, Map options) {
         SootMethod method = body.getMethod();
         Chain units = body.getUnits();
@@ -52,7 +48,7 @@ public class CovergageInstrumentor extends BodyTransformer {
         System.out.println(body.toString());
 
 
-        if (className.equals("sample.TestInvoke") || className.equals("util.IntArrayUitl")) {
+        if (className.equals("sample.TestInvoke") || className.equals("util.IntArrayUtil")) {
             for (Iterator stmtIt = units.snapshotIterator(); stmtIt.hasNext(); ) {
                 Stmt stmt = (Stmt) stmtIt.next();
                 if (stmt instanceof JIfStmt) {
@@ -69,8 +65,19 @@ public class CovergageInstrumentor extends BodyTransformer {
                     units.insertBefore(markStmt, stmt);
                 }
             }
+            try {
+                File file = new File(className + "_" + "statements_num.txt");
+                BufferedWriter writer = new BufferedWriter(new FileWriter(file));
+                writer.write(Integer.toString(nameIndexMap.get(className)));
+                writer.close();
+            } catch (Exception e) {
+
+            }
+
         } else {
             insertReportIfNotInit(method, units);
         }
+
+
     }
 }
