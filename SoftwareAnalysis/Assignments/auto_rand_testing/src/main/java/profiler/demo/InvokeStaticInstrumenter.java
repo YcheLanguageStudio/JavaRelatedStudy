@@ -22,7 +22,7 @@ public class InvokeStaticInstrumenter extends BodyTransformer {
         increaseCounter = counterClass.getMethod("void increase(int)");
         reportCounter = counterClass.getMethod("void report()");
         displayCounter = counterClass.getMethod("void display()");
-        markCounter = counterClass.getMethod("void mark(java.lang.String,int)");
+        markCounter = counterClass.getMethod("void markStatement(java.lang.String,int)");
         Scene.v().setSootClassPath(null);
     }
 

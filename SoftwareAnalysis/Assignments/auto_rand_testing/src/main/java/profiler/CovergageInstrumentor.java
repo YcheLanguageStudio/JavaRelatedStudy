@@ -6,21 +6,22 @@ import soot.jimple.internal.*;
 import soot.util.*;
 
 import java.io.*;
-
 import java.util.*;
 
 
 public class CovergageInstrumentor extends BodyTransformer {
     static SootClass markerClass;
-    static SootMethod reportFunc, markFunc, reportCodeCoverageFunc;
+    static SootMethod reportFunc, markStmtFunc, reportCodeCoverageFunc;
     static HashMap<String, Integer> nameIndexMap;
+    static int branchCount;
 
     static {
+        branchCount = 0;
         nameIndexMap = new HashMap<>();
         markerClass = Scene.v().loadClassAndSupport("profiler.StatementMarker");
         reportFunc = markerClass.getMethod("void report()");
         reportCodeCoverageFunc = markerClass.getMethod("void reportCodeCoverage()");
-        markFunc = markerClass.getMethod("void mark(java.lang.String,int)");
+        markStmtFunc = markerClass.getMethod("void markStatement(java.lang.String,int)");
         Scene.v().setSootClassPath(null);
     }
 
@@ -53,13 +54,14 @@ public class CovergageInstrumentor extends BodyTransformer {
                 Stmt stmt = (Stmt) stmtIt.next();
                 if (stmt instanceof JIfStmt) {
                     System.out.println(((JIfStmt) stmt).getTarget().toString());
+                    branchCount++;
                 }
                 if (!(stmt instanceof JIdentityStmt)) {
                     if (!nameIndexMap.containsKey(className)) {
                         nameIndexMap.put(className, -1);
                     }
                     nameIndexMap.put(className, nameIndexMap.get(className) + 1);
-                    InvokeExpr markExpr = Jimple.v().newStaticInvokeExpr(markFunc.makeRef(),
+                    InvokeExpr markExpr = Jimple.v().newStaticInvokeExpr(markStmtFunc.makeRef(),
                             StringConstant.v(className), IntConstant.v(nameIndexMap.get(className)));
                     Stmt markStmt = Jimple.v().newInvokeStmt(markExpr);
                     units.insertBefore(markStmt, stmt);
@@ -68,7 +70,11 @@ public class CovergageInstrumentor extends BodyTransformer {
             try {
                 File file = new File(className + "_" + "statements_num.txt");
                 BufferedWriter writer = new BufferedWriter(new FileWriter(file));
-                writer.write(Integer.toString(nameIndexMap.get(className)));
+                writer.write(Integer.toString(nameIndexMap.get(className) + 1));
+                writer.close();
+                file = new File(className + "_" + "branches_num.txt");
+                writer = new BufferedWriter(new FileWriter(file));
+                writer.write(Integer.toString(branchCount * 2));
                 writer.close();
             } catch (Exception e) {
 

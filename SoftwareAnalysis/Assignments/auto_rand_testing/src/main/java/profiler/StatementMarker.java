@@ -2,8 +2,7 @@ package profiler;
 
 import soot.jimple.Stmt;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 /**
  * Created by cheyulin on 10/15/16.
@@ -11,16 +10,15 @@ import java.util.Map;
 
 public class StatementMarker {
     private static HashMap<String, HashMap<Integer, Integer>> nameVertexInfoMap;
-    private static HashMap<String, HashMap<Integer, Stmt>> nameStmtInfoMap;
     private static HashMap<String, HashMap<profiler.YcheEdge, Integer>> nameEdgeInfoMap;
     private static HashMap<String, Integer> nameLastInstructionMap;
-
+    private static boolean isIfLastStm;
 
     static {
         nameVertexInfoMap = new HashMap<>();
-        nameStmtInfoMap = new HashMap<>();
         nameEdgeInfoMap = new HashMap<>();
         nameLastInstructionMap = new HashMap<>();
+        isIfLastStm = false;
     }
 
 
@@ -49,7 +47,7 @@ public class StatementMarker {
         }
     }
 
-    public static synchronized void mark(String className, int index) {
+    public static synchronized void markStatement(String className, int index) {
         if (!nameVertexInfoMap.containsKey(className)) {
             nameVertexInfoMap.put(className, new HashMap<Integer, Integer>());
         }
@@ -58,20 +56,13 @@ public class StatementMarker {
             indexCountMap.put(index, 0);
         }
         indexCountMap.put(index, indexCountMap.get(index));
+    }
 
-        if (!nameLastInstructionMap.containsKey(className)) {
-            nameLastInstructionMap.put(className, index);
-            nameEdgeInfoMap.put(className, new HashMap<profiler.YcheEdge, Integer>());
-            return;
-        } else {
-            HashMap<profiler.YcheEdge, Integer> edgeCountMap = nameEdgeInfoMap.get(className);
-            profiler.YcheEdge edge = new profiler.YcheEdge(nameLastInstructionMap.get(className), index);
-            if (!edgeCountMap.containsKey(edge)) {
-                edgeCountMap.put(edge, 0);
-            }
-            edgeCountMap.put(edge, edgeCountMap.get(edge) + 1);
-            nameLastInstructionMap.put(className, index);
-        }
+    public static synchronized void markIfStatement(String className, int index) {
+        isIfLastStm = true;
+    }
+
+    public static synchronized void markBranch(String className, int index) {
 
     }
 }

@@ -3,6 +3,7 @@ package profiler;
 /**
  * Created by cheyulin on 10/16/16.
  */
+
 public class YcheEdge {
     Integer srcVertex;
     Integer dstVertex;
@@ -35,5 +36,4 @@ public class YcheEdge {
         System.out.println(firstEdge.equals(secondEdge));
         System.out.println(firstEdge.equals(thirdEdge));
     }
-
 }
