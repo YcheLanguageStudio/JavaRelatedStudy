@@ -1,5 +1,7 @@
 package profiler;
 
+import soot.jimple.Stmt;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -9,11 +11,14 @@ import java.util.Map;
 
 public class StatementMarker {
     private static HashMap<String, HashMap<Integer, Integer>> nameVertexInfoMap;
+    private static HashMap<String, HashMap<Integer, Stmt>> nameStmtInfoMap;
     private static HashMap<String, HashMap<profiler.YcheEdge, Integer>> nameEdgeInfoMap;
     private static HashMap<String, Integer> nameLastInstructionMap;
 
+
     static {
         nameVertexInfoMap = new HashMap<>();
+        nameStmtInfoMap = new HashMap<>();
         nameEdgeInfoMap = new HashMap<>();
         nameLastInstructionMap = new HashMap<>();
     }

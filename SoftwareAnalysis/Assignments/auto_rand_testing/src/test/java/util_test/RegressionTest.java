@@ -14,4 +14,9 @@ RegressionTest5.class,
 RegressionTest6.class, 
 RegressionTest7.class
 })
-public class RegressionTest{ }
+public class RegressionTest{
+
+    public RegressionTest() {
+        System.out.println("Okay");
+    }
+}

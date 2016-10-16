@@ -2,7 +2,9 @@ package profiler;
 
 import soot.*;
 import soot.jimple.*;
+import soot.jimple.internal.JGotoStmt;
 import soot.jimple.internal.JIdentityStmt;
+import soot.jimple.internal.JIfStmt;
 import soot.util.Chain;
 
 import java.util.HashMap;
@@ -34,6 +36,10 @@ public class CovergageInstrumentor extends BodyTransformer {
 
         for (Iterator stmtIt = units.snapshotIterator(); stmtIt.hasNext(); ) {
             Stmt stmt = (Stmt) stmtIt.next();
+            System.out.println(stmt.getClass().toString());
+            if(stmt instanceof JIfStmt  || stmt instanceof JGotoStmt){
+                System.out.println(stmt.toString());
+            }
             if (!(stmt instanceof JIdentityStmt)) {
                 if (!nameIndexMap.containsKey(className)) {
                     nameIndexMap.put(className, -1);

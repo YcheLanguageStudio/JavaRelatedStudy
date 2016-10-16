@@ -110,15 +110,10 @@ RegressionTest7.java | 50.0% | 7,681 | 7,681 | 15,362
 
 ##Statement & Branch Coverage Measurement Program
 ###Understanding
-- statement coverage, is the nodes covered in the control-flow-graph
-- branch coverage, is the edges between nodes covered in the control-flow-graph
-
-###Things to be implemented
-- count nodes covered: a function to find whether a node is already covered, in the statement invokation phase and a function to insert
-  - the underlying of which could be a hash_map, where the key is the statement id, the value is the number of pass-through-node
-- count edges covered: a function to judge whether a edge is already covered, by remembering the src node and current invoked dst node,
-and a function to insert
-  - the underlying of which could also be a hash_map, where the key is the pair of statement ids, the value is the number of pass-through-edge
+- here, in the jimple code, arguments passing should be skipped, i.e, `JIdentityStmt`, including `this` and other arguments
+- **statement coverage**, is the vertices, represented as a statement, for the ratio, dividing it by whole if
+- **branch coverage**, is the edges between nodes starting from a `JIfStmt`, destinating in another statement e.g, `goto label`, and the else is the statement chained
+after the `JIfstmt` for the ratio
 
 ###Part1:Statement Coverage
 
