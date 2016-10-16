@@ -24,6 +24,11 @@ public class YcheEdge {
     }
 
     @Override
+    public int hashCode() {
+        return srcVertex + dstVertex;
+    }
+
+    @Override
     public boolean equals(Object obj) {
         YcheEdge anotherEdge = (YcheEdge) obj;
         return anotherEdge.srcVertex == this.srcVertex && anotherEdge.dstVertex == this.dstVertex;

@@ -11,7 +11,7 @@ import java.util.*;
 
 public class CovergageInstrumentor extends BodyTransformer {
     static SootClass markerClass;
-    static SootMethod reportFunc, markStmtFunc, reportCodeCoverageFunc;
+    static SootMethod reportFunc, markStmtFunc, markIfFunc, markBranchFunc, reportCodeCoverageFunc;
     static HashMap<String, Integer> nameIndexMap;
     static int branchCount;
 
@@ -22,6 +22,8 @@ public class CovergageInstrumentor extends BodyTransformer {
         reportFunc = markerClass.getMethod("void report()");
         reportCodeCoverageFunc = markerClass.getMethod("void reportCodeCoverage()");
         markStmtFunc = markerClass.getMethod("void markStatement(java.lang.String,int)");
+        markIfFunc = markerClass.getMethod("void markIfStatement(java.lang.String,int)");
+        markBranchFunc = markerClass.getMethod("void markBranch(java.lang.String,int)");
         Scene.v().setSootClassPath(null);
     }
 
@@ -49,41 +51,47 @@ public class CovergageInstrumentor extends BodyTransformer {
         System.out.println(body.toString());
 
 
-        if (className.equals("sample.TestInvoke") || className.equals("util.IntArrayUtil")) {
-            for (Iterator stmtIt = units.snapshotIterator(); stmtIt.hasNext(); ) {
-                Stmt stmt = (Stmt) stmtIt.next();
-                if (stmt instanceof JIfStmt) {
-                    System.out.println(((JIfStmt) stmt).getTarget().toString());
-                    branchCount++;
-                }
-                if (!(stmt instanceof JIdentityStmt)) {
-                    if (!nameIndexMap.containsKey(className)) {
-                        nameIndexMap.put(className, -1);
-                    }
-                    nameIndexMap.put(className, nameIndexMap.get(className) + 1);
-                    InvokeExpr markExpr = Jimple.v().newStaticInvokeExpr(markStmtFunc.makeRef(),
-                            StringConstant.v(className), IntConstant.v(nameIndexMap.get(className)));
-                    Stmt markStmt = Jimple.v().newInvokeStmt(markExpr);
-                    units.insertBefore(markStmt, stmt);
-                }
-            }
-            try {
-                File file = new File(className + "_" + "statements_num.txt");
-                BufferedWriter writer = new BufferedWriter(new FileWriter(file));
-                writer.write(Integer.toString(nameIndexMap.get(className) + 1));
-                writer.close();
-                file = new File(className + "_" + "branches_num.txt");
-                writer = new BufferedWriter(new FileWriter(file));
-                writer.write(Integer.toString(branchCount * 2));
-                writer.close();
-            } catch (Exception e) {
+        for (Iterator stmtIt = units.snapshotIterator(); stmtIt.hasNext(); ) {
+            Stmt stmt = (Stmt) stmtIt.next();
 
+            if (!(stmt instanceof JIdentityStmt)) {
+                if (!nameIndexMap.containsKey(className)) {
+                    nameIndexMap.put(className, -1);
+                }
+                nameIndexMap.put(className, nameIndexMap.get(className) + 1);
+                InvokeExpr markExpr = Jimple.v().newStaticInvokeExpr(markStmtFunc.makeRef(),
+                        StringConstant.v(className), IntConstant.v(nameIndexMap.get(className)));
+                Stmt markStmt = Jimple.v().newInvokeStmt(markExpr);
+                units.insertBefore(markStmt, stmt);
+
+                markExpr = Jimple.v().newStaticInvokeExpr(markBranchFunc.makeRef(),
+                        StringConstant.v(className), IntConstant.v(nameIndexMap.get(className)));
+                markStmt = Jimple.v().newInvokeStmt(markExpr);
+                units.insertBefore(markStmt, stmt);
             }
 
-        } else {
-            insertReportIfNotInit(method, units);
+            if (stmt instanceof JIfStmt) {
+                System.out.println(((JIfStmt) stmt).getTarget().toString());
+                branchCount++;
+                InvokeExpr markExpr = Jimple.v().newStaticInvokeExpr(markIfFunc.makeRef(),
+                        StringConstant.v(className), IntConstant.v(nameIndexMap.get(className)));
+                Stmt markStmt = Jimple.v().newInvokeStmt(markExpr);
+                units.insertAfter(markStmt, stmt);
+            }
         }
 
+        try {
+            File file = new File(className + "_" + "statements_num.txt");
+            BufferedWriter writer = new BufferedWriter(new FileWriter(file));
+            writer.write(Integer.toString(nameIndexMap.get(className) + 1));
+            writer.close();
+            file = new File(className + "_" + "branches_num.txt");
+            writer = new BufferedWriter(new FileWriter(file));
+            writer.write(Integer.toString(branchCount * 2));
+            writer.close();
+        } catch (Exception e) {
 
+        }
+        insertReportIfNotInit(method, units);
     }
 }
