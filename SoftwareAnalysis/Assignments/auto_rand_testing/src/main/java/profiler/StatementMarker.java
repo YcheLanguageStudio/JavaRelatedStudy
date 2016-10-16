@@ -23,6 +23,16 @@ public class StatementMarker {
         nameLastInstructionMap = new HashMap<>();
     }
 
+
+    public static synchronized void reportCodeCoverage() {
+        for (Map.Entry<String, HashMap<Integer, Integer>> outerEntry : nameVertexInfoMap.entrySet()) {
+            System.out.println("ClassName:" + outerEntry.getKey() + ",Covered Instruction:" + outerEntry.getValue().size());
+        }
+        for (Map.Entry<String, HashMap<profiler.YcheEdge, Integer>> outerEntry : nameEdgeInfoMap.entrySet()) {
+            System.out.println("ClassName:" + outerEntry.getKey() + ",Covered Edge:" + outerEntry.getValue().size());
+        }
+    }
+
     public static synchronized void report() {
         for (Map.Entry<String, HashMap<Integer, Integer>> outerEntry : nameVertexInfoMap.entrySet()) {
             System.out.println("ClassName:" + outerEntry.getKey() + ",Covered Instruction:" + outerEntry.getValue().size());
@@ -37,10 +47,6 @@ public class StatementMarker {
                 System.out.println(innerEntry.getKey().toString());
             }
         }
-    }
-
-    public static synchronized void display() {
-        System.out.println("display");
     }
 
     public static synchronized void mark(String className, int index) {

@@ -15,7 +15,6 @@ public class IntArrayUtilTest {
 
     @Before
     public void setUp() throws Exception {
-
     }
 
     @After
