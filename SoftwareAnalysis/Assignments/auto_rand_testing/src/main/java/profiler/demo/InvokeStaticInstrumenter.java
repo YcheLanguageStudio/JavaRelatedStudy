@@ -11,15 +11,15 @@ public class InvokeStaticInstrumenter extends BodyTransformer {
 
     static SootClass counterClass;
     static SootMethod increaseCounter, reportCounter, displayCounter, markCounter;
-    static int globalIndex;
+    static HashMap<String, Integer> nameIndexMap;
 
     static {
-        globalIndex = 0;
+        nameIndexMap = new HashMap<>();
         counterClass = Scene.v().loadClassAndSupport("profiler.demo.MyCounter");
         increaseCounter = counterClass.getMethod("void increase(int)");
         reportCounter = counterClass.getMethod("void report()");
         displayCounter = counterClass.getMethod("void display()");
-        markCounter = counterClass.getMethod("void mark(int)");
+        markCounter = counterClass.getMethod("void mark(java.lang.String,int)");
         Scene.v().setSootClassPath(null);
     }
 
@@ -59,12 +59,19 @@ public class InvokeStaticInstrumenter extends BodyTransformer {
         Iterator stmtIt = units.snapshotIterator();
 
         System.out.println(body.getMethod().getSignature());
-//        System.out.println(body.getMethod().getDeclaringClass().toString());
+
+        String className = body.getMethod().getDeclaringClass().toString();
+
         while (stmtIt.hasNext()) {
             Stmt stmt = (Stmt) stmtIt.next();
             if (!(stmt instanceof JIdentityStmt)) {
-                InvokeExpr markExpr = Jimple.v().newStaticInvokeExpr(markCounter.makeRef(), IntConstant.v(globalIndex));
-                globalIndex++;
+                if (!nameIndexMap.containsKey(className)) {
+                    nameIndexMap.put(className, -1);
+                }
+
+                nameIndexMap.put(className, nameIndexMap.get(className) + 1);
+                InvokeExpr markExpr = Jimple.v().newStaticInvokeExpr(markCounter.makeRef(),
+                        StringConstant.v(className), IntConstant.v(nameIndexMap.get(className)));
                 Stmt markStmt = Jimple.v().newInvokeStmt(markExpr);
                 units.insertBefore(markStmt, stmt);
             }

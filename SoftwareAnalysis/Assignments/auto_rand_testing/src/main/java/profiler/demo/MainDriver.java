@@ -10,7 +10,7 @@ public class MainDriver {
         }
 
         Pack jtp = PackManager.v().getPack("jtp");
-        jtp.add(new Transform("jtp.instrumenter", new InvokeStaticInstrumenter()));
+        jtp.add(new Transform("jtp.yche_instrumenter", new InvokeStaticInstrumenter()));
 
         System.out.println("Driver Parameters:");
         for (String arg : args) {
