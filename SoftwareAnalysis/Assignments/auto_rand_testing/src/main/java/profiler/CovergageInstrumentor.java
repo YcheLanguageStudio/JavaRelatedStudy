@@ -2,10 +2,8 @@ package profiler;
 
 import soot.*;
 import soot.jimple.*;
-import soot.jimple.internal.JGotoStmt;
-import soot.jimple.internal.JIdentityStmt;
-import soot.jimple.internal.JIfStmt;
-import soot.util.Chain;
+import soot.jimple.internal.*;
+import soot.util.*;
 
 import java.util.HashMap;
 import java.util.Iterator;
@@ -36,13 +34,11 @@ public class CovergageInstrumentor extends BodyTransformer {
             Stmt stmt = (Stmt) stmtIt.next();
             if (stmt instanceof JIfStmt) {
                 System.out.println(((JIfStmt) stmt).getTarget().toString());
-
             }
-            if (!(stmt instanceof JIdentityStmt)) {
+            if(!(stmt instanceof JIdentityStmt)) {
                 if (!nameIndexMap.containsKey(className)) {
                     nameIndexMap.put(className, -1);
                 }
-
                 nameIndexMap.put(className, nameIndexMap.get(className) + 1);
                 InvokeExpr markExpr = Jimple.v().newStaticInvokeExpr(markCounter.makeRef(),
                         StringConstant.v(className), IntConstant.v(nameIndexMap.get(className)));
