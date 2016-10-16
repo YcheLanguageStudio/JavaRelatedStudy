@@ -60,15 +60,11 @@ java -cp $RANDOOP_CLASSPATH:$SRC_CLASSPATH randoop.main.Main gentests $IO_ARGS $
 
 - **Statement Coverage**
 
-- use randoop test cases
-
 Element | Coverage | Covered Instructions | Missed Instructions | Total Instructions
 --- | --- | --- | --- | ---
 IntArrayUtil.java | 87.9% | 688 | 95 | 783
 
 - **Branch Coverage**
-
-- use randoop test cases
 
 Element | Coverage | Covered Branch | Missed Branch | Total Branches
 --- | --- | --- | --- | ---
@@ -106,11 +102,11 @@ and [UserfulShells/yche_coverage.txt](UserfulShells/yche_coverage.txt).
 - **branch coverage**, is the edges between nodes starting from a `JIfStmt`, destinating in another statement e.g, `goto label`, and the else is the statement chained
 after the `JIfstmt` for the ratio
 
-###Part1:Statement Coverage
+###Part1:Statement Coverage & Part2:Branch Coverage(Bonus)
 
----
-
-###Part2:Branch Coverage(Bonus)
+The basic implementation is made in [AssignmentSubject/src/profiler/StatementMarker.java](AssignmentSubject/src/profiler/StatementMarker.java), and the
+instrumented program will invoke the reflected functions in helper class. In order to hold the branch info, I introduce
+a user-define type [AssignmentSubject/src/profiler/YcheEdge.java](AssignmentSubject/src/profiler/YcheEdge.java).
 
 ---
 
