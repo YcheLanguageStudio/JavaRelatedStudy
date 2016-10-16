@@ -48,12 +48,9 @@ public class CovergageInstrumentor extends BodyTransformer {
         Chain units = body.getUnits();
         String className = body.getMethod().getDeclaringClass().toString();
         System.out.println("Instrumenting Method Body: " + body.getMethod().getSignature());
-        System.out.println(body.toString());
-
 
         for (Iterator stmtIt = units.snapshotIterator(); stmtIt.hasNext(); ) {
             Stmt stmt = (Stmt) stmtIt.next();
-
 
             if (!(stmt instanceof JIdentityStmt)) {
                 if (!nameIndexMap.containsKey(className)) {
@@ -79,8 +76,6 @@ public class CovergageInstrumentor extends BodyTransformer {
                 Stmt markStmt = Jimple.v().newInvokeStmt(markExpr);
                 units.insertBefore(markStmt, stmt);
             }
-
-
         }
 
         try {

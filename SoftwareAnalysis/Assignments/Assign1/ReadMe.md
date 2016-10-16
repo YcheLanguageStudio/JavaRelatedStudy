@@ -92,6 +92,9 @@ IntArrayUtil.java | 96.7% | 757 | 26 | 783
 ---
 
 ##Statement & Branch Coverage Measurement Program
+##Soot
+Soot does not work with Java8, so we have to use Java7 as our developing kit and environment.
+
 ###Understanding
 - here, in the jimple code, arguments passing should be skipped, i.e, `JIdentityStmt`, including `this` and other arguments
 - **statement coverage**, is the vertices, represented as a statement, for the ratio, dividing it by whole if
