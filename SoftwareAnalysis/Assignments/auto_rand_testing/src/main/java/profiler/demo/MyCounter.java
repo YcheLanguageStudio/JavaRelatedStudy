@@ -1,5 +1,7 @@
 package profiler.demo;
 
+import profiler.YcheEdge;
+
 import java.util.*;
 
 public class MyCounter {

@@ -8,6 +8,9 @@ import soot.util.*;
 import java.util.*;
 
 public class InvokeStaticInstrumenter extends BodyTransformer {
+    public InvokeStaticInstrumenter() {
+        System.out.println("InitTransformer");
+    }
 
     static SootClass counterClass;
     static SootMethod increaseCounter, reportCounter, displayCounter, markCounter;

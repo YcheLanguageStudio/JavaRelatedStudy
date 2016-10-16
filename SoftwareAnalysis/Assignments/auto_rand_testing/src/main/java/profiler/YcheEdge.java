@@ -1,4 +1,4 @@
-package profiler.demo;
+package profiler;
 
 /**
  * Created by cheyulin on 10/16/16.
