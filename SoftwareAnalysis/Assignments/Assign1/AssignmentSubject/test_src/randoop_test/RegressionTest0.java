@@ -1,4 +1,4 @@
-package util_test;
+package randoop_test;
 
 import org.junit.FixMethodOrder;
 import org.junit.Test;
@@ -6106,6 +6106,203 @@ public class RegressionTest0 {
     int i3 = intArrayUtil0.findKthLargestViaQuickSort(i_array1, (-5));
     int[] i_array7 = new int[] { '4', (byte)0 };
     int i8 = intArrayUtil0.findMinSubArrayLen(0, i_array7);
+    util.IntArrayUtil intArrayUtil9 = new util.IntArrayUtil();
+    util.IntArrayUtil intArrayUtil10 = new util.IntArrayUtil();
+    util.IntArrayUtil intArrayUtil11 = new util.IntArrayUtil();
+    util.IntArrayUtil intArrayUtil12 = new util.IntArrayUtil();
+    int[] i_array13 = new int[] {  };
+    int i15 = intArrayUtil12.findKthLargestViaQuickSort(i_array13, (-5));
+    int[] i_array19 = new int[] { '4', (byte)0 };
+    int i20 = intArrayUtil12.findMinSubArrayLen(0, i_array19);
+    util.IntArrayUtil intArrayUtil22 = new util.IntArrayUtil();
+    int[] i_array23 = new int[] {  };
+    int i25 = intArrayUtil22.findKthLargestViaQuickSort(i_array23, (-5));
+    int i26 = intArrayUtil12.findMinSubArrayLen((-1), i_array23);
+    int i28 = intArrayUtil11.findKthLargestViaQuickSort(i_array23, (-3));
+    int i30 = intArrayUtil10.threeSumClosest(i_array23, 5);
+    util.IntArrayUtil intArrayUtil31 = new util.IntArrayUtil();
+    int[] i_array32 = new int[] {  };
+    int i34 = intArrayUtil31.findKthLargestViaQuickSort(i_array32, (-5));
+    int[] i_array38 = new int[] { '4', (byte)0 };
+    int i39 = intArrayUtil31.findMinSubArrayLen(0, i_array38);
+    util.IntArrayUtil intArrayUtil41 = new util.IntArrayUtil();
+    int[] i_array42 = new int[] {  };
+    int i44 = intArrayUtil41.findKthLargestViaQuickSort(i_array42, (-5));
+    int i45 = intArrayUtil31.findMinSubArrayLen((-1), i_array42);
+    int i46 = intArrayUtil10.findMinViaIteration(i_array42);
+    int i47 = intArrayUtil9.removeDuplicateElements(i_array42);
+    int i49 = intArrayUtil0.threeSumClosest(i_array42, (int)' ');
+    util.IntArrayUtil intArrayUtil51 = new util.IntArrayUtil();
+    util.IntArrayUtil intArrayUtil52 = new util.IntArrayUtil();
+    util.IntArrayUtil intArrayUtil53 = new util.IntArrayUtil();
+    int[] i_array54 = new int[] {  };
+    int i56 = intArrayUtil53.findKthLargestViaQuickSort(i_array54, (-5));
+    int[] i_array60 = new int[] { '4', (byte)0 };
+    int i61 = intArrayUtil53.findMinSubArrayLen(0, i_array60);
+    util.IntArrayUtil intArrayUtil63 = new util.IntArrayUtil();
+    int[] i_array64 = new int[] {  };
+    int i66 = intArrayUtil63.findKthLargestViaQuickSort(i_array64, (-5));
+    int i67 = intArrayUtil53.findMinSubArrayLen((-1), i_array64);
+    int i69 = intArrayUtil52.findKthLargestViaQuickSort(i_array64, (-3));
+    int i71 = intArrayUtil51.threeSumClosest(i_array64, 5);
+    util.IntArrayUtil intArrayUtil72 = new util.IntArrayUtil();
+    util.IntArrayUtil intArrayUtil73 = new util.IntArrayUtil();
+    util.IntArrayUtil intArrayUtil74 = new util.IntArrayUtil();
+    int[] i_array75 = new int[] {  };
+    int i77 = intArrayUtil74.findKthLargestViaQuickSort(i_array75, (-5));
+    int[] i_array81 = new int[] { '4', (byte)0 };
+    int i82 = intArrayUtil74.findMinSubArrayLen(0, i_array81);
+    util.IntArrayUtil intArrayUtil84 = new util.IntArrayUtil();
+    int[] i_array85 = new int[] {  };
+    int i87 = intArrayUtil84.findKthLargestViaQuickSort(i_array85, (-5));
+    int i88 = intArrayUtil74.findMinSubArrayLen((-1), i_array85);
+    int i90 = intArrayUtil73.findKthLargestViaQuickSort(i_array85, (-3));
+    int i92 = intArrayUtil72.threeSumClosest(i_array85, 5);
+    int i94 = intArrayUtil51.threeSumClosest(i_array85, 2);
+    int i95 = intArrayUtil0.findMinSubArrayLen((int)'a', i_array85);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertNotNull(i_array1);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i3 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertNotNull(i_array7);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i8 == 1);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertNotNull(i_array13);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i15 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertNotNull(i_array19);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i20 == 1);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertNotNull(i_array23);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i25 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i26 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i28 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i30 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertNotNull(i_array32);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i34 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertNotNull(i_array38);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i39 == 1);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertNotNull(i_array42);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i44 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i45 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i46 == (-1));
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i47 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i49 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertNotNull(i_array54);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i56 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertNotNull(i_array60);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i61 == 1);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertNotNull(i_array64);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i66 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i67 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i69 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i71 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertNotNull(i_array75);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i77 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertNotNull(i_array81);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i82 == 1);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertNotNull(i_array85);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i87 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i88 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i90 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i92 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i94 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i95 == 0);
+
+  }
+
+  @Test
+  public void test036() throws Throwable {
+
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test036"); }
+
+
+    util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
+    int[] i_array1 = new int[] {  };
+    int i3 = intArrayUtil0.findKthLargestViaQuickSort(i_array1, (-5));
+    int[] i_array7 = new int[] { '4', (byte)0 };
+    int i8 = intArrayUtil0.findMinSubArrayLen(0, i_array7);
     util.IntArrayUtil intArrayUtil10 = new util.IntArrayUtil();
     int[] i_array11 = new int[] {  };
     int i13 = intArrayUtil10.findKthLargestViaQuickSort(i_array11, (-5));
@@ -6254,9 +6451,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test036() throws Throwable {
+  public void test037() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test036"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test037"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -6446,9 +6643,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test037() throws Throwable {
+  public void test038() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test037"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test038"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -6649,9 +6846,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test038() throws Throwable {
+  public void test039() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test038"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test039"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -6834,9 +7031,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test039() throws Throwable {
+  public void test040() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test039"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test040"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -7026,9 +7223,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test040() throws Throwable {
+  public void test041() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test040"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test041"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -7197,9 +7394,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test041() throws Throwable {
+  public void test042() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test041"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test042"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -7373,9 +7570,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test042() throws Throwable {
+  public void test043() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test042"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test043"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -7577,9 +7774,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test043() throws Throwable {
+  public void test044() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test043"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test044"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -7771,9 +7968,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test044() throws Throwable {
+  public void test045() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test044"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test045"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -7929,9 +8126,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test045() throws Throwable {
+  public void test046() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test045"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test046"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -8069,9 +8266,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test046() throws Throwable {
+  public void test047() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test046"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test047"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -8265,9 +8462,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test047() throws Throwable {
+  public void test048() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test047"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test048"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -8462,9 +8659,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test048() throws Throwable {
+  public void test049() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test048"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test049"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -8645,9 +8842,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test049() throws Throwable {
+  public void test050() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test049"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test050"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -8834,9 +9031,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test050() throws Throwable {
+  public void test051() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test050"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test051"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -9040,9 +9237,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test051() throws Throwable {
+  public void test052() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test051"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test052"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -9204,9 +9401,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test052() throws Throwable {
+  public void test053() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test052"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test053"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -9420,9 +9617,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test053() throws Throwable {
+  public void test054() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test053"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test054"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -9584,9 +9781,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test054() throws Throwable {
+  public void test055() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test054"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test055"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -9786,9 +9983,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test055() throws Throwable {
+  public void test056() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test055"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test056"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -9952,9 +10149,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test056() throws Throwable {
+  public void test057() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test056"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test057"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -10153,9 +10350,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test057() throws Throwable {
+  public void test058() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test057"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test058"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -10270,9 +10467,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test058() throws Throwable {
+  public void test059() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test058"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test059"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -10478,9 +10675,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test059() throws Throwable {
+  public void test060() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test059"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test060"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -10631,9 +10828,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test060() throws Throwable {
+  public void test061() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test060"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test061"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -10776,9 +10973,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test061() throws Throwable {
+  public void test062() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test061"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test062"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -10985,9 +11182,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test062() throws Throwable {
+  public void test063() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test062"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test063"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -11191,9 +11388,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test063() throws Throwable {
+  public void test064() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test063"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test064"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -11397,9 +11594,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test064() throws Throwable {
+  public void test065() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test064"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test065"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -11607,9 +11804,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test065() throws Throwable {
+  public void test066() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test065"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test066"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -11799,9 +11996,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test066() throws Throwable {
+  public void test067() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test066"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test067"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -11952,9 +12149,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test067() throws Throwable {
+  public void test068() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test067"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test068"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -12146,9 +12343,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test068() throws Throwable {
+  public void test069() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test068"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test069"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -12319,9 +12516,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test069() throws Throwable {
+  public void test070() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test069"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test070"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -12462,9 +12659,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test070() throws Throwable {
+  public void test071() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test070"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test071"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -12665,9 +12862,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test071() throws Throwable {
+  public void test072() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test071"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test072"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -12821,9 +13018,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test072() throws Throwable {
+  public void test073() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test072"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test073"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -12951,9 +13148,178 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test073() throws Throwable {
+  public void test074() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test073"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test074"); }
+
+
+    util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
+    util.IntArrayUtil intArrayUtil2 = new util.IntArrayUtil();
+    util.IntArrayUtil intArrayUtil4 = new util.IntArrayUtil();
+    int[] i_array5 = new int[] {  };
+    int i7 = intArrayUtil4.findKthLargestViaQuickSort(i_array5, (-5));
+    int[] i_array11 = new int[] { '4', (byte)0 };
+    int i12 = intArrayUtil4.findMinSubArrayLen(0, i_array11);
+    util.IntArrayUtil intArrayUtil14 = new util.IntArrayUtil();
+    int[] i_array15 = new int[] {  };
+    int i17 = intArrayUtil14.findKthLargestViaQuickSort(i_array15, (-5));
+    int i18 = intArrayUtil4.findMinSubArrayLen((-1), i_array15);
+    util.IntArrayUtil intArrayUtil19 = new util.IntArrayUtil();
+    int[] i_array20 = new int[] {  };
+    int i22 = intArrayUtil19.findKthLargestViaQuickSort(i_array20, (-5));
+    int[] i_array26 = new int[] { '4', (byte)0 };
+    int i27 = intArrayUtil19.findMinSubArrayLen(0, i_array26);
+    int i29 = intArrayUtil4.threeSumClosest(i_array26, (-1));
+    int i30 = intArrayUtil2.findMinSubArrayLen((int)(short)100, i_array26);
+    int i31 = intArrayUtil0.findMinSubArrayLen(2, i_array26);
+    util.IntArrayUtil intArrayUtil33 = new util.IntArrayUtil();
+    int[] i_array34 = new int[] {  };
+    int i36 = intArrayUtil33.findKthLargestViaQuickSort(i_array34, (-5));
+    util.IntArrayUtil intArrayUtil37 = new util.IntArrayUtil();
+    util.IntArrayUtil intArrayUtil38 = new util.IntArrayUtil();
+    int[] i_array39 = new int[] {  };
+    int i41 = intArrayUtil38.findKthLargestViaQuickSort(i_array39, (-5));
+    int[] i_array45 = new int[] { '4', (byte)0 };
+    int i46 = intArrayUtil38.findMinSubArrayLen(0, i_array45);
+    util.IntArrayUtil intArrayUtil47 = new util.IntArrayUtil();
+    util.IntArrayUtil intArrayUtil49 = new util.IntArrayUtil();
+    int[] i_array50 = new int[] {  };
+    int i52 = intArrayUtil49.findKthLargestViaQuickSort(i_array50, (-5));
+    int[] i_array56 = new int[] { '4', (byte)0 };
+    int i57 = intArrayUtil49.findMinSubArrayLen(0, i_array56);
+    util.IntArrayUtil intArrayUtil59 = new util.IntArrayUtil();
+    int[] i_array60 = new int[] {  };
+    int i62 = intArrayUtil59.findKthLargestViaQuickSort(i_array60, (-5));
+    int i63 = intArrayUtil49.findMinSubArrayLen((-1), i_array60);
+    util.IntArrayUtil intArrayUtil64 = new util.IntArrayUtil();
+    int[] i_array65 = new int[] {  };
+    int i67 = intArrayUtil64.findKthLargestViaQuickSort(i_array65, (-5));
+    int[] i_array71 = new int[] { '4', (byte)0 };
+    int i72 = intArrayUtil64.findMinSubArrayLen(0, i_array71);
+    int i74 = intArrayUtil49.threeSumClosest(i_array71, (-1));
+    int i75 = intArrayUtil47.findMinSubArrayLen((int)(short)100, i_array71);
+    int i76 = intArrayUtil38.removeDuplicateElements(i_array71);
+    int i77 = intArrayUtil37.findMinViaRecursion(i_array71);
+    int i78 = intArrayUtil33.removeDuplicateElements(i_array71);
+    int i79 = intArrayUtil0.findMinSubArrayLen(0, i_array71);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertNotNull(i_array5);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i7 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertNotNull(i_array11);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i12 == 1);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertNotNull(i_array15);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i17 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i18 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertNotNull(i_array20);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i22 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertNotNull(i_array26);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i27 == 1);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i29 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i30 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i31 == 1);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertNotNull(i_array34);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i36 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertNotNull(i_array39);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i41 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertNotNull(i_array45);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i46 == 1);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertNotNull(i_array50);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i52 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertNotNull(i_array56);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i57 == 1);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertNotNull(i_array60);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i62 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i63 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertNotNull(i_array65);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i67 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertNotNull(i_array71);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i72 == 1);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i74 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i75 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i76 == 2);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i77 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i78 == 2);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i79 == 1);
+
+  }
+
+  @Test
+  public void test075() throws Throwable {
+
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test075"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -13130,9 +13496,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test074() throws Throwable {
+  public void test076() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test074"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test076"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -13311,9 +13677,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test075() throws Throwable {
+  public void test077() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test075"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test077"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -13467,9 +13833,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test076() throws Throwable {
+  public void test078() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test076"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test078"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -13677,9 +14043,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test077() throws Throwable {
+  public void test079() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test077"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test079"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -13861,9 +14227,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test078() throws Throwable {
+  public void test080() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test078"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test080"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -14005,9 +14371,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test079() throws Throwable {
+  public void test081() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test079"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test081"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -14170,9 +14536,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test080() throws Throwable {
+  public void test082() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test080"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test082"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -14341,9 +14707,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test081() throws Throwable {
+  public void test083() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test081"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test083"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -14543,9 +14909,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test082() throws Throwable {
+  public void test084() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test082"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test084"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -14740,9 +15106,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test083() throws Throwable {
+  public void test085() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test083"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test085"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -14940,9 +15306,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test084() throws Throwable {
+  public void test086() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test084"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test086"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -15078,9 +15444,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test085() throws Throwable {
+  public void test087() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test085"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test087"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -15222,9 +15588,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test086() throws Throwable {
+  public void test088() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test086"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test088"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -15428,9 +15794,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test087() throws Throwable {
+  public void test089() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test087"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test089"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -15635,9 +16001,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test088() throws Throwable {
+  public void test090() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test088"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test090"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -15809,9 +16175,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test089() throws Throwable {
+  public void test091() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test089"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test091"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -15968,9 +16334,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test090() throws Throwable {
+  public void test092() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test090"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test092"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -16149,9 +16515,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test091() throws Throwable {
+  public void test093() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test091"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test093"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -16294,9 +16660,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test092() throws Throwable {
+  public void test094() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test092"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test094"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -16485,9 +16851,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test093() throws Throwable {
+  public void test095() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test093"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test095"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -16666,9 +17032,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test094() throws Throwable {
+  public void test096() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test094"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test096"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -16856,9 +17222,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test095() throws Throwable {
+  public void test097() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test095"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test097"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -17066,9 +17432,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test096() throws Throwable {
+  public void test098() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test096"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test098"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -17233,9 +17599,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test097() throws Throwable {
+  public void test099() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test097"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test099"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -17425,9 +17791,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test098() throws Throwable {
+  public void test100() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test098"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test100"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -17607,9 +17973,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test099() throws Throwable {
+  public void test101() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test099"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test101"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -17744,9 +18110,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test100() throws Throwable {
+  public void test102() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test100"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test102"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -17882,9 +18248,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test101() throws Throwable {
+  public void test103() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test101"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test103"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -18084,9 +18450,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test102() throws Throwable {
+  public void test104() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test102"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test104"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -18267,9 +18633,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test103() throws Throwable {
+  public void test105() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test103"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test105"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -18422,9 +18788,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test104() throws Throwable {
+  public void test106() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test104"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test106"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -18522,9 +18888,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test105() throws Throwable {
+  public void test107() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test105"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test107"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -18723,9 +19089,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test106() throws Throwable {
+  public void test108() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test106"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test108"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -18915,9 +19281,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test107() throws Throwable {
+  public void test109() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test107"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test109"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -19099,9 +19465,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test108() throws Throwable {
+  public void test110() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test108"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test110"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -19226,9 +19592,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test109() throws Throwable {
+  public void test111() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test109"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test111"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -19368,9 +19734,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test110() throws Throwable {
+  public void test112() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test110"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test112"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -19476,9 +19842,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test111() throws Throwable {
+  public void test113() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test111"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test113"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -19640,9 +20006,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test112() throws Throwable {
+  public void test114() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test112"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test114"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -19796,9 +20162,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test113() throws Throwable {
+  public void test115() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test113"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test115"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -20005,9 +20371,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test114() throws Throwable {
+  public void test116() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test114"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test116"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -20114,9 +20480,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test115() throws Throwable {
+  public void test117() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test115"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test117"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -20314,9 +20680,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test116() throws Throwable {
+  public void test118() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test116"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test118"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -20491,9 +20857,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test117() throws Throwable {
+  public void test119() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test117"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test119"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -20706,9 +21072,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test118() throws Throwable {
+  public void test120() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test118"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test120"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -20887,9 +21253,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test119() throws Throwable {
+  public void test121() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test119"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test121"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -21074,9 +21440,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test120() throws Throwable {
+  public void test122() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test120"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test122"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -21267,9 +21633,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test121() throws Throwable {
+  public void test123() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test121"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test123"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -21458,9 +21824,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test122() throws Throwable {
+  public void test124() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test122"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test124"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -21582,9 +21948,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test123() throws Throwable {
+  public void test125() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test123"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test125"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -21756,9 +22122,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test124() throws Throwable {
+  public void test126() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test124"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test126"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -21920,9 +22286,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test125() throws Throwable {
+  public void test127() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test125"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test127"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -22058,9 +22424,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test126() throws Throwable {
+  public void test128() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test126"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test128"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -22255,9 +22621,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test127() throws Throwable {
+  public void test129() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test127"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test129"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -22440,9 +22806,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test128() throws Throwable {
+  public void test130() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test128"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test130"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -22554,9 +22920,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test129() throws Throwable {
+  public void test131() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test129"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test131"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -22702,9 +23068,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test130() throws Throwable {
+  public void test132() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test130"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test132"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -22894,9 +23260,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test131() throws Throwable {
+  public void test133() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test131"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test133"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -23089,9 +23455,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test132() throws Throwable {
+  public void test134() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test132"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test134"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -23284,9 +23650,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test133() throws Throwable {
+  public void test135() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test133"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test135"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -23487,9 +23853,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test134() throws Throwable {
+  public void test136() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test134"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test136"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -23689,9 +24055,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test135() throws Throwable {
+  public void test137() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test135"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test137"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -23884,9 +24250,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test136() throws Throwable {
+  public void test138() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test136"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test138"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -24057,9 +24423,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test137() throws Throwable {
+  public void test139() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test137"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test139"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -24249,9 +24615,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test138() throws Throwable {
+  public void test140() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test138"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test140"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -24419,9 +24785,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test139() throws Throwable {
+  public void test141() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test139"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test141"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -24627,9 +24993,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test140() throws Throwable {
+  public void test142() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test140"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test142"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -24764,9 +25130,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test141() throws Throwable {
+  public void test143() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test141"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test143"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -24934,9 +25300,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test142() throws Throwable {
+  public void test144() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test142"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test144"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -25130,9 +25496,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test143() throws Throwable {
+  public void test145() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test143"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test145"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -25318,9 +25684,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test144() throws Throwable {
+  public void test146() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test144"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test146"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -25520,9 +25886,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test145() throws Throwable {
+  public void test147() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test145"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test147"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -25676,9 +26042,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test146() throws Throwable {
+  public void test148() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test146"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test148"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -25839,9 +26205,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test147() throws Throwable {
+  public void test149() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test147"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test149"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -26005,9 +26371,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test148() throws Throwable {
+  public void test150() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test148"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test150"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -26147,9 +26513,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test149() throws Throwable {
+  public void test151() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test149"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test151"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -26247,9 +26613,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test150() throws Throwable {
+  public void test152() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test150"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test152"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -26439,9 +26805,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test151() throws Throwable {
+  public void test153() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test151"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test153"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -26618,9 +26984,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test152() throws Throwable {
+  public void test154() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test152"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test154"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -26712,9 +27078,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test153() throws Throwable {
+  public void test155() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test153"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test155"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -26824,9 +27190,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test154() throws Throwable {
+  public void test156() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test154"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test156"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -27030,9 +27396,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test155() throws Throwable {
+  public void test157() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test155"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test157"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -27227,9 +27593,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test156() throws Throwable {
+  public void test158() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test156"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test158"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -27375,9 +27741,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test157() throws Throwable {
+  public void test159() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test157"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test159"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -27592,9 +27958,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test158() throws Throwable {
+  public void test160() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test158"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test160"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -27753,9 +28119,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test159() throws Throwable {
+  public void test161() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test159"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test161"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -27945,9 +28311,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test160() throws Throwable {
+  public void test162() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test160"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test162"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -28077,9 +28443,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test161() throws Throwable {
+  public void test163() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test161"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test163"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -28225,9 +28591,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test162() throws Throwable {
+  public void test164() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test162"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test164"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -28409,9 +28775,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test163() throws Throwable {
+  public void test165() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test163"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test165"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -28439,9 +28805,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test164() throws Throwable {
+  public void test166() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test164"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test166"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -28629,9 +28995,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test165() throws Throwable {
+  public void test167() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test165"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test167"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -28837,9 +29203,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test166() throws Throwable {
+  public void test168() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test166"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test168"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -29011,9 +29377,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test167() throws Throwable {
+  public void test169() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test167"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test169"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -29130,9 +29496,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test168() throws Throwable {
+  public void test170() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test168"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test170"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -29301,9 +29667,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test169() throws Throwable {
+  public void test171() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test169"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test171"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -29472,9 +29838,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test170() throws Throwable {
+  public void test172() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test170"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test172"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -29681,9 +30047,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test171() throws Throwable {
+  public void test173() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test171"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test173"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -29798,9 +30164,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test172() throws Throwable {
+  public void test174() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test172"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test174"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -29981,9 +30347,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test173() throws Throwable {
+  public void test175() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test173"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test175"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -30182,9 +30548,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test174() throws Throwable {
+  public void test176() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test174"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test176"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -30369,9 +30735,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test175() throws Throwable {
+  public void test177() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test175"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test177"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -30579,9 +30945,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test176() throws Throwable {
+  public void test178() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test176"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test178"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -30757,9 +31123,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test177() throws Throwable {
+  public void test179() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test177"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test179"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -30876,9 +31242,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test178() throws Throwable {
+  public void test180() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test178"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test180"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -31064,9 +31430,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test179() throws Throwable {
+  public void test181() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test179"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test181"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -31209,9 +31575,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test180() throws Throwable {
+  public void test182() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test180"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test182"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -31415,9 +31781,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test181() throws Throwable {
+  public void test183() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test181"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test183"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -31548,9 +31914,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test182() throws Throwable {
+  public void test184() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test182"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test184"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -31753,9 +32119,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test183() throws Throwable {
+  public void test185() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test183"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test185"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -31951,9 +32317,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test184() throws Throwable {
+  public void test186() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test184"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test186"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -32150,9 +32516,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test185() throws Throwable {
+  public void test187() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test185"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test187"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -32346,9 +32712,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test186() throws Throwable {
+  public void test188() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test186"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test188"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -32492,9 +32858,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test187() throws Throwable {
+  public void test189() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test187"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test189"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -32590,9 +32956,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test188() throws Throwable {
+  public void test190() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test188"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test190"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -32691,9 +33057,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test189() throws Throwable {
+  public void test191() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test189"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test191"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -32886,9 +33252,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test190() throws Throwable {
+  public void test192() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test190"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test192"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -33089,9 +33455,207 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test191() throws Throwable {
+  public void test193() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test191"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test193"); }
+
+
+    util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
+    int[] i_array1 = new int[] {  };
+    int i3 = intArrayUtil0.findKthLargestViaQuickSort(i_array1, (-5));
+    int[] i_array7 = new int[] { '4', (byte)0 };
+    int i8 = intArrayUtil0.findMinSubArrayLen(0, i_array7);
+    util.IntArrayUtil intArrayUtil9 = new util.IntArrayUtil();
+    util.IntArrayUtil intArrayUtil11 = new util.IntArrayUtil();
+    int[] i_array12 = new int[] {  };
+    int i14 = intArrayUtil11.findKthLargestViaQuickSort(i_array12, (-5));
+    int[] i_array18 = new int[] { '4', (byte)0 };
+    int i19 = intArrayUtil11.findMinSubArrayLen(0, i_array18);
+    util.IntArrayUtil intArrayUtil21 = new util.IntArrayUtil();
+    int[] i_array22 = new int[] {  };
+    int i24 = intArrayUtil21.findKthLargestViaQuickSort(i_array22, (-5));
+    int i25 = intArrayUtil11.findMinSubArrayLen((-1), i_array22);
+    util.IntArrayUtil intArrayUtil26 = new util.IntArrayUtil();
+    int[] i_array27 = new int[] {  };
+    int i29 = intArrayUtil26.findKthLargestViaQuickSort(i_array27, (-5));
+    int[] i_array33 = new int[] { '4', (byte)0 };
+    int i34 = intArrayUtil26.findMinSubArrayLen(0, i_array33);
+    int i36 = intArrayUtil11.threeSumClosest(i_array33, (-1));
+    int i37 = intArrayUtil9.findMinSubArrayLen((int)(short)100, i_array33);
+    int i38 = intArrayUtil0.removeDuplicateElements(i_array33);
+    util.IntArrayUtil intArrayUtil39 = new util.IntArrayUtil();
+    int[] i_array40 = new int[] {  };
+    int i42 = intArrayUtil39.findKthLargestViaQuickSort(i_array40, (-5));
+    int[] i_array46 = new int[] { '4', (byte)0 };
+    int i47 = intArrayUtil39.findMinSubArrayLen(0, i_array46);
+    util.IntArrayUtil intArrayUtil48 = new util.IntArrayUtil();
+    util.IntArrayUtil intArrayUtil50 = new util.IntArrayUtil();
+    int[] i_array51 = new int[] {  };
+    int i53 = intArrayUtil50.findKthLargestViaQuickSort(i_array51, (-5));
+    int[] i_array57 = new int[] { '4', (byte)0 };
+    int i58 = intArrayUtil50.findMinSubArrayLen(0, i_array57);
+    util.IntArrayUtil intArrayUtil60 = new util.IntArrayUtil();
+    int[] i_array61 = new int[] {  };
+    int i63 = intArrayUtil60.findKthLargestViaQuickSort(i_array61, (-5));
+    int i64 = intArrayUtil50.findMinSubArrayLen((-1), i_array61);
+    util.IntArrayUtil intArrayUtil65 = new util.IntArrayUtil();
+    int[] i_array66 = new int[] {  };
+    int i68 = intArrayUtil65.findKthLargestViaQuickSort(i_array66, (-5));
+    int[] i_array72 = new int[] { '4', (byte)0 };
+    int i73 = intArrayUtil65.findMinSubArrayLen(0, i_array72);
+    int i75 = intArrayUtil50.threeSumClosest(i_array72, (-1));
+    int i76 = intArrayUtil48.findMinSubArrayLen((int)(short)100, i_array72);
+    int i77 = intArrayUtil39.removeDuplicateElements(i_array72);
+    util.IntArrayUtil intArrayUtil78 = new util.IntArrayUtil();
+    int[] i_array79 = new int[] {  };
+    int i81 = intArrayUtil78.findKthLargestViaQuickSort(i_array79, (-5));
+    int[] i_array85 = new int[] { '4', (byte)0 };
+    int i86 = intArrayUtil78.findMinSubArrayLen(0, i_array85);
+    int i87 = intArrayUtil39.findMinViaRecursion(i_array85);
+    int i88 = intArrayUtil0.findMinViaIteration(i_array85);
+    int[] i_array89 = null;
+    int i90 = intArrayUtil0.findMinViaIteration(i_array89);
+    int[] i_array91 = null;
+    int i93 = intArrayUtil0.findKthLargestViaQuickSort(i_array91, 1);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertNotNull(i_array1);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i3 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertNotNull(i_array7);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i8 == 1);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertNotNull(i_array12);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i14 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertNotNull(i_array18);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i19 == 1);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertNotNull(i_array22);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i24 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i25 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertNotNull(i_array27);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i29 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertNotNull(i_array33);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i34 == 1);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i36 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i37 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i38 == 2);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertNotNull(i_array40);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i42 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertNotNull(i_array46);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i47 == 1);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertNotNull(i_array51);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i53 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertNotNull(i_array57);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i58 == 1);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertNotNull(i_array61);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i63 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i64 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertNotNull(i_array66);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i68 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertNotNull(i_array72);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i73 == 1);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i75 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i76 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i77 == 2);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertNotNull(i_array79);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i81 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertNotNull(i_array85);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i86 == 1);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i87 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i88 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i90 == (-1));
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i93 == 0);
+
+  }
+
+  @Test
+  public void test194() throws Throwable {
+
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test194"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -33194,9 +33758,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test192() throws Throwable {
+  public void test195() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test192"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test195"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -33311,9 +33875,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test193() throws Throwable {
+  public void test196() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test193"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test196"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -33505,9 +34069,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test194() throws Throwable {
+  public void test197() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test194"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test197"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -33650,9 +34214,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test195() throws Throwable {
+  public void test198() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test195"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test198"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -33819,9 +34383,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test196() throws Throwable {
+  public void test199() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test196"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test199"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -34027,9 +34591,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test197() throws Throwable {
+  public void test200() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test197"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test200"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -34223,9 +34787,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test198() throws Throwable {
+  public void test201() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test198"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test201"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -34428,9 +34992,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test199() throws Throwable {
+  public void test202() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test199"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test202"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -34618,9 +35182,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test200() throws Throwable {
+  public void test203() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test200"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test203"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -34797,9 +35361,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test201() throws Throwable {
+  public void test204() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test201"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test204"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -34976,9 +35540,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test202() throws Throwable {
+  public void test205() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test202"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test205"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -35158,9 +35722,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test203() throws Throwable {
+  public void test206() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test203"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test206"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -35337,9 +35901,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test204() throws Throwable {
+  public void test207() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test204"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test207"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -35420,9 +35984,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test205() throws Throwable {
+  public void test208() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test205"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test208"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -35607,9 +36171,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test206() throws Throwable {
+  public void test209() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test206"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test209"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -35773,9 +36337,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test207() throws Throwable {
+  public void test210() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test207"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test210"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -35975,9 +36539,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test208() throws Throwable {
+  public void test211() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test208"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test211"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -36180,9 +36744,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test209() throws Throwable {
+  public void test212() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test209"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test212"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -36325,9 +36889,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test210() throws Throwable {
+  public void test213() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test210"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test213"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -36515,9 +37079,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test211() throws Throwable {
+  public void test214() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test211"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test214"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -36642,9 +37206,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test212() throws Throwable {
+  public void test215() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test212"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test215"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -36758,9 +37322,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test213() throws Throwable {
+  public void test216() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test213"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test216"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -36898,9 +37462,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test214() throws Throwable {
+  public void test217() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test214"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test217"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -37078,9 +37642,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test215() throws Throwable {
+  public void test218() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test215"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test218"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -37268,9 +37832,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test216() throws Throwable {
+  public void test219() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test216"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test219"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -37447,9 +38011,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test217() throws Throwable {
+  public void test220() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test217"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test220"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -37628,9 +38192,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test218() throws Throwable {
+  public void test221() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test218"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test221"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -37825,9 +38389,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test219() throws Throwable {
+  public void test222() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test219"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test222"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -37990,9 +38554,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test220() throws Throwable {
+  public void test223() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test220"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test223"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -38060,9 +38624,193 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test221() throws Throwable {
+  public void test224() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test221"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test224"); }
+
+
+    util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
+    int[] i_array1 = new int[] {  };
+    int i3 = intArrayUtil0.findKthLargestViaQuickSort(i_array1, (-5));
+    util.IntArrayUtil intArrayUtil4 = new util.IntArrayUtil();
+    int[] i_array5 = new int[] {  };
+    int i7 = intArrayUtil4.findKthLargestViaQuickSort(i_array5, (-5));
+    int[] i_array11 = new int[] { '4', (byte)0 };
+    int i12 = intArrayUtil4.findMinSubArrayLen(0, i_array11);
+    util.IntArrayUtil intArrayUtil13 = new util.IntArrayUtil();
+    util.IntArrayUtil intArrayUtil15 = new util.IntArrayUtil();
+    int[] i_array16 = new int[] {  };
+    int i18 = intArrayUtil15.findKthLargestViaQuickSort(i_array16, (-5));
+    int[] i_array22 = new int[] { '4', (byte)0 };
+    int i23 = intArrayUtil15.findMinSubArrayLen(0, i_array22);
+    util.IntArrayUtil intArrayUtil25 = new util.IntArrayUtil();
+    int[] i_array26 = new int[] {  };
+    int i28 = intArrayUtil25.findKthLargestViaQuickSort(i_array26, (-5));
+    int i29 = intArrayUtil15.findMinSubArrayLen((-1), i_array26);
+    util.IntArrayUtil intArrayUtil30 = new util.IntArrayUtil();
+    int[] i_array31 = new int[] {  };
+    int i33 = intArrayUtil30.findKthLargestViaQuickSort(i_array31, (-5));
+    int[] i_array37 = new int[] { '4', (byte)0 };
+    int i38 = intArrayUtil30.findMinSubArrayLen(0, i_array37);
+    int i40 = intArrayUtil15.threeSumClosest(i_array37, (-1));
+    int i41 = intArrayUtil13.findMinSubArrayLen((int)(short)100, i_array37);
+    int i42 = intArrayUtil4.removeDuplicateElements(i_array37);
+    util.IntArrayUtil intArrayUtil43 = new util.IntArrayUtil();
+    util.IntArrayUtil intArrayUtil45 = new util.IntArrayUtil();
+    util.IntArrayUtil intArrayUtil47 = new util.IntArrayUtil();
+    int[] i_array48 = new int[] {  };
+    int i50 = intArrayUtil47.findKthLargestViaQuickSort(i_array48, (-5));
+    int[] i_array54 = new int[] { '4', (byte)0 };
+    int i55 = intArrayUtil47.findMinSubArrayLen(0, i_array54);
+    util.IntArrayUtil intArrayUtil57 = new util.IntArrayUtil();
+    int[] i_array58 = new int[] {  };
+    int i60 = intArrayUtil57.findKthLargestViaQuickSort(i_array58, (-5));
+    int i61 = intArrayUtil47.findMinSubArrayLen((-1), i_array58);
+    util.IntArrayUtil intArrayUtil62 = new util.IntArrayUtil();
+    int[] i_array63 = new int[] {  };
+    int i65 = intArrayUtil62.findKthLargestViaQuickSort(i_array63, (-5));
+    int[] i_array69 = new int[] { '4', (byte)0 };
+    int i70 = intArrayUtil62.findMinSubArrayLen(0, i_array69);
+    int i72 = intArrayUtil47.threeSumClosest(i_array69, (-1));
+    int i73 = intArrayUtil45.findMinSubArrayLen((int)(short)100, i_array69);
+    int i74 = intArrayUtil43.findMinSubArrayLen(2, i_array69);
+    intArrayUtil4.getNextPermutationNumber(i_array69);
+    util.IntArrayUtil intArrayUtil76 = new util.IntArrayUtil();
+    util.IntArrayUtil intArrayUtil78 = new util.IntArrayUtil();
+    int[] i_array79 = new int[] {  };
+    int i81 = intArrayUtil78.findKthLargestViaQuickSort(i_array79, (-5));
+    int[] i_array85 = new int[] { '4', (byte)0 };
+    int i86 = intArrayUtil78.findMinSubArrayLen(0, i_array85);
+    int i87 = intArrayUtil76.findMinSubArrayLen(1, i_array85);
+    intArrayUtil4.getNextPermutationNumber(i_array85);
+    int i90 = intArrayUtil0.threeSumClosest(i_array85, 1);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertNotNull(i_array1);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i3 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertNotNull(i_array5);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i7 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertNotNull(i_array11);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i12 == 1);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertNotNull(i_array16);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i18 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertNotNull(i_array22);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i23 == 1);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertNotNull(i_array26);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i28 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i29 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertNotNull(i_array31);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i33 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertNotNull(i_array37);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i38 == 1);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i40 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i41 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i42 == 2);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertNotNull(i_array48);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i50 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertNotNull(i_array54);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i55 == 1);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertNotNull(i_array58);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i60 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i61 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertNotNull(i_array63);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i65 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertNotNull(i_array69);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i70 == 1);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i72 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i73 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i74 == 1);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertNotNull(i_array79);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i81 == 0);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertNotNull(i_array85);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i86 == 1);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i87 == 1);
+    
+    // Regression assertion (captures the current behavior of the code)
+    org.junit.Assert.assertTrue(i90 == 0);
+
+  }
+
+  @Test
+  public void test225() throws Throwable {
+
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test225"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -38265,9 +39013,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test222() throws Throwable {
+  public void test226() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test222"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test226"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -38369,9 +39117,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test223() throws Throwable {
+  public void test227() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test223"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test227"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -38503,9 +39251,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test224() throws Throwable {
+  public void test228() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test224"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test228"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -38662,9 +39410,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test225() throws Throwable {
+  public void test229() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test225"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test229"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -38841,9 +39589,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test226() throws Throwable {
+  public void test230() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test226"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test230"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -38974,9 +39722,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test227() throws Throwable {
+  public void test231() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test227"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test231"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -39178,9 +39926,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test228() throws Throwable {
+  public void test232() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test228"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test232"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -39349,9 +40097,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test229() throws Throwable {
+  public void test233() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test229"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test233"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -39445,9 +40193,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test230() throws Throwable {
+  public void test234() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test230"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test234"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -39660,9 +40408,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test231() throws Throwable {
+  public void test235() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test231"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test235"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -39842,9 +40590,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test232() throws Throwable {
+  public void test236() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test232"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test236"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -40009,9 +40757,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test233() throws Throwable {
+  public void test237() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test233"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test237"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -40189,9 +40937,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test234() throws Throwable {
+  public void test238() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test234"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test238"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -40376,9 +41124,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test235() throws Throwable {
+  public void test239() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test235"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test239"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -40539,9 +41287,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test236() throws Throwable {
+  public void test240() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test236"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test240"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -40697,9 +41445,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test237() throws Throwable {
+  public void test241() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test237"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test241"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -40860,9 +41608,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test238() throws Throwable {
+  public void test242() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test238"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test242"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -41029,9 +41777,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test239() throws Throwable {
+  public void test243() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test239"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test243"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -41195,9 +41943,9 @@ public class RegressionTest0 {
   }
 
   @Test
-  public void test240() throws Throwable {
+  public void test244() throws Throwable {
 
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test240"); }
+    if (debug) { System.out.format("%n%s%n","RegressionTest0.test244"); }
 
 
     util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
@@ -41375,1457 +42123,6 @@ public class RegressionTest0 {
     
     // Regression assertion (captures the current behavior of the code)
     org.junit.Assert.assertTrue(i88 == 0);
-
-  }
-
-  @Test
-  public void test241() throws Throwable {
-
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test241"); }
-
-
-    util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
-    util.IntArrayUtil intArrayUtil2 = new util.IntArrayUtil();
-    util.IntArrayUtil intArrayUtil4 = new util.IntArrayUtil();
-    int[] i_array5 = new int[] {  };
-    int i7 = intArrayUtil4.findKthLargestViaQuickSort(i_array5, (-5));
-    int[] i_array11 = new int[] { '4', (byte)0 };
-    int i12 = intArrayUtil4.findMinSubArrayLen(0, i_array11);
-    util.IntArrayUtil intArrayUtil14 = new util.IntArrayUtil();
-    int[] i_array15 = new int[] {  };
-    int i17 = intArrayUtil14.findKthLargestViaQuickSort(i_array15, (-5));
-    int i18 = intArrayUtil4.findMinSubArrayLen((-1), i_array15);
-    util.IntArrayUtil intArrayUtil19 = new util.IntArrayUtil();
-    int[] i_array20 = new int[] {  };
-    int i22 = intArrayUtil19.findKthLargestViaQuickSort(i_array20, (-5));
-    int[] i_array26 = new int[] { '4', (byte)0 };
-    int i27 = intArrayUtil19.findMinSubArrayLen(0, i_array26);
-    int i29 = intArrayUtil4.threeSumClosest(i_array26, (-1));
-    int i30 = intArrayUtil2.findMinSubArrayLen((int)(short)100, i_array26);
-    int i31 = intArrayUtil0.findMinSubArrayLen(2, i_array26);
-    util.IntArrayUtil intArrayUtil32 = new util.IntArrayUtil();
-    util.IntArrayUtil intArrayUtil34 = new util.IntArrayUtil();
-    util.IntArrayUtil intArrayUtil36 = new util.IntArrayUtil();
-    int[] i_array37 = new int[] {  };
-    int i39 = intArrayUtil36.findKthLargestViaQuickSort(i_array37, (-5));
-    int[] i_array43 = new int[] { '4', (byte)0 };
-    int i44 = intArrayUtil36.findMinSubArrayLen(0, i_array43);
-    util.IntArrayUtil intArrayUtil46 = new util.IntArrayUtil();
-    int[] i_array47 = new int[] {  };
-    int i49 = intArrayUtil46.findKthLargestViaQuickSort(i_array47, (-5));
-    int i50 = intArrayUtil36.findMinSubArrayLen((-1), i_array47);
-    util.IntArrayUtil intArrayUtil51 = new util.IntArrayUtil();
-    int[] i_array52 = new int[] {  };
-    int i54 = intArrayUtil51.findKthLargestViaQuickSort(i_array52, (-5));
-    int[] i_array58 = new int[] { '4', (byte)0 };
-    int i59 = intArrayUtil51.findMinSubArrayLen(0, i_array58);
-    int i61 = intArrayUtil36.threeSumClosest(i_array58, (-1));
-    int i62 = intArrayUtil34.findMinSubArrayLen((int)(short)100, i_array58);
-    int i63 = intArrayUtil32.findMinSubArrayLen(2, i_array58);
-    int i64 = intArrayUtil0.findMinViaRecursion(i_array58);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array5);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i7 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array11);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i12 == 1);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array15);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i17 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i18 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array20);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i22 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array26);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i27 == 1);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i29 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i30 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i31 == 1);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array37);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i39 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array43);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i44 == 1);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array47);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i49 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i50 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array52);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i54 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array58);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i59 == 1);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i61 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i62 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i63 == 1);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i64 == 0);
-
-  }
-
-  @Test
-  public void test242() throws Throwable {
-
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test242"); }
-
-
-    util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
-    int[] i_array1 = new int[] {  };
-    int i3 = intArrayUtil0.findKthLargestViaQuickSort(i_array1, (-5));
-    int[] i_array7 = new int[] { '4', (byte)0 };
-    int i8 = intArrayUtil0.findMinSubArrayLen(0, i_array7);
-    util.IntArrayUtil intArrayUtil9 = new util.IntArrayUtil();
-    util.IntArrayUtil intArrayUtil11 = new util.IntArrayUtil();
-    int[] i_array12 = new int[] {  };
-    int i14 = intArrayUtil11.findKthLargestViaQuickSort(i_array12, (-5));
-    int[] i_array18 = new int[] { '4', (byte)0 };
-    int i19 = intArrayUtil11.findMinSubArrayLen(0, i_array18);
-    util.IntArrayUtil intArrayUtil21 = new util.IntArrayUtil();
-    int[] i_array22 = new int[] {  };
-    int i24 = intArrayUtil21.findKthLargestViaQuickSort(i_array22, (-5));
-    int i25 = intArrayUtil11.findMinSubArrayLen((-1), i_array22);
-    util.IntArrayUtil intArrayUtil26 = new util.IntArrayUtil();
-    int[] i_array27 = new int[] {  };
-    int i29 = intArrayUtil26.findKthLargestViaQuickSort(i_array27, (-5));
-    int[] i_array33 = new int[] { '4', (byte)0 };
-    int i34 = intArrayUtil26.findMinSubArrayLen(0, i_array33);
-    int i36 = intArrayUtil11.threeSumClosest(i_array33, (-1));
-    int i37 = intArrayUtil9.findMinSubArrayLen((int)(short)100, i_array33);
-    int i38 = intArrayUtil0.removeDuplicateElements(i_array33);
-    util.IntArrayUtil intArrayUtil39 = new util.IntArrayUtil();
-    int[] i_array40 = new int[] {  };
-    int i42 = intArrayUtil39.findKthLargestViaQuickSort(i_array40, (-5));
-    int[] i_array46 = new int[] { '4', (byte)0 };
-    int i47 = intArrayUtil39.findMinSubArrayLen(0, i_array46);
-    util.IntArrayUtil intArrayUtil48 = new util.IntArrayUtil();
-    util.IntArrayUtil intArrayUtil50 = new util.IntArrayUtil();
-    int[] i_array51 = new int[] {  };
-    int i53 = intArrayUtil50.findKthLargestViaQuickSort(i_array51, (-5));
-    int[] i_array57 = new int[] { '4', (byte)0 };
-    int i58 = intArrayUtil50.findMinSubArrayLen(0, i_array57);
-    util.IntArrayUtil intArrayUtil60 = new util.IntArrayUtil();
-    int[] i_array61 = new int[] {  };
-    int i63 = intArrayUtil60.findKthLargestViaQuickSort(i_array61, (-5));
-    int i64 = intArrayUtil50.findMinSubArrayLen((-1), i_array61);
-    util.IntArrayUtil intArrayUtil65 = new util.IntArrayUtil();
-    int[] i_array66 = new int[] {  };
-    int i68 = intArrayUtil65.findKthLargestViaQuickSort(i_array66, (-5));
-    int[] i_array72 = new int[] { '4', (byte)0 };
-    int i73 = intArrayUtil65.findMinSubArrayLen(0, i_array72);
-    int i75 = intArrayUtil50.threeSumClosest(i_array72, (-1));
-    int i76 = intArrayUtil48.findMinSubArrayLen((int)(short)100, i_array72);
-    int i77 = intArrayUtil39.removeDuplicateElements(i_array72);
-    util.IntArrayUtil intArrayUtil78 = new util.IntArrayUtil();
-    int[] i_array79 = new int[] {  };
-    int i81 = intArrayUtil78.findKthLargestViaQuickSort(i_array79, (-5));
-    int[] i_array85 = new int[] { '4', (byte)0 };
-    int i86 = intArrayUtil78.findMinSubArrayLen(0, i_array85);
-    int i87 = intArrayUtil39.findMinViaRecursion(i_array85);
-    int i88 = intArrayUtil0.findMinViaIteration(i_array85);
-    int[] i_array89 = null;
-    int i90 = intArrayUtil0.findMinViaIteration(i_array89);
-    int[] i_array91 = null;
-    int i93 = intArrayUtil0.findKthLargestViaQuickSort(i_array91, 1);
-    int[] i_array94 = null;
-    int i95 = intArrayUtil0.removeDuplicateElements(i_array94);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array1);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i3 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array7);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i8 == 1);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array12);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i14 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array18);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i19 == 1);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array22);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i24 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i25 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array27);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i29 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array33);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i34 == 1);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i36 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i37 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i38 == 2);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array40);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i42 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array46);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i47 == 1);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array51);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i53 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array57);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i58 == 1);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array61);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i63 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i64 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array66);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i68 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array72);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i73 == 1);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i75 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i76 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i77 == 2);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array79);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i81 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array85);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i86 == 1);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i87 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i88 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i90 == (-1));
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i93 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i95 == 0);
-
-  }
-
-  @Test
-  public void test243() throws Throwable {
-
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test243"); }
-
-
-    util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
-    int[] i_array1 = new int[] {  };
-    int i3 = intArrayUtil0.findKthLargestViaQuickSort(i_array1, (-5));
-    int[] i_array7 = new int[] { '4', (byte)0 };
-    int i8 = intArrayUtil0.findMinSubArrayLen(0, i_array7);
-    util.IntArrayUtil intArrayUtil9 = new util.IntArrayUtil();
-    util.IntArrayUtil intArrayUtil11 = new util.IntArrayUtil();
-    int[] i_array12 = new int[] {  };
-    int i14 = intArrayUtil11.findKthLargestViaQuickSort(i_array12, (-5));
-    int[] i_array18 = new int[] { '4', (byte)0 };
-    int i19 = intArrayUtil11.findMinSubArrayLen(0, i_array18);
-    util.IntArrayUtil intArrayUtil21 = new util.IntArrayUtil();
-    int[] i_array22 = new int[] {  };
-    int i24 = intArrayUtil21.findKthLargestViaQuickSort(i_array22, (-5));
-    int i25 = intArrayUtil11.findMinSubArrayLen((-1), i_array22);
-    util.IntArrayUtil intArrayUtil26 = new util.IntArrayUtil();
-    int[] i_array27 = new int[] {  };
-    int i29 = intArrayUtil26.findKthLargestViaQuickSort(i_array27, (-5));
-    int[] i_array33 = new int[] { '4', (byte)0 };
-    int i34 = intArrayUtil26.findMinSubArrayLen(0, i_array33);
-    int i36 = intArrayUtil11.threeSumClosest(i_array33, (-1));
-    int i37 = intArrayUtil9.findMinSubArrayLen((int)(short)100, i_array33);
-    int i38 = intArrayUtil0.removeDuplicateElements(i_array33);
-    util.IntArrayUtil intArrayUtil39 = new util.IntArrayUtil();
-    int[] i_array40 = new int[] {  };
-    int i42 = intArrayUtil39.findKthLargestViaQuickSort(i_array40, (-5));
-    int[] i_array46 = new int[] { '4', (byte)0 };
-    int i47 = intArrayUtil39.findMinSubArrayLen(0, i_array46);
-    int i48 = intArrayUtil0.findMinViaRecursion(i_array46);
-    util.IntArrayUtil intArrayUtil49 = new util.IntArrayUtil();
-    util.IntArrayUtil intArrayUtil51 = new util.IntArrayUtil();
-    int[] i_array52 = new int[] {  };
-    int i54 = intArrayUtil51.findKthLargestViaQuickSort(i_array52, (-5));
-    int[] i_array58 = new int[] { '4', (byte)0 };
-    int i59 = intArrayUtil51.findMinSubArrayLen(0, i_array58);
-    int i60 = intArrayUtil49.findMinSubArrayLen(1, i_array58);
-    util.IntArrayUtil intArrayUtil61 = new util.IntArrayUtil();
-    int[] i_array62 = new int[] {  };
-    int i64 = intArrayUtil61.findKthLargestViaQuickSort(i_array62, (-5));
-    int[] i_array68 = new int[] { '4', (byte)0 };
-    int i69 = intArrayUtil61.findMinSubArrayLen(0, i_array68);
-    util.IntArrayUtil intArrayUtil71 = new util.IntArrayUtil();
-    int[] i_array72 = new int[] {  };
-    int i74 = intArrayUtil71.findKthLargestViaQuickSort(i_array72, (-5));
-    int i75 = intArrayUtil61.findMinSubArrayLen((-1), i_array72);
-    int i76 = intArrayUtil49.findMinViaIteration(i_array72);
-    int i77 = intArrayUtil0.removeDuplicateElements(i_array72);
-    int[] i_array78 = null;
-    // The following exception was thrown during execution in test generation
-    try {
-    int i79 = intArrayUtil0.findMinViaRecursion(i_array78);
-      org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException");
-    } catch (java.lang.NullPointerException e) {
-      // Expected exception.
-      if (! e.getClass().getCanonicalName().equals("java.lang.NullPointerException")) {
-        org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
-      }
-    }
-    
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array1);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i3 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array7);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i8 == 1);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array12);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i14 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array18);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i19 == 1);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array22);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i24 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i25 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array27);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i29 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array33);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i34 == 1);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i36 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i37 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i38 == 2);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array40);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i42 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array46);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i47 == 1);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i48 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array52);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i54 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array58);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i59 == 1);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i60 == 1);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array62);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i64 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array68);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i69 == 1);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array72);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i74 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i75 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i76 == (-1));
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i77 == 0);
-
-  }
-
-  @Test
-  public void test244() throws Throwable {
-
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test244"); }
-
-
-    util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
-    int[] i_array1 = new int[] {  };
-    int i3 = intArrayUtil0.findKthLargestViaQuickSort(i_array1, (-5));
-    int[] i_array7 = new int[] { '4', (byte)0 };
-    int i8 = intArrayUtil0.findMinSubArrayLen(0, i_array7);
-    int[] i_array9 = null;
-    int i10 = intArrayUtil0.removeDuplicateElements(i_array9);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array1);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i3 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array7);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i8 == 1);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i10 == 0);
-
-  }
-
-  @Test
-  public void test245() throws Throwable {
-
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test245"); }
-
-
-    util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
-    int[] i_array1 = new int[] {  };
-    int i3 = intArrayUtil0.findKthLargestViaQuickSort(i_array1, (-5));
-    util.IntArrayUtil intArrayUtil4 = new util.IntArrayUtil();
-    int[] i_array5 = new int[] {  };
-    int i7 = intArrayUtil4.findKthLargestViaQuickSort(i_array5, (-5));
-    int[] i_array11 = new int[] { '4', (byte)0 };
-    int i12 = intArrayUtil4.findMinSubArrayLen(0, i_array11);
-    util.IntArrayUtil intArrayUtil13 = new util.IntArrayUtil();
-    util.IntArrayUtil intArrayUtil15 = new util.IntArrayUtil();
-    int[] i_array16 = new int[] {  };
-    int i18 = intArrayUtil15.findKthLargestViaQuickSort(i_array16, (-5));
-    int[] i_array22 = new int[] { '4', (byte)0 };
-    int i23 = intArrayUtil15.findMinSubArrayLen(0, i_array22);
-    util.IntArrayUtil intArrayUtil25 = new util.IntArrayUtil();
-    int[] i_array26 = new int[] {  };
-    int i28 = intArrayUtil25.findKthLargestViaQuickSort(i_array26, (-5));
-    int i29 = intArrayUtil15.findMinSubArrayLen((-1), i_array26);
-    util.IntArrayUtil intArrayUtil30 = new util.IntArrayUtil();
-    int[] i_array31 = new int[] {  };
-    int i33 = intArrayUtil30.findKthLargestViaQuickSort(i_array31, (-5));
-    int[] i_array37 = new int[] { '4', (byte)0 };
-    int i38 = intArrayUtil30.findMinSubArrayLen(0, i_array37);
-    int i40 = intArrayUtil15.threeSumClosest(i_array37, (-1));
-    int i41 = intArrayUtil13.findMinSubArrayLen((int)(short)100, i_array37);
-    int i42 = intArrayUtil4.removeDuplicateElements(i_array37);
-    util.IntArrayUtil intArrayUtil43 = new util.IntArrayUtil();
-    util.IntArrayUtil intArrayUtil45 = new util.IntArrayUtil();
-    util.IntArrayUtil intArrayUtil47 = new util.IntArrayUtil();
-    int[] i_array48 = new int[] {  };
-    int i50 = intArrayUtil47.findKthLargestViaQuickSort(i_array48, (-5));
-    int[] i_array54 = new int[] { '4', (byte)0 };
-    int i55 = intArrayUtil47.findMinSubArrayLen(0, i_array54);
-    util.IntArrayUtil intArrayUtil57 = new util.IntArrayUtil();
-    int[] i_array58 = new int[] {  };
-    int i60 = intArrayUtil57.findKthLargestViaQuickSort(i_array58, (-5));
-    int i61 = intArrayUtil47.findMinSubArrayLen((-1), i_array58);
-    util.IntArrayUtil intArrayUtil62 = new util.IntArrayUtil();
-    int[] i_array63 = new int[] {  };
-    int i65 = intArrayUtil62.findKthLargestViaQuickSort(i_array63, (-5));
-    int[] i_array69 = new int[] { '4', (byte)0 };
-    int i70 = intArrayUtil62.findMinSubArrayLen(0, i_array69);
-    int i72 = intArrayUtil47.threeSumClosest(i_array69, (-1));
-    int i73 = intArrayUtil45.findMinSubArrayLen((int)(short)100, i_array69);
-    int i74 = intArrayUtil43.findMinSubArrayLen(2, i_array69);
-    intArrayUtil4.getNextPermutationNumber(i_array69);
-    util.IntArrayUtil intArrayUtil76 = new util.IntArrayUtil();
-    util.IntArrayUtil intArrayUtil78 = new util.IntArrayUtil();
-    int[] i_array79 = new int[] {  };
-    int i81 = intArrayUtil78.findKthLargestViaQuickSort(i_array79, (-5));
-    int[] i_array85 = new int[] { '4', (byte)0 };
-    int i86 = intArrayUtil78.findMinSubArrayLen(0, i_array85);
-    int i87 = intArrayUtil76.findMinSubArrayLen(1, i_array85);
-    intArrayUtil4.getNextPermutationNumber(i_array85);
-    int i90 = intArrayUtil0.threeSumClosest(i_array85, 1);
-    int[] i_array92 = null;
-    int i93 = intArrayUtil0.findMinSubArrayLen((-1), i_array92);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array1);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i3 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array5);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i7 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array11);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i12 == 1);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array16);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i18 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array22);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i23 == 1);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array26);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i28 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i29 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array31);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i33 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array37);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i38 == 1);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i40 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i41 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i42 == 2);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array48);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i50 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array54);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i55 == 1);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array58);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i60 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i61 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array63);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i65 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array69);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i70 == 1);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i72 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i73 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i74 == 1);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array79);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i81 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array85);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i86 == 1);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i87 == 1);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i90 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i93 == 0);
-
-  }
-
-  @Test
-  public void test246() throws Throwable {
-
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test246"); }
-
-
-    util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
-    int[] i_array1 = new int[] {  };
-    int i3 = intArrayUtil0.findKthLargestViaQuickSort(i_array1, (-5));
-    int[] i_array7 = new int[] { '4', (byte)0 };
-    int i8 = intArrayUtil0.findMinSubArrayLen(0, i_array7);
-    util.IntArrayUtil intArrayUtil9 = new util.IntArrayUtil();
-    util.IntArrayUtil intArrayUtil10 = new util.IntArrayUtil();
-    util.IntArrayUtil intArrayUtil11 = new util.IntArrayUtil();
-    util.IntArrayUtil intArrayUtil12 = new util.IntArrayUtil();
-    int[] i_array13 = new int[] {  };
-    int i15 = intArrayUtil12.findKthLargestViaQuickSort(i_array13, (-5));
-    int[] i_array19 = new int[] { '4', (byte)0 };
-    int i20 = intArrayUtil12.findMinSubArrayLen(0, i_array19);
-    util.IntArrayUtil intArrayUtil22 = new util.IntArrayUtil();
-    int[] i_array23 = new int[] {  };
-    int i25 = intArrayUtil22.findKthLargestViaQuickSort(i_array23, (-5));
-    int i26 = intArrayUtil12.findMinSubArrayLen((-1), i_array23);
-    int i28 = intArrayUtil11.findKthLargestViaQuickSort(i_array23, (-3));
-    int i30 = intArrayUtil10.threeSumClosest(i_array23, 5);
-    util.IntArrayUtil intArrayUtil31 = new util.IntArrayUtil();
-    int[] i_array32 = new int[] {  };
-    int i34 = intArrayUtil31.findKthLargestViaQuickSort(i_array32, (-5));
-    int[] i_array38 = new int[] { '4', (byte)0 };
-    int i39 = intArrayUtil31.findMinSubArrayLen(0, i_array38);
-    util.IntArrayUtil intArrayUtil41 = new util.IntArrayUtil();
-    int[] i_array42 = new int[] {  };
-    int i44 = intArrayUtil41.findKthLargestViaQuickSort(i_array42, (-5));
-    int i45 = intArrayUtil31.findMinSubArrayLen((-1), i_array42);
-    int i46 = intArrayUtil10.findMinViaIteration(i_array42);
-    int i47 = intArrayUtil9.removeDuplicateElements(i_array42);
-    int i49 = intArrayUtil0.threeSumClosest(i_array42, (int)' ');
-    int[] i_array50 = null;
-    int i51 = intArrayUtil0.findMinViaIteration(i_array50);
-    int[] i_array58 = new int[] { (short)0, '#', (byte)0, (short)0, '#', '#' };
-    intArrayUtil0.getNextPermutationNumber(i_array58);
-    int[] i_array60 = null;
-    // The following exception was thrown during execution in test generation
-    try {
-    int i61 = intArrayUtil0.findMinViaRecursion(i_array60);
-      org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException");
-    } catch (java.lang.NullPointerException e) {
-      // Expected exception.
-      if (! e.getClass().getCanonicalName().equals("java.lang.NullPointerException")) {
-        org.junit.Assert.fail("Expected exception of type java.lang.NullPointerException, got " + e.getClass().getCanonicalName());
-      }
-    }
-    
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array1);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i3 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array7);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i8 == 1);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array13);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i15 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array19);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i20 == 1);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array23);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i25 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i26 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i28 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i30 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array32);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i34 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array38);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i39 == 1);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array42);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i44 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i45 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i46 == (-1));
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i47 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i49 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i51 == (-1));
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array58);
-
-  }
-
-  @Test
-  public void test247() throws Throwable {
-
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test247"); }
-
-
-    util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
-    util.IntArrayUtil intArrayUtil1 = new util.IntArrayUtil();
-    util.IntArrayUtil intArrayUtil2 = new util.IntArrayUtil();
-    util.IntArrayUtil intArrayUtil3 = new util.IntArrayUtil();
-    int[] i_array4 = new int[] {  };
-    int i6 = intArrayUtil3.findKthLargestViaQuickSort(i_array4, (-5));
-    int[] i_array10 = new int[] { '4', (byte)0 };
-    int i11 = intArrayUtil3.findMinSubArrayLen(0, i_array10);
-    util.IntArrayUtil intArrayUtil13 = new util.IntArrayUtil();
-    int[] i_array14 = new int[] {  };
-    int i16 = intArrayUtil13.findKthLargestViaQuickSort(i_array14, (-5));
-    int i17 = intArrayUtil3.findMinSubArrayLen((-1), i_array14);
-    int i19 = intArrayUtil2.findKthLargestViaQuickSort(i_array14, (-3));
-    int i21 = intArrayUtil1.threeSumClosest(i_array14, 5);
-    util.IntArrayUtil intArrayUtil22 = new util.IntArrayUtil();
-    int[] i_array23 = new int[] {  };
-    int i25 = intArrayUtil22.findKthLargestViaQuickSort(i_array23, (-5));
-    int[] i_array29 = new int[] { '4', (byte)0 };
-    int i30 = intArrayUtil22.findMinSubArrayLen(0, i_array29);
-    util.IntArrayUtil intArrayUtil32 = new util.IntArrayUtil();
-    int[] i_array33 = new int[] {  };
-    int i35 = intArrayUtil32.findKthLargestViaQuickSort(i_array33, (-5));
-    int i36 = intArrayUtil22.findMinSubArrayLen((-1), i_array33);
-    int i37 = intArrayUtil1.findMinViaIteration(i_array33);
-    int i39 = intArrayUtil0.findKthLargestViaQuickSort(i_array33, (int)(short)-1);
-    util.IntArrayUtil intArrayUtil40 = new util.IntArrayUtil();
-    int[] i_array41 = new int[] {  };
-    int i43 = intArrayUtil40.findKthLargestViaQuickSort(i_array41, (-5));
-    util.IntArrayUtil intArrayUtil44 = new util.IntArrayUtil();
-    util.IntArrayUtil intArrayUtil45 = new util.IntArrayUtil();
-    int[] i_array46 = new int[] {  };
-    int i48 = intArrayUtil45.findKthLargestViaQuickSort(i_array46, (-5));
-    int[] i_array52 = new int[] { '4', (byte)0 };
-    int i53 = intArrayUtil45.findMinSubArrayLen(0, i_array52);
-    util.IntArrayUtil intArrayUtil54 = new util.IntArrayUtil();
-    util.IntArrayUtil intArrayUtil56 = new util.IntArrayUtil();
-    int[] i_array57 = new int[] {  };
-    int i59 = intArrayUtil56.findKthLargestViaQuickSort(i_array57, (-5));
-    int[] i_array63 = new int[] { '4', (byte)0 };
-    int i64 = intArrayUtil56.findMinSubArrayLen(0, i_array63);
-    util.IntArrayUtil intArrayUtil66 = new util.IntArrayUtil();
-    int[] i_array67 = new int[] {  };
-    int i69 = intArrayUtil66.findKthLargestViaQuickSort(i_array67, (-5));
-    int i70 = intArrayUtil56.findMinSubArrayLen((-1), i_array67);
-    util.IntArrayUtil intArrayUtil71 = new util.IntArrayUtil();
-    int[] i_array72 = new int[] {  };
-    int i74 = intArrayUtil71.findKthLargestViaQuickSort(i_array72, (-5));
-    int[] i_array78 = new int[] { '4', (byte)0 };
-    int i79 = intArrayUtil71.findMinSubArrayLen(0, i_array78);
-    int i81 = intArrayUtil56.threeSumClosest(i_array78, (-1));
-    int i82 = intArrayUtil54.findMinSubArrayLen((int)(short)100, i_array78);
-    int i83 = intArrayUtil45.removeDuplicateElements(i_array78);
-    int i84 = intArrayUtil44.findMinViaRecursion(i_array78);
-    int i85 = intArrayUtil40.removeDuplicateElements(i_array78);
-    util.IntArrayUtil intArrayUtil87 = new util.IntArrayUtil();
-    int[] i_array88 = new int[] {  };
-    int i90 = intArrayUtil87.findKthLargestViaQuickSort(i_array88, (-5));
-    int i91 = intArrayUtil40.findMinSubArrayLen(6, i_array88);
-    intArrayUtil0.getNextPermutationNumber(i_array88);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array4);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i6 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array10);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i11 == 1);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array14);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i16 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i17 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i19 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i21 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array23);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i25 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array29);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i30 == 1);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array33);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i35 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i36 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i37 == (-1));
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i39 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array41);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i43 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array46);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i48 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array52);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i53 == 1);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array57);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i59 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array63);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i64 == 1);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array67);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i69 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i70 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array72);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i74 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array78);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i79 == 1);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i81 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i82 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i83 == 2);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i84 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i85 == 2);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array88);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i90 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i91 == 0);
-
-  }
-
-  @Test
-  public void test248() throws Throwable {
-
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test248"); }
-
-
-    util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
-    int[] i_array3 = new int[] { (byte)-1, (byte)10 };
-    int i4 = intArrayUtil0.removeDuplicateElements(i_array3);
-    int[] i_array5 = null;
-    intArrayUtil0.getNextPermutationNumber(i_array5);
-    util.IntArrayUtil intArrayUtil7 = new util.IntArrayUtil();
-    util.IntArrayUtil intArrayUtil9 = new util.IntArrayUtil();
-    util.IntArrayUtil intArrayUtil11 = new util.IntArrayUtil();
-    int[] i_array12 = new int[] {  };
-    int i14 = intArrayUtil11.findKthLargestViaQuickSort(i_array12, (-5));
-    int[] i_array18 = new int[] { '4', (byte)0 };
-    int i19 = intArrayUtil11.findMinSubArrayLen(0, i_array18);
-    util.IntArrayUtil intArrayUtil21 = new util.IntArrayUtil();
-    int[] i_array22 = new int[] {  };
-    int i24 = intArrayUtil21.findKthLargestViaQuickSort(i_array22, (-5));
-    int i25 = intArrayUtil11.findMinSubArrayLen((-1), i_array22);
-    util.IntArrayUtil intArrayUtil26 = new util.IntArrayUtil();
-    int[] i_array27 = new int[] {  };
-    int i29 = intArrayUtil26.findKthLargestViaQuickSort(i_array27, (-5));
-    int[] i_array33 = new int[] { '4', (byte)0 };
-    int i34 = intArrayUtil26.findMinSubArrayLen(0, i_array33);
-    int i36 = intArrayUtil11.threeSumClosest(i_array33, (-1));
-    int i37 = intArrayUtil9.findMinSubArrayLen((int)(short)100, i_array33);
-    int i38 = intArrayUtil7.findMinSubArrayLen(2, i_array33);
-    util.IntArrayUtil intArrayUtil40 = new util.IntArrayUtil();
-    int[] i_array41 = new int[] {  };
-    int i43 = intArrayUtil40.findKthLargestViaQuickSort(i_array41, (-5));
-    util.IntArrayUtil intArrayUtil44 = new util.IntArrayUtil();
-    util.IntArrayUtil intArrayUtil45 = new util.IntArrayUtil();
-    int[] i_array46 = new int[] {  };
-    int i48 = intArrayUtil45.findKthLargestViaQuickSort(i_array46, (-5));
-    int[] i_array52 = new int[] { '4', (byte)0 };
-    int i53 = intArrayUtil45.findMinSubArrayLen(0, i_array52);
-    util.IntArrayUtil intArrayUtil54 = new util.IntArrayUtil();
-    util.IntArrayUtil intArrayUtil56 = new util.IntArrayUtil();
-    int[] i_array57 = new int[] {  };
-    int i59 = intArrayUtil56.findKthLargestViaQuickSort(i_array57, (-5));
-    int[] i_array63 = new int[] { '4', (byte)0 };
-    int i64 = intArrayUtil56.findMinSubArrayLen(0, i_array63);
-    util.IntArrayUtil intArrayUtil66 = new util.IntArrayUtil();
-    int[] i_array67 = new int[] {  };
-    int i69 = intArrayUtil66.findKthLargestViaQuickSort(i_array67, (-5));
-    int i70 = intArrayUtil56.findMinSubArrayLen((-1), i_array67);
-    util.IntArrayUtil intArrayUtil71 = new util.IntArrayUtil();
-    int[] i_array72 = new int[] {  };
-    int i74 = intArrayUtil71.findKthLargestViaQuickSort(i_array72, (-5));
-    int[] i_array78 = new int[] { '4', (byte)0 };
-    int i79 = intArrayUtil71.findMinSubArrayLen(0, i_array78);
-    int i81 = intArrayUtil56.threeSumClosest(i_array78, (-1));
-    int i82 = intArrayUtil54.findMinSubArrayLen((int)(short)100, i_array78);
-    int i83 = intArrayUtil45.removeDuplicateElements(i_array78);
-    int i84 = intArrayUtil44.findMinViaRecursion(i_array78);
-    int i85 = intArrayUtil40.removeDuplicateElements(i_array78);
-    int i86 = intArrayUtil7.findMinSubArrayLen(0, i_array78);
-    int i87 = intArrayUtil0.findMinViaIteration(i_array78);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array3);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i4 == 2);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array12);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i14 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array18);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i19 == 1);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array22);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i24 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i25 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array27);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i29 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array33);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i34 == 1);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i36 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i37 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i38 == 1);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array41);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i43 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array46);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i48 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array52);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i53 == 1);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array57);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i59 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array63);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i64 == 1);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array67);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i69 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i70 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array72);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i74 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array78);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i79 == 1);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i81 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i82 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i83 == 2);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i84 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i85 == 2);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i86 == 1);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i87 == 0);
-
-  }
-
-  @Test
-  public void test249() throws Throwable {
-
-    if (debug) { System.out.format("%n%s%n","RegressionTest0.test249"); }
-
-
-    util.IntArrayUtil intArrayUtil0 = new util.IntArrayUtil();
-    int[] i_array1 = new int[] {  };
-    int i3 = intArrayUtil0.findKthLargestViaQuickSort(i_array1, (-5));
-    int[] i_array7 = new int[] { '4', (byte)0 };
-    int i8 = intArrayUtil0.findMinSubArrayLen(0, i_array7);
-    util.IntArrayUtil intArrayUtil9 = new util.IntArrayUtil();
-    util.IntArrayUtil intArrayUtil10 = new util.IntArrayUtil();
-    util.IntArrayUtil intArrayUtil11 = new util.IntArrayUtil();
-    util.IntArrayUtil intArrayUtil12 = new util.IntArrayUtil();
-    int[] i_array13 = new int[] {  };
-    int i15 = intArrayUtil12.findKthLargestViaQuickSort(i_array13, (-5));
-    int[] i_array19 = new int[] { '4', (byte)0 };
-    int i20 = intArrayUtil12.findMinSubArrayLen(0, i_array19);
-    util.IntArrayUtil intArrayUtil22 = new util.IntArrayUtil();
-    int[] i_array23 = new int[] {  };
-    int i25 = intArrayUtil22.findKthLargestViaQuickSort(i_array23, (-5));
-    int i26 = intArrayUtil12.findMinSubArrayLen((-1), i_array23);
-    int i28 = intArrayUtil11.findKthLargestViaQuickSort(i_array23, (-3));
-    int i30 = intArrayUtil10.threeSumClosest(i_array23, 5);
-    util.IntArrayUtil intArrayUtil31 = new util.IntArrayUtil();
-    int[] i_array32 = new int[] {  };
-    int i34 = intArrayUtil31.findKthLargestViaQuickSort(i_array32, (-5));
-    int[] i_array38 = new int[] { '4', (byte)0 };
-    int i39 = intArrayUtil31.findMinSubArrayLen(0, i_array38);
-    util.IntArrayUtil intArrayUtil41 = new util.IntArrayUtil();
-    int[] i_array42 = new int[] {  };
-    int i44 = intArrayUtil41.findKthLargestViaQuickSort(i_array42, (-5));
-    int i45 = intArrayUtil31.findMinSubArrayLen((-1), i_array42);
-    int i46 = intArrayUtil10.findMinViaIteration(i_array42);
-    int i47 = intArrayUtil9.removeDuplicateElements(i_array42);
-    int i49 = intArrayUtil0.threeSumClosest(i_array42, (int)' ');
-    util.IntArrayUtil intArrayUtil51 = new util.IntArrayUtil();
-    util.IntArrayUtil intArrayUtil52 = new util.IntArrayUtil();
-    util.IntArrayUtil intArrayUtil53 = new util.IntArrayUtil();
-    int[] i_array54 = new int[] {  };
-    int i56 = intArrayUtil53.findKthLargestViaQuickSort(i_array54, (-5));
-    int[] i_array60 = new int[] { '4', (byte)0 };
-    int i61 = intArrayUtil53.findMinSubArrayLen(0, i_array60);
-    util.IntArrayUtil intArrayUtil63 = new util.IntArrayUtil();
-    int[] i_array64 = new int[] {  };
-    int i66 = intArrayUtil63.findKthLargestViaQuickSort(i_array64, (-5));
-    int i67 = intArrayUtil53.findMinSubArrayLen((-1), i_array64);
-    int i69 = intArrayUtil52.findKthLargestViaQuickSort(i_array64, (-3));
-    int i71 = intArrayUtil51.threeSumClosest(i_array64, 5);
-    util.IntArrayUtil intArrayUtil72 = new util.IntArrayUtil();
-    util.IntArrayUtil intArrayUtil73 = new util.IntArrayUtil();
-    util.IntArrayUtil intArrayUtil74 = new util.IntArrayUtil();
-    int[] i_array75 = new int[] {  };
-    int i77 = intArrayUtil74.findKthLargestViaQuickSort(i_array75, (-5));
-    int[] i_array81 = new int[] { '4', (byte)0 };
-    int i82 = intArrayUtil74.findMinSubArrayLen(0, i_array81);
-    util.IntArrayUtil intArrayUtil84 = new util.IntArrayUtil();
-    int[] i_array85 = new int[] {  };
-    int i87 = intArrayUtil84.findKthLargestViaQuickSort(i_array85, (-5));
-    int i88 = intArrayUtil74.findMinSubArrayLen((-1), i_array85);
-    int i90 = intArrayUtil73.findKthLargestViaQuickSort(i_array85, (-3));
-    int i92 = intArrayUtil72.threeSumClosest(i_array85, 5);
-    int i94 = intArrayUtil51.threeSumClosest(i_array85, 2);
-    int i95 = intArrayUtil0.findMinSubArrayLen((int)'a', i_array85);
-    int[] i_array96 = null;
-    int i98 = intArrayUtil0.findKthLargestViaQuickSort(i_array96, (-4));
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array1);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i3 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array7);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i8 == 1);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array13);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i15 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array19);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i20 == 1);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array23);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i25 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i26 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i28 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i30 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array32);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i34 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array38);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i39 == 1);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array42);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i44 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i45 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i46 == (-1));
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i47 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i49 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array54);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i56 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array60);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i61 == 1);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array64);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i66 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i67 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i69 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i71 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array75);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i77 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array81);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i82 == 1);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertNotNull(i_array85);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i87 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i88 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i90 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i92 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i94 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i95 == 0);
-    
-    // Regression assertion (captures the current behavior of the code)
-    org.junit.Assert.assertTrue(i98 == 0);
 
   }
 

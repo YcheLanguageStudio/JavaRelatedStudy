@@ -1,4 +1,4 @@
-package util_test;
+package randoop_test;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
