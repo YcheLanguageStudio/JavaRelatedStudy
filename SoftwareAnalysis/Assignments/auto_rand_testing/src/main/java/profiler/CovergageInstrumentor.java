@@ -28,6 +28,9 @@ public class CovergageInstrumentor extends BodyTransformer {
         Chain units = body.getUnits();
         String className = body.getMethod().getDeclaringClass().toString();
         System.out.println("Instrumenting Method Body: " + body.getMethod().getSignature());
+        if (className.equals("util_test.RegressionTest")) {
+            System.out.println(body.toString());
+        }
 
         for (Iterator stmtIt = units.snapshotIterator(); stmtIt.hasNext(); ) {
             Stmt stmt = (Stmt) stmtIt.next();
