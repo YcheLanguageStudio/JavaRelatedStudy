@@ -19,53 +19,50 @@ First, the paper conducts experiments on four popular open source repositories o
 In definition, the paper fits into Descriptive-Process pattern. In my view, the paper follows the experimental-results-oriented pattern, conducting case studies on popular repositories to show their contributions on methodology and analysis. And this paper follows the empirical-study pattern, it may not be possible to us to get the specific evaluation results from them, since the output of the paper is some recommendations.
 
 ##Summary
-**Abstraction and Conclusion**
+**Abstraction and Conclusion**    
 Since multi-threading programs are quite pervasive and difficult to debug, the paper does case studies of four popular quickly evolving code repositories on lack and over synchronization of programs, where synchronization is used to tackle the program arising from the race conditions. The case studies mainly focus on how critical section codes are changed and the mechanism of concurrency bugs introduced from the changes.
 Four representative repositories are discussed in the paper, namely Mysql, Mozilla, Apache, MPlayer, all written in C/C++ and quickly evolving . The authors in the paper argues and concludes that their findings provide insights and motivation for future re-search on tackling synchronization problems, both lack-of-synchronization and over-synchronization problems.
 The paper’s organization flows as follows, introduction, methodology, critical section changes, over synchronization study, concurrency bug origins, related work and conclusion. In this report, these section are summarized in four parts namely introduction and related work, methodology, synchronization experiments and concurrency bug origins, which convey the most important contributions of the paper.
 
-**Introduction-RelatedWork**
-*Introduction Part*  
-
+**Introduction-RelatedWork**    
+*Introduction Part*    
 They summarize three common things about real-world big projects. First, there is information that goes beyond bug reports. Second, there is information derives from code revisions. Third, there is information that hides within the whole revision history. And intuitively, it is rather hard to collect the above three information.
 Thus, the authors study how lock-protected critical sections are changed when software evolves, for which they design a hierarchical taxonomy for all critical section changes, based on their structural patterns and purposes. Besides, they conduct case studies to better understand over-synchronization issues (i.e., unnecessary synchronization degrades execution performance) and concurrency bug issues(i.e., lack of or incorrect synchronization hurts execution correctness), the two parts over-synchronization and concurrency bug issues are well elaborated in the paper.
 
-*Related Work Part*  
-
+*Related Work Part*    
 There are work on concurrency bugs finding and new synchronization primitives evaluation based study, the authors argue that the paper complements them by checking software code repositories, which reveals real-world code development information unavailable in bug databases.
 Different from previous research, where specifically,  two findings are made: (1) the number of racy variables remains high over time; (2) variables may go in and out of being racy over the course of a project, they argue that the difference between their work and others lies in that their study collects different types of software change information and answers different types of questions, including over-synchronization issues and concurrency-bug origin issues, from previous work. Besides, they argue that their study benefits the developing of profiling tools and over-synchronization solving tools.
 
 
-**Methodology**
-
-*Background*
+**Methodology**   
+*Background*     
 The methodology discussed here mainly corresponds to the general study about critical-section changes. The research objects are four representative C/C++ repositories, namely Apache HTTPD Web Server, Mozilla Browser Suite, MPlayer Media Player, MySQL Database Server.
 Taxonomy of changes are introduced, e.g, add, removing, modification and purposes patterns are introduced namely, correctness, fixing functional bugs, functionality, adding or changing code functionality, maintainability, code refactoring, performance, improving performance, robustness, adding sanity checks.
 Mechanisms
 Accurate categorization requires control-flow and pointer-alias analysis, which unfortunately cannot scale to large code repositories, so they choose to use regular-expression based Python scripts, as it offers us the best balance between complexity and accuracy. Besides, alternative approaches like AST-based analysis offers little accuracy increase. Given the complexity constraints, they only consider critical sections that start and end in the same function.
 Due to space constraints, some analysis details, such as more detailed categorization and comments handling, are skipped. Due to the huge amount of code under study, they intentionally trade off some analysis accuracy for analysis speed and hence could miss some critical section changes. They use the identity of lock-acquisition function to uniquely identify each critical section.
 
-*Effectiveness*    
+*Effectiveness*        
 At the end, they argue that their methodology yields good result with two reasons.
 First, their manual checking of 500 randomly sampled script results shows that their script has lower than 5% false positive rate, which is quite good supported by this experimental result.
 Second, the inaccuracy does not affect the main observations and implications of their study. For example, since they focus on synchronization challenges, the inaccuracy in counting critical section body changes (e.g., not considering callee changes or not considering body changes in AutoLock critical sections) does not affect their main observations.
 
-*Critical-Sections Changes*
+*Critical-Sections Changes*     
 The paper shows that good tools are needed to help (1) judge whether there is a need for adding(for both newly written code and already existing code) or removing lock synchronization; (2) adjust synchronization details for performance and correctness concerns, which applies to both lock synchronization (i.e., adjusting critical section boundaries and variables) and condition-variable synchronization (i.e., adjusting signals and waits); (3) tackling over-synchronization issues; and others.
 
 ##Expriments
-- Synchronization Experiments   
+###Synchronization Experiments     
 **Concept**  
 Over-synchronization happens when unnecessary synchronization is added to the software. It would overly constrain software interleaving and lead to performance degradation. Over-synchronization is a real problem, and is cared by developers. Developers change synchronization primitives to enable lock-contention profiling in MySQL and Mozilla, and sometimes relieve over synchronization at the cost of code readability or functionality.
 
-**Discussion**  
+**Discussion**    
 Their study demonstrates that discovering and fixing over-synchronization take a lot of manual effort and are error prone. (1) All three types of changes/fixes discussed can potentially introduce concurrency bugs and demand non-trivial synchronization correctness reasoning. (2) Many new lock variables are introduced during these fixes. The ad-hoc way of introducing these variables can easily lead to correctness and/or maintenance problems. (3) The code movement during these fixes.
 
-- Concurrency Bug Origins Experiments   
-**Concept**    
+###Concurrency Bug Origins Experiments     
+**Concept**     
 Facing large real-world multi-threaded software, it is critical to improve the performance and accuracy of existing concurrency-bug analysis techniques.
 
-**Discussion**  
+**Discussion**   
 First, synchronization analysis can be significantly simplified for many bugs through history awareness. With old synchronization-context information, about half of the studied bugs would require no new synchronization analysis to be detected, because their buggy code is inside completely old synchronization contexts.
 Second, memory-access analysis can be significantly simplified for many bugs through history awareness. About half of the studied bugs only involve new variables accessed by new instructions with pointers propagated through new instructions. Therefore, detecting them only requires memory-access analysis for the changed code, instead of the whole Program.
 Third, about a quarter of the studied bugs can benefit from both almost-no synchronization analysis and revision-local memory-access analysis discussed, and hence would require extremely simple analysis to discover.
