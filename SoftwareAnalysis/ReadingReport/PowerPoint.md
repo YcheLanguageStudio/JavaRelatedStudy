@@ -72,4 +72,9 @@ extracted from the structural pattern and sampled cases manually checking
 
 - history is useful, not much work on it
 
+##Conlusion
+- history is useful, keep trace of code-revision
+- tool to analyze over-synchronization feasible
+- is not sound in this paper, analyzing part, too simple not general maybe
+
 ##Q & A
