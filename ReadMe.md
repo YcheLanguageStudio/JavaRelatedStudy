@@ -26,6 +26,9 @@ sudo alternatives --config java
 sudo alternatives --config javac
 ```
 
+- install java decompiler, [jd-gui link](http://jd.benow.ca/)
+
+
 ###Maven
 - [Hello-World](helloworld-maven)
 
