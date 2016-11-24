@@ -1,6 +1,5 @@
 package study;
 
-
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
@@ -16,7 +15,6 @@ public class Study {
 
     private static void printArray(int[] arr) {
         StringBuilder stringBuilder = new StringBuilder();
-
         stringBuilder.append('[');
         for (int i = 0; i < arr.length; i++) {
             stringBuilder.append(arr[i]);
@@ -26,13 +24,14 @@ public class Study {
         }
         stringBuilder.append(']');
         System.out.println(stringBuilder.toString());
-
     }
 
     private static void studyFindMInViaIteration() {
+
         System.out.println("\nstudyFindMInViaIteration");
-        int[] arr = {11, -2, 33, 4, -5};
-        int[] arr2 = {11, -2, 3, 5, 10};
+        int[] arr = {11, -2, -33, 4, -5};
+        int[] arr2 = {11, 3, 3, 5, -10};
+
         System.out.println(jarUtil.findMinViaIteration(arr));
         System.out.println(jarUtil.findMinViaIteration(arr2));
         System.out.println(srcUtil.findMinViaIteration(arr));
@@ -42,7 +41,6 @@ public class Study {
         Arrays.sort(arr2);
         System.out.println("correct:" + arr[0]);
         System.out.println("correct:" + arr2[0]);
-
     }
 
     private static void studyFindMinViaRecursion() {
@@ -58,7 +56,6 @@ public class Study {
         Arrays.sort(arr2);
         System.out.println("correct:" + arr[0]);
         System.out.println("correct:" + arr2[0]);
-
     }
 
 
@@ -106,6 +103,14 @@ public class Study {
         System.out.println(jarUtil.findMinSubArrayLen(-4, num));
         System.out.println(srcUtil.findMinSubArrayLen(-2, num));
         System.out.println(srcUtil.findMinSubArrayLen(-4, num));
+
+        System.out.println();
+        int[] num2 = {1, 2, 3, 2, 0};
+        System.out.println(jarUtil.findMinSubArrayLen(6, num2));
+        System.out.println(jarUtil.findMinSubArrayLen(5, num2));
+        System.out.println(srcUtil.findMinSubArrayLen(6, num2));
+        System.out.println(srcUtil.findMinSubArrayLen(6, num2));
+
     }
 
     private static void studyGetNextPermutationNumber() {
@@ -125,15 +130,16 @@ public class Study {
         int[] another_num2 = {1, -2, 3, 4, 5};
         srcUtil.getNextPermutationNumber(another_num2);
         printArray(another_num2);
-
     }
 
     private static void studyThreeSumClosest() {
         System.out.println("\nstudyThreeSumClosest");
         int num[] = {-1, 2, 0, 5};
         System.out.println(jarUtil.threeSumClosest(num, -4));
+        System.out.println(jarUtil.threeSumClosest(num, 0));
         System.out.println(jarUtil.threeSumClosest(num, 4));
         System.out.println(srcUtil.threeSumClosest(num, -4));
+        System.out.println(srcUtil.threeSumClosest(num, 0));
         System.out.println(srcUtil.threeSumClosest(num, 4));
     }
 
