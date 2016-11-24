@@ -46,9 +46,8 @@ public class IntArrayUtilTest {
     @Test
     public void removeDuplicateElements() throws Exception {
         int[] num = {1, 2, 1, 3, 2, 0, 0};
-        int[] expecdted = {1, 2, 3, 0};
-        util.removeDuplicateElements(num);
-        assertArrayEquals(expecdted, num);
+        int[] expected = {1, 2, 3, 0};
+        assertEquals(expected.length, util.removeDuplicateElements(num));
     }
 
     @Test
