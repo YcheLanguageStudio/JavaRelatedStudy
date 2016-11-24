@@ -116,20 +116,26 @@ public class Study {
     private static void studyGetNextPermutationNumber() {
         System.out.println("\nstudyGetNextPermutationNumber");
         int[] num = {1, 2, 3, 4, 5};
-        jarUtil.getNextPermutationNumber(num);
-        printArray(num);
+        for (int i = 0; i < 60; i++) {
+            jarUtil.getNextPermutationNumber(num);
+            printArray(num);
+        }
 
-        int[] another_num = {1, -2, 3, 4, 5};
-        jarUtil.getNextPermutationNumber(another_num);
-        printArray(another_num);
+//        int[] another_num = {1, -2, 3, 4, 5};
+//        jarUtil.getNextPermutationNumber(another_num);
+//        printArray(another_num);
+
+        System.out.println();
 
         int[] num2 = {1, 2, 3, 4, 5};
-        srcUtil.getNextPermutationNumber(num2);
-        printArray(num2);
+        for (int i = 0; i < 60; i++) {
+            srcUtil.getNextPermutationNumber(num2);
+            printArray(num2);
+        }
 
-        int[] another_num2 = {1, -2, 3, 4, 5};
-        srcUtil.getNextPermutationNumber(another_num2);
-        printArray(another_num2);
+//        int[] another_num2 = {1, -2, 3, 4, 5};
+//        srcUtil.getNextPermutationNumber(another_num2);
+//        printArray(another_num2);
     }
 
     private static void studyThreeSumClosest() {
