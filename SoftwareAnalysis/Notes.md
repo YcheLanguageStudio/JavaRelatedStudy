@@ -250,18 +250,18 @@ C={0, 1, 2, null, false, Mono(1,2,0), Poly(), plus(Poly(), Mono(1,2,0)}
 - handle loops, under-certain-assumption
 - Problem
     - Constraints blow up
-    - Only for Linear 
+    - Only for Linear
     - Need Source Codes(May Call) (Abstract Interpretation)
     - Inter-Procedure Analysis Complexity, rather than Intro-Procedure
 
 ##Concolic Testing
 - Concolic = Concrete + Symbolic
-- Depends on concrete seeds are good, but making use of the sharing 
+- Depends on concrete seeds are good, but making use of the sharing
     - Find the divergence point
-    - [janana](https://github.com/ksen007/janala2) usage: 
+    - [janana](https://github.com/ksen007/janala2) usage:
         - just give the concrete seeds to write the driver for janana
 
-##Mutation 
+##Mutation
 - mutation coverage is even stronger than prime path coverage, try to mimic all mistakes
 - killing mutant concept
 - mutation analysis, emulate every mistake possibly made by programmers
@@ -275,12 +275,12 @@ C={0, 1, 2, null, false, Mono(1,2,0), Poly(), plus(Poly(), Mono(1,2,0)}
 - traditional
     - print
     - debug
-    - assert, help generate good test oracle for random testing 
+    - assert, help generate good test oracle for random testing
     - examine core dump or stack trace
 - Gzoltar
 - RIP model
     - reachability
-    - infection 
+    - infection
     - propagation
 - Ranking Function, basic one in 2005
 $latex X/X+Y , X=(N_{ef}/N_{f}), Y=(N_{es}/N_{s})$
@@ -297,7 +297,7 @@ $latex X/X+Y , X=(N_{ef}/N_{f}), Y=(N_{es}/N_{s})$
     - mutation, kill the mutant and detect the fault
     i.e, we want to kill the mutant, including the original and the mutant procedure, with `v2` and `v2^{prime}`
     - strongly kill & weakly kill mutants, idea comes from the mutation testing
-    
+
 > Given a test suite with adequate mutation coverage, there exists
   test cases (say t) that (weakly) kill mutants also detect real faults.
 
@@ -310,10 +310,60 @@ $latex X/X+Y , X=(N_{ef}/N_{f}), Y=(N_{es}/N_{s})$
 - Open-Close Contract    
 - state-def inconsistency, hiding variable
 
-      
+
 ##Regression Test
 - code has to be re-validated after change
 - Regression Test
     - test case selection
     - ... prioritization
     - dynamic slicing
+
+
+##Concurrency Analysis
+###PreRequsisites
+- java 5 introduce rentrent lock, similar to condition-variable
+
+  - gist
+
+  ```java
+  Lock l = new RentrentLock();
+  Condition cp = l.newCondition();
+  ```
+
+  - one function
+
+  ```java
+  l.lock();
+  try{
+    cp.await();
+  }catch(InterruptedException e){
+
+  }finally{
+    l.unlock();
+  }
+  ```
+
+  - other function
+
+  ```java
+  cp.signal()
+  ```
+
+  - thread not unlock
+
+  ```java
+  Thread.sleep(...);
+  ```
+
+- producer-consumer model
+  - producer: buffer not full
+  - consumer: buffer not empty
+
+- java8 lambda parallel stream
+
+###Lockset
+- lockset analysis
+  - $C(v)= C(v) \cap locks_held(t)$
+  - $C(v)$ is not empty, means we can use not empty locks in set to protect the access
+- three phases' analysis
+  - initialization, not update $C(v)$, another thread access the variable means the end of initialization
