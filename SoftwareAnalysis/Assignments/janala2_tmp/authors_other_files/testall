@@ -1,0 +1,94 @@
+# Copyright (c) 2012, NTT Multimedia Communications Laboratories, Inc. and Koushik Sen
+#
+# All rights reserved.
+#
+# Redistribution and use in source and binary forms, with or without
+# modification, are permitted provided that the following conditions are
+# met:
+#
+# 1. Redistributions of source code must retain the above copyright
+# notice, this list of conditions and the following disclaimer.
+#
+# 2. Redistributions in binary form must reproduce the above copyright
+# notice, this list of conditions and the following disclaimer in the
+# documentation and/or other materials provided with the distribution.
+#
+# THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+# "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+# LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+# A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+# HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+# SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+# LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+# DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+# THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+# (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+# OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+CATG=dconcolic
+rm -rf test.log
+
+./$CATG 5 tests.test_q1_q4_min
+./$CATG 9 tests.test_q1_q4
+./$CATG 3 tests.test_q0_q4
+./$CATG 3 tests.BoolFlow
+./$CATG 2 tests.BoolFlow2
+./$CATG 3 tests.BoolTest
+./$CATG 5 tests.BoolTest2
+./$CATG 5 tests.BoolTest3
+./$CATG 3 tests.StringEquals
+./$CATG 4 tests.StringTest2
+./$CATG 4 tests.StringTest3
+./$CATG 4 tests.StringTest4
+./$CATG 3 tests.StringTest5
+./$CATG 4 tests.StringTest6
+./$CATG 4 tests.StringTest7
+./$CATG 4 tests.StringTest8
+./$CATG 4 tests.StringTest9
+./$CATG 5 tests.StringSubStringTest2
+./$CATG 6 tests.StringComplexTest1
+./$CATG 4 tests.StringComplexTest3
+./$CATG 3 tests.StringRegexTest1
+./$CATG 3 tests.StringRegexTest2
+./$CATG 3 tests.StringRegexTest3
+./$CATG 5 tests.StringLengthTest1
+./$CATG 3 tests.StringLengthTest2
+./$CATG 3 tests.StringLengthTest3
+./$CATG 3 tests.StringMapTest
+./$CATG 4 tests.LongTest
+./$CATG 7 tests.LongTest3
+./$CATG 4 tests.TimestampTest
+./$CATG 4 tests.Testme
+./$CATG 4 tests.TestmeInteger
+./$CATG 4 tests.TestmeLong
+./$CATG 5 tests.NonLinear
+./$CATG 5 tests.BoolTest2
+./$CATG 8 tests.SwitchTest
+./$CATG 3 tests.SwitchTest2
+./$CATG 5 tests.Linear
+./$CATG 3 tests.SimpleDBTest
+./$CATG 17 tests.DBUpdateTest
+./$CATG 17 tests.DBSelectTest
+./$CATG 17 tests.DBDeleteTest
+./$CATG 17 tests.DBDateSelectTest
+./$CATG 6 tests.DBInsertTest
+./$CATG 5 tests.OrAssumptionTest
+./$CATG 4 tests.OrAssumptionTest2
+./$CATG 6 tests.AssertIfPossibleTest1
+./$CATG 10 tests.AssertIfPossibleTest2
+./$CATG 97 tests.ManyColumnsOrRecords
+./$CATG 10 tests.AbstractionTest1
+./$CATG 14 tests.AbstractionTest2
+./$CATG 119 tests.ManyColumnsRecords2
+./$CATG 29 tests.QSort
+./$CATG 29 tests.QSortLong
+./$CATG 25 tests.InsertionSort
+./$CATG 121 tests.MergeSortJDK15
+./$CATG 76 tests.BinaryTreeSearch
+./$CATG 13 tests.HeapInsertJDK15
+./$CATG 25 tests.QuickSortJDK15
+./$CATG 217 tests.RedBlackTreeSearch
+./$CATG 121 tests.SortedListInsert
+./$CATG 206 tests.BellmanFord
+./$CATG 157 tests.Dijkstra
+./$CATG 100 tests.BookStoreNoSQL
