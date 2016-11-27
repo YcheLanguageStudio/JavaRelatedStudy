@@ -67,23 +67,27 @@ python janala/concolic.py -h
 
 usage:
 
-```
+```zsh
 concolic.py [-h] [--offline] [-v] [-c] [-D D] maxIterations className [arguments [arguments ...]]
 ```
 
 - positional arguments:
 
-    maxIterations   Maximum number of times the program under test can be
+```zsh
+maxIterations   Maximum number of times the program under test can be
                   executed.
-    className       Java class to be tested.
-    arguments       Arguments passed to the program under test.
+className       Java class to be tested.
+arguments       Arguments passed to the program under test.
+```
 
 - optional arguments:
 
-    -h, --help      show this help message and exit
-    --offline       Perform concolic testing offline. An intermediate trace file
+```zsh
+-h, --help      show this help message and exit
+--offline       Perform concolic testing offline. An intermediate trace file
                   is generated during the execution of the program. offilne
                   mode results in 2X slowdown that non-offline mode
-    -v, --verbose   Print commands that are executed.
-    -c, --coverage  Compute detailed coverage by rerunning tests.
-    -D D            JVM options
+-v, --verbose   Print commands that are executed.
+-c, --coverage  Compute detailed coverage by rerunning tests.
+-D D            JVM options
+```
