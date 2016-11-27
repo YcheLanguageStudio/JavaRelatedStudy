@@ -62,6 +62,24 @@
 
 - You can implement one of these classic fault localzation algorithms to calculate the fault likelihood of each statement and generate a report for fault localization: Tarantula, Jaccard, AMPLE, Ochiai.
 
+- If the faulty statement ranking of your tool is better than that of GZoltar, you can get the rest 10% bonus.
+
+##Paper Info
+
 - From the paper, `Ochiai > Tarantula`
 
-- If the faulty statement ranking of your tool is better than that of GZoltar, you can get the rest 10% bonus.
+- two vectors as follows, i indicate the round number for test cases, j indicates jth statement or branch.
+if $e_i$ is 1, then this round is a failure, not pass
+
+counter | $x_{ij}$ | $e_i$
+--- | --- | ---
+$a_{11}$ | 1 | 1
+$a_{10}$ | 1 | 0
+$a_{01}$ | 0 | 1
+$a_{00}$ | 0 | 0
+
+- Ochiai
+
+$s_j=\frac{a_{11}}{\sqrt{(a_{11}+a_{01}) \cdot (a_{11}+a_{10})}}$
+
+- Tarantula
