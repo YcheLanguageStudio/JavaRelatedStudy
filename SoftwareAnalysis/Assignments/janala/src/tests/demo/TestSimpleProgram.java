@@ -1,6 +1,4 @@
-package tests;
-import janala.Main;
-import tests.SimpleProgram;
+package tests.demo;
 import catg.CATG;
 public class TestSimpleProgram {
 	public static void main (String[] args) {
