@@ -153,6 +153,8 @@ public class Study {
         int[] num = {-1, 0, 0};
         int[] num2 = new int[3];
         System.arraycopy(num, 0, num2, 0, num.length);
+        printArray(num);
+        printArray(num2);
 
         jarUtil.getNextPermutationNumber(num);
         printArray(num);

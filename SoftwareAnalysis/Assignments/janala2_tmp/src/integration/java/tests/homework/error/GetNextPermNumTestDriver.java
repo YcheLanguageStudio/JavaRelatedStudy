@@ -1,7 +1,6 @@
-package tests.subject_program.error;
+package tests.homework.error;
 
 import catg.CATG;
-import groovy.transform.ToString;
 import janala.Main;
 
 import java.util.Arrays;
@@ -9,9 +8,10 @@ import java.util.Arrays;
 /**
  * Created by cheyulin on 11/27/16.
  */
-public class TestIntArray {
+
+public class GetNextPermNumTestDriver {
     private static util.IntArrayUtil jarUtil = new util.IntArrayUtil();
-    private static tests.subject_program.error.IntArrayUtil srcUtil = new tests.subject_program.error.IntArrayUtil();
+    private static IntArrayUtil srcUtil = new IntArrayUtil();
 
     private static boolean ArrayCompare(int[] left, int[] right) {
         Main.BeginScope();

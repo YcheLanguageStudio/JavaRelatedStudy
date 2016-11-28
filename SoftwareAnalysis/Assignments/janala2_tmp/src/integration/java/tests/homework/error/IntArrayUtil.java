@@ -1,4 +1,4 @@
-package tests.subject_program.error;
+package tests.homework.error;
 
 
 public class IntArrayUtil {

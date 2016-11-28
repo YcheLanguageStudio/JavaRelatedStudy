@@ -2,20 +2,20 @@
 - [janala2_tmp](janala2_tmp)
   - updated files: [build.gradle](janala2_tmp/build.gradle), [concolic.py](janala2_tmp/concolic.py), [setup.sh](janala2_tmp/setup.sh)
   - usage, with Java8 installed, `java` and `javac`
+    - build janala2 into jar file and copy files
     - build [janala2_tmp/src/integration/java/tests](janala2_tmp/src/integration/java/tests),
-    - build janala into jar file and copy files
     - use python scripts to run the program, to generate inputs for test cases
-
-```zsh
-gradle Integration
-```
 
 ```zsh
 ./setup.sh
 ```
 
 ```zsh
-python concolic.py 10 tests.subject_program.error.TestIntArray
+gradle IntegrationTest
+```
+
+```zsh
+python concolic.py 10 tests.homework.error.GetNextPermNumTestDriver
 ```
 
 ##Junit Usage
