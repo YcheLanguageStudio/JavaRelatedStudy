@@ -122,16 +122,16 @@ public class Study {
 
     private static void studyGetNextPermutationNumber() {
         System.out.println("\nstudyGetNextPermutationNumber");
-        int[] num = {1, 2, 3, 4, 5};
-        for (int i = 0; i < 60; i++) {
+        int[] num = {1, 2, 3, 4};
+        for (int i = 0; i < 24; i++) {
             jarUtil.getNextPermutationNumber(num);
             printArray(num);
         }
 
         System.out.println();
 
-        int[] num2 = {1, 2, 3, 4, 5};
-        for (int i = 0; i < 60; i++) {
+        int[] num2 = {1, 2, 3, 4};
+        for (int i = 0; i < 24; i++) {
             srcUtil.getNextPermutationNumber(num2);
             printArray(num2);
         }
@@ -150,10 +150,12 @@ public class Study {
 
 
     private static void confirmJanalaGetPermutationNumber() {
-        int[] num = {28, 12, 55, 37, 833958};
+        int[] num = {-1, 0, 0};
+        int[] num2 = new int[3];
+        System.arraycopy(num, 0, num2, 0, num.length);
+
         jarUtil.getNextPermutationNumber(num);
         printArray(num);
-        int[] num2 = {28, 12, 55, 37, 833958};
         srcUtil.getNextPermutationNumber(num2);
         printArray(num2);
     }
@@ -166,6 +168,8 @@ public class Study {
         studyFindMinSubArrayLen();
         studyGetNextPermutationNumber();
         studyThreeSumClosest();
+
+        //confirm Janala Generated Cases
         confirmJanalaGetPermutationNumber();
     }
 }

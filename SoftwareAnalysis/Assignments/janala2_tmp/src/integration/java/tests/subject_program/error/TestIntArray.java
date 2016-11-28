@@ -50,9 +50,10 @@ public class TestIntArray {
         srcUtil.getNextPermutationNumber(arr);
         jarUtil.getNextPermutationNumber(arr2);
         if (ArrayCompare(arr, arr2)) {
-            System.out.println(String.valueOf(arr.length) + " Good");
+            System.out.println("Pass");
         } else {
-            System.out.println(String.valueOf(arr.length) + " Bad");
+            System.out.println("Fail");
+            System.out.print("Test Input:");
             printArray(tmp_arr);
         }
     }
