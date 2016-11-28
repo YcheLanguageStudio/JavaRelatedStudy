@@ -28,6 +28,16 @@ public class Utility {
         }
     }
 
+    public static void compareAndPrint(int left, int right, int[] original) {
+        if (left == right) {
+            System.out.println("Pass");
+        } else {
+            System.out.println("Fail");
+            System.out.print("Test Input:");
+            Utility.printArray(original);
+        }
+    }
+
     private static boolean arrayCompare(int[] left, int[] right) {
         Main.BeginScope();
         if (left.length != right.length)
