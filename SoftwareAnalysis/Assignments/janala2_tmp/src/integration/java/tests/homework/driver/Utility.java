@@ -1,6 +1,7 @@
 package tests.homework.driver;
 
 import catg.CATG;
+import janala.Main;
 
 /**
  * Created by cheyulin on 11/28/16.
