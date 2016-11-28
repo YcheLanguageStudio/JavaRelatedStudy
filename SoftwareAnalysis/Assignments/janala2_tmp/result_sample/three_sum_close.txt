@@ -1,0 +1,2002 @@
+None
+
+Now testing tests.homework.driver.ThreeSumCloseTestDriver
+[Input 1 at (28, 22, 49, 6, 333974)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,1];Input Value:5
+Pass
+Input Array:[0,1,2];Input Value:5
+Fail
+Input Array:[0,1,2,3];Input Value:5
+Pass
+Input Array:[0,1,2,3,4];Input Value:5
+Pass
+Input Array:[0,1,2,3,4,5];Input Value:5
+Pass
+Input Array:[0,1,2,3,4,5,6];Input Value:5
+Pass
+Input Array:[0,1,2,3,4,5,6,7];Input Value:5
+Pass
+Input Array:[0,1,2,3,4,5,6,7,8];Input Value:5
+Pass
+true
+[Input 2 at (28, 22, 49, 7, 348272)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,2,3,3,4,4,5,6,6];Input Value:5
+Pass
+true
+[Input 3 at (28, 22, 49, 7, 701734)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,1];Input Value:5
+Pass
+Input Array:[0,1,2];Input Value:5
+Fail
+Input Array:[0,1,2,3];Input Value:5
+Pass
+Input Array:[0,1,2,3,4];Input Value:5
+Pass
+Input Array:[0,1,2,3,4,5];Input Value:5
+Pass
+Input Array:[0,1,2,3,4,5,6];Input Value:5
+Pass
+Input Array:[0,1,2,3,4,5,6,7];Input Value:5
+Pass
+Input Array:[0,1,2,3,4,5,6,7,8];Input Value:5
+Pass
+true
+[Input 4 at (28, 22, 49, 8, 888270)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,1,2,2,3,5,6,7,7];Input Value:5
+Pass
+true
+[Input 5 at (28, 22, 49, 9, 223842)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,2,3,3,4,4,5,6,6];Input Value:5
+Pass
+true
+[Input 6 at (28, 22, 49, 10, 401652)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[1,1,2,2,4,4,5,6,6];Input Value:5
+Pass
+true
+[Input 7 at (28, 22, 49, 11, 609021)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,8];Input Value:5
+Fail
+true
+[Input 8 at (28, 22, 49, 15, 473584)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483637];Input Value:5
+Fail
+true
+[Input 9 at (28, 22, 49, 15, 853158)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,8];Input Value:5
+Fail
+true
+[Input 10 at (28, 22, 49, 20, 184678)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483639];Input Value:5
+Fail
+true
+[Input 11 at (28, 22, 49, 20, 514679)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483637];Input Value:5
+Fail
+true
+[Input 12 at (28, 22, 49, 25, 483819)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483640];Input Value:5
+Fail
+true
+[Input 13 at (28, 22, 49, 25, 826248)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,8];Input Value:5
+Fail
+true
+[Input 14 at (28, 22, 49, 29, 998233)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483639];Input Value:5
+Fail
+true
+[Input 15 at (28, 22, 49, 30, 340197)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483637];Input Value:5
+Fail
+true
+[Input 16 at (28, 22, 49, 35, 315535)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483640];Input Value:5
+Fail
+true
+[Input 17 at (28, 22, 49, 35, 653508)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,8];Input Value:5
+Fail
+true
+[Input 18 at (28, 22, 49, 39, 934764)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483639];Input Value:5
+Fail
+true
+[Input 19 at (28, 22, 49, 40, 280058)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483637];Input Value:5
+Fail
+true
+[Input 20 at (28, 22, 49, 45, 349613)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483640];Input Value:5
+Fail
+true
+[Input 21 at (28, 22, 49, 45, 744663)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,8];Input Value:5
+Fail
+true
+[Input 22 at (28, 22, 49, 51, 457988)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483639];Input Value:5
+Fail
+true
+[Input 23 at (28, 22, 49, 51, 901822)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483637];Input Value:5
+Fail
+true
+[Input 24 at (28, 22, 49, 59, 199635)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483640];Input Value:5
+Fail
+true
+[Input 25 at (28, 22, 49, 59, 771399)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,8];Input Value:5
+Fail
+true
+[Input 26 at (28, 22, 50, 7, 301044)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483639];Input Value:5
+Fail
+true
+[Input 27 at (28, 22, 50, 8, 27728)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483637];Input Value:5
+Fail
+true
+[Input 28 at (28, 22, 50, 15, 142079)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483640];Input Value:5
+Fail
+true
+[Input 29 at (28, 22, 50, 15, 560876)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,8];Input Value:5
+Fail
+true
+[Input 30 at (28, 22, 50, 21, 13150)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483639];Input Value:5
+Fail
+true
+[Input 31 at (28, 22, 50, 21, 593996)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483637];Input Value:5
+Fail
+true
+[Input 32 at (28, 22, 50, 27, 966025)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483640];Input Value:5
+Fail
+true
+[Input 33 at (28, 22, 50, 28, 495479)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,8];Input Value:5
+Fail
+true
+[Input 34 at (28, 22, 50, 34, 205098)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483639];Input Value:5
+Fail
+true
+[Input 35 at (28, 22, 50, 34, 636792)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483637];Input Value:5
+Fail
+true
+[Input 36 at (28, 22, 50, 40, 945854)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483640];Input Value:5
+Fail
+true
+[Input 37 at (28, 22, 50, 41, 389088)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,8];Input Value:5
+Fail
+true
+[Input 38 at (28, 22, 50, 46, 968772)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483639];Input Value:5
+Fail
+true
+[Input 39 at (28, 22, 50, 47, 423979)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483637];Input Value:5
+Fail
+true
+[Input 40 at (28, 22, 50, 53, 598795)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483640];Input Value:5
+Fail
+true
+[Input 41 at (28, 22, 50, 54, 4547)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,8];Input Value:5
+Fail
+true
+[Input 42 at (28, 22, 50, 59, 324189)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483639];Input Value:5
+Fail
+true
+[Input 43 at (28, 22, 50, 59, 911850)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483637];Input Value:5
+Fail
+true
+[Input 44 at (28, 22, 51, 6, 611961)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483640];Input Value:5
+Fail
+true
+[Input 45 at (28, 22, 51, 6, 972578)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,8];Input Value:5
+Fail
+true
+[Input 46 at (28, 22, 51, 12, 232506)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483639];Input Value:5
+Fail
+true
+[Input 47 at (28, 22, 51, 12, 583843)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483637];Input Value:5
+Fail
+true
+[Input 48 at (28, 22, 51, 17, 688022)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483640];Input Value:5
+Fail
+true
+[Input 49 at (28, 22, 51, 18, 32112)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,8];Input Value:5
+Fail
+true
+[Input 50 at (28, 22, 51, 22, 271760)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483639];Input Value:5
+Fail
+true
+[Input 51 at (28, 22, 51, 22, 631412)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483637];Input Value:5
+Fail
+true
+[Input 52 at (28, 22, 51, 27, 655853)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483640];Input Value:5
+Fail
+true
+[Input 53 at (28, 22, 51, 28, 5665)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,8];Input Value:5
+Fail
+true
+[Input 54 at (28, 22, 51, 32, 362923)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483639];Input Value:5
+Fail
+true
+[Input 55 at (28, 22, 51, 32, 694302)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483637];Input Value:5
+Fail
+true
+[Input 56 at (28, 22, 51, 37, 569237)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483640];Input Value:5
+Fail
+true
+[Input 57 at (28, 22, 51, 37, 902981)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,8];Input Value:5
+Fail
+true
+[Input 58 at (28, 22, 51, 42, 132617)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483639];Input Value:5
+Fail
+true
+[Input 59 at (28, 22, 51, 42, 461725)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483637];Input Value:5
+Fail
+true
+[Input 60 at (28, 22, 51, 47, 419534)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483640];Input Value:5
+Fail
+true
+[Input 61 at (28, 22, 51, 47, 769773)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,8];Input Value:5
+Fail
+true
+[Input 62 at (28, 22, 51, 52, 544470)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483639];Input Value:5
+Fail
+true
+[Input 63 at (28, 22, 51, 52, 875908)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483637];Input Value:5
+Fail
+true
+[Input 64 at (28, 22, 51, 57, 791994)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483640];Input Value:5
+Fail
+true
+[Input 65 at (28, 22, 51, 58, 124994)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,8];Input Value:5
+Fail
+true
+[Input 66 at (28, 22, 52, 2, 504858)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483639];Input Value:5
+Fail
+true
+[Input 67 at (28, 22, 52, 2, 857720)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483637];Input Value:5
+Fail
+true
+[Input 68 at (28, 22, 52, 7, 895936)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483640];Input Value:5
+Fail
+true
+[Input 69 at (28, 22, 52, 8, 239030)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,8];Input Value:5
+Fail
+true
+[Input 70 at (28, 22, 52, 13, 229235)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483639];Input Value:5
+Fail
+true
+[Input 71 at (28, 22, 52, 13, 706620)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483637];Input Value:5
+Fail
+true
+[Input 72 at (28, 22, 52, 19, 426909)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483640];Input Value:5
+Fail
+true
+[Input 73 at (28, 22, 52, 19, 773264)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,8];Input Value:5
+Fail
+true
+[Input 74 at (28, 22, 52, 24, 354539)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483639];Input Value:5
+Fail
+true
+[Input 75 at (28, 22, 52, 24, 706898)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483637];Input Value:5
+Fail
+true
+[Input 76 at (28, 22, 52, 29, 861148)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483640];Input Value:5
+Fail
+true
+[Input 77 at (28, 22, 52, 30, 259068)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,8];Input Value:5
+Fail
+true
+[Input 78 at (28, 22, 52, 35, 714627)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483639];Input Value:5
+Fail
+true
+[Input 79 at (28, 22, 52, 36, 97037)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483637];Input Value:5
+Fail
+true
+[Input 80 at (28, 22, 52, 41, 833419)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483640];Input Value:5
+Fail
+true
+[Input 81 at (28, 22, 52, 42, 320263)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,8];Input Value:5
+Fail
+true
+[Input 82 at (28, 22, 52, 48, 90306)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483639];Input Value:5
+Fail
+true
+[Input 83 at (28, 22, 52, 48, 620771)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483637];Input Value:5
+Fail
+true
+[Input 84 at (28, 22, 52, 54, 755124)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483640];Input Value:5
+Fail
+true
+[Input 85 at (28, 22, 52, 55, 92824)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,8];Input Value:5
+Fail
+true
+[Input 86 at (28, 22, 52, 59, 447337)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483639];Input Value:5
+Fail
+true
+[Input 87 at (28, 22, 52, 59, 840620)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483637];Input Value:5
+Fail
+true
+[Input 88 at (28, 22, 53, 4, 829725)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483640];Input Value:5
+Fail
+true
+[Input 89 at (28, 22, 53, 5, 176815)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,8];Input Value:5
+Fail
+true
+[Input 90 at (28, 22, 53, 9, 469117)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483639];Input Value:5
+Fail
+true
+[Input 91 at (28, 22, 53, 9, 862238)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483637];Input Value:5
+Fail
+true
+[Input 92 at (28, 22, 53, 14, 871515)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483640];Input Value:5
+Fail
+true
+[Input 93 at (28, 22, 53, 15, 260272)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,8];Input Value:5
+Fail
+true
+[Input 94 at (28, 22, 53, 19, 925452)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483639];Input Value:5
+Fail
+true
+[Input 95 at (28, 22, 53, 20, 593900)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483637];Input Value:5
+Fail
+true
+[Input 96 at (28, 22, 53, 26, 421288)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483640];Input Value:5
+Fail
+true
+[Input 97 at (28, 22, 53, 26, 763487)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,8];Input Value:5
+Fail
+true
+[Input 98 at (28, 22, 53, 31, 209584)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483639];Input Value:5
+Fail
+true
+[Input 99 at (28, 22, 53, 31, 601451)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483637];Input Value:5
+Fail
+true
+[Input 100 at (28, 22, 53, 36, 605531)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[-1,0,0];Input Value:5
+Fail
+Input Array:[-1,-1,0,6];Input Value:5
+Pass
+Input Array:[-1,-1,0,1,7];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9];Input Value:5
+Pass
+Input Array:[-2,-1,-1,0,8,9,9];Input Value:5
+Pass
+Input Array:[1,1,2,2,3,4,5,5];Input Value:5
+Pass
+Input Array:[0,0,2,4,6,6,7,8,2147483640];Input Value:5
+Fail
