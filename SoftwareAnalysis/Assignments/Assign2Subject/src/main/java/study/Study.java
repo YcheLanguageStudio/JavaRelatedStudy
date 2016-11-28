@@ -163,13 +163,14 @@ public class Study {
     }
 
     public static void main(String[] args) {
-        studyFindMInViaIteration();
-        studyFindMinViaRecursion();
-        studyRemoveDuplicateElements();
-        studyKthLargestViaQuickSort();
-        studyFindMinSubArrayLen();
         studyGetNextPermutationNumber();
         studyThreeSumClosest();
+        studyRemoveDuplicateElements();
+
+        studyFindMInViaIteration();
+        studyFindMinViaRecursion();
+        studyKthLargestViaQuickSort();
+        studyFindMinSubArrayLen();
 
         //confirm Janala Generated Cases
         confirmJanalaGetPermutationNumber();
