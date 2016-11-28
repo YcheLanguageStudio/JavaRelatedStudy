@@ -5,6 +5,7 @@ import java.util.Arrays;
 /**
  * Created by cheyulin on 11/28/16.
  */
+
 public class KthLargestViaQuickSortTestDriver {
     private static util.IntArrayUtil jarUtil = new util.IntArrayUtil();
     private static tests.homework.IntArrayUtil srcUtil = new tests.homework.IntArrayUtil();
@@ -18,7 +19,6 @@ public class KthLargestViaQuickSortTestDriver {
             for (int k = 0; k < arrLen; k++) {
                 int srcVal = srcUtil.findKthLargestViaQuickSort(arr0, k);
                 int jarVal = jarUtil.findKthLargestViaQuickSort(arr1, k);
-                System.out.println("ArrLen:" + String.valueOf(arrLen));
 
                 Utility.printInput(input, k);
                 Utility.compareAndPrintResult(srcVal, jarVal);

@@ -19,11 +19,10 @@ public class ThreeSumCloseTestDriver {
             int[] arr1 = Arrays.copyOf(arr0, arr0.length);
             int[] input = Arrays.copyOf(arr0, arr0.length);
 
-
             int srcVal = srcUtil.threeSumClosest(arr0, targetVal);
             int jarVal = jarUtil.threeSumClosest(arr1, targetVal);
 
-            Utility.printInput(input);
+            Utility.printInput(input, targetVal);
             Utility.compareAndPrintResult(srcVal, jarVal);
         }
     }

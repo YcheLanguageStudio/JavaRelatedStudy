@@ -30,7 +30,7 @@ public class Utility {
     }
 
     static void compareAndPrintResult(int[] left, int[] right) {
-        if (CompareArray(left, right)) {
+        if (compareArray(left, right)) {
             System.out.println("Pass");
         } else {
             System.out.println("Fail");
@@ -66,13 +66,15 @@ public class Utility {
         }
     }
 
-    private static boolean CompareArray(int[] left, int[] right) {
+    private static boolean compareArray(int[] left, int[] right) {
+        Main.BeginScope();
         if (left.length != right.length)
             return false;
         for (int i = 0; i < left.length; i++) {
             if (left[i] != right[i])
                 return false;
         }
+        Main.EndScope();
         return true;
     }
 }
