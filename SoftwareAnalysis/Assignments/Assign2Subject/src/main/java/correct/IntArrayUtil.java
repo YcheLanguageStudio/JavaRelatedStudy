@@ -10,9 +10,6 @@ package correct;
 //
 
 public class IntArrayUtil {
-    public IntArrayUtil() {
-    }
-
     public int findKthLargestViaQuickSort(int[] var1, int var2) {
         return var2 > 0 && var1 != null ? this.a(var1.length - var2 + 1, var1, 0, var1.length - 1) : 0;
     }
