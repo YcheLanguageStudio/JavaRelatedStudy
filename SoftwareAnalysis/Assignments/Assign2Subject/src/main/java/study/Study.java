@@ -148,6 +148,16 @@ public class Study {
         System.out.println(srcUtil.threeSumClosest(num, 4));
     }
 
+
+    private static void confirmJanalaGetPermutationNumber() {
+        int[] num = {28, 12, 55, 37, 833958};
+        jarUtil.getNextPermutationNumber(num);
+        printArray(num);
+        int[] num2 = {28, 12, 55, 37, 833958};
+        srcUtil.getNextPermutationNumber(num2);
+        printArray(num2);
+    }
+
     public static void main(String[] args) {
         studyFindMInViaIteration();
         studyFindMinViaRecursion();
@@ -156,5 +166,6 @@ public class Study {
         studyFindMinSubArrayLen();
         studyGetNextPermutationNumber();
         studyThreeSumClosest();
+        confirmJanalaGetPermutationNumber();
     }
 }

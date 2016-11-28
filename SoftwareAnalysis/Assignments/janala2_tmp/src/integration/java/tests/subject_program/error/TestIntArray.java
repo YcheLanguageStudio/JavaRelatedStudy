@@ -1,6 +1,8 @@
 package tests.subject_program.error;
 
 import catg.CATG;
+import groovy.transform.ToString;
+import janala.Main;
 
 import java.util.Arrays;
 
@@ -12,29 +14,46 @@ public class TestIntArray {
     private static tests.subject_program.error.IntArrayUtil srcUtil = new tests.subject_program.error.IntArrayUtil();
 
     private static boolean ArrayCompare(int[] left, int[] right) {
+        Main.BeginScope();
         if (left.length != right.length)
             return false;
         for (int i = 0; i < left.length; i++) {
             if (left[i] != right[i])
                 return false;
         }
+        Main.EndScope();
         return true;
     }
 
+    private static void printArray(int[] arr) {
+        Main.BeginScope();
+        StringBuilder stringBuilder = new StringBuilder();
+        stringBuilder.append('[');
+        for (int i = 0; i < arr.length; i++) {
+            stringBuilder.append(arr[i]);
+            if (i != arr.length - 1) {
+                stringBuilder.append(',');
+            }
+        }
+        stringBuilder.append(']');
+        System.out.println(stringBuilder.toString());
+        Main.EndScope();
+    }
+
     public static void main(String[] args) {
-        int[] arr = new int[5];
+        int[] arr = new int[3];
         arr[0] = CATG.readInt(1);
         arr[1] = CATG.readInt(2);
         arr[2] = CATG.readInt(3);
-        arr[3] = CATG.readInt(4);
-        arr[4] = CATG.readInt(5);
         int[] arr2 = Arrays.copyOf(arr, arr.length);
+        int[] tmp_arr = Arrays.copyOf(arr, arr.length);
         srcUtil.getNextPermutationNumber(arr);
         jarUtil.getNextPermutationNumber(arr2);
         if (ArrayCompare(arr, arr2)) {
-            System.out.println("Good");
+            System.out.println(String.valueOf(arr.length) + " Good");
         } else {
-            System.out.println("Bad");
+            System.out.println(String.valueOf(arr.length) + " Bad");
+            printArray(tmp_arr);
         }
     }
 }
