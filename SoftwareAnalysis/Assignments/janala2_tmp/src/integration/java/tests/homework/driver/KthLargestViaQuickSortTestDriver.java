@@ -1,5 +1,7 @@
 package tests.homework.driver;
 
+import janala.Main;
+
 import java.util.Arrays;
 
 /**
@@ -17,7 +19,10 @@ public class KthLargestViaQuickSortTestDriver {
             int[] input = Arrays.copyOf(arr0, arr0.length);
 
             for (int k = 0; k < arrLen; k++) {
+                Main.EndScope();
                 int srcVal = srcUtil.findKthLargestViaQuickSort(arr0, k);
+                Main.EndScope();
+
                 int jarVal = jarUtil.findKthLargestViaQuickSort(arr1, k);
 
                 Utility.printInput(input, k);

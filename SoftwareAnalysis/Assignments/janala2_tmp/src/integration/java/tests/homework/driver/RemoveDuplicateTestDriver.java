@@ -1,6 +1,7 @@
 package tests.homework.driver;
 
 import catg.CATG;
+import janala.Main;
 
 import java.util.Arrays;
 
@@ -18,7 +19,10 @@ public class RemoveDuplicateTestDriver {
             int[] arr1 = Arrays.copyOf(arr0, arr0.length);
             int[] input = Arrays.copyOf(arr0, arr0.length);
 
+            Main.BeginScope();
             srcUtil.removeDuplicateElements(arr0);
+            Main.EndScope();
+
             jarUtil.removeDuplicateElements(arr1);
 
             Utility.printInput(input);

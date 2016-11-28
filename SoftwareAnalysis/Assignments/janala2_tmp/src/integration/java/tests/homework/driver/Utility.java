@@ -1,7 +1,6 @@
 package tests.homework.driver;
 
 import catg.CATG;
-import janala.Main;
 
 /**
  * Created by cheyulin on 11/28/16.
@@ -9,12 +8,8 @@ import janala.Main;
 
 public class Utility {
     static void printInput(int[] inputArr, int targetVal) {
-        StringBuilder stringBuilder = new StringBuilder();
-        stringBuilder.append("Input Array:");
-        stringBuilder.append(serializeArray(inputArr));
-        stringBuilder.append(";Input Value:");
-        stringBuilder.append(targetVal);
-        System.out.println(stringBuilder.toString());
+        String stringBuilder = "Input Array:" + serializeArray(inputArr) + ";Input Value:" + targetVal;
+        System.out.println(stringBuilder);
     }
 
     static void printInput(int[] inputArr) {
@@ -37,7 +32,16 @@ public class Utility {
         }
     }
 
-    static String serializeArray(int[] arr) {
+    static int[] generateArray(int arrLen) {
+        if (arrLen > 0) {
+            int[] arr0 = CATG.readIntArray(arrLen, 1);
+            return arr0;
+        } else {
+            return null;
+        }
+    }
+
+    private static String serializeArray(int[] arr) {
         if (arr == null || arr.length == 0)
             return "[]";
         else {
@@ -54,27 +58,13 @@ public class Utility {
         }
     }
 
-    static int[] generateArray(int arrLen) {
-        if (arrLen > 0) {
-            int[] arr0 = new int[arrLen];
-            for (int i = 0; i < arrLen; i++) {
-                arr0[i] = CATG.readInt(i);
-            }
-            return arr0;
-        } else {
-            return null;
-        }
-    }
-
     private static boolean compareArray(int[] left, int[] right) {
-        Main.BeginScope();
         if (left.length != right.length)
             return false;
         for (int i = 0; i < left.length; i++) {
             if (left[i] != right[i])
                 return false;
         }
-        Main.EndScope();
         return true;
     }
 }

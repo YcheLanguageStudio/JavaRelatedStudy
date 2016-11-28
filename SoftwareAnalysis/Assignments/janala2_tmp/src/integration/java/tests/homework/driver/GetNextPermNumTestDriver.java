@@ -19,7 +19,10 @@ public class GetNextPermNumTestDriver {
             int[] arr1 = Arrays.copyOf(arr0, arr0.length);
             int[] input = Arrays.copyOf(arr0, arr0.length);
 
+            Main.BeginScope();
             srcUtil.getNextPermutationNumber(arr0);
+            Main.EndScope();
+
             jarUtil.getNextPermutationNumber(arr1);
 
             Utility.printInput(input);

@@ -1,5 +1,7 @@
 package tests.homework.driver;
 
+import janala.Main;
+
 import java.util.Arrays;
 
 /**
@@ -15,7 +17,10 @@ public class FindMinViaRecurTestDriver {
             int[] arr1 = Arrays.copyOf(arr0, arr0.length);
             int[] input = Arrays.copyOf(arr0, arr0.length);
 
+            Main.BeginScope();
             int srcVal = srcUtil.findMinViaRecursion(arr0);
+            Main.EndScope();
+
             int jarVal = jarUtil.findMinViaRecursion(arr1);
 
             Utility.printInput(input);
