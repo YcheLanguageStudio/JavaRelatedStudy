@@ -25,7 +25,7 @@ public class CovergageInstrumentor extends BodyTransformer {
         nameIndexMap = new HashMap<>();
         markerClass = Scene.v().loadClassAndSupport("profiler.StatementMarker");
         reportFunc = markerClass.getMethod("void report()");
-        reportCodeCoverageFunc = markerClass.getMethod("void reportCodeCoverage()");
+        reportCodeCoverageFunc = markerClass.getMethod("void report()");
         markStmtFunc = markerClass.getMethod("void markStatement(java.lang.String,int)");
         markIfFunc = markerClass.getMethod("void markIfStatement(java.lang.String,int)");
         markBranchFunc = markerClass.getMethod("void markBranch(java.lang.String,int)");
