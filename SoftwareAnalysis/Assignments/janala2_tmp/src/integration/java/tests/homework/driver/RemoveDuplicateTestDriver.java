@@ -20,13 +20,13 @@ public class RemoveDuplicateTestDriver {
             int[] input = Arrays.copyOf(arr0, arr0.length);
 
             Main.BeginScope();
-            srcUtil.removeDuplicateElements(arr0);
+            int arr0Len = srcUtil.removeDuplicateElements(arr0);
             Main.EndScope();
 
-            jarUtil.removeDuplicateElements(arr1);
+            int arr1Len = jarUtil.removeDuplicateElements(arr1);
 
             Utility.printInput(input);
-            Utility.compareAndPrintResult(arr0, arr1);
+            Utility.compareAndPrintResult(arr0, arr0Len, arr1, arr1Len);
         }
     }
 }

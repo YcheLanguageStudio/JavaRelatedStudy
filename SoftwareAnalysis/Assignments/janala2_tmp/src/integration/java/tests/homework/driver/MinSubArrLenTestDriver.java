@@ -8,7 +8,7 @@ import java.util.Arrays;
 /**
  * Created by cheyulin on 11/28/16.
  */
-public class MinSubArrTestDriver {
+public class MinSubArrLenTestDriver {
 
     private static util.IntArrayUtil jarUtil = new util.IntArrayUtil();
     private static tests.homework.IntArrayUtil srcUtil = new tests.homework.IntArrayUtil();

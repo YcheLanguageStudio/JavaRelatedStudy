@@ -32,6 +32,20 @@ public class Utility {
         }
     }
 
+    static void compareAndPrintResult(int[] left, int leftLen, int[] right, int rightLen) {
+        if (leftLen == rightLen) {
+            for (int i = 0; i < leftLen; i++) {
+                if (left[i] != right[i]) {
+                    System.out.println("Fail");
+                    return;
+                }
+            }
+            System.out.println("Pass");
+        } else {
+            System.out.println("Fail");
+        }
+    }
+
     static int[] generateArray(int arrLen) {
         if (arrLen > 0) {
             int[] arr0 = CATG.readIntArray(arrLen, 1);

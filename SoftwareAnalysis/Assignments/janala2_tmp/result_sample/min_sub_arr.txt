@@ -1,6 +1,6 @@
 None
 
-Now testing tests.homework.driver.MinSubArrTestDriver
+Now testing tests.homework.driver.MinSubArrLenTestDriver
 [Input 1 at (28, 22, 46, 57, 236429)]
 Input Array:[0];Input Value:5
 Pass
