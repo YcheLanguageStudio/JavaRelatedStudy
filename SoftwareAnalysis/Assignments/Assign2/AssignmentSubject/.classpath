@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="test_src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="../Local-Jars/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="../Local-Jars/junit-4.11.jar"/>
+	<classpathentry kind="lib" path="../Local-Jars/randoop-all-3.0.4.jar"/>
+	<classpathentry kind="lib" path="../Local-Jars/soot-2.5.0.jar"/>
+	<classpathentry kind="lib" path="../Local-Jars/subjectGoldenVersion.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
