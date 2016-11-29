@@ -1,4 +1,4 @@
-package janala.pass;
+package janala;
 
 import org.junit.Test;
 

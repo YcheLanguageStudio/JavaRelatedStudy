@@ -1,4 +1,4 @@
-package janala.pass;
+package janala;
 
 import org.junit.Test;
 
@@ -7,6 +7,7 @@ import static org.junit.Assert.assertTrue;
 /**
  * Created by cheyulin on 11/29/16.
  */
+ 
 public class RemoveDuplicateTestCase {
     private static util.IntArrayUtil jarUtil = new util.IntArrayUtil();
     private static tests.homework.IntArrayUtil srcUtil = new tests.homework.IntArrayUtil();

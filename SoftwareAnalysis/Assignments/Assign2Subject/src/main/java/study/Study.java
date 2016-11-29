@@ -135,13 +135,9 @@ public class Study {
 
     private static void studyThreeSumClosest() {
         System.out.println("\nstudyThreeSumClosest");
-        int num[] = {-1, 2, 0, 5};
-        System.out.println(jarUtil.threeSumClosest(num, -4));
-        System.out.println(jarUtil.threeSumClosest(num, 0));
-        System.out.println(jarUtil.threeSumClosest(num, 4));
-        System.out.println(srcUtil.threeSumClosest(num, -4));
-        System.out.println(srcUtil.threeSumClosest(num, 0));
-        System.out.println(srcUtil.threeSumClosest(num, 4));
+        int num[] = {1,1,1,1};
+        System.out.println(jarUtil.threeSumClosest(num, 1));
+        System.out.println(srcUtil.threeSumClosest(num, 1));
     }
 
 

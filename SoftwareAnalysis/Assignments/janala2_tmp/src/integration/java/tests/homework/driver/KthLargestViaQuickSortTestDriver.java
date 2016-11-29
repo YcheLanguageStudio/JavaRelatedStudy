@@ -22,7 +22,7 @@ public class KthLargestViaQuickSortTestDriver {
                 int srcVal = srcUtil.findKthLargestViaQuickSort(arr0, k);
                 int jarVal = jarUtil.findKthLargestViaQuickSort(arr1, k);
 
-                Utility.printInput(input, k);
+                Utility.printInput(input);
                 Utility.compareAndPrintResult(srcVal, jarVal);
             }
         }
