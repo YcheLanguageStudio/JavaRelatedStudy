@@ -19,7 +19,9 @@ public class RemoveDuplicateTestDriver {
             int[] arr1 = Arrays.copyOf(arr0, arr0.length);
             int[] input = Arrays.copyOf(arr0, arr0.length);
 
+            CATG.BeginScope();
             int arr0Len = srcUtil.removeDuplicateElements(arr0);
+            CATG.EndScope();
             int arr1Len = jarUtil.removeDuplicateElements(arr1);
 
             Utility.printInput(input);

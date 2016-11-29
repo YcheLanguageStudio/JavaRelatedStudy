@@ -1,0 +1,602 @@
+None
+
+Now testing tests.homework.driver.RemoveDuplicateTestDriver
+[Input 1 at (29, 13, 4, 13, 455153)]
+Input Array:[1]
+Pass
+Input Array:[1,1]
+Pass
+Input Array:[1,1,1]
+Pass
+Input Array:[1,1,1,1]
+Pass
+Input Array:[1,1,1,1,1]
+Pass
+Input Array:[1,1,1,1,1,1]
+Pass
+Input Array:[1,1,1,1,1,1,1]
+Pass
+Input Array:[1,1,1,1,1,1,1,1]
+Pass
+Input Array:[1,1,1,1,1,1,1,1,1]
+Pass
+true
+[Input 2 at (29, 13, 4, 13, 760630)]
+Input Array:[1]
+Pass
+Input Array:[1,1]
+Pass
+Input Array:[1,1,0]
+Pass
+Input Array:[1,1,0,0]
+Pass
+Input Array:[1,1,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0,0,0]
+Pass
+Input Array:[1,0,0,0,0,0,0,0,0]
+Pass
+true
+[Input 3 at (29, 13, 4, 14, 23340)]
+Input Array:[1]
+Pass
+Input Array:[1,1]
+Pass
+Input Array:[1,1,1]
+Pass
+Input Array:[1,1,1,1]
+Pass
+Input Array:[1,1,1,1,1]
+Pass
+Input Array:[1,1,1,1,1,1]
+Pass
+Input Array:[1,1,1,1,1,1,1]
+Pass
+Input Array:[1,1,1,1,1,1,1,1]
+Pass
+Input Array:[1,1,1,1,1,1,1,1,1]
+Pass
+true
+[Input 4 at (29, 13, 4, 14, 351244)]
+Input Array:[1]
+Pass
+Input Array:[1,1]
+Pass
+Input Array:[1,1,0]
+Pass
+Input Array:[1,1,0,0]
+Pass
+Input Array:[1,1,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0,0,0]
+Pass
+Input Array:[0,0,0,0,0,0,0,0,0]
+Pass
+true
+[Input 5 at (29, 13, 4, 14, 624667)]
+Input Array:[1]
+Pass
+Input Array:[1,1]
+Pass
+Input Array:[1,1,0]
+Pass
+Input Array:[1,1,0,0]
+Pass
+Input Array:[1,1,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0,0,0]
+Pass
+Input Array:[1,0,0,0,0,0,0,0,0]
+Pass
+true
+[Input 6 at (29, 13, 4, 14, 959434)]
+Input Array:[1]
+Pass
+Input Array:[1,1]
+Pass
+Input Array:[1,1,0]
+Pass
+Input Array:[1,1,0,0]
+Pass
+Input Array:[1,1,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0,0,0]
+Pass
+Input Array:[1,-1,0,0,0,0,0,0,0]
+Pass
+true
+[Input 7 at (29, 13, 4, 15, 237517)]
+Input Array:[1]
+Pass
+Input Array:[1,1]
+Pass
+Input Array:[1,1,0]
+Pass
+Input Array:[1,1,0,0]
+Pass
+Input Array:[1,1,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0,0,0]
+Pass
+Input Array:[1,0,-1,0,0,0,0,0,0]
+Pass
+true
+[Input 8 at (29, 13, 4, 15, 576385)]
+Input Array:[1]
+Pass
+Input Array:[1,1]
+Pass
+Input Array:[1,1,0]
+Pass
+Input Array:[1,1,0,0]
+Pass
+Input Array:[1,1,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0,0,0]
+Pass
+Input Array:[1,0,-1,-1,0,0,0,0,0]
+Pass
+true
+[Input 9 at (29, 13, 4, 15, 867808)]
+Input Array:[1]
+Pass
+Input Array:[1,1]
+Pass
+Input Array:[1,1,0]
+Pass
+Input Array:[1,1,0,0]
+Pass
+Input Array:[1,1,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0,0,0]
+Pass
+Input Array:[1,0,-1,0,-1,0,0,0,0]
+Pass
+true
+[Input 10 at (29, 13, 4, 16, 208489)]
+Input Array:[1]
+Pass
+Input Array:[1,1]
+Pass
+Input Array:[1,1,0]
+Pass
+Input Array:[1,1,0,0]
+Pass
+Input Array:[1,1,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0,0,0]
+Pass
+Input Array:[1,0,-1,0,-1,-1,0,0,0]
+Pass
+true
+[Input 11 at (29, 13, 4, 16, 476047)]
+Input Array:[1]
+Pass
+Input Array:[1,1]
+Pass
+Input Array:[1,1,0]
+Pass
+Input Array:[1,1,0,0]
+Pass
+Input Array:[1,1,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0,0,0]
+Pass
+Input Array:[1,0,-1,0,-1,0,-1,0,0]
+Pass
+true
+[Input 12 at (29, 13, 4, 16, 837514)]
+Input Array:[1]
+Pass
+Input Array:[1,1]
+Pass
+Input Array:[1,1,0]
+Pass
+Input Array:[1,1,0,0]
+Pass
+Input Array:[1,1,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0,0,0]
+Pass
+Input Array:[1,0,-1,0,-1,0,-1,-1,0]
+Pass
+true
+[Input 13 at (29, 13, 4, 17, 100302)]
+Input Array:[1]
+Pass
+Input Array:[1,1]
+Pass
+Input Array:[1,1,0]
+Pass
+Input Array:[1,1,0,0]
+Pass
+Input Array:[1,1,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0,0,0]
+Pass
+Input Array:[1,0,-1,0,-1,0,-1,0,-1]
+Pass
+true
+[Input 14 at (29, 13, 4, 17, 450128)]
+Input Array:[1]
+Pass
+Input Array:[1,1]
+Pass
+Input Array:[1,1,0]
+Pass
+Input Array:[1,1,0,0]
+Pass
+Input Array:[1,1,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0,0,0]
+Pass
+Input Array:[1,0,-1,0,-1,0,-1,-1,0]
+Pass
+true
+[Input 15 at (29, 13, 4, 17, 748501)]
+Input Array:[1]
+Pass
+Input Array:[1,1]
+Pass
+Input Array:[1,1,0]
+Pass
+Input Array:[1,1,0,0]
+Pass
+Input Array:[1,1,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0,0,0]
+Pass
+Input Array:[1,0,-1,0,-1,0,-1,0,0]
+Pass
+true
+[Input 16 at (29, 13, 4, 18, 86765)]
+Input Array:[1]
+Pass
+Input Array:[1,1]
+Pass
+Input Array:[1,1,0]
+Pass
+Input Array:[1,1,0,0]
+Pass
+Input Array:[1,1,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0,0,0]
+Pass
+Input Array:[1,0,-1,0,-1,0,-1,-1,0]
+Pass
+true
+[Input 17 at (29, 13, 4, 18, 353248)]
+Input Array:[1]
+Pass
+Input Array:[1,1]
+Pass
+Input Array:[1,1,0]
+Pass
+Input Array:[1,1,0,0]
+Pass
+Input Array:[1,1,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0,0,0]
+Pass
+Input Array:[1,0,-1,0,-1,0,-1,0,-1]
+Pass
+true
+[Input 18 at (29, 13, 4, 18, 691439)]
+Input Array:[1]
+Pass
+Input Array:[1,1]
+Pass
+Input Array:[1,1,0]
+Pass
+Input Array:[1,1,0,0]
+Pass
+Input Array:[1,1,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0,0,0]
+Pass
+Input Array:[1,0,-1,0,-1,0,-1,-1,0]
+Pass
+true
+[Input 19 at (29, 13, 4, 18, 965008)]
+Input Array:[1]
+Pass
+Input Array:[1,1]
+Pass
+Input Array:[1,1,0]
+Pass
+Input Array:[1,1,0,0]
+Pass
+Input Array:[1,1,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0,0,0]
+Pass
+Input Array:[1,0,-1,0,-1,0,-1,0,0]
+Pass
+true
+[Input 20 at (29, 13, 4, 19, 299953)]
+Input Array:[1]
+Pass
+Input Array:[1,1]
+Pass
+Input Array:[1,1,0]
+Pass
+Input Array:[1,1,0,0]
+Pass
+Input Array:[1,1,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0,0,0]
+Pass
+Input Array:[1,0,-1,0,-1,0,-1,-1,0]
+Pass
+true
+[Input 21 at (29, 13, 4, 19, 566244)]
+Input Array:[1]
+Pass
+Input Array:[1,1]
+Pass
+Input Array:[1,1,0]
+Pass
+Input Array:[1,1,0,0]
+Pass
+Input Array:[1,1,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0,0,0]
+Pass
+Input Array:[1,0,-1,0,-1,0,-1,0,-1]
+Pass
+true
+[Input 22 at (29, 13, 4, 19, 903279)]
+Input Array:[1]
+Pass
+Input Array:[1,1]
+Pass
+Input Array:[1,1,0]
+Pass
+Input Array:[1,1,0,0]
+Pass
+Input Array:[1,1,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0,0,0]
+Pass
+Input Array:[1,0,-1,0,-1,0,-1,-1,0]
+Pass
+true
+[Input 23 at (29, 13, 4, 20, 177586)]
+Input Array:[1]
+Pass
+Input Array:[1,1]
+Pass
+Input Array:[1,1,0]
+Pass
+Input Array:[1,1,0,0]
+Pass
+Input Array:[1,1,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0,0,0]
+Pass
+Input Array:[1,0,-1,0,-1,0,-1,0,0]
+Pass
+true
+[Input 24 at (29, 13, 4, 20, 554230)]
+Input Array:[1]
+Pass
+Input Array:[1,1]
+Pass
+Input Array:[1,1,0]
+Pass
+Input Array:[1,1,0,0]
+Pass
+Input Array:[1,1,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0,0,0]
+Pass
+Input Array:[1,0,-1,0,-1,0,-1,-1,0]
+Pass
+true
+[Input 25 at (29, 13, 4, 20, 819014)]
+Input Array:[1]
+Pass
+Input Array:[1,1]
+Pass
+Input Array:[1,1,0]
+Pass
+Input Array:[1,1,0,0]
+Pass
+Input Array:[1,1,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0,0,0]
+Pass
+Input Array:[1,0,-1,0,-1,0,-1,0,-1]
+Pass
+true
+[Input 26 at (29, 13, 4, 21, 212956)]
+Input Array:[1]
+Pass
+Input Array:[1,1]
+Pass
+Input Array:[1,1,0]
+Pass
+Input Array:[1,1,0,0]
+Pass
+Input Array:[1,1,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0,0,0]
+Pass
+Input Array:[1,0,-1,0,-1,0,-1,-1,0]
+Pass
+true
+[Input 27 at (29, 13, 4, 21, 490362)]
+Input Array:[1]
+Pass
+Input Array:[1,1]
+Pass
+Input Array:[1,1,0]
+Pass
+Input Array:[1,1,0,0]
+Pass
+Input Array:[1,1,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0,0,0]
+Pass
+Input Array:[1,0,-1,0,-1,0,-1,0,0]
+Pass
+true
+[Input 28 at (29, 13, 4, 21, 832998)]
+Input Array:[1]
+Pass
+Input Array:[1,1]
+Pass
+Input Array:[1,1,0]
+Pass
+Input Array:[1,1,0,0]
+Pass
+Input Array:[1,1,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0,0,0]
+Pass
+Input Array:[1,0,-1,0,-1,0,-1,-1,0]
+Pass
+true
+[Input 29 at (29, 13, 4, 22, 116503)]
+Input Array:[1]
+Pass
+Input Array:[1,1]
+Pass
+Input Array:[1,1,0]
+Pass
+Input Array:[1,1,0,0]
+Pass
+Input Array:[1,1,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0,0,0]
+Pass
+Input Array:[1,0,-1,0,-1,0,-1,0,-1]
+Pass
+true
+[Input 30 at (29, 13, 4, 22, 453591)]
+Input Array:[1]
+Pass
+Input Array:[1,1]
+Pass
+Input Array:[1,1,0]
+Pass
+Input Array:[1,1,0,0]
+Pass
+Input Array:[1,1,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0,0]
+Pass
+Input Array:[1,1,0,0,0,0,0,0]
+Pass
+Input Array:[1,0,-1,0,-1,0,-1,-1,0]
+Pass

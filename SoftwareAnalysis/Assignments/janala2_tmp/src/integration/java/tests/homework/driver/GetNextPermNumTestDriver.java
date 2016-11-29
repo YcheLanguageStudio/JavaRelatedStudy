@@ -16,21 +16,15 @@ public class GetNextPermNumTestDriver {
     public static void main(String[] args) {
         int[] arr0 = CATG.readIntArray(3, 1);
         int[] arr1 = Arrays.copyOf(arr0, arr0.length);
-        for (int i = 0; i < arr1.length; i++) {
-            Main.MakeSymbolic(arr1[i]);
-        }
-
         int[] input = Arrays.copyOf(arr0, arr0.length);
-        Utility.printInput(input);
 
-        Main.BeginScope();
+        CATG.BeginScope();
         srcUtil.getNextPermutationNumber(arr0);
-        Main.EndScope();
+        CATG.EndScope();
 
-        Main.BeginScope();
         jarUtil.getNextPermutationNumber(arr1);
-        Main.EndScope();
 
+        Utility.printInput(input);
         Utility.compareAndPrintResult(arr0, arr1);
     }
 }
