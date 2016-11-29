@@ -1,5 +1,5 @@
 mkdir -p result
-python concolic.py 100 tests.homework.driver.KthLargestViaQuickSortTestDriver > result/k_th_largest_via_quick_sort.txt
+#python concolic.py 100 tests.homework.driver.KthLargestViaQuickSortTestDriver > result/k_th_largest_via_quick_sort.txt
 python concolic.py 100 tests.homework.driver.FindMinViaIterTestDriver > result/find_min_via_iteration.txt
 python concolic.py 100 tests.homework.driver.FindMinViaRecurTestDriver > result/find_min_via_recursion.txt
 python concolic.py 100 tests.homework.driver.MinSubArrLenTestDriver > result/min_sub_arr_len.txt

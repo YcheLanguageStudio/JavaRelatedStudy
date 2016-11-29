@@ -20,10 +20,7 @@ public class MinSubArrLenTestDriver {
             int[] arr1 = Arrays.copyOf(arr0, arr0.length);
             int[] input = Arrays.copyOf(arr0, arr0.length);
 
-            Main.BeginScope();
             int srcVal = srcUtil.findMinSubArrayLen(targetVal, arr0);
-            Main.EndScope();
-
             int jarVal = jarUtil.findMinSubArrayLen(targetVal, arr1);
 
             Utility.printInput(input, targetVal);

@@ -48,8 +48,6 @@ public class Study {
 
         System.out.println(jarUtil.findMinViaIteration(arr));
         System.out.println(jarUtil.findMinViaIteration(arr2));
-        System.out.println(decompileUtil.findMinViaIteration(arr));
-        System.out.println(decompileUtil.findMinViaIteration(arr2));
         System.out.println(srcUtil.findMinViaIteration(arr));
         System.out.println(srcUtil.findMinViaIteration(arr2));
         Arrays.sort(arr);
@@ -64,8 +62,6 @@ public class Study {
         int[] arr2 = {11, 3, 3, 5, -10};
         System.out.println(jarUtil.findMinViaRecursion(arr));
         System.out.println(jarUtil.findMinViaRecursion(arr2));
-        System.out.println(decompileUtil.findMinViaRecursion(arr));
-        System.out.println(decompileUtil.findMinViaRecursion(arr2));
         System.out.println(srcUtil.findMinViaRecursion(arr));
         System.out.println(srcUtil.findMinViaRecursion(arr2));
 

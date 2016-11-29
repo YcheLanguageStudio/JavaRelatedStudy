@@ -18,10 +18,7 @@ public class FindMinViaIterTestDriver {
             int[] arr1 = Arrays.copyOf(arr0, arr0.length);
             int[] input = Arrays.copyOf(arr0, arr0.length);
 
-            Main.BeginScope();
             int srcVal = srcUtil.findMinViaIteration(arr0);
-            Main.EndScope();
-
             int jarVal = jarUtil.findMinViaIteration(arr1);
 
             Utility.printInput(input);

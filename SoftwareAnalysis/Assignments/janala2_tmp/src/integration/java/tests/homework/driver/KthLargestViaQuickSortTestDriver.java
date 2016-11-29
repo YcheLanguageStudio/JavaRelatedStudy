@@ -18,11 +18,8 @@ public class KthLargestViaQuickSortTestDriver {
             int[] arr1 = Arrays.copyOf(arr0, arr0.length);
             int[] input = Arrays.copyOf(arr0, arr0.length);
 
-            for (int k = 0; k < arrLen; k++) {
-                Main.EndScope();
+            for (int k = 1; k < arrLen + 1; k++) {
                 int srcVal = srcUtil.findKthLargestViaQuickSort(arr0, k);
-                Main.EndScope();
-
                 int jarVal = jarUtil.findKthLargestViaQuickSort(arr1, k);
 
                 Utility.printInput(input, k);
