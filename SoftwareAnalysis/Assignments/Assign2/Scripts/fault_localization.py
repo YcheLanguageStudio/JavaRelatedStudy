@@ -151,19 +151,19 @@ def post_process_coefficient_map(coefficient_info_map):
     print feature_vec_list
     chiai_coefficient_list.sort(key=lambda ele: ele[1])
     chiai_coefficient_list = chiai_coefficient_list[::-1]
-    write_result_to_file(chiai_coefficient_list, 'chiai_coefficient.txt')
+    write_result_to_file(chiai_coefficient_list, 'chiai_coefficient.csv')
 
     tarantula_coefficient.sort(key=lambda ele: ele[1])
     tarantula_coefficient = tarantula_coefficient[::-1]
-    write_result_to_file(tarantula_coefficient, 'tarantula_coefficient.txt')
+    write_result_to_file(tarantula_coefficient, 'tarantula_coefficient.csv')
 
     ample_coefficient.sort(key=lambda ele: ele[1])
     ample_coefficient = ample_coefficient[::-1]
-    write_result_to_file(ample_coefficient, 'ample_coefficient.txt')
+    write_result_to_file(ample_coefficient, 'ample_coefficient.csv')
 
     jacard_coefficient.sort(key=lambda ele: ele[1])
     jacard_coefficient = jacard_coefficient[::-1]
-    write_result_to_file(jacard_coefficient, 'jacard_coefficient.txt')
+    write_result_to_file(jacard_coefficient, 'jacard_coefficient.csv')
 
 
 def write_result_to_file(result_tuple_list, file_name):
