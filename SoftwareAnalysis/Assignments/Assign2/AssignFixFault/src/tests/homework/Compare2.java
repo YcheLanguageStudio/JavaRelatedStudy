@@ -5,35 +5,35 @@ package tests.homework;
  */
 public class Compare2 {
     public int threeSumClosest(int[] nums, int target) {
-        int var3 = 2147483647;
-        int var4 = 0;
+        int min = 2147483647;
+        int result = 0;
+
         this.MergeSort(0, nums.length, nums);
 
-        for (int var5 = 0; var5 < nums.length; ++var5) {
-            int var6 = var5 + 1;
-            int var7 = nums.length - 1;
-
-            while (var6 < var7) {
-                int var8;
-                int var9;
-                if ((var9 = (var9 = (var8 = nums[var5] + nums[var6] + nums[var7]) - target) < 0 ? -var9 : var9) == 0) {
-                    return var8;
+        for (int i = 0; i < nums.length; ++i) {
+            int j = i + 1;
+            int k = nums.length - 1;
+            while (j < k) {
+                int sum;
+                int diff;
+                if ((diff = (diff = (sum = nums[i] + nums[j] + nums[k]) - target) < 0 ? -diff : diff) == 0) {
+                    return sum;
                 }
 
-                if (var9 < var3) {
-                    var3 = var9;
-                    var4 = var8;
+                if (diff < min) {
+                    min = diff;
+                    result = sum;
                 }
 
-                if (var8 <= target) {
-                    ++var6;
+                if (sum <= target) {
+                    ++j;
                 } else {
-                    --var7;
+                    --k;
                 }
             }
         }
 
-        return var4;
+        return result;
     }
 
     private static int abs(int a) {

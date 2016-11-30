@@ -1,4 +1,73 @@
 ##ThreeSumClosest
+- first, line 311
+
+```java
+public int threeSumClosest(int[] nums, int target) {
+        int min = 2147483647;
+        int result = 0;
+
+        this.MergeSort(0, nums.length, nums);
+
+        for (int i = 0; i < nums.length; ++i) {
+            int j = i + 1;
+            int k = nums.length - 1;
+            while (j < k) {
+                int sum;
+                int diff;
+                if ((diff = (diff = (sum = nums[i] + nums[j] + nums[k]) - target) < 0 ? -diff : diff) == 0) {
+                    return sum;
+                }
+
+                if (diff < min) {
+                    min = diff;
+                    result = sum;
+                }
+
+                if (sum <= target) {
+                    ++j;
+                } else {
+                    --k;
+                }
+            }
+        }
+
+        return result;
+    }
+```
+
+- faulty
+
+```java
+  public int threeSumClosest(int[] nums, int target) {
+        int min = Integer.MAX_VALUE;
+        int result = 0;
+
+        MergeSort(nums);
+
+        for (int i = 0; i < nums.length; i++) {
+            int j = i + 1;
+            int k = nums.length - 1;
+            while (j < k) {
+                int sum = nums[i] + nums[j] + nums[k];
+                int diff = abs(sum - target);
+
+                if (diff == 0) return sum;
+
+                if (diff >= min) {
+                    min = diff;
+                    result = sum;
+                }
+                if (sum <= target) {
+                    j++;
+                } else {
+                    k--;
+                }
+            }
+        }
+
+        return result;
+    }
+```
 
 ##GetNextPermutationNumber
 - correct one, line 257 in `IntArrayUtil.java` differ

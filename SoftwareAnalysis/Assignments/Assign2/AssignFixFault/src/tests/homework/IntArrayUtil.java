@@ -307,7 +307,8 @@ public class IntArrayUtil {
 
                 if (diff == 0) return sum;
 
-                if (diff >= min) {
+                //to be changed >= to <
+                if (diff < min) {
                     min = diff;
                     result = sum;
                 }
