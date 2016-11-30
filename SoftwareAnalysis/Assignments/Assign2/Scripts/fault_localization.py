@@ -52,13 +52,14 @@ def read_all_runs():
     return my_dict
 
 
-def print_gathered_info():
-    read_all_runs()
-    my_file_content_dict = read_all_runs()
-    for ele in my_file_content_dict:
-        print ele
-        print my_file_content_dict[ele]
-        print '\n'
+def get_stmt_line_num_dict():
+    my_dict = dict()
+    with open('tests.homework.IntArrayUtil_statement_line_number_map.txt') as ifs:
+        lines = ifs.readlines()[1:]
+        for line in lines:
+            two_num_list = line.rstrip().split(',')
+            my_dict[two_num_list[0]] = two_num_list[1]
+    return my_dict
 
 
 def get_whole_stmt_set(all_runs_dict):
@@ -166,16 +167,18 @@ def post_process_coefficient_map(coefficient_info_map):
 
 
 def write_result_to_file(result_tuple_list, file_name):
+    stmt_line_num_dict = get_stmt_line_num_dict()
     dir_name = 'coefficient_rank'
     if not os.path.exists(dir_name):
         os.mkdir(dir_name)
     file_path = dir_name + os.sep + file_name
     result_tuple_list = filter(lambda ele: ele[1] > 0, result_tuple_list)
     with open(file_path, 'w') as ofs:
-        ofs.write('Statement Number,Coefficient\n')
+        ofs.write('Line Number, Coefficient, Statement Number\n')
         for ele in result_tuple_list:
             ele = map(str, ele)
-            ofs.write(','.join(ele) + '\n')
+            new_list = [stmt_line_num_dict[ele[0]], ele[1], ele[0]]
+            ofs.write(','.join(new_list) + '\n')
 
 
 if __name__ == '__main__':
