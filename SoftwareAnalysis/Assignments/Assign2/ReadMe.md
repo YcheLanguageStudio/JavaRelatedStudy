@@ -43,6 +43,10 @@ Test cases are held in [AssignmentSubject/test_src/janala](AssignmentSubject/tes
   - the result of the second fault in line 304 is good, ranking the first
   - but the other is bad , beacase I did not generate good test cases for that I suppose
 
+- observations
+  - too many failure or too many suceess will influence the performance
+  - and number of test cases between different categories should be quite similar to acheive better performance
+
 ##Fault Fixing(10% Points)
 
 I found two faults.
@@ -75,6 +79,46 @@ I found two faults.
   if (diff < min) {
   ```
 
-And After fixing these two things, test cases [AssignFixFault/test_src](AssignFixFault/test_src) are all pass.
+And After fixing these two things, test cases [AssignFixFault/test_src](AssignFixFault/test_src) are all pass. And the source code
+is in [AssignFixFault/src/tests/homework/IntArrayUtil.java](AssignFixFault/src/tests/homework/IntArrayUtil.java).
 
-##Bonus
+
+##Bonus(30 Points)
+###Summary
+
+I modify the soot profiler a little bit to record the line number, whose source code is held in [AssignmentSubject/src/profiler](AssignmentSubject/src/profiler). And I write a python script to do the fault localization.
+The related implementation is in [Scripts/fault_localization.py](Scripts/fault_localization.py).
+
+There is also a [Scripts/ReadMe.md](Scripts/ReadMe.md) to explain the files.
+
+###Build Steps
+- use eclipse helps me build the [AssignmentSubject](AssignmentSubject), with compiler level 1.7
+
+- enter the `Scripts` folder to do next few things
+```zsh
+cd Scripts
+```
+
+- run the script in [Scripts/use_soot_driver.sh](Scripts/use_soot_driver.sh) to generate instrumented files put in [Scripts/sootOutput/tests/homework](Scripts/sootOutput/tests/homework), **with your environment java7 as the java environment**. This script will output three files.
+
+```zsh
+./use_soot_driver.sh
+```
+
+- run the script [Scripts/cp_related_class_files.sh](Scripts/cp_related_class_files.sh), to copy files build by eclipse ant
+
+```zsh
+./cp_related_class_files.sh
+```
+
+- shift to Java8 environment and then run the python script, which executes all junit test cases and puts them in [Scripts/test_case_res](Scripts/test_case_res) folder
+
+```zsh
+python exec_all_junit_test_cases.py
+```
+
+- then use the fault_localization tool(python script), the result of which is put in [Scripts/coefficient_rank](Scripts/coefficient_rank)
+
+```
+python fault_localization.py
+```
