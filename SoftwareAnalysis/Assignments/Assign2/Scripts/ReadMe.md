@@ -21,5 +21,9 @@
   - [exec_all_junit_test_cases.py](exec_all_junit_test_cases.py), execute all janala test cases to generate statement related information, which are held in [test_case_res](test_case_res) folder
   - [fault_localization.py](fault_localization.py), fault localization tool
 
+- final result folder
+  - [coefficient_rank](coefficient_rank), where four coefficient measurements' ranks are held
+  - the column information of each file, e.g [coefficient_rank/chiai_coefficient.csv](coefficient_rank/chiai_coefficient.csv) are `Line Number, Coefficient, Statement Number`
+
 ##Gzoltar
 - python script [process_gzoltar_result.py](process_gzoltar_result.py) ,transform [gzoltar_faulty_statements.txt](gzoltar_faulty_statements.txt) into [gzoltar_faulty_statements.csv](gzoltar_faulty_statements.csv)
