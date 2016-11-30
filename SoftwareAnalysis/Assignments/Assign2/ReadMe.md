@@ -32,6 +32,16 @@ Test drivers are put in [janala2_tmp/src/integration/java/tests/homework](janala
 Test cases are held in [AssignmentSubject/test_src/janala](AssignmentSubject/test_src/janala), where I mannally modify test cases generated from Janala, trying to achieve better distinctions between failures and okay executions.
 
 ###List of Potential Faulty Statements
+- result is in [Scripts/gzoltar_faulty_statements.csv](Scripts/gzoltar_faulty_statements.csv)
+- my own ranking report is in [Scripts/coefficient_rank](Scripts/coefficient_rank), with four coefficient mesurements
+  - [Scripts/coefficient_rank/ample_coefficient.csv](Scripts/coefficient_rank/ample_coefficient.csv)
+  - [Scripts/coefficient_rank/chiai_coefficient.csv](Scripts/coefficient_rank/chiai_coefficient.csv)
+  - [Scripts/coefficient_rank/jacard_coefficient.csv](Scripts/coefficient_rank/jacard_coefficient.csv)
+  - [Scripts/coefficient_rank/tarantula_coefficient.csv](Scripts/coefficient_rank/tarantula_coefficient.csv)
+
+- result
+  - the result of the second fault in line 304 is good, ranking the first
+  - but the other is bad , beacase I did not generate good test cases for that I suppose
 
 ##Fault Fixing(10% Points)
 
