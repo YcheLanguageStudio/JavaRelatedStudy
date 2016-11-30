@@ -47,7 +47,7 @@ Src:103,Dst:90
 Src:91,Dst:94
 Src:99,Dst:102
 
-Time: 0.007
+Time: 0.005
 
 OK (1 test)
 
