@@ -92,8 +92,10 @@ def compute_jaccard_coefficient(my_feature_vec):
     a11 = tmp_my_feature_vec[a_one_one_idx]
     a10 = tmp_my_feature_vec[a_one_zero_idx]
     a01 = tmp_my_feature_vec[a_zero_one_idx]
-    a00 = tmp_my_feature_vec[a_zero_zero_idx]
-    return a11 / (a11 + a01 + a10)
+    if a11 == 0:
+        return 0
+    else:
+        return a11 / (a11 + a01 + a10)
 
 
 def compute_ample_coefficient(my_feature_vec):
@@ -102,7 +104,12 @@ def compute_ample_coefficient(my_feature_vec):
     a10 = tmp_my_feature_vec[a_one_zero_idx]
     a01 = tmp_my_feature_vec[a_zero_one_idx]
     a00 = tmp_my_feature_vec[a_zero_zero_idx]
-    return abs(a11 / (a01 + a11) - a10 / (a00 + a10))
+    if a11 == 0:
+        return 0
+    elif a10 + a00 == 0:
+        return 1
+    else:
+        return abs(a11 / (a01 + a11) - a10 / (a00 + a10))
 
 
 def compute_ochiai_coefficient(my_feature_vec):
@@ -110,7 +117,10 @@ def compute_ochiai_coefficient(my_feature_vec):
     a11 = tmp_my_feature_vec[a_one_one_idx]
     a10 = tmp_my_feature_vec[a_one_zero_idx]
     a01 = tmp_my_feature_vec[a_zero_one_idx]
-    return a11 / math.sqrt((a11 + a01) * (a11 + a10))
+    if a11 == 0:
+        return 0
+    else:
+        return a11 / math.sqrt((a11 + a01) * (a11 + a10))
 
 
 def compute_tarantula_coefficient(my_feature_vec):
@@ -119,21 +129,70 @@ def compute_tarantula_coefficient(my_feature_vec):
     a10 = tmp_my_feature_vec[a_one_zero_idx]
     a01 = tmp_my_feature_vec[a_zero_one_idx]
     a00 = tmp_my_feature_vec[a_zero_zero_idx]
-    numerator = a11 / (a11 + a01)
-    first_denominator = a11 / (a11 + a01)
-    second_denominator = a10 / (a10 + a00)
-    return numerator / (first_denominator + second_denominator)
+    if a11 == 0:
+        return 0
+    elif a10 + a00 == 0:
+        return 1
+    else:
+        numerator = a11 / (a11 + a01)
+        first_denominator = a11 / (a11 + a01)
+        second_denominator = a10 / (a10 + a00)
+        return numerator / (first_denominator + second_denominator)
 
 
-all_runs_dict = read_all_runs()
-stmt_set = get_whole_stmt_set(all_runs_dict)
-print 'stmt size:', len(stmt_set), ', stmt set:', stmt_set
-coefficent_info_map = {}
-for stmt_num in stmt_set:
-    feature_vec = get_single_statement_vector(stmt_num, all_runs_dict)
-    coefficent_info_map[stmt_num] = (
-        feature_vec, compute_ochiai_coefficient(feature_vec), compute_tarantula_coefficient(feature_vec),
-        compute_ample_coefficient(feature_vec), compute_jaccard_coefficient(feature_vec))
+def post_process_coefficient_map(coefficient_info_map):
+    feature_vec_list = map(lambda ele: (ele, coefficient_info_map[ele][0]), coefficient_info_map)
+    chiai_coefficient_list = map(lambda ele: (ele, coefficient_info_map[ele][1]), coefficient_info_map)
+    tarantula_coefficient = map(lambda ele: (ele, coefficient_info_map[ele][2]), coefficient_info_map)
+    ample_coefficient = map(lambda ele: (ele, coefficient_info_map[ele][3]), coefficient_info_map)
+    jacard_coefficient = map(lambda ele: (ele, coefficient_info_map[ele][4]), coefficient_info_map)
 
-for ele in coefficent_info_map:
-    print 'instruction:', ele, ', coefficient:', coefficent_info_map[ele]
+    print feature_vec_list
+    chiai_coefficient_list.sort(key=lambda ele: ele[1])
+    chiai_coefficient_list = chiai_coefficient_list[::-1]
+    write_result_to_file(chiai_coefficient_list, 'chiai_coefficient.txt')
+
+    tarantula_coefficient.sort(key=lambda ele: ele[1])
+    tarantula_coefficient = tarantula_coefficient[::-1]
+    write_result_to_file(tarantula_coefficient, 'tarantula_coefficient.txt')
+
+    ample_coefficient.sort(key=lambda ele: ele[1])
+    ample_coefficient = ample_coefficient[::-1]
+    write_result_to_file(ample_coefficient, 'ample_coefficient.txt')
+
+    jacard_coefficient.sort(key=lambda ele: ele[1])
+    jacard_coefficient = jacard_coefficient[::-1]
+    write_result_to_file(jacard_coefficient, 'jacard_coefficient.txt')
+
+
+def write_result_to_file(result_tuple_list, file_name):
+    dir_name = 'coefficient_rank'
+    if not os.path.exists(dir_name):
+        os.mkdir(dir_name)
+    file_path = dir_name + os.sep + file_name
+    result_tuple_list = filter(lambda ele: ele[1] > 0, result_tuple_list)
+    with open(file_path, 'w') as ofs:
+        ofs.write('Statement Number,Coefficient\n')
+        for ele in result_tuple_list:
+            ele = map(str, ele)
+            ofs.write(','.join(ele) + '\n')
+
+
+if __name__ == '__main__':
+    all_runs_dict = read_all_runs()
+    stmt_set = get_whole_stmt_set(all_runs_dict)
+    print 'stmt size:', len(stmt_set), ', stmt set:', stmt_set
+
+    # remove initialization
+    stmt_set.remove(0)
+    stmt_set.remove(1)
+
+    # aggregate information in `get_single_statement_vector`
+    coefficient_info_map = {}
+    for stmt_num in stmt_set:
+        feature_vec = get_single_statement_vector(stmt_num, all_runs_dict)
+        coefficient_info_map[stmt_num] = (
+            feature_vec, compute_ochiai_coefficient(feature_vec), compute_tarantula_coefficient(feature_vec),
+            compute_ample_coefficient(feature_vec), compute_jaccard_coefficient(feature_vec))
+
+    post_process_coefficient_map(coefficient_info_map)

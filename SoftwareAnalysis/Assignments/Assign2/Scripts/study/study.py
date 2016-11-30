@@ -19,3 +19,6 @@ my_set.append(tuple3)
 my_set = set(my_set)
 for ele in my_set:
     print ele
+
+my_list = [0, 1, 2, 3]
+print filter(lambda ele: ele < 2, my_list)
