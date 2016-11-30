@@ -1,8 +1,14 @@
 import os
+import math
 
 stmt_idx = 0
 branch_idx = 1
 flag_idx = 2
+
+a_one_one_idx = 0
+a_one_zero_idx = 1
+a_zero_one_idx = 2
+a_zero_zero_idx = 3
 
 
 def branch_str_to_tuple(branch_str):
@@ -42,7 +48,7 @@ def read_all_runs():
                     branch_description.split(':')[2])]
 
                 covered_branches = map(branch_str_to_tuple, covered_branches)
-            my_dict[file_name] = (covered_statements, covered_branches, success_flag)
+            my_dict[file_name] = (set(covered_statements), covered_branches, success_flag)
     return my_dict
 
 
@@ -55,4 +61,79 @@ def print_gathered_info():
         print '\n'
 
 
-print_gathered_info()
+def get_whole_stmt_set(all_runs_dict):
+    whole_stmt_set = set()
+    for ele in all_runs_dict:
+        whole_stmt_set |= all_runs_dict[ele][stmt_idx]
+    return whole_stmt_set
+
+
+def get_single_statement_vector(stmt_num, my_file_content_dict):
+    my_feature_vec = [0 for i in range(4)]
+    for file_name in my_file_content_dict:
+        my_vec = my_file_content_dict[file_name]
+        my_statements = my_vec[stmt_idx]
+        is_success_flag = my_vec[flag_idx]
+        if stmt_num in my_statements:
+            if not is_success_flag:
+                my_feature_vec[a_one_one_idx] += 1
+            else:
+                my_feature_vec[a_one_zero_idx] += 1
+        else:
+            if not is_success_flag:
+                my_feature_vec[a_zero_one_idx] += 1
+            else:
+                my_feature_vec[a_zero_one_idx] += 1
+    return my_feature_vec
+
+
+def compute_jaccard_coefficient(my_feature_vec):
+    tmp_my_feature_vec = map(float, my_feature_vec)
+    a11 = tmp_my_feature_vec[a_one_one_idx]
+    a10 = tmp_my_feature_vec[a_one_zero_idx]
+    a01 = tmp_my_feature_vec[a_zero_one_idx]
+    a00 = tmp_my_feature_vec[a_zero_zero_idx]
+    return a11 / (a11 + a01 + a10)
+
+
+def compute_ample_coefficient(my_feature_vec):
+    tmp_my_feature_vec = map(float, my_feature_vec)
+    a11 = tmp_my_feature_vec[a_one_one_idx]
+    a10 = tmp_my_feature_vec[a_one_zero_idx]
+    a01 = tmp_my_feature_vec[a_zero_one_idx]
+    a00 = tmp_my_feature_vec[a_zero_zero_idx]
+    return abs(a11 / (a01 + a11) - a10 / (a00 + a10))
+
+
+def compute_ochiai_coefficient(my_feature_vec):
+    tmp_my_feature_vec = map(float, my_feature_vec)
+    a11 = tmp_my_feature_vec[a_one_one_idx]
+    a10 = tmp_my_feature_vec[a_one_zero_idx]
+    a01 = tmp_my_feature_vec[a_zero_one_idx]
+    return a11 / math.sqrt((a11 + a01) * (a11 + a10))
+
+
+def compute_tarantula_coefficient(my_feature_vec):
+    tmp_my_feature_vec = map(float, my_feature_vec)
+    a11 = tmp_my_feature_vec[a_one_one_idx]
+    a10 = tmp_my_feature_vec[a_one_zero_idx]
+    a01 = tmp_my_feature_vec[a_zero_one_idx]
+    a00 = tmp_my_feature_vec[a_zero_zero_idx]
+    numerator = a11 / (a11 + a01)
+    first_denominator = a11 / (a11 + a01)
+    second_denominator = a10 / (a10 + a00)
+    return numerator / (first_denominator + second_denominator)
+
+
+all_runs_dict = read_all_runs()
+stmt_set = get_whole_stmt_set(all_runs_dict)
+print 'stmt size:', len(stmt_set), ', stmt set:', stmt_set
+coefficent_info_map = {}
+for stmt_num in stmt_set:
+    feature_vec = get_single_statement_vector(stmt_num, all_runs_dict)
+    coefficent_info_map[stmt_num] = (
+        feature_vec, compute_ochiai_coefficient(feature_vec), compute_tarantula_coefficient(feature_vec),
+        compute_ample_coefficient(feature_vec), compute_jaccard_coefficient(feature_vec))
+
+for ele in coefficent_info_map:
+    print 'instruction:', ele, ', coefficient:', coefficent_info_map[ele]
