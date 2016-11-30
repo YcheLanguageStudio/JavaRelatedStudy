@@ -3,8 +3,8 @@
 ##Test Cases & Coverage
 ###Junit4 Test Cases
 
-- Randoop, randoop files are held in [AssignCoverage/test_src/randoop](Assign2/AssignCoverage/test_src/randoop)
-- Janala, janala files are held in [AssignCoverage/test_src/janala](Assign2/AssignCoverage/test_src/janala)
+- Randoop, randoop files are held in [AssignCoverage/test_src/randoop](AssignCoverage/test_src/randoop)
+- Janala, janala files are held in [AssignCoverage/test_src/janala](AssignCoverage/test_src/janala)
 
 ###Coverage
 - Statement Coverage(15% Points)
@@ -83,7 +83,7 @@ And After fixing these two things, test cases [AssignFixFault/test_src](AssignFi
 is in [AssignFixFault/src/tests/homework/IntArrayUtil.java](AssignFixFault/src/tests/homework/IntArrayUtil.java).
 
 
-##Bonus(30 Points)
+##Bonus(30% Points)
 ###Summary
 
 I modify the soot profiler a little bit to record the line number, whose source code is held in [AssignmentSubject/src/profiler](AssignmentSubject/src/profiler). And I write a python script to do the fault localization.
