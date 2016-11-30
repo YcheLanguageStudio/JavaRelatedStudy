@@ -14,8 +14,8 @@ public class GetNextPermNumTestCase2 {
 
     @Test
     public void testGetNextPermNum() throws Exception {
-        int[] arr0 = {1, 1, 1};
-        int[] arr1 = {1, 1, 1};
+        int[] arr0 = {1,4,3,2};
+        int[] arr1 = {1,4,3,2};
 
         jarUtil.getNextPermutationNumber(arr0);
         srcUtil.getNextPermutationNumber(arr1);
