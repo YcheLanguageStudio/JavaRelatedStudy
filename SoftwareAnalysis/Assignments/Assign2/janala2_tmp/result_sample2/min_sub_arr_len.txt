@@ -1,0 +1,202 @@
+None
+
+Now testing tests.homework.driver.MinSubArrLenTestDriver
+[Input 1 at (29, 13, 4, 4, 873865)]
+Input Array:[1];Input Value:1
+Pass
+Input Array:[1,1];Input Value:1
+Pass
+Input Array:[1,1,1];Input Value:1
+Pass
+Input Array:[1,1,1,1];Input Value:1
+Pass
+Input Array:[1,1,1,1,1];Input Value:1
+Pass
+Input Array:[1,1,1,1,1,1];Input Value:1
+Pass
+Input Array:[1,1,1,1,1,1,1];Input Value:1
+Pass
+Input Array:[1,1,1,1,1,1,1,1];Input Value:1
+Pass
+Input Array:[1,1,1,1,1,1,1,1,1];Input Value:1
+Pass
+true
+[Input 2 at (29, 13, 4, 5, 295344)]
+Input Array:[0];Input Value:2
+Pass
+Input Array:[1,1];Input Value:2
+Pass
+Input Array:[1,1,1];Input Value:2
+Pass
+Input Array:[1,1,1,1];Input Value:2
+Pass
+Input Array:[1,1,1,1,1];Input Value:2
+Pass
+Input Array:[1,1,1,1,1,1];Input Value:2
+Pass
+Input Array:[1,1,1,1,1,1,1];Input Value:2
+Pass
+Input Array:[1,1,1,1,1,1,1,1];Input Value:2
+Pass
+Input Array:[1,1,1,1,1,1,1,1,1];Input Value:2
+Pass
+true
+[Input 3 at (29, 13, 4, 6, 726857)]
+Input Array:[0];Input Value:3
+Pass
+Input Array:[0,0];Input Value:3
+Pass
+Input Array:[1,1,1];Input Value:3
+Pass
+Input Array:[1,1,1,1];Input Value:3
+Pass
+Input Array:[1,1,1,1,1];Input Value:3
+Pass
+Input Array:[1,1,1,1,1,1];Input Value:3
+Pass
+Input Array:[1,1,1,1,1,1,1];Input Value:3
+Pass
+Input Array:[1,1,1,1,1,1,1,1];Input Value:3
+Pass
+Input Array:[1,1,1,1,1,1,1,1,1];Input Value:3
+Pass
+true
+[Input 4 at (29, 13, 4, 8, 40781)]
+Input Array:[0];Input Value:4
+Pass
+Input Array:[0,0];Input Value:4
+Pass
+Input Array:[0,0,0];Input Value:4
+Pass
+Input Array:[1,1,1,1];Input Value:4
+Pass
+Input Array:[1,1,1,1,1];Input Value:4
+Pass
+Input Array:[1,1,1,1,1,1];Input Value:4
+Pass
+Input Array:[1,1,1,1,1,1,1];Input Value:4
+Pass
+Input Array:[1,1,1,1,1,1,1,1];Input Value:4
+Pass
+Input Array:[1,1,1,1,1,1,1,1,1];Input Value:4
+Pass
+true
+[Input 5 at (29, 13, 4, 9, 137733)]
+Input Array:[0];Input Value:5
+Pass
+Input Array:[0,0];Input Value:5
+Pass
+Input Array:[0,0,0];Input Value:5
+Pass
+Input Array:[0,0,0,0];Input Value:5
+Pass
+Input Array:[1,1,1,1,1];Input Value:5
+Pass
+Input Array:[1,1,1,1,1,1];Input Value:5
+Pass
+Input Array:[1,1,1,1,1,1,1];Input Value:5
+Pass
+Input Array:[1,1,1,1,1,1,1,1];Input Value:5
+Pass
+Input Array:[1,1,1,1,1,1,1,1,1];Input Value:5
+Pass
+true
+[Input 6 at (29, 13, 4, 10, 157376)]
+Input Array:[0];Input Value:6
+Pass
+Input Array:[0,0];Input Value:6
+Pass
+Input Array:[0,0,0];Input Value:6
+Pass
+Input Array:[0,0,0,0];Input Value:6
+Pass
+Input Array:[0,0,0,0,0];Input Value:6
+Pass
+Input Array:[1,1,1,1,1,1];Input Value:6
+Pass
+Input Array:[1,1,1,1,1,1,1];Input Value:6
+Pass
+Input Array:[1,1,1,1,1,1,1,1];Input Value:6
+Pass
+Input Array:[1,1,1,1,1,1,1,1,1];Input Value:6
+Pass
+true
+[Input 7 at (29, 13, 4, 11, 46252)]
+Input Array:[0];Input Value:7
+Pass
+Input Array:[0,0];Input Value:7
+Pass
+Input Array:[0,0,0];Input Value:7
+Pass
+Input Array:[0,0,0,0];Input Value:7
+Pass
+Input Array:[0,0,0,0,0];Input Value:7
+Pass
+Input Array:[0,0,0,0,0,0];Input Value:7
+Pass
+Input Array:[1,1,1,1,1,1,1];Input Value:7
+Pass
+Input Array:[1,1,1,1,1,1,1,1];Input Value:7
+Pass
+Input Array:[1,1,1,1,1,1,1,1,1];Input Value:7
+Pass
+true
+[Input 8 at (29, 13, 4, 11, 790240)]
+Input Array:[0];Input Value:8
+Pass
+Input Array:[0,0];Input Value:8
+Pass
+Input Array:[0,0,0];Input Value:8
+Pass
+Input Array:[0,0,0,0];Input Value:8
+Pass
+Input Array:[0,0,0,0,0];Input Value:8
+Pass
+Input Array:[0,0,0,0,0,0];Input Value:8
+Pass
+Input Array:[0,0,0,0,0,0,0];Input Value:8
+Pass
+Input Array:[1,1,1,1,1,1,1,1];Input Value:8
+Pass
+Input Array:[1,1,1,1,1,1,1,1,1];Input Value:8
+Pass
+true
+[Input 9 at (29, 13, 4, 12, 315709)]
+Input Array:[0];Input Value:9
+Pass
+Input Array:[0,0];Input Value:9
+Pass
+Input Array:[0,0,0];Input Value:9
+Pass
+Input Array:[0,0,0,0];Input Value:9
+Pass
+Input Array:[0,0,0,0,0];Input Value:9
+Pass
+Input Array:[0,0,0,0,0,0];Input Value:9
+Pass
+Input Array:[0,0,0,0,0,0,0];Input Value:9
+Pass
+Input Array:[0,0,0,0,0,0,0,0];Input Value:9
+Pass
+Input Array:[1,1,1,1,1,1,1,1,1];Input Value:9
+Pass
+true
+[Input 10 at (29, 13, 4, 12, 689251)]
+Input Array:[0];Input Value:10
+Pass
+Input Array:[0,0];Input Value:10
+Pass
+Input Array:[0,0,0];Input Value:10
+Pass
+Input Array:[0,0,0,0];Input Value:10
+Pass
+Input Array:[0,0,0,0,0];Input Value:10
+Pass
+Input Array:[0,0,0,0,0,0];Input Value:10
+Pass
+Input Array:[0,0,0,0,0,0,0];Input Value:10
+Pass
+Input Array:[0,0,0,0,0,0,0,0];Input Value:10
+Pass
+Input Array:[0,0,0,0,0,0,0,0,0];Input Value:10
+Pass

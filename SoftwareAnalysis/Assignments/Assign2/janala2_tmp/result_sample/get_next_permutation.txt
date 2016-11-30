@@ -1,0 +1,102 @@
+None
+
+Now testing tests.homework.driver.GetNextPermNumTestDriver
+[Input 1 at (28, 22, 53, 36, 974144)]
+Input Array:[0]
+Pass
+Input Array:[0,1]
+Pass
+Input Array:[0,1,2]
+Pass
+Input Array:[0,1,2,3]
+Pass
+Input Array:[0,1,2,3,4]
+Pass
+Input Array:[0,1,2,3,4,5]
+Pass
+Input Array:[0,1,2,3,4,5,6]
+Pass
+Input Array:[0,1,2,3,4,5,6,7]
+Pass
+Input Array:[0,1,2,3,4,5,6,7,8]
+Pass
+true
+[Input 2 at (28, 22, 53, 37, 380123)]
+Input Array:[0]
+Pass
+Input Array:[-1,0]
+Pass
+Input Array:[0,-1,0]
+Pass
+Input Array:[0,0,-1,0]
+Pass
+Input Array:[0,0,0,-1,0]
+Pass
+Input Array:[0,0,0,0,-1,0]
+Pass
+Input Array:[0,0,0,0,0,-1,0]
+Pass
+Input Array:[0,0,0,0,0,0,-1,0]
+Pass
+Input Array:[0,0,0,0,0,0,0,0,0]
+Pass
+true
+[Input 3 at (28, 22, 53, 37, 926188)]
+Input Array:[0]
+Pass
+Input Array:[-1,0]
+Pass
+Input Array:[0,-1,0]
+Pass
+Input Array:[0,0,-1,0]
+Pass
+Input Array:[0,0,0,-1,0]
+Pass
+Input Array:[0,0,0,0,-1,0]
+Pass
+Input Array:[0,0,0,0,0,-1,0]
+Pass
+Input Array:[0,0,0,0,0,0,-1,0]
+Pass
+Input Array:[-1,0,0,0,0,0,0,0,0]
+Fail
+true
+[Input 4 at (28, 22, 53, 38, 300945)]
+Input Array:[0]
+Pass
+Input Array:[-1,0]
+Pass
+Input Array:[0,-1,0]
+Pass
+Input Array:[0,0,-1,0]
+Pass
+Input Array:[0,0,0,-1,0]
+Pass
+Input Array:[0,0,0,0,-1,0]
+Pass
+Input Array:[0,0,0,0,0,-1,0]
+Pass
+Input Array:[0,0,0,0,0,0,-1,0]
+Pass
+Input Array:[-1,0,0,0,0,0,0,0,-1]
+Fail
+true
+[Input 5 at (28, 22, 53, 38, 613636)]
+Input Array:[0]
+Pass
+Input Array:[-1,0]
+Pass
+Input Array:[0,-1,0]
+Pass
+Input Array:[0,0,-1,0]
+Pass
+Input Array:[0,0,0,-1,0]
+Pass
+Input Array:[0,0,0,0,-1,0]
+Pass
+Input Array:[0,0,0,0,0,-1,0]
+Pass
+Input Array:[0,0,0,0,0,0,-1,0]
+Pass
+Input Array:[-1,0,0,0,0,0,0,0,0]
+Fail

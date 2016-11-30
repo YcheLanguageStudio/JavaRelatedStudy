@@ -1,0 +1,122 @@
+None
+
+Now testing tests.homework.driver.GetNextPermNumTestDriver
+[Input 1 at (29, 13, 5, 22, 890808)]
+Input Array:[1,1,1]
+Pass
+true
+[Input 2 at (29, 13, 5, 23, 171153)]
+Input Array:[0,1,1]
+Fail
+true
+[Input 3 at (29, 13, 5, 23, 415677)]
+Input Array:[1,1,1]
+Pass
+true
+[Input 4 at (29, 13, 5, 23, 685609)]
+Input Array:[0,0,1]
+Pass
+true
+[Input 5 at (29, 13, 5, 23, 929353)]
+Input Array:[0,1,1]
+Fail
+true
+[Input 6 at (29, 13, 5, 24, 217302)]
+Input Array:[0,0,0]
+Pass
+true
+[Input 7 at (29, 13, 5, 24, 466859)]
+Input Array:[0,0,1]
+Pass
+true
+[Input 8 at (29, 13, 5, 24, 751006)]
+Input Array:[0,0,0]
+Pass
+true
+[Input 9 at (29, 13, 5, 25, 6665)]
+Input Array:[0,-1,1]
+Pass
+true
+[Input 10 at (29, 13, 5, 25, 279888)]
+Input Array:[0,0,0]
+Pass
+true
+[Input 11 at (29, 13, 5, 25, 524475)]
+Input Array:[0,0,1]
+Pass
+true
+[Input 12 at (29, 13, 5, 25, 820126)]
+Input Array:[0,0,0]
+Pass
+true
+[Input 13 at (29, 13, 5, 26, 65032)]
+Input Array:[0,-1,1]
+Pass
+true
+[Input 14 at (29, 13, 5, 26, 339409)]
+Input Array:[0,0,0]
+Pass
+true
+[Input 15 at (29, 13, 5, 26, 610916)]
+Input Array:[0,0,1]
+Pass
+true
+[Input 16 at (29, 13, 5, 26, 879413)]
+Input Array:[0,0,0]
+Pass
+true
+[Input 17 at (29, 13, 5, 27, 121626)]
+Input Array:[0,-1,1]
+Pass
+true
+[Input 18 at (29, 13, 5, 27, 398912)]
+Input Array:[0,0,0]
+Pass
+true
+[Input 19 at (29, 13, 5, 27, 649421)]
+Input Array:[0,0,1]
+Pass
+true
+[Input 20 at (29, 13, 5, 27, 940433)]
+Input Array:[0,0,0]
+Pass
+true
+[Input 21 at (29, 13, 5, 28, 235289)]
+Input Array:[0,-1,1]
+Pass
+true
+[Input 22 at (29, 13, 5, 28, 509168)]
+Input Array:[0,0,0]
+Pass
+true
+[Input 23 at (29, 13, 5, 28, 754983)]
+Input Array:[0,0,1]
+Pass
+true
+[Input 24 at (29, 13, 5, 29, 29446)]
+Input Array:[0,0,0]
+Pass
+true
+[Input 25 at (29, 13, 5, 29, 281641)]
+Input Array:[0,-1,1]
+Pass
+true
+[Input 26 at (29, 13, 5, 29, 558464)]
+Input Array:[0,0,0]
+Pass
+true
+[Input 27 at (29, 13, 5, 29, 802394)]
+Input Array:[0,0,1]
+Pass
+true
+[Input 28 at (29, 13, 5, 30, 71162)]
+Input Array:[0,0,0]
+Pass
+true
+[Input 29 at (29, 13, 5, 30, 339468)]
+Input Array:[0,-1,1]
+Pass
+true
+[Input 30 at (29, 13, 5, 30, 610135)]
+Input Array:[0,0,0]
+Pass

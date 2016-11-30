@@ -1,0 +1,12 @@
+test_cases
+tmp.txt
+result
+catg-dev.jar
+.gradle
+build
+catg_tmp
+*.dat
+*.tmp
+*.log
+.idea
+*.iml
