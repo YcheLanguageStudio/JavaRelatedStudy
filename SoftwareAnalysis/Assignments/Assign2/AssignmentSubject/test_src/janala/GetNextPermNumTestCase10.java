@@ -8,14 +8,14 @@ import static org.junit.Assert.assertArrayEquals;
  * Created by cheyulin on 11/29/16.
  */
 
-public class GetNextPermNumTestCase3 {
+public class GetNextPermNumTestCase10 {
     private static util.IntArrayUtil jarUtil = new util.IntArrayUtil();
     private static tests.homework.IntArrayUtil srcUtil = new tests.homework.IntArrayUtil();
 
     @Test
     public void testGetNextPermNum() throws Exception {
-        int[] arr0 = {0, 1, 1};
-        int[] arr1 = {0, 1, 1};
+        int[] arr0 = {0, 1, 1, 1, 1, 1, 1, 1, 1};
+        int[] arr1 = {0, 1, 1, 1, 1, 1, 1, 1, 1};
 
         jarUtil.getNextPermutationNumber(arr0);
         srcUtil.getNextPermutationNumber(arr1);

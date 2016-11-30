@@ -16,7 +16,7 @@ public class Study {
 
     private static void printArray(int[] arr) {
         StringBuilder stringBuilder = new StringBuilder();
-        stringBuilder.append('[');
+        stringBuilder.append("Input Array:[");
         for (int i = 0; i < arr.length; i++) {
             stringBuilder.append(arr[i]);
             if (i != arr.length - 1) {
@@ -38,6 +38,16 @@ public class Study {
         }
         stringBuilder.append(']');
         System.out.println(stringBuilder.toString());
+    }
+
+    private static boolean compareArray(int[] left, int[] right) {
+        if (left.length != right.length)
+            return false;
+        for (int i = 0; i < left.length; i++) {
+            if (left[i] != right[i])
+                return false;
+        }
+        return true;
     }
 
     private static void studyFindMInViaIteration() {
@@ -118,24 +128,27 @@ public class Study {
 
     private static void studyGetNextPermutationNumber() {
         System.out.println("\nstudyGetNextPermutationNumber");
-        int[] num = {1, 2, 3, 4};
-        for (int i = 0; i < 24; i++) {
-            jarUtil.getNextPermutationNumber(num);
-            printArray(num);
+        int[] input = {1, 2, 3, 4, 5};
+        for (int i = 0; i < 120; i++) {
+            jarUtil.getNextPermutationNumber(input);
+            int[] num1 = new int[input.length];
+            System.arraycopy(input, 0, num1, 0, input.length);
+            int[] num2 = new int[input.length];
+            System.arraycopy(input, 0, num2, 0, input.length);
         }
 
         System.out.println();
 
-        int[] num2 = {1, 2, 3, 4};
-        for (int i = 0; i < 24; i++) {
-            srcUtil.getNextPermutationNumber(num2);
-            printArray(num2);
-        }
+//        int[] num2 = {1, 2, 3, 4};
+//        for (int i = 0; i < 24; i++) {
+//            srcUtil.getNextPermutationNumber(num2);
+//            printArray(num2);
+//        }
     }
 
     private static void studyThreeSumClosest() {
         System.out.println("\nstudyThreeSumClosest");
-        int num[] = {1,1,1,1};
+        int num[] = {1, 1, 1, 1};
         System.out.println(jarUtil.threeSumClosest(num, 1));
         System.out.println(srcUtil.threeSumClosest(num, 1));
     }
@@ -157,17 +170,17 @@ public class Study {
     public static void main(String[] args) {
         //Faulty Ones
         studyGetNextPermutationNumber();
-        studyThreeSumClosest();
+//        studyThreeSumClosest();
 
         //Others
-        studyRemoveDuplicateElements();
-        studyFindMinSubArrayLen();
-        studyFindMInViaIteration();
-        studyFindMinViaRecursion();
+//        studyRemoveDuplicateElements();
+//        studyFindMinSubArrayLen();
+//        studyFindMInViaIteration();
+//        studyFindMinViaRecursion();
 
-        studyKthLargestViaQuickSort();
+//        studyKthLargestViaQuickSort();
 
         //Confirmation
-        confirmJanalaGetPermutationNumber();
+//        confirmJanalaGetPermutationNumber();
     }
 }
