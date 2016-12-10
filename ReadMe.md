@@ -1,50 +1,22 @@
-##Java-Related Study
-###JDK-Config
+#Java-Related Study
 
-- download oracle-jdk7
+##Software Analysis Course Materials
+- [Basic Course-Info](SoftwareAnalysis)
+- [Two Assignments](SoftwareAnalysis/Assignments)
+- [Reading Report - Concurrency Bug Related](SoftwareAnalysis/ReadingReport)
+- [Code Hunt Play](SoftwareAnalysis/CodeHunt)
+- [In-Class Practice](SoftwareAnalysis/in-class-projects)
+- [In-Class Study Codes](SoftwareAnalysis/on-course-testing)
 
-```zsh
-wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "http://download.oracle.com/otn-pub/java/jdk/7u79-b15/jdk-7u79-linux-x64.rpm"
-```
+##Java Dev-Env
+- [Guidance](guidance)
 
-- install with package manager
-
-- add alternatives, like this, add java and javac to alternatives to manage
-
-```zsh
-sudo alternatives --install /usr/bin/java java /usr/java/jdk1.7.0_79/bin/java 400
-sudo alternatives --install /usr/bin/javac javac /usr/java/jdk1.7.0_79/bin/javac 400
-```
-
-- config alternatives
-
-```zsh
-sudo alternatives --config java
-```
-
-```zsh
-sudo alternatives --config javac
-```
-
-- install java decompiler, [jd-gui link](http://jd.benow.ca/)
-
-
-###Maven
+##Maven
 - [Hello-World](helloworld-maven)
 
-###Gradle
+##Gradle
 - [Gradle-Basic](helloworld-gradle)
 
-###Software Analysis Materials
-- [Code Hunt](CodeHunt)
-- [Course-Info](SoftwareAnalysis)
-
-###Java-Web
-
-###Java-Distributed
-
-###JVM
-
-###Userful Links
+##Userful Links
 - [Awesome Java](https://github.com/akullpp/awesome-java)
 - [Awesome JVM](https://github.com/deephacks/awesome-jvm)
