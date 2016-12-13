@@ -84,7 +84,7 @@ def get_single_statement_vector(stmt_num, my_file_content_dict):
             if not is_success_flag:
                 my_feature_vec[a_zero_one_idx] += 1
             else:
-                my_feature_vec[a_zero_one_idx] += 1
+                my_feature_vec[a_zero_zero_idx] += 1
     return my_feature_vec
 
 
