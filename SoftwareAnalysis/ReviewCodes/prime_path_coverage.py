@@ -73,4 +73,4 @@ class PrimePathSolver:
 
 
 if __name__ == '__main__':
-    print PrimePathSolver().get_prime_path()
+    print 'prime path list:'+str(PrimePathSolver().get_prime_path())
