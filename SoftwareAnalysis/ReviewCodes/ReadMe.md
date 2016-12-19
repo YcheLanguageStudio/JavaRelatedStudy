@@ -55,7 +55,7 @@ prime path list:[[4, 5, 4], [5, 4, 5], [5, 4, 6], [0, 2, 3, 6], [0, 2, 4, 5], [0
 ```
 
 ##Def-Use Path Coverage
-- Code is: [def_use_coverage.py(def_use_coverage.py)
+- Code is: [def_use_coverage.py](def_use_coverage.py)
 
 - Implementation, similar to [prime_path_coverage.py](prime_path_coverage.py)
 
