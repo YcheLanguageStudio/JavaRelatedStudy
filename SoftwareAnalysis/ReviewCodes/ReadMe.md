@@ -53,3 +53,27 @@ reduced one: [[0, 1, 2, 3, 6], [0, 1, 2, 4, 5], [0, 1, 2, 4, 6]]
 reduced one: []
 prime path list:[[4, 5, 4], [5, 4, 5], [5, 4, 6], [0, 2, 3, 6], [0, 2, 4, 5], [0, 2, 4, 6], [0, 1, 2, 3, 6], [0, 1, 2, 4, 5], [0, 1, 2, 4, 6]]
 ```
+
+##Def-Use Path Coverage
+- Code is: [def_use_coverage.py(def_use_coverage.py)
+
+- Implementation, similar to [prime_path_coverage.py](prime_path_coverage.py)
+
+- Execution
+
+```zsh
+reduced one: [[0, 1], [3, 2]]
+reduced one: [[0, 1, 2], [0, 1, 7], [3, 2, 3], [3, 2, 4]]
+reduced one: [[0, 1, 2, 3], [0, 1, 2, 4], [3, 2, 4, 5], [3, 2, 4, 6]]
+reduced one: [[0, 1, 2, 4, 5], [0, 1, 2, 4, 6], [3, 2, 4, 5, 6], [3, 2, 4, 6, 1]]
+reduced one: [[0, 1, 2, 4, 5, 6], [3, 2, 4, 5, 6, 1], [3, 2, 4, 6, 1, 7]]
+reduced one: [[3, 2, 4, 5, 6, 1, 7]]
+reduced one: []
+du-path list:[[0, 1, 2, 4, 5], [0, 1, 7], [3, 2, 4, 5], [3, 2, 4, 5, 6, 1, 7], [3, 2, 4, 6, 1, 7]]
+
+reduced one: [[1, 2], [4, 5]]
+reduced one: [[1, 2, 3], [1, 2, 6], [4, 5, 2]]
+reduced one: [[1, 2, 3, 4], [1, 2, 3, 5], [4, 5, 2, 3], [4, 5, 2, 6]]
+reduced one: []
+du-path list:[[1, 2, 3], [1, 2, 3, 5], [1, 2, 6], [4, 5], [4, 5, 2, 3], [4, 5, 2, 6]]
+```

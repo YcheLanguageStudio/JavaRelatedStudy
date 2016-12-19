@@ -18,7 +18,7 @@ class PrimePathSolver:
     def is_loop(path):
         return path[0] == path[-1]
 
-    def __init__(self, graph_name='graph.txt'):
+    def __init__(self, graph_name='dataset/graph.txt'):
         self.start_nodes, self.end_nodes, self.graph = self.read_graph_properties(graph_name)
         self.prime_path_list = []
 
@@ -73,4 +73,4 @@ class PrimePathSolver:
 
 
 if __name__ == '__main__':
-    print 'prime path list:' + str(PrimePathSolver().get_prime_path())
+    print 'prime path list:' + str(PrimePathSolver(graph_name='dataset/graph.txt').get_prime_path())
