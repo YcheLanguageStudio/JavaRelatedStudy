@@ -74,3 +74,4 @@ class PrimePathSolver:
 
 if __name__ == '__main__':
     print 'prime path list:' + str(PrimePathSolver(graph_name='dataset/graph.txt').get_prime_path())
+    print 'prime path list:' + str(len(PrimePathSolver(graph_name='dataset/graph_fmt_rewrap.txt').get_prime_path()))
