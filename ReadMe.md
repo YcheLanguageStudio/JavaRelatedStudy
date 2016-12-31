@@ -19,7 +19,7 @@ content | detail
 [reading report](SoftwareAnalysis/ReadingReport) | reading report about concurrency bugs
 [review codes](SoftwareAnalysis/ReviewCodes) | implementation of prime-path-coverage and def-use coverage in python
 
-##Course Codes
+###Course Codes
 
 content | detail
 --- | ---
@@ -31,12 +31,12 @@ content | detail
 
 content | detail
 --- | ---
-[Randoop Study](SoftwareAnalysis/Assignments/RandoopStudy) | random generated test cases based on five simple test oracles
-[Soot Study Codes](SoftwareAnalysis/Assignments/auto_rand_testing) | program instrumentation
-[Soot Study Materials](SoftwareAnalysis/Assignments/SootStudy) | program instrumentation
-[Janala2 Study - Build With Ant](SoftwareAnalysis/Assignments/janala) | concolic analysis tool to generate test cases
-[Janala2 Study - Build With Gradle](SoftwareAnalysis/Assignments/janala2_tmp) | concolic analysis tool to generate test cases
-[Gzoltar Study](SoftwareAnalysis/Assignments/GzoltarStudy) | fault-localization
+[randoop](SoftwareAnalysis/Assignments/RandoopStudy) | random generated test cases based on five simple test oracles
+[soot study codes](SoftwareAnalysis/Assignments/auto_rand_testing) | program instrumentation
+[soot materials](SoftwareAnalysis/Assignments/SootStudy) | program instrumentation
+[janala2 - build with ant](SoftwareAnalysis/Assignments/janala) | concolic analysis tool to generate test cases
+[janala2 - build with gradle](SoftwareAnalysis/Assignments/janala2_tmp) | concolic analysis tool to generate test cases
+[gzoltar](SoftwareAnalysis/Assignments/GzoltarStudy) | fault-localization
 
 ##Useful Links
 - [awesome Java](https://github.com/akullpp/awesome-java)
