@@ -1,5 +1,5 @@
-#Java-Related Study
-##Java Dev-Env
+# Java-Related Study
+## Java Dev-Env
 
 content | detail | type
 --- | --- | ---
@@ -7,9 +7,9 @@ content | detail | type
 [maven tutorial](helloworld-maven) | introduction of maven | build tool
 [gradle tutorial](helloworld-gradle) | introduction of gradle | build tool
 
-##Software Analysis 
+## Software Analysis 
 
-###Course Materials
+### Course Materials
 
 content | detail
 --- | ---
@@ -19,7 +19,7 @@ content | detail
 [reading report](SoftwareAnalysis/ReadingReport) | reading report about concurrency bugs
 [review codes](SoftwareAnalysis/ReviewCodes) | implementation of prime-path-coverage and def-use coverage in python
 
-###Course Codes
+### Course Codes
 
 content | detail
 --- | ---
@@ -27,7 +27,7 @@ content | detail
 [in-class practice codes](SoftwareAnalysis/in-class-projects) | junit practice
 [in-class study codes](SoftwareAnalysis/on-course-testing) | simple language feature testing
 
-##Software Analysis Course Study Materials
+## Software Analysis Course Study Materials
 
 content | detail
 --- | ---
@@ -38,7 +38,7 @@ content | detail
 [janala2 - build with gradle](SoftwareAnalysis/Assignments/janala2_tmp) | concolic analysis tool to generate test cases
 [gzoltar](SoftwareAnalysis/Assignments/GzoltarStudy) | fault-localization
 
-##Useful Links
+## Useful Links
 - [awesome Java](https://github.com/akullpp/awesome-java)
 - [awesome JVM](https://github.com/deephacks/awesome-jvm)
 - [better Java guidance](https://github.com/cxxr/better-java)
